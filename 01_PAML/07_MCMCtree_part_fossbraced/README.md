@@ -1,4 +1,4 @@
-# Bayesian inference of species divergences
+# Bayesian inference of species divergences | partitioned dataset + without cross-bracing B (only fossil-calibrated nodes are cross-braced)
 
 ## 1. Setting the file structure to run `MCMCtree`
 
@@ -76,7 +76,7 @@ grep 'Hessian' */*sh
 grep 'in_5parts' */*sh
 ```
 
-Now, before running `MCMCtree` to sample from the posterior, we will run `MCMCtree` but sampling from the prior (see [the previous `README.md` file for more details](../05_MCMCtree/README.md#1-setting-the-file-structure-to-run-mcmctree)). First, we will generate a directory where `MCMCtree` will run wen sampling from the prior:
+Now, before running `MCMCtree` to sample from the posterior, we will run `MCMCtree` but sampling from the prior (see [the previous `README.md` file for more details](../05_MCMCtree/README.md#1-setting-the-file-structure-to-run-mcmctree)). First, we will generate a directory where `MCMCtree` will run when sampling from the prior:
 
 ```sh
 # Run from `LUCAdup_arcsin` dir on your HPC.

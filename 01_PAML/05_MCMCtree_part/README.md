@@ -1,4 +1,4 @@
-# Bayesian inference of species divergences | partitioned dataset + cross-bracing (only fossil-calibrates nodes are mirrored)
+# Bayesian inference of species divergences | partitioned dataset + cross-bracing A (all nodes with same speciation events are mirrored)
 
 ## 1. Setting the file structure to run `MCMCtree`
 
@@ -86,7 +86,7 @@ grep 'in_5parts' */*sh
 
 Now, before running `MCMCtree` to sample from the posterior, we will run `MCMCtree` but sampling from the prior. In this way, we can verify whether the user-specified priors constraining some node ages in our fixed tree topology (i.e., probability distributions that we want the dating program to use) and the effective prior (i.e., probability distributions the dating program will use after building the joint prior distribution, which considers not only the user-specified priors but also additional priors such as the birth-death process for uncalibrated nodes, the rate prior, etc.). Oftentimes, truncation issues may arise when the effective priors are in disagreement with the user-specified priors (see an extensive study about this effect in [dos Reis et al. 2015](https://pubmed.ncbi.nlm.nih.gov/26603774/)). To assess the effect of truncation prior to analysing our dataset, we will run `MCMCtree` without the data (i.e., `MCMCtree` will be sampling from the prior distribution, and thus sequence data will not be used).
 
-First, we will generate a directory where `MCMCtree` will run wen sampling from the prior:
+First, we will generate a directory where `MCMCtree` will run when sampling from the prior:
 
 ```sh
 # Run from `LUCAdup_arcsin` dir on your HPC.
