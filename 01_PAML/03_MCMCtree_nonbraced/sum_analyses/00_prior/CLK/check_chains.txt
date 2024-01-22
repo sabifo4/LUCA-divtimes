@@ -1,0 +1,18 @@
+Checking problematic nodes
+
+q97.5%: Check the following nodes in chain 2
+Nodes: t_n347
+Difference: -0.1118175
+
+q2.5%: Check the following nodes in chain 4
+Nodes: t_n294
+Difference: 0.121278200000001
+
+q97.5%: Check the following nodes in chain 5
+Nodes: t_n385
+Difference: 0.1022944
+
+q97.5%: Check the following nodes in chain 6
+Nodes: t_n385 | t_n452
+Difference: 0.1174051 | -0.1196821
+
