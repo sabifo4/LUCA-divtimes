@@ -1,0 +1,595 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=492;
+	taxlabels
+	100_Rhodopseudomonas_palustris_1
+	101_Roseobacter_litoralis_1
+	102_Sphingopyxis_alaskensis_1
+	103_Chlamydia_trachomatis_1
+	104_Latescibacteria_bacterium_1
+	105_Caldisericum_exile_1
+	106_Dictyoglomus_turgidum_1
+	107_Kosmotoga_olearia_1
+	108_Caldithrix_abyssi_1
+	109_Chlorobium_phaeovibrioides_1
+	10_Aeropyrum_pernix_1
+	110_Campylobacter_jejuni_1
+	111_Verrucomicrobium_spinosum_1
+	112_Cloacimonas_acidaminovorans_1
+	113_Fibrobacter_succinogenes_1
+	114_Lentisphaera_araneosa_1
+	115_Rhodopirellula_baltica_1
+	116_Elusimicrobium_minutum_1
+	117_Jonquetella_anthropi_1
+	118_Acidobacterium_capsulatum_1
+	119_Aquifex_aeolicus_1
+	11_Hyperthermus_butylicus_1
+	120_Thermodesulfatator_indicus_1
+	121_Thermodesulfovibrio_islandicus_1
+	122_Acidobacterium_capsulatum_2
+	123_Campylobacter_jejuni_2
+	124_Desulfurispirillum_indicum_2
+	125_Thermodesulfatator_indicus_2
+	126_Thermodesulfovibrio_islandicus_2
+	127_Caldisericum_exile_2
+	128_Dictyoglomus_turgidum_2
+	129_Kosmotoga_olearia_2
+	12_Ignicoccus_hospitalis_1
+	130_Chlorobium_phaeovibrioides_2
+	131_Cloacimonas_acidaminovorans_2
+	132_Elusimicrobium_minutum_2
+	133_Latescibacteria_bacterium_2
+	134_Chlamydia_trachomatis_2
+	135_Chthonomonas_calidirosea_2
+	136_Fibrobacter_succinogenes_2
+	137_Treponema_pallidum_2
+	138_Rhodopirellula_baltica_2
+	139_Caldithrix_abyssi_2
+	13_Sulfolobus_solfataricus_1
+	140_Lentisphaera_araneosa_2
+	141_Jonquetella_anthropi_2
+	142_Agaricus_bisporus_mito_2
+	143_Saccharomyces_cerevisiae_mito_2
+	144_Batrachochytrium_dendrobatidis_mito_2
+	145_Amphimedon_queenslandica_mito_2
+	146_Homo_sapiens_mito_2
+	147_Limulus_polyphemus_mito_2
+	148_Hydra_vulgaris_mito_2
+	149_Dictyostelium_discoideum_mito_2
+	14_Staphylothermus_marinus_1
+	150_Polysphondylium_pallidum_mito_2
+	151_Arabidopsis_thaliana_mito_2
+	152_Oryza_sativa_mito_2
+	153_Physcomitrella_patens_mito_2
+	154_Bathycoccus_prasinos_mito_2
+	155_Chlamydomonas_reinhardtii_mito_2
+	156_Volvox_carteri_mito_2
+	157_Chondrus_crispus_mito_2
+	158_Cyanidioschyzon_merolae_mito_2
+	159_Galdieria_sulphuraria_mito_2
+	15_Caldivirga_maquilingensis_1
+	160_Ectocarpus_siliculosus_mito_2
+	161_Thalassiosira_pseudonana_mito_2
+	162_Bodo_saltans_mito_2
+	163_Leishmania_major_mito_2
+	164_Elphidium_margaritaceum_mito_2
+	165_Reticulomyxa_filosa_mito_2
+	166_Jidaibacter_acanthamoeba_2
+	167_Rickettsia_bellii_2
+	168_Rhodopseudomonas_palustris_2
+	169_Roseobacter_litoralis_2
+	16_Pyrobaculum_aerophilum_1
+	170_Sphingopyxis_alaskensis_2
+	171_Actinomadura_madurae_2
+	172_Gemmatimonas_aurantiaca_2
+	173_Clostridium_acetobutylicum_2
+	174_Bathycoccus_prasinos_chloro_2
+	175_Chlamydomonas_reinhardtii_chloro_2
+	176_Volvox_carteri_chloro_2
+	177_Oryza_sativa_chloro_2
+	178_Physcomitrella_patens_chloro_2
+	179_Cyanidioschyzon_merolae_chloro_2
+	17_Thermofilum_pendens_1
+	180_Chondrus_crispus_chloro_2
+	181_Thalassiosira_pseudonana_chloro_2
+	182_Galdieria_sulphuraria_chloro_2
+	183_Chlorogloeopsis_fritschii_2
+	184_Cylindrospermopsis_raciborskii_2
+	185_Pseudanabaena_biceps_2
+	'186_Synechocystis_sp._PCC_6803_2'
+	187_Cyanobium_gracile_2
+	188_Gloeobacter_violaceus_2
+	189_Melainabacteria_bacterium_2
+	18_Agaricus_bisporus_1
+	190_Chloroflexus_2
+	191_Oscillochloris_trichoides_2
+	192_Methanocaldococcus_jannaschii_2
+	193_Methanothermobacter_thermautotrophicus_2
+	194_Methanopyrus_kandleri_2
+	195_Pyrococcus_furiosus_2
+	196_Korarchaeum_cryptofilum_2
+	197_Staphylothermus_marinus_2
+	198_Aeropyrum_pernix_2
+	199_Ignicoccus_hospitalis_2
+	19_Saccharomyces_cerevisiae_1
+	1_Methanocaldococcus_jannaschii_1
+	200_Hyperthermus_butylicus_2
+	201_Thermofilum_pendens_2
+	202_Caldivirga_maquilingensis_2
+	203_Pyrobaculum_aerophilum_2
+	204_Caldiarchaeum_subterraneum_2
+	205_Cenarchaeum_symbiosum_2
+	206_Nitrosoarchaeum_limnia_2
+	207_Nitrosopumilus_maritimus_2
+	208_Agaricus_bisporus_2
+	209_Saccharomyces_cerevisiae_2
+	20_Batrachochytrium_dendrobatidis_1
+	210_Batrachochytrium_dendrobatidis_2
+	211_Amphimedon_queenslandica_2
+	212_Homo_sapiens_2
+	213_Limulus_polyphemus_2
+	214_Hydra_vulgaris_2
+	215_Dictyostelium_discoideum_2
+	216_Polysphondylium_pallidum_2
+	217_Arabidopsis_thaliana_2
+	218_Oryza_sativa_2
+	219_Physcomitrella_patens_2
+	21_Amphimedon_queenslandica_1
+	220_Bathycoccus_prasinos_2
+	221_Chlamydomonas_reinhardtii_2
+	222_Volvox_carteri_2
+	223_Cyanophora_paradoxa_2
+	224_Chondrus_crispus_2
+	225_Galdieria_sulphuraria_2
+	226_Cyanidioschyzon_merolae_2
+	227_Ectocarpus_siliculosus_2
+	228_Thalassiosira_pseudonana_2
+	229_Paramecium_tetraurelia_2
+	22_Homo_sapiens_1
+	230_Elphidium_margaritaceum_2
+	231_Reticulomyxa_filosa_2
+	232_Bodo_saltans_2
+	233_Leishmania_major_2
+	234_Heimdallarchaeota_archaeon_LC_2_2
+	235_Heimdallarchaeota_archaeon_LC_3_2
+	236_Heimdallarchaeota_archaeon_AB_125_2
+	'237_Lokiarchaeum_sp._GC14_75_2'
+	238_Odinarchaeota_archaeon_LCB_4_2
+	239_Thorarchaeota_archaeon_AB_25_2
+	23_Limulus_polyphemus_1
+	240_Thorarchaeota_archaeon_SMTZ1-83_2
+	241_Thorarchaeota_archaeon_SMTZ1-45_2
+	242_Methanomassiliicoccus_luminyensis_2
+	243_Archaeoglobus_fulgidus_2
+	244_Methanosarcina_mazei_2
+	245_Haloarcula_marismortui_2
+	246_Thermoplasma_volcanium_2
+	24_Hydra_vulgaris_1
+	25_Dictyostelium_discoideum_1
+	26_Polysphondylium_pallidum_1
+	27_Arabidopsis_thaliana_1
+	28_Oryza_sativa_1
+	29_Physcomitrella_patens_1
+	2_Methanopyrus_kandleri_1
+	30_Bathycoccus_prasinos_1
+	31_Chlamydomonas_reinhardtii_1
+	32_Volvox_carteri_1
+	33_Cyanophora_paradoxa_1
+	34_Chondrus_crispus_1
+	35_Galdieria_sulphuraria_1
+	36_Cyanidioschyzon_merolae_1
+	37_Ectocarpus_siliculosus_1
+	38_Thalassiosira_pseudonana_1
+	39_Paramecium_tetraurelia_1
+	3_Methanothermobacter_thermautotrophicus_1
+	40_Elphidium_margaritaceum_1
+	41_Reticulomyxa_filosa_1
+	42_Bodo_saltans_1
+	43_Leishmania_major_1
+	44_Heimdallarchaeota_archaeon_AB_125_1
+	45_Heimdallarchaeota_archaeon_LC_2_1
+	46_Heimdallarchaeota_archaeon_LC_3_1
+	'47_Lokiarchaeum_sp._GC14_75_1'
+	48_Odinarchaeota_archaeon_LCB_4_1
+	49_Thorarchaeota_archaeon_AB_25_1
+	4_Pyrococcus_furiosus_1
+	50_Thorarchaeota_archaeon_SMTZ1-45_1
+	51_Thorarchaeota_archaeon_SMTZ1-83_1
+	52_Archaeoglobus_fulgidus_1
+	53_Methanosarcina_mazei_1
+	54_Haloarcula_marismortui_1
+	55_Thermoplasma_volcanium_1
+	56_Methanomassiliicoccus_luminyensis_1
+	57_Actinomadura_madurae_1
+	58_Clostridium_acetobutylicum_1
+	59_Arabidopsis_thaliana_chloro_1
+	5_Korarchaeum_cryptofilum_1
+	60_Oryza_sativa_chloro_1
+	61_Physcomitrella_patens_chloro_1
+	62_Bathycoccus_prasinos_chloro_1
+	63_Chlamydomonas_reinhardtii_chloro_1
+	64_Volvox_carteri_chloro_1
+	65_Chondrus_crispus_chloro_1
+	66_Ectocarpus_siliculosus_chloro_1
+	67_Thalassiosira_pseudonana_chloro_1
+	68_Cyanidioschyzon_merolae_chloro_1
+	69_Galdieria_sulphuraria_chloro_1
+	6_Caldiarchaeum_subterraneum_1
+	70_Chlorogloeopsis_fritschii_1
+	71_Cylindrospermopsis_raciborskii_1
+	72_Pseudanabaena_biceps_1
+	73_Leptolyngbya_valderiana_1
+	'74_Synechocystis_sp._PCC_6803_1'
+	75_Cyanobium_gracile_1
+	76_Gloeobacter_violaceus_1
+	77_Melainabacteria_bacterium_1
+	78_Chloroflexus_1
+	79_Oscillochloris_trichoides_1
+	7_Cenarchaeum_symbiosum_1
+	80_Agaricus_bisporus_mito_1
+	81_Batrachochytrium_dendrobatidis_mito_1
+	82_Amphimedon_queenslandica_mito_1
+	83_Homo_sapiens_mito_1
+	84_Limulus_polyphemus_mito_1
+	85_Hydra_vulgaris_mito_1
+	86_Dictyostelium_discoideum_mito_1
+	87_Polysphondylium_pallidum_mito_1
+	88_Arabidopsis_thaliana_mito_1
+	89_Oryza_sativa_mito_1
+	8_Nitrosoarchaeum_limnia_1
+	90_Physcomitrella_patens_mito_1
+	91_Bathycoccus_prasinos_mito_1
+	92_Chlamydomonas_reinhardtii_mito_1
+	93_Volvox_carteri_mito_1
+	94_Cyanidioschyzon_merolae_mito_1
+	95_Galdieria_sulphuraria_mito_1
+	96_Phytophthora_ramorum_mito_1
+	97_Thalassiosira_pseudonana_mito_1
+	98_Jidaibacter_acanthamoeba_1
+	99_Rickettsia_bellii_1
+	9_Nitrosopumilus_maritimus_1
+	Acidobacterium_capsulatum_1
+	Acidobacterium_capsulatum_2
+	Actinomadura_madurae_1
+	Actinomadura_madurae_2
+	Aeropyrum_pernix_1
+	Aeropyrum_pernix_2
+	Agaricus_bisporus_1
+	Agaricus_bisporus_2
+	Agaricus_bisporus_mito_1
+	Agaricus_bisporus_mito_2
+	Amphimedon_queenslandica_1
+	Amphimedon_queenslandica_2
+	Amphimedon_queenslandica_mito_1
+	Amphimedon_queenslandica_mito_2
+	Aquifex_aeolicus_1
+	Arabidopsis_thaliana_1
+	Arabidopsis_thaliana_2
+	Arabidopsis_thaliana_chloro_1
+	Arabidopsis_thaliana_mito_1
+	Arabidopsis_thaliana_mito_2
+	Archaeoglobus_fulgidus_1
+	Archaeoglobus_fulgidus_2
+	Bathycoccus_prasinos_1
+	Bathycoccus_prasinos_2
+	Bathycoccus_prasinos_chloro_1
+	Bathycoccus_prasinos_chloro_2
+	Bathycoccus_prasinos_mito_1
+	Bathycoccus_prasinos_mito_2
+	Batrachochytrium_dendrobatidis_1
+	Batrachochytrium_dendrobatidis_2
+	Batrachochytrium_dendrobatidis_mito_1
+	Batrachochytrium_dendrobatidis_mito_2
+	Bodo_saltans_1
+	Bodo_saltans_2
+	Bodo_saltans_mito_2
+	Caldiarchaeum_subterraneum_1
+	Caldiarchaeum_subterraneum_2
+	Caldisericum_exile_1
+	Caldisericum_exile_2
+	Caldithrix_abyssi_1
+	Caldithrix_abyssi_2
+	Caldivirga_maquilingensis_1
+	Caldivirga_maquilingensis_2
+	Campylobacter_jejuni_1
+	Campylobacter_jejuni_2
+	Cenarchaeum_symbiosum_1
+	Cenarchaeum_symbiosum_2
+	Chlamydia_trachomatis_1
+	Chlamydia_trachomatis_2
+	Chlamydomonas_reinhardtii_1
+	Chlamydomonas_reinhardtii_2
+	Chlamydomonas_reinhardtii_chloro_1
+	Chlamydomonas_reinhardtii_chloro_2
+	Chlamydomonas_reinhardtii_mito_1
+	Chlamydomonas_reinhardtii_mito_2
+	Chlorobium_phaeovibrioides_1
+	Chlorobium_phaeovibrioides_2
+	Chloroflexus_1
+	Chloroflexus_2
+	Chlorogloeopsis_fritschii_1
+	Chlorogloeopsis_fritschii_2
+	Chondrus_crispus_1
+	Chondrus_crispus_2
+	Chondrus_crispus_chloro_1
+	Chondrus_crispus_chloro_2
+	Chondrus_crispus_mito_2
+	Chthonomonas_calidirosea_2
+	Cloacimonas_acidaminovorans_1
+	Cloacimonas_acidaminovorans_2
+	Clostridium_acetobutylicum_1
+	Clostridium_acetobutylicum_2
+	Cyanidioschyzon_merolae_1
+	Cyanidioschyzon_merolae_2
+	Cyanidioschyzon_merolae_chloro_1
+	Cyanidioschyzon_merolae_chloro_2
+	Cyanidioschyzon_merolae_mito_1
+	Cyanidioschyzon_merolae_mito_2
+	Cyanobium_gracile_1
+	Cyanobium_gracile_2
+	Cyanophora_paradoxa_1
+	Cyanophora_paradoxa_2
+	Cylindrospermopsis_raciborskii_1
+	Cylindrospermopsis_raciborskii_2
+	Desulfurispirillum_indicum_2
+	Dictyoglomus_turgidum_1
+	Dictyoglomus_turgidum_2
+	Dictyostelium_discoideum_1
+	Dictyostelium_discoideum_2
+	Dictyostelium_discoideum_mito_1
+	Dictyostelium_discoideum_mito_2
+	Ectocarpus_siliculosus_1
+	Ectocarpus_siliculosus_2
+	Ectocarpus_siliculosus_chloro_1
+	Ectocarpus_siliculosus_mito_2
+	Elphidium_margaritaceum_1
+	Elphidium_margaritaceum_2
+	Elphidium_margaritaceum_mito_2
+	Elusimicrobium_minutum_1
+	Elusimicrobium_minutum_2
+	Fibrobacter_succinogenes_1
+	Fibrobacter_succinogenes_2
+	Galdieria_sulphuraria_1
+	Galdieria_sulphuraria_2
+	Galdieria_sulphuraria_chloro_1
+	Galdieria_sulphuraria_chloro_2
+	Galdieria_sulphuraria_mito_1
+	Galdieria_sulphuraria_mito_2
+	Gemmatimonas_aurantiaca_2
+	Gloeobacter_violaceus_1
+	Gloeobacter_violaceus_2
+	Haloarcula_marismortui_1
+	Haloarcula_marismortui_2
+	Heimdallarchaeota_archaeon_AB_125_1
+	Heimdallarchaeota_archaeon_AB_125_2
+	Heimdallarchaeota_archaeon_LC_2_1
+	Heimdallarchaeota_archaeon_LC_2_2
+	Heimdallarchaeota_archaeon_LC_3_1
+	Heimdallarchaeota_archaeon_LC_3_2
+	Homo_sapiens_1
+	Homo_sapiens_2
+	Homo_sapiens_mito_1
+	Homo_sapiens_mito_2
+	Hydra_vulgaris_1
+	Hydra_vulgaris_2
+	Hydra_vulgaris_mito_1
+	Hydra_vulgaris_mito_2
+	Hyperthermus_butylicus_1
+	Hyperthermus_butylicus_2
+	Ignicoccus_hospitalis_1
+	Ignicoccus_hospitalis_2
+	Jidaibacter_acanthamoeba_1
+	Jidaibacter_acanthamoeba_2
+	Jonquetella_anthropi_1
+	Jonquetella_anthropi_2
+	Korarchaeum_cryptofilum_1
+	Korarchaeum_cryptofilum_2
+	Kosmotoga_olearia_1
+	Kosmotoga_olearia_2
+	Latescibacteria_bacterium_1
+	Latescibacteria_bacterium_2
+	Leishmania_major_1
+	Leishmania_major_2
+	Leishmania_major_mito_2
+	Lentisphaera_araneosa_1
+	Lentisphaera_araneosa_2
+	Leptolyngbya_valderiana_1
+	Limulus_polyphemus_1
+	Limulus_polyphemus_2
+	Limulus_polyphemus_mito_1
+	Limulus_polyphemus_mito_2
+	'Lokiarchaeum_sp._GC14_75_1'
+	'Lokiarchaeum_sp._GC14_75_2'
+	Melainabacteria_bacterium_1
+	Melainabacteria_bacterium_2
+	Methanocaldococcus_jannaschii_1
+	Methanocaldococcus_jannaschii_2
+	Methanomassiliicoccus_luminyensis_1
+	Methanomassiliicoccus_luminyensis_2
+	Methanopyrus_kandleri_1
+	Methanopyrus_kandleri_2
+	Methanosarcina_mazei_1
+	Methanosarcina_mazei_2
+	Methanothermobacter_thermautotrophicus_1
+	Methanothermobacter_thermautotrophicus_2
+	Nitrosoarchaeum_limnia_1
+	Nitrosoarchaeum_limnia_2
+	Nitrosopumilus_maritimus_1
+	Nitrosopumilus_maritimus_2
+	Odinarchaeota_archaeon_LCB_4_1
+	Odinarchaeota_archaeon_LCB_4_2
+	Oryza_sativa_1
+	Oryza_sativa_2
+	Oryza_sativa_chloro_1
+	Oryza_sativa_chloro_2
+	Oryza_sativa_mito_1
+	Oryza_sativa_mito_2
+	Oscillochloris_trichoides_1
+	Oscillochloris_trichoides_2
+	Paramecium_tetraurelia_1
+	Paramecium_tetraurelia_2
+	Physcomitrella_patens_1
+	Physcomitrella_patens_2
+	Physcomitrella_patens_chloro_1
+	Physcomitrella_patens_chloro_2
+	Physcomitrella_patens_mito_1
+	Physcomitrella_patens_mito_2
+	Phytophthora_ramorum_mito_1
+	Polysphondylium_pallidum_1
+	Polysphondylium_pallidum_2
+	Polysphondylium_pallidum_mito_1
+	Polysphondylium_pallidum_mito_2
+	Pseudanabaena_biceps_1
+	Pseudanabaena_biceps_2
+	Pyrobaculum_aerophilum_1
+	Pyrobaculum_aerophilum_2
+	Pyrococcus_furiosus_1
+	Pyrococcus_furiosus_2
+	Reticulomyxa_filosa_1
+	Reticulomyxa_filosa_2
+	Reticulomyxa_filosa_mito_2
+	Rhodopirellula_baltica_1
+	Rhodopirellula_baltica_2
+	Rhodopseudomonas_palustris_1
+	Rhodopseudomonas_palustris_2
+	Rickettsia_bellii_1
+	Rickettsia_bellii_2
+	Roseobacter_litoralis_1
+	Roseobacter_litoralis_2
+	Saccharomyces_cerevisiae_1
+	Saccharomyces_cerevisiae_2
+	Saccharomyces_cerevisiae_mito_2
+	Sphingopyxis_alaskensis_1
+	Sphingopyxis_alaskensis_2
+	Staphylothermus_marinus_1
+	Staphylothermus_marinus_2
+	Sulfolobus_solfataricus_1
+	'Synechocystis_sp._PCC_6803_1'
+	'Synechocystis_sp._PCC_6803_2'
+	Thalassiosira_pseudonana_1
+	Thalassiosira_pseudonana_2
+	Thalassiosira_pseudonana_chloro_1
+	Thalassiosira_pseudonana_chloro_2
+	Thalassiosira_pseudonana_mito_1
+	Thalassiosira_pseudonana_mito_2
+	Thermodesulfatator_indicus_1
+	Thermodesulfatator_indicus_2
+	Thermodesulfovibrio_islandicus_1
+	Thermodesulfovibrio_islandicus_2
+	Thermofilum_pendens_1
+	Thermofilum_pendens_2
+	Thermoplasma_volcanium_1
+	Thermoplasma_volcanium_2
+	Thorarchaeota_archaeon_AB_25_1
+	Thorarchaeota_archaeon_AB_25_2
+	Thorarchaeota_archaeon_SMTZ1-45_1
+	Thorarchaeota_archaeon_SMTZ1-45_2
+	Thorarchaeota_archaeon_SMTZ1-83_1
+	Thorarchaeota_archaeon_SMTZ1-83_2
+	Treponema_pallidum_2
+	Verrucomicrobium_spinosum_1
+	Volvox_carteri_1
+	Volvox_carteri_2
+	Volvox_carteri_chloro_1
+	Volvox_carteri_chloro_2
+	Volvox_carteri_mito_1
+	Volvox_carteri_mito_2
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((1_Methanocaldococcus_jannaschii_1:1.0,(2_Methanopyrus_kandleri_1:1.0,3_Methanothermobacter_thermautotrophicus_1:1.0)[&label=252]:1.0)[&label=251]:1.0,(4_Pyrococcus_furiosus_1:1.0,((5_Korarchaeum_cryptofilum_1:1.0,((6_Caldiarchaeum_subterraneum_1:1.0,(7_Cenarchaeum_symbiosum_1:1.0,(8_Nitrosoarchaeum_limnia_1:1.0,9_Nitrosopumilus_maritimus_1:1.0)[&label=259]:1.0)[&label=258]:1.0)[&label=257]:1.0,(((10_Aeropyrum_pernix_1:1.0,(11_Hyperthermus_butylicus_1:1.0,(12_Ignicoccus_hospitalis_1:1.0,13_Sulfolobus_solfataricus_1:1.0)[&label=264]:1.0)[&label=263]:1.0)[&label=262]:1.0,14_Staphylothermus_marinus_1:1.0)[&label=261]:1.0,((15_Caldivirga_maquilingensis_1:1.0,16_Pyrobaculum_aerophilum_1:1.0)[&label=266]:1.0,17_Thermofilum_pendens_1:1.0)[&label=265]:1.0)[&label=260]:1.0)[&label=256]:1.0)[&label=255]:1.0,(((((((18_Agaricus_bisporus_1:1.0,19_Saccharomyces_cerevisiae_1:1.0)[&label=273]:1.0,20_Batrachochytrium_dendrobatidis_1:1.0)[&label=272]:1.0,(21_Amphimedon_queenslandica_1:1.0,((22_Homo_sapiens_1:1.0,23_Limulus_polyphemus_1:1.0)[&label=276]:1.0,24_Hydra_vulgaris_1:1.0)[&label=275]:1.0)[&label=274]:1.0)[&label=271]:1.0,(25_Dictyostelium_discoideum_1:1.0,26_Polysphondylium_pallidum_1:1.0)[&label=277]:1.0)[&label=270]:1.0,(((((((27_Arabidopsis_thaliana_1:1.0,28_Oryza_sativa_1:1.0)[&label=284]:1.0,29_Physcomitrella_patens_1:1.0)[&label=283]:1.0,(30_Bathycoccus_prasinos_1:1.0,(31_Chlamydomonas_reinhardtii_1:1.0,32_Volvox_carteri_1:1.0)[&label=286]:1.0)[&label=285]:1.0)[&label=282]:1.0,33_Cyanophora_paradoxa_1:1.0)[&label=281]:1.0,((34_Chondrus_crispus_1:1.0,35_Galdieria_sulphuraria_1:1.0)[&label=288]:1.0,36_Cyanidioschyzon_merolae_1:1.0)[&label=287]:1.0)[&label=280]:1.0,(((37_Ectocarpus_siliculosus_1:1.0,38_Thalassiosira_pseudonana_1:1.0)[&label=291]:1.0,39_Paramecium_tetraurelia_1:1.0)[&label=290]:1.0,(40_Elphidium_margaritaceum_1:1.0,41_Reticulomyxa_filosa_1:1.0)[&label=292]:1.0)[&label=289]:1.0)[&label=279]:1.0,(42_Bodo_saltans_1:1.0,43_Leishmania_major_1:1.0)[&label=293]:1.0)[&label=278]:1.0)[&label=269,!color=#ff0000,!name="269-LECA"]:1.0,(44_Heimdallarchaeota_archaeon_AB_125_1:1.0,(45_Heimdallarchaeota_archaeon_LC_2_1:1.0,46_Heimdallarchaeota_archaeon_LC_3_1:1.0)[&label=295]:1.0)[&label=294]:1.0)[&label=268]:1.0,('47_Lokiarchaeum_sp._GC14_75_1':1.0,(48_Odinarchaeota_archaeon_LCB_4_1:1.0,((49_Thorarchaeota_archaeon_AB_25_1:1.0,50_Thorarchaeota_archaeon_SMTZ1-45_1:1.0)[&label=299]:1.0,51_Thorarchaeota_archaeon_SMTZ1-83_1:1.0)[&label=298]:1.0)[&label=297]:1.0)[&label=296]:1.0)[&label=267]:1.0)[&label=254]:1.0)[&label=253]:1.0)[&label=250]:1.0,(((52_Archaeoglobus_fulgidus_1:1.0,53_Methanosarcina_mazei_1:1.0)[&label=302]:1.0,(54_Haloarcula_marismortui_1:1.0,55_Thermoplasma_volcanium_1:1.0)[&label=303]:1.0)[&label=301]:1.0,56_Methanomassiliicoccus_luminyensis_1:1.0)[&label=300]:1.0)[&label=249,!color=#ff0000,!name="249-LACA"]:1.0,(((57_Actinomadura_madurae_1:1.0,58_Clostridium_acetobutylicum_1:1.0)[&label=306]:1.0,(((((((((59_Arabidopsis_thaliana_chloro_1:1.0,60_Oryza_sativa_chloro_1:1.0)[&label=315]:1.0,61_Physcomitrella_patens_chloro_1:1.0)[&label=314]:1.0,(62_Bathycoccus_prasinos_chloro_1:1.0,(63_Chlamydomonas_reinhardtii_chloro_1:1.0,64_Volvox_carteri_chloro_1:1.0)[&label=317]:1.0)[&label=316]:1.0)[&label=313]:1.0,((65_Chondrus_crispus_chloro_1:1.0,(66_Ectocarpus_siliculosus_chloro_1:1.0,67_Thalassiosira_pseudonana_chloro_1:1.0)[&label=320]:1.0)[&label=319]:1.0,(68_Cyanidioschyzon_merolae_chloro_1:1.0,69_Galdieria_sulphuraria_chloro_1:1.0)[&label=321]:1.0)[&label=318]:1.0)[&label=312]:1.0,(((70_Chlorogloeopsis_fritschii_1:1.0,71_Cylindrospermopsis_raciborskii_1:1.0)[&label=324]:1.0,72_Pseudanabaena_biceps_1:1.0)[&label=323]:1.0,(73_Leptolyngbya_valderiana_1:1.0,'74_Synechocystis_sp._PCC_6803_1':1.0)[&label=325]:1.0)[&label=322]:1.0)[&label=311]:1.0,75_Cyanobium_gracile_1:1.0)[&label=310]:1.0,76_Gloeobacter_violaceus_1:1.0)[&label=309]:1.0,77_Melainabacteria_bacterium_1:1.0)[&label=308]:1.0,(78_Chloroflexus_1:1.0,79_Oscillochloris_trichoides_1:1.0)[&label=326]:1.0)[&label=307]:1.0)[&label=305]:1.0,((((((80_Agaricus_bisporus_mito_1:1.0,81_Batrachochytrium_dendrobatidis_mito_1:1.0)[&label=332]:1.0,(82_Amphimedon_queenslandica_mito_1:1.0,((83_Homo_sapiens_mito_1:1.0,84_Limulus_polyphemus_mito_1:1.0)[&label=335]:1.0,85_Hydra_vulgaris_mito_1:1.0)[&label=334]:1.0)[&label=333]:1.0)[&label=331]:1.0,(86_Dictyostelium_discoideum_mito_1:1.0,87_Polysphondylium_pallidum_mito_1:1.0)[&label=336]:1.0)[&label=330]:1.0,(((((88_Arabidopsis_thaliana_mito_1:1.0,89_Oryza_sativa_mito_1:1.0)[&label=341]:1.0,90_Physcomitrella_patens_mito_1:1.0)[&label=340]:1.0,(91_Bathycoccus_prasinos_mito_1:1.0,(92_Chlamydomonas_reinhardtii_mito_1:1.0,93_Volvox_carteri_mito_1:1.0)[&label=343]:1.0)[&label=342]:1.0)[&label=339]:1.0,(94_Cyanidioschyzon_merolae_mito_1:1.0,95_Galdieria_sulphuraria_mito_1:1.0)[&label=344]:1.0)[&label=338]:1.0,(96_Phytophthora_ramorum_mito_1:1.0,97_Thalassiosira_pseudonana_mito_1:1.0)[&label=345]:1.0)[&label=337]:1.0)[&label=329]:1.0,((98_Jidaibacter_acanthamoeba_1:1.0,99_Rickettsia_bellii_1:1.0)[&label=347]:1.0,((100_Rhodopseudomonas_palustris_1:1.0,101_Roseobacter_litoralis_1:1.0)[&label=349]:1.0,102_Sphingopyxis_alaskensis_1:1.0)[&label=348]:1.0)[&label=346]:1.0)[&label=328]:1.0,(103_Chlamydia_trachomatis_1:1.0,(104_Latescibacteria_bacterium_1:1.0,((((105_Caldisericum_exile_1:1.0,106_Dictyoglomus_turgidum_1:1.0)[&label=355]:1.0,107_Kosmotoga_olearia_1:1.0)[&label=354]:1.0,(((108_Caldithrix_abyssi_1:1.0,109_Chlorobium_phaeovibrioides_1:1.0)[&label=358]:1.0,((110_Campylobacter_jejuni_1:1.0,111_Verrucomicrobium_spinosum_1:1.0)[&label=360]:1.0,(((112_Cloacimonas_acidaminovorans_1:1.0,113_Fibrobacter_succinogenes_1:1.0)[&label=363]:1.0,114_Lentisphaera_araneosa_1:1.0)[&label=362]:1.0,115_Rhodopirellula_baltica_1:1.0)[&label=361]:1.0)[&label=359]:1.0)[&label=357]:1.0,(116_Elusimicrobium_minutum_1:1.0,117_Jonquetella_anthropi_1:1.0)[&label=364]:1.0)[&label=356]:1.0)[&label=353]:1.0,(118_Acidobacterium_capsulatum_1:1.0,(119_Aquifex_aeolicus_1:1.0,(120_Thermodesulfatator_indicus_1:1.0,121_Thermodesulfovibrio_islandicus_1:1.0)[&label=367]:1.0)[&label=366]:1.0)[&label=365]:1.0)[&label=352]:1.0)[&label=351]:1.0)[&label=350]:1.0)[&label=327]:1.0)[&label=304,!color=#ff0000,!name="304-LBCA"]:1.0)[&label=248,!color=#ff0000,!name="248-LUCA"]:1.0,((((((((122_Acidobacterium_capsulatum_2:1.0,((123_Campylobacter_jejuni_2:1.0,124_Desulfurispirillum_indicum_2:1.0)[&label=377]:1.0,(125_Thermodesulfatator_indicus_2:1.0,126_Thermodesulfovibrio_islandicus_2:1.0)[&label=378]:1.0)[&label=376]:1.0)[&label=375]:1.0,((127_Caldisericum_exile_2:1.0,128_Dictyoglomus_turgidum_2:1.0)[&label=380]:1.0,129_Kosmotoga_olearia_2:1.0)[&label=379]:1.0)[&label=374]:1.0,((130_Chlorobium_phaeovibrioides_2:1.0,(131_Cloacimonas_acidaminovorans_2:1.0,132_Elusimicrobium_minutum_2:1.0)[&label=383]:1.0)[&label=382]:1.0,133_Latescibacteria_bacterium_2:1.0)[&label=381]:1.0)[&label=373]:1.0,(134_Chlamydia_trachomatis_2:1.0,(135_Chthonomonas_calidirosea_2:1.0,((136_Fibrobacter_succinogenes_2:1.0,137_Treponema_pallidum_2:1.0)[&label=387]:1.0,138_Rhodopirellula_baltica_2:1.0)[&label=386]:1.0)[&label=385]:1.0)[&label=384]:1.0)[&label=372]:1.0,((139_Caldithrix_abyssi_2:1.0,140_Lentisphaera_araneosa_2:1.0)[&label=389]:1.0,141_Jonquetella_anthropi_2:1.0)[&label=388]:1.0)[&label=371]:1.0,(((((((142_Agaricus_bisporus_mito_2:1.0,143_Saccharomyces_cerevisiae_mito_2:1.0)[&label=396]:1.0,144_Batrachochytrium_dendrobatidis_mito_2:1.0)[&label=395]:1.0,(145_Amphimedon_queenslandica_mito_2:1.0,((146_Homo_sapiens_mito_2:1.0,147_Limulus_polyphemus_mito_2:1.0)[&label=399]:1.0,148_Hydra_vulgaris_mito_2:1.0)[&label=398]:1.0)[&label=397]:1.0)[&label=394]:1.0,(149_Dictyostelium_discoideum_mito_2:1.0,150_Polysphondylium_pallidum_mito_2:1.0)[&label=400]:1.0)[&label=393]:1.0,(((((151_Arabidopsis_thaliana_mito_2:1.0,152_Oryza_sativa_mito_2:1.0)[&label=405]:1.0,153_Physcomitrella_patens_mito_2:1.0)[&label=404]:1.0,(154_Bathycoccus_prasinos_mito_2:1.0,(155_Chlamydomonas_reinhardtii_mito_2:1.0,156_Volvox_carteri_mito_2:1.0)[&label=407]:1.0)[&label=406]:1.0)[&label=403]:1.0,(157_Chondrus_crispus_mito_2:1.0,(158_Cyanidioschyzon_merolae_mito_2:1.0,159_Galdieria_sulphuraria_mito_2:1.0)[&label=409]:1.0)[&label=408]:1.0)[&label=402]:1.0,(160_Ectocarpus_siliculosus_mito_2:1.0,161_Thalassiosira_pseudonana_mito_2:1.0)[&label=410]:1.0)[&label=401]:1.0)[&label=392]:1.0,((162_Bodo_saltans_mito_2:1.0,163_Leishmania_major_mito_2:1.0)[&label=412]:1.0,(164_Elphidium_margaritaceum_mito_2:1.0,165_Reticulomyxa_filosa_mito_2:1.0)[&label=413]:1.0)[&label=411]:1.0)[&label=391]:1.0,((166_Jidaibacter_acanthamoeba_2:1.0,167_Rickettsia_bellii_2:1.0)[&label=415]:1.0,((168_Rhodopseudomonas_palustris_2:1.0,169_Roseobacter_litoralis_2:1.0)[&label=417]:1.0,170_Sphingopyxis_alaskensis_2:1.0)[&label=416]:1.0)[&label=414]:1.0)[&label=390]:1.0)[&label=370]:1.0,(((171_Actinomadura_madurae_2:1.0,172_Gemmatimonas_aurantiaca_2:1.0)[&label=420]:1.0,173_Clostridium_acetobutylicum_2:1.0)[&label=419]:1.0,((((((((174_Bathycoccus_prasinos_chloro_2:1.0,(175_Chlamydomonas_reinhardtii_chloro_2:1.0,176_Volvox_carteri_chloro_2:1.0)[&label=429]:1.0)[&label=428]:1.0,(177_Oryza_sativa_chloro_2:1.0,178_Physcomitrella_patens_chloro_2:1.0)[&label=430]:1.0)[&label=427]:1.0,(179_Cyanidioschyzon_merolae_chloro_2:1.0,((180_Chondrus_crispus_chloro_2:1.0,181_Thalassiosira_pseudonana_chloro_2:1.0)[&label=433]:1.0,182_Galdieria_sulphuraria_chloro_2:1.0)[&label=432]:1.0)[&label=431]:1.0)[&label=426]:1.0,(((183_Chlorogloeopsis_fritschii_2:1.0,184_Cylindrospermopsis_raciborskii_2:1.0)[&label=436]:1.0,185_Pseudanabaena_biceps_2:1.0)[&label=435]:1.0,'186_Synechocystis_sp._PCC_6803_2':1.0)[&label=434]:1.0)[&label=425]:1.0,187_Cyanobium_gracile_2:1.0)[&label=424]:1.0,188_Gloeobacter_violaceus_2:1.0)[&label=423]:1.0,189_Melainabacteria_bacterium_2:1.0)[&label=422]:1.0,(190_Chloroflexus_2:1.0,191_Oscillochloris_trichoides_2:1.0)[&label=437]:1.0)[&label=421]:1.0)[&label=418]:1.0)[&label=369,!color=#ff0000,!name="369-LBCA"]:1.0,(((192_Methanocaldococcus_jannaschii_2:1.0,(193_Methanothermobacter_thermautotrophicus_2:1.0,194_Methanopyrus_kandleri_2:1.0)[&label=441]:1.0)[&label=440]:1.0,(195_Pyrococcus_furiosus_2:1.0,((196_Korarchaeum_cryptofilum_2:1.0,(((197_Staphylothermus_marinus_2:1.0,(198_Aeropyrum_pernix_2:1.0,(199_Ignicoccus_hospitalis_2:1.0,200_Hyperthermus_butylicus_2:1.0)[&label=449]:1.0)[&label=448]:1.0)[&label=447]:1.0,(201_Thermofilum_pendens_2:1.0,(202_Caldivirga_maquilingensis_2:1.0,203_Pyrobaculum_aerophilum_2:1.0)[&label=451]:1.0)[&label=450]:1.0)[&label=446]:1.0,(204_Caldiarchaeum_subterraneum_2:1.0,(205_Cenarchaeum_symbiosum_2:1.0,(206_Nitrosoarchaeum_limnia_2:1.0,207_Nitrosopumilus_maritimus_2:1.0)[&label=454]:1.0)[&label=453]:1.0)[&label=452]:1.0)[&label=445]:1.0)[&label=444]:1.0,(((((((208_Agaricus_bisporus_2:1.0,209_Saccharomyces_cerevisiae_2:1.0)[&label=461]:1.0,210_Batrachochytrium_dendrobatidis_2:1.0)[&label=460]:1.0,(211_Amphimedon_queenslandica_2:1.0,((212_Homo_sapiens_2:1.0,213_Limulus_polyphemus_2:1.0)[&label=464]:1.0,214_Hydra_vulgaris_2:1.0)[&label=463]:1.0)[&label=462]:1.0)[&label=459]:1.0,(215_Dictyostelium_discoideum_2:1.0,216_Polysphondylium_pallidum_2:1.0)[&label=465]:1.0)[&label=458]:1.0,(((((((217_Arabidopsis_thaliana_2:1.0,218_Oryza_sativa_2:1.0)[&label=472]:1.0,219_Physcomitrella_patens_2:1.0)[&label=471]:1.0,(220_Bathycoccus_prasinos_2:1.0,(221_Chlamydomonas_reinhardtii_2:1.0,222_Volvox_carteri_2:1.0)[&label=474]:1.0)[&label=473]:1.0)[&label=470]:1.0,223_Cyanophora_paradoxa_2:1.0)[&label=469]:1.0,((224_Chondrus_crispus_2:1.0,225_Galdieria_sulphuraria_2:1.0)[&label=476]:1.0,226_Cyanidioschyzon_merolae_2:1.0)[&label=475]:1.0)[&label=468]:1.0,(((227_Ectocarpus_siliculosus_2:1.0,228_Thalassiosira_pseudonana_2:1.0)[&label=479]:1.0,229_Paramecium_tetraurelia_2:1.0)[&label=478]:1.0,(230_Elphidium_margaritaceum_2:1.0,231_Reticulomyxa_filosa_2:1.0)[&label=480]:1.0)[&label=477]:1.0)[&label=467]:1.0,(232_Bodo_saltans_2:1.0,233_Leishmania_major_2:1.0)[&label=481]:1.0)[&label=466]:1.0)[&label=457,!color=#ff0000,!name="457-LECA"]:1.0,((234_Heimdallarchaeota_archaeon_LC_2_2:1.0,235_Heimdallarchaeota_archaeon_LC_3_2:1.0)[&label=483]:1.0,236_Heimdallarchaeota_archaeon_AB_125_2:1.0)[&label=482]:1.0)[&label=456]:1.0,('237_Lokiarchaeum_sp._GC14_75_2':1.0,(238_Odinarchaeota_archaeon_LCB_4_2:1.0,((239_Thorarchaeota_archaeon_AB_25_2:1.0,240_Thorarchaeota_archaeon_SMTZ1-83_2:1.0)[&label=487]:1.0,241_Thorarchaeota_archaeon_SMTZ1-45_2:1.0)[&label=486]:1.0)[&label=485]:1.0)[&label=484]:1.0)[&label=455]:1.0)[&label=443]:1.0)[&label=442]:1.0)[&label=439]:1.0,(242_Methanomassiliicoccus_luminyensis_2:1.0,((243_Archaeoglobus_fulgidus_2:1.0,244_Methanosarcina_mazei_2:1.0)[&label=490]:1.0,(245_Haloarcula_marismortui_2:1.0,246_Thermoplasma_volcanium_2:1.0)[&label=491]:1.0)[&label=489]:1.0)[&label=488]:1.0)[&label=438,!color=#ff0000,!name="438-LACA"]:1.0)[&label=368,!color=#ff0000,!name="368-LUCA"]:1.0)[&label=247];
+	tree tree_2 = [&R] (((((Methanocaldococcus_jannaschii_1:1.0,(Methanopyrus_kandleri_1:1.0,Methanothermobacter_thermautotrophicus_1:1.0)[&label="flag19-M2"]:1.0)[&label="flag18-M3"]:1.0,(Pyrococcus_furiosus_1:1.0,((Korarchaeum_cryptofilum_1:1.0,((Caldiarchaeum_subterraneum_1:1.0,(Cenarchaeum_symbiosum_1:1.0,(Nitrosoarchaeum_limnia_1:1.0,Nitrosopumilus_maritimus_1:1.0)[&label="flag23-NN"]:1.0)[&label="flag22-CNN"]:1.0)[&label="flag21-CCNN"]:1.0,(((Aeropyrum_pernix_1:1.0,(Hyperthermus_butylicus_1:1.0,(Ignicoccus_hospitalis_1:1.0,Sulfolobus_solfataricus_1:1.0):1.0):1.0):1.0,Staphylothermus_marinus_1:1.0)[&label="flag26-SAIH"]:1.0,((Caldivirga_maquilingensis_1:1.0,Pyrobaculum_aerophilum_1:1.0)[&label="flag28-CAL-PYR"]:1.0,Thermofilum_pendens_1:1.0)[&label="flag27-CPT"]:1.0)[&label="flag25-SAIH-CPT"]:1.0)[&label="flag24-ARCH0"]:1.0)[&label="flag76-ARCH1"]:1.0,(((((((Agaricus_bisporus_1:1.0,Saccharomyces_cerevisiae_1:1.0)[&label="flag29-AGA-SAC"]:1.0,Batrachochytrium_dendrobatidis_1:1.0)[&label="flag2-B(0.3921,1.891,1e-300,0.025)-FUNGI"]:1.0,(Amphimedon_queenslandica_1:1.0,((Homo_sapiens_1:1.0,Limulus_polyphemus_1:1.0)[&label="flag31-HOM-LIM"]:1.0,Hydra_vulgaris_1:1.0)[&label="flag3-B(0.5611,0.5908,1e-300,0.025)-EUMETAZOA"]:1.0)[&label="flag13-B(0.574,0.609,1e-300,0.025)-METAZOA"]:1.0)[&label="flag30-EUM-FUN"]:1.0,(Dictyostelium_discoideum_1:1.0,Polysphondylium_pallidum_1:1.0)[&label="flag32-DIC-POL"]:1.0)[&label="flag33-EFDP"]:1.0,(((((((Arabidopsis_thaliana_1:1.0,Oryza_sativa_1:1.0)[&label="flag4-B(0.125,0.2472,1e-300,0.025)-EUDICOT-MONOCOT"]:1.0,Physcomitrella_patens_1:1.0)[&label="flag5-B(0.43054,0.5155,1e-300,0.025)-EMBRYOPHYTA"]:1.0,(Bathycoccus_prasinos_1:1.0,(Chlamydomonas_reinhardtii_1:1.0,Volvox_carteri_1:1.0)[&label="flag36-CHL-VOL"]:1.0)[&label="flag35-BCV"]:1.0)[&label="flag34-EBCV"]:1.0,Cyanophora_paradoxa_1:1.0)[&label="flag37-EBCVC"]:1.0,((Chondrus_crispus_1:1.0,Galdieria_sulphuraria_1:1.0)[&label="flag38-CHO-GAL"]:1.0,Cyanidioschyzon_merolae_1:1.0)[&label="flag39-CG-RHODOPHYTA"]:1.0)[&label="flag6-B(1.030,1.8796,1e-300,1e-300)-ARCHAEPLASTIDA"]:1.0,(((Ectocarpus_siliculosus_1:1.0,Thalassiosira_pseudonana_1:1.0)[&label="flag40-ECT-THA"]:1.0,Paramecium_tetraurelia_1:1.0)[&label="flag41-ETP"]:1.0,(Elphidium_margaritaceum_1:1.0,Reticulomyxa_filosa_1:1.0)[&label="flag11-B(0.5225,1.891,1e-300,1e-300)-CG-FORAMINIFERA"]:1.0)[&label="flag42-ETPF"]:1.0)[&label="flag43-ARCH-ETPF"]:1.0,(Bodo_saltans_1:1.0,Leishmania_major_1:1.0)[&label="flag44-BOD-LEI"]:1.0)[&label="flag45-AEBL"]:1.0)[&label="flag12-B(1.08557,1.8796,0.025,0.025)-LECA"]:1.0,(Heimdallarchaeota_archaeon_AB_125_1:1.0,(Heimdallarchaeota_archaeon_LC_2_1:1.0,Heimdallarchaeota_archaeon_LC_3_1:1.0)[&label="flag47-H-H"]:1.0)[&label="flag46-HEIMDAL"]:1.0)[&label="flag7-B(1.6191,3.448,1e-300,1e-300)-TG-EUKARYA-ARCH"]:1.0,('Lokiarchaeum_sp._GC14_75_1':1.0,(Odinarchaeota_archaeon_LCB_4_1:1.0,((Thorarchaeota_archaeon_AB_25_1:1.0,Thorarchaeota_archaeon_SMTZ1-45_1:1.0)[&label="flag48-THOR2"]:1.0,Thorarchaeota_archaeon_SMTZ1-83_1:1.0)[&label="flag49-THOR3"]:1.0)[&label="flag50-ODIN-THOR"]:1.0)[&label="flag51-ASGARD"]:1.0)[&label="flag17-LAsCA"]:1.0)[&label="flag16-AAE"]:1.0)[&label="flag15-PAAE"]:1.0)[&label="flag14-MPAAE"]:1.0,(((Archaeoglobus_fulgidus_1:1.0,Methanosarcina_mazei_1:1.0)[&label="flag53-ARC-MET"]:1.0,(Haloarcula_marismortui_1:1.0,Thermoplasma_volcanium_1:1.0)[&label="flag54-HAL-THER"]:1.0):1.0,Methanomassiliicoccus_luminyensis_1:1.0)[&label="flag77-ARCH2"]:1.0)[&label="flag52-LACA"]:1.0,(((Actinomadura_madurae_1:1.0,Clostridium_acetobutylicum_1:1.0)[&label="flag56-ACT-CLOS"]:1.0,(((((((((Arabidopsis_thaliana_chloro_1:1.0,Oryza_sativa_chloro_1:1.0)[&label="flag4-EUDICOT-MONOCOT-DUP"]:1.0,Physcomitrella_patens_chloro_1:1.0)[&label="flag5-EMBRYOPHYTA-DUP"]:1.0,(Bathycoccus_prasinos_chloro_1:1.0,(Chlamydomonas_reinhardtii_chloro_1:1.0,Volvox_carteri_chloro_1:1.0)[&label="flag36-CHL-VOL"]:1.0)[&label="flag35-BCV"]:1.0)[&label="flag34-EBCV"]:1.0,((Chondrus_crispus_chloro_1:1.0,(Ectocarpus_siliculosus_chloro_1:1.0,Thalassiosira_pseudonana_chloro_1:1.0)[&label="flag40-ECT-THA"]:1.0):1.0,(Cyanidioschyzon_merolae_chloro_1:1.0,Galdieria_sulphuraria_chloro_1:1.0):1.0)[&label="flag39-CG-RHODOPHYTA"]:1.0)[&label="flag6-ARCHAEPLASTIDA-DUP"]:1.0,(((Chlorogloeopsis_fritschii_1:1.0,Cylindrospermopsis_raciborskii_1:1.0)[&label="flag57-CHL-CYL"]:1.0,Pseudanabaena_biceps_1:1.0)[&label="flag58-CCP"]:1.0,(Leptolyngbya_valderiana_1:1.0,'Synechocystis_sp._PCC_6803_1':1.0):1.0)[&label="flag59-CCPS"]:1.0)[&label="flag60-ARCH-CCPS"]:1.0,Cyanobium_gracile_1:1.0)[&label="flag61-ACC"]:1.0,Gloeobacter_violaceus_1:1.0)[&label="flag9-B(2.0136,3.448,0.025,0.025)-CG-OXYPHOTOBACTERIA"]:1.0,Melainabacteria_bacterium_1:1.0)[&label="flag10-B(2.945,4.520,1e-300,1e-300)-TG-OXYPHOTOBACTERIA"]:1.0,(Chloroflexus_1:1.0,Oscillochloris_trichoides_1:1.0)[&label="flag62-CHL-OSC"]:1.0)[&label="flag63-OCO"]:1.0)[&label="flag64-AC-OCO"]:1.0,((((((Agaricus_bisporus_mito_1:1.0,Batrachochytrium_dendrobatidis_mito_1:1.0)[&label="flag2-FUNGI-DUP"]:1.0,(Amphimedon_queenslandica_mito_1:1.0,((Homo_sapiens_mito_1:1.0,Limulus_polyphemus_mito_1:1.0)[&label="flag31-HOM-LIM"]:1.0,Hydra_vulgaris_mito_1:1.0)[&label="flag3-EUMETAZOA-DUP"]:1.0)[&label="flag13-METAZOA-DUP"]:1.0)[&label="flag30-EUM-FUN"]:1.0,(Dictyostelium_discoideum_mito_1:1.0,Polysphondylium_pallidum_mito_1:1.0)[&label="flag32-DIC-POL"]:1.0)[&label="flag33-EFDP"]:1.0,(((((Arabidopsis_thaliana_mito_1:1.0,Oryza_sativa_mito_1:1.0)[&label="flag4-EUDICOT-MONOCOT-DUP"]:1.0,Physcomitrella_patens_mito_1:1.0)[&label="flag5-EMBRYOPHYTA-DUP"]:1.0,(Bathycoccus_prasinos_mito_1:1.0,(Chlamydomonas_reinhardtii_mito_1:1.0,Volvox_carteri_mito_1:1.0)[&label="flag36-CHL-VOL"]:1.0)[&label="flag35-BCV"]:1.0)[&label="flag34-EBCV"]:1.0,(Cyanidioschyzon_merolae_mito_1:1.0,Galdieria_sulphuraria_mito_1:1.0)[&label="flag39-CG-RHODOPHYTA"]:1.0)[&label="flag6-ARCHAEPLASTIDA-DUP"]:1.0,(Phytophthora_ramorum_mito_1:1.0,Thalassiosira_pseudonana_mito_1:1.0):1.0)[&label="flag75-CG-ALPHAPROTEOBACTERIA"]:1.0)[&label="flag8-B(1.08557,4.520,0.025,1e-300)-TG-EUKARYA-MITO"]:1.0,((Jidaibacter_acanthamoeba_1:1.0,Rickettsia_bellii_1:1.0)[&label="flag71-JID-RIC"]:1.0,((Rhodopseudomonas_palustris_1:1.0,Roseobacter_litoralis_1:1.0)[&label="flag72-RHO-ROS"]:1.0,Sphingopyxis_alaskensis_1:1.0)[&label="flag73-RRS"]:1.0):1.0)[&label="flag74-LECA-ALPHA"]:1.0,(Chlamydia_trachomatis_1:1.0,(Latescibacteria_bacterium_1:1.0,((((Caldisericum_exile_1:1.0,Dictyoglomus_turgidum_1:1.0)[&label="flag70-CAL-DIC"]:1.0,Kosmotoga_olearia_1:1.0)[&label="flag69-CDK"]:1.0,(((Caldithrix_abyssi_1:1.0,Chlorobium_phaeovibrioides_1:1.0):1.0,((Campylobacter_jejuni_1:1.0,Verrucomicrobium_spinosum_1:1.0):1.0,(((Cloacimonas_acidaminovorans_1:1.0,Fibrobacter_succinogenes_1:1.0):1.0,Lentisphaera_araneosa_1:1.0):1.0,Rhodopirellula_baltica_1:1.0):1.0):1.0):1.0,(Elusimicrobium_minutum_1:1.0,Jonquetella_anthropi_1:1.0):1.0):1.0):1.0,(Acidobacterium_capsulatum_1:1.0,(Aquifex_aeolicus_1:1.0,(Thermodesulfatator_indicus_1:1.0,Thermodesulfovibrio_islandicus_1:1.0)[&label="flag68-THERMO2"]:1.0):1.0):1.0):1.0):1.0)[&label="flag67-BAC1"]:1.0)[&label="flag66-BAC1-ALPH"]:1.0)[&label="flag65-LBCA"]:1.0)[&label="flag1-B(3.347,4.520,1e-300,1e-300)-LUCA"]:1.0,((((((((Acidobacterium_capsulatum_2:1.0,((Campylobacter_jejuni_2:1.0,Desulfurispirillum_indicum_2:1.0):1.0,(Thermodesulfatator_indicus_2:1.0,Thermodesulfovibrio_islandicus_2:1.0)[&label="flag68-THERMO2"]:1.0):1.0):1.0,((Caldisericum_exile_2:1.0,Dictyoglomus_turgidum_2:1.0)[&label="flag70-CAL-DIC"]:1.0,Kosmotoga_olearia_2:1.0)[&label="flag69-CDK"]:1.0):1.0,((Chlorobium_phaeovibrioides_2:1.0,(Cloacimonas_acidaminovorans_2:1.0,Elusimicrobium_minutum_2:1.0):1.0):1.0,Latescibacteria_bacterium_2:1.0):1.0):1.0,(Chlamydia_trachomatis_2:1.0,(Chthonomonas_calidirosea_2:1.0,((Fibrobacter_succinogenes_2:1.0,Treponema_pallidum_2:1.0):1.0,Rhodopirellula_baltica_2:1.0):1.0):1.0):1.0):1.0,((Caldithrix_abyssi_2:1.0,Lentisphaera_araneosa_2:1.0):1.0,Jonquetella_anthropi_2:1.0):1.0)[&label="flag67-BAC1"]:1.0,(((((((Agaricus_bisporus_mito_2:1.0,Saccharomyces_cerevisiae_mito_2:1.0)[&label="flag29-AGA-SAC"]:1.0,Batrachochytrium_dendrobatidis_mito_2:1.0)[&label="flag2-FUNGI-DUP"]:1.0,(Amphimedon_queenslandica_mito_2:1.0,((Homo_sapiens_mito_2:1.0,Limulus_polyphemus_mito_2:1.0)[&label="flag31-HOM-LIM"]:1.0,Hydra_vulgaris_mito_2:1.0)[&label="flag3-EUMETAZOA-DUP"]:1.0)[&label="flag13-METAZOA-DUP"]:1.0)[&label="flag30-EUM-FUN"]:1.0,(Dictyostelium_discoideum_mito_2:1.0,Polysphondylium_pallidum_mito_2:1.0)[&label="flag32-DIC-POL"]:1.0)[&label="flag33-EFDP"]:1.0,(((((Arabidopsis_thaliana_mito_2:1.0,Oryza_sativa_mito_2:1.0)[&label="flag4-EUDICOT-MONOCOT-DUP"]:1.0,Physcomitrella_patens_mito_2:1.0)[&label="flag5-EMBRYOPHYTA-DUP"]:1.0,(Bathycoccus_prasinos_mito_2:1.0,(Chlamydomonas_reinhardtii_mito_2:1.0,Volvox_carteri_mito_2:1.0)[&label="flag36-CHL-VOL"]:1.0)[&label="flag35-BCV"]:1.0)[&label="flag34-EBCV"]:1.0,(Chondrus_crispus_mito_2:1.0,(Cyanidioschyzon_merolae_mito_2:1.0,Galdieria_sulphuraria_mito_2:1.0):1.0)[&label="flag39-CG-RHODOPHYTA"]:1.0)[&label="flag6-ARCHAEPLASTIDA-DUP"]:1.0,(Ectocarpus_siliculosus_mito_2:1.0,Thalassiosira_pseudonana_mito_2:1.0)[&label="flag40-ECT-THA"]:1.0)[&label="flag75-CG-ALPHAPROTEOBACTERIA"]:1.0):1.0,((Bodo_saltans_mito_2:1.0,Leishmania_major_mito_2:1.0)[&label="flag44-BOD-LEI"]:1.0,(Elphidium_margaritaceum_mito_2:1.0,Reticulomyxa_filosa_mito_2:1.0)[&label="flag11-CG-FORAMINIFERA-DUP"]:1.0):1.0)[&label="flag8-TG-EUKARYA-MITO-DUP"]:1.0,((Jidaibacter_acanthamoeba_2:1.0,Rickettsia_bellii_2:1.0)[&label="flag71-JID-RIC"]:1.0,((Rhodopseudomonas_palustris_2:1.0,Roseobacter_litoralis_2:1.0)[&label="flag72-RHO-ROS"]:1.0,Sphingopyxis_alaskensis_2:1.0)[&label="flag73-RRS"]:1.0):1.0)[&label="flag74-LECA-ALPHA"]:1.0)[&label="flag66-BAC1-ALPH"]:1.0,(((Actinomadura_madurae_2:1.0,Gemmatimonas_aurantiaca_2:1.0):1.0,Clostridium_acetobutylicum_2:1.0)[&label="flag56-ACT-CLOS"]:1.0,((((((((Bathycoccus_prasinos_chloro_2:1.0,(Chlamydomonas_reinhardtii_chloro_2:1.0,Volvox_carteri_chloro_2:1.0)[&label="flag36-CHL-VOL"]:1.0)[&label="flag35-BCV"]:1.0,(Oryza_sativa_chloro_2:1.0,Physcomitrella_patens_chloro_2:1.0)[&label="flag5-EMBRYOPHYTA-DUP"]:1.0)[&label="flag34-EBCV"]:1.0,(Cyanidioschyzon_merolae_chloro_2:1.0,((Chondrus_crispus_chloro_2:1.0,Thalassiosira_pseudonana_chloro_2:1.0):1.0,Galdieria_sulphuraria_chloro_2:1.0):1.0)[&label="flag39-CG-RHODOPHYTA"]:1.0)[&label="flag6-ARCHAEPLASTIDA-DUP"]:1.0,(((Chlorogloeopsis_fritschii_2:1.0,Cylindrospermopsis_raciborskii_2:1.0)[&label="flag57-CHL-CYL"]:1.0,Pseudanabaena_biceps_2:1.0)[&label="flag58-CCP"]:1.0,'Synechocystis_sp._PCC_6803_2':1.0)[&label="flag59-CCPS"]:1.0)[&label="flag60-ARCH-CCPS"]:1.0,Cyanobium_gracile_2:1.0)[&label="flag61-ACC"]:1.0,Gloeobacter_violaceus_2:1.0)[&label="flag9-CG-OXYPHOTOBACTERIA-DUP"]:1.0,Melainabacteria_bacterium_2:1.0)[&label="flag10-TG-OXYPHOTOBACTERIA-DUP"]:1.0,(Chloroflexus_2:1.0,Oscillochloris_trichoides_2:1.0)[&label="flag62-CHL-OSC"]:1.0)[&label="flag63-OCO"]:1.0)[&label="flag64-AC-OCO"]:1.0)[&label="flag65-LBCA"]:1.0,(((Methanocaldococcus_jannaschii_2:1.0,(Methanothermobacter_thermautotrophicus_2:1.0,Methanopyrus_kandleri_2:1.0)[&label="flag19-M2"]:1.0)[&label="flag18-M3"]:1.0,(Pyrococcus_furiosus_2:1.0,((Korarchaeum_cryptofilum_2:1.0,(((Staphylothermus_marinus_2:1.0,(Aeropyrum_pernix_2:1.0,(Ignicoccus_hospitalis_2:1.0,Hyperthermus_butylicus_2:1.0):1.0):1.0)[&label="flag26-SAIH"]:1.0,(Thermofilum_pendens_2:1.0,(Caldivirga_maquilingensis_2:1.0,Pyrobaculum_aerophilum_2:1.0)[&label="flag28-CAL-PYR"]:1.0)[&label="flag27-CPT"]:1.0)[&label="flag25-SAIH-CPT"]:1.0,(Caldiarchaeum_subterraneum_2:1.0,(Cenarchaeum_symbiosum_2:1.0,(Nitrosoarchaeum_limnia_2:1.0,Nitrosopumilus_maritimus_2:1.0)[&label="flag23-NN"]:1.0)[&label="flag22-CNN"]:1.0)[&label="flag21-CCNN"]:1.0)[&label="flag24-ARCH0"]:1.0)[&label="flag76-ARCH1"]:1.0,(((((((Agaricus_bisporus_2:1.0,Saccharomyces_cerevisiae_2:1.0)[&label="flag29-AGA-SAC"]:1.0,Batrachochytrium_dendrobatidis_2:1.0)[&label="flag2-FUNGI-DUP"]:1.0,(Amphimedon_queenslandica_2:1.0,((Homo_sapiens_2:1.0,Limulus_polyphemus_2:1.0)[&label="flag31-HOM-LIM"]:1.0,Hydra_vulgaris_2:1.0)[&label="flag3-EUMETAZOA-DUP"]:1.0)[&label="flag13-METAZOA-DUP"]:1.0)[&label="flag30-EUM-FUN"]:1.0,(Dictyostelium_discoideum_2:1.0,Polysphondylium_pallidum_2:1.0)[&label="flag32-DIC-POL"]:1.0)[&label="flag33-EFDP"]:1.0,(((((((Arabidopsis_thaliana_2:1.0,Oryza_sativa_2:1.0)[&label="flag4-EUDICOT-MONOCOT-DUP"]:1.0,Physcomitrella_patens_2:1.0)[&label="flag5-EMBRYOPHYTA-DUP"]:1.0,(Bathycoccus_prasinos_2:1.0,(Chlamydomonas_reinhardtii_2:1.0,Volvox_carteri_2:1.0)[&label="flag36-CHL-VOL"]:1.0)[&label="flag35-BCV"]:1.0)[&label="flag34-EBCV"]:1.0,Cyanophora_paradoxa_2:1.0)[&label="flag37-EBCVC"]:1.0,((Chondrus_crispus_2:1.0,Galdieria_sulphuraria_2:1.0)[&label="flag38-CHO-GAL"]:1.0,Cyanidioschyzon_merolae_2:1.0)[&label="flag39-CG-RHODOPHYTA"]:1.0)[&label="flag6-ARCHAEPLASTIDA-DUP"]:1.0,(((Ectocarpus_siliculosus_2:1.0,Thalassiosira_pseudonana_2:1.0)[&label="flag40-ECT-THA"]:1.0,Paramecium_tetraurelia_2:1.0)[&label="flag41-ETP"]:1.0,(Elphidium_margaritaceum_2:1.0,Reticulomyxa_filosa_2:1.0)[&label="flag11-CG-FORAMINIFERA-DUP"]:1.0)[&label="flag42-ETPF"]:1.0)[&label="flag43-ARCH-ETPF"]:1.0,(Bodo_saltans_2:1.0,Leishmania_major_2:1.0)[&label="flag44-BOD-LEI"]:1.0)[&label="flag45-AEBL"]:1.0)[&label="flag12-LECA-DUP"]:1.0,((Heimdallarchaeota_archaeon_LC_2_2:1.0,Heimdallarchaeota_archaeon_LC_3_2:1.0)[&label="flag47-H-H"]:1.0,Heimdallarchaeota_archaeon_AB_125_2:1.0)[&label="flag46-HEIMDAL"]:1.0)[&label="flag7-TG-EUKARYA-ARCH-DUP"]:1.0,('Lokiarchaeum_sp._GC14_75_2':1.0,(Odinarchaeota_archaeon_LCB_4_2:1.0,((Thorarchaeota_archaeon_AB_25_2:1.0,Thorarchaeota_archaeon_SMTZ1-83_2:1.0)[&label="flag48-THOR2"]:1.0,Thorarchaeota_archaeon_SMTZ1-45_2:1.0)[&label="flag49-THOR3"]:1.0)[&label="flag50-ODIN-THOR"]:1.0)[&label="flag51-ASGARD"]:1.0)[&label="flag17-LAsCA"]:1.0)[&label="flag16-AAE"]:1.0)[&label="flag15-PAAE"]:1.0)[&label="flag14-MPAAE"]:1.0,(Methanomassiliicoccus_luminyensis_2:1.0,((Archaeoglobus_fulgidus_2:1.0,Methanosarcina_mazei_2:1.0)[&label="flag53-ARC-MET"]:1.0,(Haloarcula_marismortui_2:1.0,Thermoplasma_volcanium_2:1.0)[&label="flag54-HAL-THER"]:1.0):1.0)[&label="flag77-ARCH2"]:1.0)[&label="flag52-LACA"]:1.0)[&label="flag1-LUCA-DUP"]:1.0)[&label="U(4.520,1e-300)-ROOT"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=366;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+
