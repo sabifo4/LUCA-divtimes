@@ -85,7 +85,7 @@ Before you go through this step-by-step tutorial to reproduce our results, pleas
 
   > **NOTE for Linux users**: you may need to install the `intel` compilers before you run `make -f Makefile`. Please visit this link to download the [Intel oneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#dpcpp-cpp). Thank you, [@ERRMoody](https://github.com/ERRMoody), for pointing this out!
 
-* **`R`** and **`RStudio`**: please download [R](https://cran.r-project.org/) (i.e., select either `Download R for Linux`, `Download R for macOS`, or `Download R for Windows` depending on your OS; then follow the installation instructions) and [RStudio](https://posit.co/download/rstudio-desktop/) as we used them throughout the practical. The packages we should work with R versions that are either newer than or equal to v4.1.2 (we used v4.1.2). If you are a Windows user, please make sure that you have the correct version of `RTools` installed, which will allow you to install packages from the source code if required. For instance, if you have R v4.1.2, then installing `RTools4.0` shall be fine. If you have another R version installed on your PC, please check whether you need to install `RTools 4.2` or `RTools 4.3`. For more information on which version you should download, [please go to the CRAN website by following this link and download the version you need](https://cran.r-project.org/bin/windows/Rtools/).
+* **`R`** and **`RStudio`**: please download [R](https://cran.r-project.org/) (i.e., select either `Download R for Linux`, `Download R for macOS`, or `Download R for Windows` depending on your OS; then follow the installation instructions) and [RStudio](https://posit.co/download/rstudio-desktop/) as you will need them to run various of our in-house R scripts. The packages you will need to install work with R versions that are either newer than or equal to v4.1.2 (we used v4.1.2). If you are a Windows user, please make sure that you have the correct version of `RTools` installed, which will allow you to install packages from the source code if required. For instance, if you have R v4.1.2, then installing `RTools4.0` shall be fine. If you have another R version installed on your PC, please check whether you need to install `RTools 4.2` or `RTools 4.3`. For more information on which version you should download, [please go to the CRAN website by following this link and download the version you need](https://cran.r-project.org/bin/windows/Rtools/).
 
     Before you proceed, however, please make sure that you install the following packages too:
 
@@ -93,13 +93,13 @@ Before you go through this step-by-step tutorial to reproduce our results, pleas
     # Run from the R console in RStudio
     # Check that you have at least R v4.1.2
     version$version.string
-    # Now, install the packages we will be using
-    # Note that it may take a while if you have not 
-    # installed all these software before
+    # Now, install the packages you will need to run
+    # our in-house R scripts
+    # Note that it may take a while to install them all
     install.packages( c('rstudioapi', 'ape', 'phytools', 'sn', 'stringr', 'rstan', 'colorBlindness'), dep = TRUE )
     ## NOTE: If you are a Windows user and see the message "Do you want to install from sources the 
     ## packages which need compilarion?", please make sure that you have installed the `RTools`
-    ## aforementioned.
+    ## aforementioned. Otherwise, you will get errors during the installation.
     ## The versions we used for each of the packages aforementioned are the following:
     ##   rstudioapi: v0.14
     ##   ape: v5.7.1
@@ -118,10 +118,10 @@ Before you go through this step-by-step tutorial to reproduce our results, pleas
 
 ### Additional note for Mac users when using the `sed` command
 
-If you are running a UNIX-based system (e.g., Mac users), you will experience some problems with the Linux-based `sed` command that you shall see in the various code snippets that you shall run as part of the tutorial described in this repository. By default, this command is different from Linux-based systems, and hence you will not be able to execute it properly. There are two approaches that you can follow, being one easier than the other:
+If you are running a UNIX-based system (e.g., Mac users), you will experience some problems with the Linux-based `sed` command that you shall see in the various code snippets that you need to run as part of the tutorial described in this repository. By default, this command is different from Linux-based systems, and hence you will have problems to execute it as intended unless you follow one of these two approaches:
 
 * (EASY): Instead of running the `sed` commands using the format `sed -i 's/PATTERN/REPLACEMENT/'` (i.e., what you shall see in the code snippets), you should include `''` between `-i` and `'s/PATTERN/REPLACEMENT/'`: `sed -i '' 's/PATTERN/REPLACEMENT/'`. Please remember to modify the commands in this tutorial accordingly before you copy and paste them on your terminal!
-* (MORE DIFFICULT): You should install `GNU sed` and establish it as the "standard" `sed` command instead of the one you will have by default. At the time of writing, [this post](https://medium.com/@bramblexu/install-gnu-sed-on-mac-os-and-set-it-as-default-7c17ef1b8f64) is available and has a detailed explanation that you could follow for this purpose. Nevertheless, there are many other tutorials out there that you could follow to achieve the same goal. If you do this, you will not need to change the commands in this tutorial!
+* (MORE DIFFICULT): You should install `GNU sed` and establish it as the "standard" `sed` command instead of the one you will have by default. At the time of writing, [this post](https://medium.com/@bramblexu/install-gnu-sed-on-mac-os-and-set-it-as-default-7c17ef1b8f64) is available and has a detailed explanation that you could follow to install `GNU sed`. Nevertheless, there are many other tutorials out there that you can follow to achieve the same goal. If you decide to follow this approach, you will not need to change the commands in this tutorial!
 
 <br>
 
