@@ -127,6 +127,7 @@ sed -i "s/^fi/fi\nsed \-i \'s\/clock\.\.\*\/clock \= 1\/\' \$home\_dir\/mcmctree
 
 # Modify path to save results 
 sed -i 's/\/GBM\//\/CLK\//' *sh
+sed -i 's/MCMCtree/MCMCtree\_prior/' *sh
 # Comment soft link
 sed -i 's/ln \-s/\#ln \-s/' *sh
 # Change number of chains to 6!

@@ -119,7 +119,7 @@ You can find the output files and the file with the constrained topology in the 
 
 #### IQ-TREE 2 (round 2)
 
-We re-ran `IQ-TREE 2` but, this time, with the [PHYLIP alignment file we generated following the steps indicated above](01_inp_data/LUCAdup_246sp_aln.phy). In addition, we fixed the re-arranged tree topology specified in file [`LUCAdup_allcb_topo.tree`](00_raw_data/trees/02_round3/IQTREE/LUCAdup_allcb_topo.tree). The command we used to run `IQ-TREE 2` was the following:
+We re-ran `IQ-TREE 2` but, this time, with the [PHYLIP alignment file we generated following the steps indicated above](01_inp_data/LUCAdup_246sp_aln.phy). In addition, we fixed the re-arranged tree topology specified in file [`LUCAdup_topo.tree`](00_raw_data/trees/00_IQTREE/round2/LUCAdup_topo.tree). The command we used to run `IQ-TREE 2` was the following:
 
 ```sh
 # If ran locally, then uncomment the following line commented with '##' and run the corresponding command.
