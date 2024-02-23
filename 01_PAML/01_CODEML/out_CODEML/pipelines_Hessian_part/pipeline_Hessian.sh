@@ -16,7 +16,7 @@
 
 # 1. Find global dirs for paths
 pipeline_dir=$( pwd )
-main_dir=$( echo $pipeline_dir | sed 's/LUCAdup..*/LUCAdup/' )
+main_dir=$( echo $pipeline_dir | sed 's/LUCAdup\_arcsin..*/LUCAdup\_arcsin/' )
 cd $main_dir/Hessian_part/$SGE_TASK_ID
 home_dir=$( pwd ) 
 

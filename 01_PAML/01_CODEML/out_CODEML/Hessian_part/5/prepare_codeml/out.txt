@@ -1,4 +1,4 @@
-MCMCTREE (paml version 4.10.7, June 2023) /data/scratch/btx126/LUCAdup/alignments_part/5/LUCAdup_aln_Tyr_p5.phy
+MCMCTREE (paml version 4.10.7, June 2023) /data/scratch/btx126/LUCAdup_arcsin/alignments_part/5/LUCAdup_aln_Tyr_p5.phy
 
 
 *** Locus 1 ***

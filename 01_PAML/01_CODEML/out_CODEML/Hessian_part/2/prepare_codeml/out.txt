@@ -1,4 +1,4 @@
-MCMCTREE (paml version 4.10.7, June 2023) /data/scratch/btx126/LUCAdup/alignments_part/2/LUCAdup_aln_EF_p2.phy
+MCMCTREE (paml version 4.10.7, June 2023) /data/scratch/btx126/LUCAdup_arcsin/alignments_part/2/LUCAdup_aln_EF_p2.phy
 
 
 *** Locus 1 ***

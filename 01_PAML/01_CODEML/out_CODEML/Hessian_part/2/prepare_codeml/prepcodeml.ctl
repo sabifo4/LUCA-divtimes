@@ -1,6 +1,6 @@
           seed = -1
-       seqfile = /data/scratch/btx126/LUCAdup/alignments_part/2/LUCAdup_aln_EF_p2.phy
-      treefile = /data/scratch/btx126/LUCAdup/trees/uncalibrated/LUCAdup_246sp_uncalib.tree
+       seqfile = /data/scratch/btx126/LUCAdup_arcsin/alignments_part/2/LUCAdup_aln_EF_p2.phy
+      treefile = /data/scratch/btx126/LUCAdup_arcsin/trees/uncalibrated/LUCAdup_246sp_uncalib.tree
       mcmcfile = mcmc.txt
        outfile = out.txt
 
@@ -15,7 +15,7 @@
                           *     6:FromCodon, 8:REVaa_0, 9:REVaa(nr=189)
          alpha = 0.5      * alpha for gamma rates at sites
          ncatG = 4        * No. categories in discrete gamma
-    aaRatefile = /data/scratch/btx126/LUCAdup/control_files/lg.dat   * Path to the file with the LG matrix
+    aaRatefile = /data/scratch/btx126/LUCAdup_arcsin/control_files/lg.dat   * Path to the file with the LG matrix
 
      cleandata = 0    * remove sites with ambiguity data (1:yes, 0:no)?
 
