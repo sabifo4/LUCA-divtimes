@@ -52,7 +52,7 @@ cd $home_dir
 cp $ctl_dir/prepcodeml.ctl $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
 sed -i 's/ALN/'${path_aln}'/' $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
 sed -i 's/TREE/'${path_tree}'/' $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
-sed -i 's/usedata..*/usedata\ \=\ 2\ \.\/in\.BV\ 1/' $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
+sed -i 's/usedata..*/usedata\ \=\ 2\ \.\/in\.BV/' $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
 sed -i 's/\ ndata..*/\ ndata\ \=\ NUMPARTS/' $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
 sed -i 's/lg\.dat/'${path_lgdat}'/' $home_dir/mcmctree_$dir"_r"$SGE_TASK_ID".ctl"
 if [[ CLK =~ "GBM" ]]
