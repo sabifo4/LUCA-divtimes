@@ -6,10 +6,10 @@ We will use the same vague gamma distribution that we used when analysing the co
 
 ## 2. Set up the file structure
 
-We will now add the following directories to the already pre-defined file structure under our working directory `LUCAdup`:
+We will now add the following directories to the already pre-defined file structure under our working directory `LUCAdup_arcsin`:
 
 ```text
-LUCAdup/
+LUCAdup_arcsin/
   |
   |- alignments_part/
   |    |- X/ # Directory for alignment X -- have as many directories as alignments
@@ -21,15 +21,15 @@ LUCAdup/
 
 ```
 
-To create the new directories to be saved under the `LUCAdup` file structure, we will run the following commands from our PC before transferring them to the HPC:
+To create the new directories to be saved under the `LUCAdup_arcsin` file structure, we will run the following commands from our PC before transferring them to the HPC:
 
 ```sh
 # Run the following commands from 
 # `01_CODEML`
-mkdir -p HPC/LUCAdup
-cd HPC/LUCAdup 
-i=5
-for i in `seq 1 $i`
+mkdir -p HPC/LUCAdup_arcsin
+cd HPC/LUCAdup_arcsin 
+num_aln=5
+for i in `seq 1 $num_aln`
 do
 mkdir -p alignments_part/$i
 mkdir -p Hessian_part/$i/prepare_codeml
@@ -41,10 +41,10 @@ mkdir scripts_part
 Once the file structure is created, we can now populate it with the partitioned alignment file we generated a while ago and new in-house scripts for this analysis with a partitioned dataset:
 
 ```sh
-# Run from `HPC/LUCAdup`
+# Run from `HPC/LUCAdup_arcsin`
 # Copy alignment
-i=5
-for i in `seq 1 $i`
+num_aln=5
+for i in `seq 1 $num_aln`
 do
 cp ../../../../00_data_formatting/01_inp_data/ind_aln/*p$i".phy" alignments_part/$i
 done
@@ -55,13 +55,13 @@ cp ../../scripts/*sh scripts_part/
 # Below, you will find an example of the `rsync` commands you should run once
 # you replace the tags with your own credentials.
 # First, move one dir back so you are inside `HPC`
-rsync -avz --copy-links *part <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup
+rsync -avz --copy-links *part <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup_arcsin
 ```
 
 Now, we need to generate the input control files for `CODEML`. To do this in a reproducible manner, you can use our in-house bash scripts that you will in the [`scripts` directory](01_PAML/00_CODEML/scripts), which you should have just transferred to your HPC. Now, connect to your server and run the next code snippet:
 
 ```sh
-# Run from `LUCAdup/scripts_part` in the HPC.
+# Run from `LUCAdup_arcsin/scripts_part` in the HPC.
 # Please change directories until
 # you are there. Then, run the following
 # commands.
@@ -79,7 +79,7 @@ done
 To make sure that all the paths have been properly extracted, you can run the following code snippet:
 
 ```sh
-# Run from `LUCAdup/Hessian_part` dir on your local
+# Run from `LUCAdup_arcsin/Hessian_part` dir on your local
 # PC. Please change directories until
 # you are there. Then, run the following
 # commands.
@@ -96,7 +96,7 @@ We will now be manually running `MCMCtree` inside each `prepare_codeml` director
 
 ```sh
 # Run `MCMCtree` from
-# `LUCAdup/Hessian_part/[1-5]/prepare_codeml`
+# `LUCAdup_arcsin/Hessian_part/[1-5]/prepare_codeml`
 # dirs on the HPC. 
 # Please change directories until
 # you are in there.
@@ -139,7 +139,7 @@ Counting frequencies..
 As we did with the concatenated dataset, as you see the last line, you will see that the `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal where you have run such command. Once everything is done, you can check that the control files you will later need for each individual alignment have been created:
 
 ```sh
-# Run from the `LUCAdup/Hessian_part` dir on your local
+# Run from the `LUCAdup_arcsin/Hessian_part` dir on your local
 # PC. Please change directories until
 # you are there. Then, run the following
 # commands.
@@ -149,7 +149,7 @@ grep 'seqfile' */*/tmp0001.ctl | wc -l # You should get as many datasets as you 
 As we did with out concatenated dataset, we need to make sure that the settings in the control files correspond to those we want to enable to analyse our dataset:
 
 ```sh
-# Run from the `LUCAdup/Hessian_part` dir on your local
+# Run from the `LUCAdup_arcsin/Hessian_part` dir on your local
 # PC. Please change directories until
 # you are there. Then, run the following
 # commands.
@@ -168,7 +168,7 @@ We are now ready to run `CODEML`!
 We will run our in-house bash scripts to prepare the bash script that we will submit to our HPC running the following code snippet:
 
 ```sh
-# Run from `LUCAdup` dir on your HPC. Please change directories until
+# Run from `LUCAdup_arcsin` dir on your HPC. Please change directories until
 # you are there. Then, run the following
 # commands.
 home_dir=$( pwd )
@@ -177,17 +177,14 @@ chmod 775 *sh
 num_aln=5
 # Arg1: Number of alignments
 # Arg2: Path to the pipeline directory
-# Arg3: Name of the working directory (i.e., `LUCAdup` in this analysis)
-for i in `seq 1 $num_aln`
-do
-./generate_job_CODEML.sh $i $home_dir/pipelines_Hessian_part LUCAdup
-done
+# Arg3: Name of the working directory (i.e., `LUCAdup_arcsin` in this analysis)
+./generate_job_CODEML.sh $i $home_dir/pipelines_Hessian_part LUCAdup_arcsin
 ```
 
 Now, we just need to go to the `pipelines_Hessian_part` directory and run the script that will have been generated using the commands above:
 
 ```sh
-# Run from `LUCAdup/pipelines_Hessian_part` dir on your HPC.
+# Run from `LUCAdup_arcsin/pipelines_Hessian_part` dir on your HPC.
 # Please change directories until
 # you are there. Then, run the following
 # commands.
@@ -205,7 +202,7 @@ qsub pipeline_Hessian.sh
 Once `CODEML` finishes, we are ready to generate the `in.BV` files that we will later use when running `MCMCtree` using the approximate likelihood calculation:
 
 ```sh
-# Run from dir `LUCAdup/Hessian_part` dir on your HPC
+# Run from dir `LUCAdup_arcsin/Hessian_part` dir on your HPC
 # Please change directories until
 # you are there. Then, run the following
 # commands.
@@ -230,8 +227,8 @@ Next, we can transfer the output generated by `CODEML`:
 # Run from `01_CODEML` in your PC
 mkdir out_CODEML
 cd out_CODEML
-rsync -avz --copy-links <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup/Hessian_part .
-rsync -avz --copy-links <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup/pipelines_Hessian_part .
+rsync -avz --copy-links <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup_arcsin/Hessian_part .
+rsync -avz --copy-links <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup_arcsin/pipelines_Hessian_part .
 # Delete blank output files
 rm pipelines_Hessian_part/*sh.o*
 ```
