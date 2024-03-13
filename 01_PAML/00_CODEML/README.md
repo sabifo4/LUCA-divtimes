@@ -180,7 +180,7 @@ Counting frequencies..
   5000000 bytes for space
 ```
 
-As soon as you see the last line, you will see that various `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal tjat you have used to run such command. Once you have done this, you can check that the control file you will later need has been created:
+As soon as you see the last line, you will see that various `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal that you have used to run such command. Once you have done this, you can check that the control file you will later need has been created:
 
 ```sh
 # Run from the `LUCAdup_arcsin/Hessian` dir on your local
