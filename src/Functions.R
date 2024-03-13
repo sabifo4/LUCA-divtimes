@@ -281,6 +281,7 @@ sum_MCMC <- function ( num_dirs = 36, delcol = 3,
                       %in% match_csv[,2] )
   for( i in ind_match ){
     tmp_ind <- which( paste( "t_n", match_csv[,2], sep = "" ) == rownames( mean_est_priors )[i] )
+    #cat( length(tmp_ind), "| ",  rownames( mean_est_priors )[tmp_ind], "\n" )
     rownames( mean_est_priors )[i] <- paste( "t_n", match_csv[tmp_ind,2], "_", match_csv[tmp_ind,1], sep = "" )
     mean_est_priors[i,4] <- match_csv[tmp_ind,3]
   }
