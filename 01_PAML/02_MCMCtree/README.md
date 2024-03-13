@@ -151,6 +151,8 @@ cd CLK
 
 ## 2. Analyses with `MCMCtree` when sampling from the prior
 
+### Submit jobs in an HPC (prior)
+
 Now, we will be able to run `MCMCtree` first when sampling from the prior (i.e., no data used!) using the code snippet below:
 
 ```sh
@@ -303,6 +305,8 @@ cp -R plots/dupnodes*pdf sum_files_prior/dupnodes
 
 ## 3. Analyses with `MCMCtree` when sampling from the posterior
 
+### Submit jobs in an HPC (posterior)
+
 Now that we have verified that there are no issues between the user-specified prior and the effective prior, we can run `MCMCtree` when sampling from the posterior. We will do these analyses under the GBM and ILN relaxed-clock models using the code snippet below:
 
 ```sh
@@ -321,7 +325,7 @@ qsub pipeline_ILN.sh
 
 ### Setting the file structure to analyse `MCMCtree` output - posterior
 
-We will now create a directory inside te `sum_analyses` directory to analyse the `MCMCtree` output. Nevertheless, we first need to transfer the data from the cluster to the corresponding directory on our local PC for further analyses:
+We will now create a directory inside the `sum_analyses` directory to analyse the `MCMCtree` output. Nevertheless, we first need to transfer the data from the cluster to the corresponding directory on our local PC for further analyses:
 
 ```sh
 # Go to your HPC and copy the files that are required for sum stats.
