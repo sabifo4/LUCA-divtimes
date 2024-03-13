@@ -1,6 +1,9 @@
+## Old files 
 z_old
+## VScode files
 .vscode
 00_data_formatting/.vscode
+## Files too big to push for core analyses and pptx/docx files
 01_PAML/*MCMCtree*/out_RData
 01_PAML/*MCMCtree*/sum_analyses/00_prior/CLK/*/mcmc.txt
 01_PAML/*MCMCtree*/sum_analyses/00_prior/mcmc_files_*/mcmc.txt
@@ -9,3 +12,20 @@ z_old
 01_PAML/figs_tables/out_RData
 02_additional_figs_tables/*pptx
 02_additional_figs_tables/*docx
+## Files too big to push for analyses with individual genes
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/out_RData/
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/00_prior/CLK/*/*/mcmc.txt
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/00_prior/mcmc_files_*/mcmc.txt
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/01_posterior/mcmc_files_*/mcmc.txt
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/01_posterior/*/*/*/mcmc.txt
+## Files too big to push for "leave-one-out" analyses
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/out_RData
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_analyses/00_prior/mcmc_files_*/mcmc.txt
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_analyses/00_prior/CLK/*/mcmc.txt
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_analyses/01_posterior/mcmc_files_*/mcmc.txt
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_analyses/01_posterior/*/*/mcmc.txt
+## Files too big to push for "leave-one-out" analyses
+03_additional_analyses/02_blunc_analysis/bs_inBV/README.md
+03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/our_RData
+03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/sum_analyses/01_posterior/*/*/mcmc.txt
+03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/sum_analyses/01_posterior/mcmc_files*/mcmc.txt
