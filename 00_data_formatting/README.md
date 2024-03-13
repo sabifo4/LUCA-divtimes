@@ -7,20 +7,20 @@ Before proceeding with timetree inference, we need to make sure that:
 
 ## Alignment files
 
-### Unpartitioned
+### Concatenated
 
-If you open [the unpartitioned alignment file](00_raw_data/alignment/concat5.fa), you will see that each aligned sequence is not in a unique line, which makes it harder to parse the file to convert it into PHYLIP format.
+If you open [the concatenated alignment file](00_raw_data/alignment/concat5.fa), you will see that each aligned sequence is not in a unique line, which makes it harder to parse the file to convert it into PHYLIP format.
 
 We will first generate a one-line FASTA file with [our in-house bash script](scripts/one_line_fasta.pl). Then, we will use the output file as input to [our second in-house bash script](scripts/FASTAtoPHYL.pl) to obtain a protein alignment in PHYLIP format:
 
 ```sh
 # Run from `00_raw_data/alignment`
 # First, convert into a one-line FASTA file
-perl ../../scripts/one_line_fasta.pl concat5.fas 
+perl ../../../src/one_line_fasta.pl concat5.fas 
 # Now, format to PHYLIP
 num=$( grep '>' *one_line.fa | wc -l )
 len=$( sed -n '2,2p' *one_line.fa | sed 's/\r//' | sed 's/\n//' | wc -L )
-perl ../../scripts/FASTAtoPHYL.pl *one_line.fa $num $len
+perl ../../../src/FASTAtoPHYL.pl *one_line.fa $num $len
 # Move PHYLIP format to input data
 mkdir ../../01_inp_data
 mv concat5_one_line.phy ../../01_inp_data/LUCAdup_aln.phy
@@ -39,7 +39,7 @@ sed -i '/^Escherichia_coli_2..*$/d' LUCAdup_246sp_aln.phy
 sed -i 's/247   /246   /g' LUCAdup_246sp_aln.phy
 ```
 
-The unpartitioned alignment is now in the correct format, so we can start to generate the partitioned alignment file!
+The concatenated alignment is now in the correct format, so we can start to generate the partitioned alignment file!
 
 ### Partitioned
 
@@ -71,7 +71,7 @@ len=$( sed -n '2,2p' $i | sed 's/\r//' | sed 's/\n//' | wc -L )
 name=$( echo $i | sed 's/\_..*//' )
 # Remove weird characters
 sed -i 's/\r//g' $i
-perl ../../../scripts/FASTAtoPHYL.pl $i $num $len
+perl ../../../../src/FASTAtoPHYL.pl $i $num $len
 mv log_lenseq.txt log_lenseq_$name".txt"
 # Move PHYLIP format to input data
 count=$(( count + 1 ))
@@ -97,7 +97,7 @@ done
 
 The final partitioned alignment, `LUCAdup_246sp_5parts_aln.phy`, will be saved inside directory [`01_inp_data`](01_inp_data), while the individual gene alignments in PHYLIP format will be saved inside `01_inp_data/ind`. You will also find five log files called `log_lenseq*.txt` inside [the `00_raw_data/alignment/partitioned` directory](00_raw_data/alignment/partitioned), one for each alignment that has been converted into PHYLIP format.
 
-We have now both partitioned and unpartitioned alignments in the correct format, so we can start to parse the tree file!
+We have now both partitioned and concatenated alignments in the correct format, so we can start to parse the tree file!
 
 ## Tree files
 
