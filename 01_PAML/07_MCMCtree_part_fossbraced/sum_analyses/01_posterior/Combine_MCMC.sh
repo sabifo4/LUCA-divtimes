@@ -5,13 +5,22 @@ dat=$1
 dirname=$2
 seqchains=$3
 clock=$4
-# Num samples specified in MCMCtree
+traces=$6
+trace_name=$7
+# Num samples specified in MCMCtree (calculated with arg5)
 mcmctree_numsamp=$(( $5 + 2 ))
 printf "\nNumber of samples specified in the control file: "$5"\n"
 printf "==========================================================\n"
 #printf "mcmctree_numsapm="$mcmctree_numsamp"\n"
 
 mkdir -p $dirname
+if [[ $traces =~ [Yy] ]]
+then
+if [[ ! -d mcmcf4traces_$trace_name ]]
+then
+mkdir -p mcmcf4traces_$trace_name
+fi
+fi
 count=0
 for i in $seqchains
 do
@@ -46,12 +55,15 @@ do
 					printf "   [[ One additional line will be removed to match analyses in R ]]\n"
 					end=$(( end - 1 ))
 					sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt > $dirname/mcmc.txt
+					sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt > mcmcf4traces_$trace_name/mcmc_$i.txt
 				else
 					sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt > $dirname/mcmc.txt
+					sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt > mcmcf4traces_$trace_name/mcmc_$i.txt
 				fi
 			else
 				printf "   [[ You collected all the samples specified in your control file for this chain! ]]\n"
 				sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt > $dirname/mcmc.txt
+				sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt > mcmcf4traces_$trace_name/mcmc_$i.txt
 			fi
 		else 
 			begin=2 
@@ -66,12 +78,15 @@ do
 					printf "   [[ One additional line will be removed to match analyses in R ]]\n"
 					end=$(( end - 1 ))
 					sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt >> $dirname/mcmc.txt
+					sed -n '1,'${end}'p' $dat/$i/mcmc.txt > mcmcf4traces_$trace_name/mcmc_$i.txt
 				else
 					sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt >> $dirname/mcmc.txt
+					sed -n '1,'${end}'p' $dat/$i/mcmc.txt > mcmcf4traces_$trace_name/mcmc_$i.txt
 				fi
 			else
 				printf "   [[ You collected all the samples specified in your control file for this chain! ]]\n"
 				sed -n ''${begin}','${end}'p' $dat/$i/mcmc.txt >> $dirname/mcmc.txt
+				sed -n '1,'${end}'p' $dat/$i/mcmc.txt > mcmcf4traces_$trace_name/mcmc_$i.txt
 			fi
 		fi
 	fi
