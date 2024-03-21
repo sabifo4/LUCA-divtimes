@@ -1,0 +1,596 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 31 2023
+
+Input file name: ../../../01_inp_data/LUCAdup_236sp_aln.phy
+Type of analysis: tree reconstruction
+Random seed number: 678278
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 236 sequences with 1448 amino-acid sites
+Number of constant sites: 41 (= 2.83149% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 41 (= 2.83149% of all sites)
+Number of parsimony informative sites: 1364
+Number of distinct site patterns: 1441
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{LG+F+F,LG+FC20pi1,LG+FC20pi2,LG+FC20pi3,LG+FC20pi4,LG+FC20pi5,LG+FC20pi6,LG+FC20pi7,LG+FC20pi8,LG+FC20pi9,LG+FC20pi10,LG+FC20pi11,LG+FC20pi12,LG+FC20pi13,LG+FC20pi14,LG+FC20pi15,LG+FC20pi16,LG+FC20pi17,LG+FC20pi18,LG+FC20pi19,LG+FC20pi20}+G4
+
+  No  Component      Rate    Weight   Parameters
+   1  LG+F          1.0000   0.3466   LG+F+F
+   2  LG+FC20pi1    1.0000   0.0217   LG+FC20pi1
+   3  LG+FC20pi2    1.0000   0.0669   LG+FC20pi2
+   4  LG+FC20pi3    1.0000   0.0105   LG+FC20pi3
+   5  LG+FC20pi4    1.0000   0.0135   LG+FC20pi4
+   6  LG+FC20pi5    1.0000   0.0095   LG+FC20pi5
+   7  LG+FC20pi6    1.0000   0.0311   LG+FC20pi6
+   8  LG+FC20pi7    1.0000   0.0212   LG+FC20pi7
+   9  LG+FC20pi8    1.0000   0.1326   LG+FC20pi8
+  10  LG+FC20pi9    1.0000   0.0394   LG+FC20pi9
+  11  LG+FC20pi10   1.0000   0.0165   LG+FC20pi10
+  12  LG+FC20pi11   1.0000   0.0368   LG+FC20pi11
+  13  LG+FC20pi12   1.0000   0.0256   LG+FC20pi12
+  14  LG+FC20pi13   1.0000   0.0817   LG+FC20pi13
+  15  LG+FC20pi14   1.0000   0.0218   LG+FC20pi14
+  16  LG+FC20pi15   1.0000   0.0132   LG+FC20pi15
+  17  LG+FC20pi16   1.0000   0.0121   LG+FC20pi16
+  18  LG+FC20pi17   1.0000   0.0392   LG+FC20pi17
+  19  LG+FC20pi18   1.0000   0.0494   LG+FC20pi18
+  20  LG+FC20pi19   1.0000   0.0103   LG+FC20pi19
+  21  LG+FC20pi20   1.0000   0.0003   LG+FC20pi20
+
+Model for mixture component 1: LG+F
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0856
+  pi(R) = 0.0578
+  pi(N) = 0.0303
+  pi(D) = 0.0595
+  pi(C) = 0.0089
+  pi(Q) = 0.0358
+  pi(E) = 0.0660
+  pi(G) = 0.0729
+  pi(H) = 0.0175
+  pi(I) = 0.0720
+  pi(L) = 0.0964
+  pi(K) = 0.0574
+  pi(M) = 0.0280
+  pi(F) = 0.0385
+  pi(P) = 0.0466
+  pi(S) = 0.0489
+  pi(T) = 0.0553
+  pi(W) = 0.0136
+  pi(Y) = 0.0302
+  pi(V) = 0.0787
+
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.2249
+
+ Category  Relative_rate  Proportion
+  1         0.1795         0.2500
+  2         0.5353         0.2500
+  3         1.0292         0.2500
+  4         2.2560         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -233081.9674 (s.e. 3627.2169)
+Unconstrained log-likelihood (without tree): -10527.3647
+Number of free parameters (#branches + #model parameters): 509
+Akaike information criterion (AIC) score: 467181.9348
+Corrected Akaike information criterion (AICc) score: 467735.4316
+Bayesian information criterion (BIC) score: 469868.4055
+
+Total tree length (sum of branch lengths): 106.8507
+Sum of internal branch lengths: 30.7578 (28.7857% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acidobacterium_capsulatum_1' is drawn at root
+
++-----Acidobacterium_capsulatum_1
+|
+|                                                                 +-----Acidobacterium_capsulatum_2
+|                                                              +--|
+|                                                              |  |     +-----Campylobacter_jejuni_2
+|                                                              |  |  +--|
+|                                                              |  |  |  +---Desulfurispirillum_indicum_2
+|                                                              |  +--|
+|                                                              |     |  +--Thermodesulfatator_indicus_2
+|                                                              |     +--|
+|                                                              |        +--Thermodesulfovibrio_islandicus_2
+|                                                           +--|
+|                                                           |  |     +----Caldisericum_exile_2
+|                                                           |  |  +--|
+|                                                           |  |  |  +-------Dictyoglomus_turgidum_2
+|                                                           |  +--|
+|                                                           |     +---Kosmotoga_olearia_2
+|                                                        +--|
+|                                                        |  |     +----Chlorobium_phaeovibrioides_2
+|                                                        |  |  +--|
+|                                                        |  |  |  |  +---Cloacimonas_acidaminovorans_2
+|                                                        |  |  |  +--|
+|                                                        |  |  |     +----Elusimicrobium_minutum_2
+|                                                        |  +--|
+|                                                        |     +----Latescibacteria_bacterium_2
+|                                                     +--|
+|                                                     |  |  +-----Chlamydia_trachomatis_2
+|                                                     |  +--|
+|                                                     |     |  +----Chthonomonas_calidirosea_2
+|                                                     |     +--|
+|                                                     |        |  +----Fibrobacter_succinogenes_2
+|                                                     |        +--|
+|                                                     |           +------Rhodopirellula_baltica_2
+|                                                  +--|
+|                                                  |  |     +---Caldithrix_abyssi_2
+|                                                  |  |  +--|
+|                                                  |  |  |  +-----Lentisphaera_araneosa_2
+|                                                  |  +--|
+|                                                  |     +------Jonquetella_anthropi_2
+|                                               +--|
+|                                               |  |                    +--Agaricus_bisporus_mito_2
+|                                               |  |                 +--|
+|                                               |  |                 |  +--Saccharomyces_cerevisiae_mito_2
+|                                               |  |              +--|
+|                                               |  |              |  +--Batrachochytrium_dendrobatidis_mito_2
+|                                               |  |           +--|
+|                                               |  |           |  |  +--Amphimedon_queenslandica_mito_2
+|                                               |  |           |  +--|
+|                                               |  |           |     |     +--Homo_sapiens_mito_2
+|                                               |  |           |     |  +--|
+|                                               |  |           |     |  |  +--Limulus_polyphemus_mito_2
+|                                               |  |           |     +--|
+|                                               |  |           |        +--Hydra_vulgaris_mito_2
+|                                               |  |        +--|
+|                                               |  |        |  |  +--Dictyostelium_discoideum_mito_2
+|                                               |  |        |  +--|
+|                                               |  |        |     +--Polysphondylium_pallidum_mito_2
+|                                               |  |     +--|
+|                                               |  |     |  |              +--Arabidopsis_thaliana_mito_2
+|                                               |  |     |  |           +--|
+|                                               |  |     |  |           |  +--Oryza_sativa_mito_2
+|                                               |  |     |  |        +--|
+|                                               |  |     |  |        |  +--Physcomitrella_patens_mito_2
+|                                               |  |     |  |     +--|
+|                                               |  |     |  |     |  |  +--Bathycoccus_prasinos_mito_2
+|                                               |  |     |  |     |  +--|
+|                                               |  |     |  |     |     |  +--Chlamydomonas_reinhardtii_mito_2
+|                                               |  |     |  |     |     +--|
+|                                               |  |     |  |     |        +--Volvox_carteri_mito_2
+|                                               |  |     |  |  +--|
+|                                               |  |     |  |  |  |  +--Chondrus_crispus_mito_2
+|                                               |  |     |  |  |  +--|
+|                                               |  |     |  |  |     |  +--Cyanidioschyzon_merolae_mito_2
+|                                               |  |     |  |  |     +--|
+|                                               |  |     |  |  |        +--Galdieria_sulphuraria_mito_2
+|                                               |  |     |  +--|
+|                                               |  |     |     |  +--Ectocarpus_siliculosus_mito_2
+|                                               |  |     |     +--|
+|                                               |  |     |        +--Thalassiosira_pseudonana_mito_2
+|                                               |  |  +--|
+|                                               |  |  |  |      +--Bodo_saltans_mito_2
+|                                               |  |  |  |  +---|
+|                                               |  |  |  |  |   +--Leishmania_major_mito_2
+|                                               |  |  |  +--|
+|                                               |  |  |     |  +--Elphidium_margaritaceum_mito_2
+|                                               |  |  |     +--|
+|                                               |  |  |        +------Reticulomyxa_filosa_mito_2
+|                                               |  +--|
+|                                               |     |     +--Jidaibacter_acanthamoeba_2
+|                                               |     |  +--|
+|                                               |     |  |  +---Rickettsia_bellii_2
+|                                               |     +--|
+|                                               |        |     +--Rhodopseudomonas_palustris_2
+|                                               |        |  +--|
+|                                               |        |  |  +--Roseobacter_litoralis_2
+|                                               |        +--|
+|                                               |           +--Sphingopyxis_alaskensis_2
+|                                     +---------|
+|                                     |         |        +-----Actinomadura_madurae_2
+|                                     |         |     +--|
+|                                     |         |     |  +----Gemmatimonas_aurantiaca_2
+|                                     |         |  +--|
+|                                     |         |  |  +----Clostridium_acetobutylicum_2
+|                                     |         +**|
+|                                     |            |                       +--Bathycoccus_prasinos_chloro_2
+|                                     |            |                    +--|
+|                                     |            |                    |  |  +--Chlamydomonas_reinhardtii_chloro_2
+|                                     |            |                    |  +--|
+|                                     |            |                    |     +--Volvox_carteri_chloro_2
+|                                     |            |                 +--|
+|                                     |            |                 |  |  +--Oryza_sativa_chloro_2
+|                                     |            |                 |  +--|
+|                                     |            |                 |     +--Physcomitrella_patens_chloro_2
+|                                     |            |              +--|
+|                                     |            |              |  |        +--Chondrus_crispus_chloro_2
+|                                     |            |              |  |     +--|
+|                                     |            |              |  |     |  +---Thalassiosira_pseudonana_chloro_2
+|                                     |            |              |  |  +--|
+|                                     |            |              |  |  |  +---Galdieria_sulphuraria_chloro_2
+|                                     |            |              |  +--|
+|                                     |            |              |     +---Cyanidioschyzon_merolae_chloro_2
+|                                     |            |           +--|
+|                                     |            |           |  |        +--Chlorogloeopsis_fritschii_2
+|                                     |            |           |  |     +--|
+|                                     |            |           |  |     |  +--Cylindrospermopsis_raciborskii_2
+|                                     |            |           |  |  +--|
+|                                     |            |           |  |  |  +--Pseudanabaena_biceps_2
+|                                     |            |           |  +--|
+|                                     |            |           |     +--Synechocystis_sp._PCC_6803_2
+|                                     |            |        +--|
+|                                     |            |        |  +--Cyanobium_gracile_2
+|                                     |            |     +--|
+|                                     |            |     |  +--Gloeobacter_violaceus_2
+|                                     |            |  +--|
+|                                     |            |  |  +----Melainabacteria_bacterium_2
+|                                     |            +--|
+|                                     |               |    +--Chloroflexus_2
+|                                     |               +----|
+|                                     |                    +--Oscillochloris_trichoides_2
+|                                +----|
+|                                |    |                                +----Aeropyrum_pernix_2
+|                                |    |                             +--|
+|                                |    |                             |  |  +--Hyperthermus_butylicus_2
+|                                |    |                             |  +--|
+|                                |    |                             |     +-----Ignicoccus_hospitalis_2
+|                                |    |                          +--|
+|                                |    |                          |  +---Staphylothermus_marinus_2
+|                                |    |                       +--|
+|                                |    |                       |  |      +---Caldivirga_maquilingensis_2
+|                                |    |                       |  |  +---|
+|                                |    |                       |  |  |   +---Pyrobaculum_aerophilum_2
+|                                |    |                       |  +--|
+|                                |    |                       |     +---------Thermofilum_pendens_2
+|                                |    |                    +--|
+|                                |    |                    |  |  +---Caldiarchaeum_subterraneum_2
+|                                |    |                    |  +--|
+|                                |    |                    |     |   +--Cenarchaeum_symbiosum_2
+|                                |    |                    |     +---|
+|                                |    |                    |         |  +--Nitrosoarchaeum_limnia_2
+|                                |    |                    |         +--|
+|                                |    |                    |            +--Nitrosopumilus_maritimus_2
+|                                |    |                 +--|
+|                                |    |                 |  +--------Korarchaeum_cryptofilum_2
+|                                |    |              +--|
+|                                |    |              |  |                         +--Agaricus_bisporus_2
+|                                |    |              |  |                      +--|
+|                                |    |              |  |                      |  +---Saccharomyces_cerevisiae_2
+|                                |    |              |  |                   +--|
+|                                |    |              |  |                   |  +--Batrachochytrium_dendrobatidis_2
+|                                |    |              |  |                +--|
+|                                |    |              |  |                |  |  +--Amphimedon_queenslandica_2
+|                                |    |              |  |                |  +--|
+|                                |    |              |  |                |     |     +--Homo_sapiens_2
+|                                |    |              |  |                |     |  +--|
+|                                |    |              |  |                |     |  |  +--Limulus_polyphemus_2
+|                                |    |              |  |                |     +--|
+|                                |    |              |  |                |        +--Hydra_vulgaris_2
+|                                |    |              |  |             +--|
+|                                |    |              |  |             |  |  +--Dictyostelium_discoideum_2
+|                                |    |              |  |             |  +--|
+|                                |    |              |  |             |     +--Polysphondylium_pallidum_2
+|                                |    |              |  |     +-------|
+|                                |    |              |  |     |       |                    +--Arabidopsis_thaliana_2
+|                                |    |              |  |     |       |                 +--|
+|                                |    |              |  |     |       |                 |  +--Oryza_sativa_2
+|                                |    |              |  |     |       |              +--|
+|                                |    |              |  |     |       |              |  +--Physcomitrella_patens_2
+|                                |    |              |  |     |       |           +--|
+|                                |    |              |  |     |       |           |  |  +--Bathycoccus_prasinos_2
+|                                |    |              |  |     |       |           |  +--|
+|                                |    |              |  |     |       |           |     +--Volvox_carteri_2
+|                                |    |              |  |     |       |        +--|
+|                                |    |              |  |     |       |        |  +---Cyanophora_paradoxa_2
+|                                |    |              |  |     |       |     +--|
+|                                |    |              |  |     |       |     |  |     +--Chondrus_crispus_2
+|                                |    |              |  |     |       |     |  |  +--|
+|                                |    |              |  |     |       |     |  |  |  +--Galdieria_sulphuraria_2
+|                                |    |              |  |     |       |     |  +--|
+|                                |    |              |  |     |       |     |     +---Cyanidioschyzon_merolae_2
+|                                |    |              |  |     |       |  +--|
+|                                |    |              |  |     |       |  |  |        +--Ectocarpus_siliculosus_2
+|                                |    |              |  |     |       |  |  |     +--|
+|                                |    |              |  |     |       |  |  |     |  +--Thalassiosira_pseudonana_2
+|                                |    |              |  |     |       |  |  |  +--|
+|                                |    |              |  |     |       |  |  |  |  +--Paramecium_tetraurelia_2
+|                                |    |              |  |     |       |  |  +--|
+|                                |    |              |  |     |       |  |     |  +--Elphidium_margaritaceum_2
+|                                |    |              |  |     |       |  |     +--|
+|                                |    |              |  |     |       |  |        +--Reticulomyxa_filosa_2
+|                                |    |              |  |     |       +--|
+|                                |    |              |  |     |          |   +--Bodo_saltans_2
+|                                |    |              |  |     |          +---|
+|                                |    |              |  |     |              +--Leishmania_major_2
+|                                |    |              |  |  +--|
+|                                |    |              |  |  |  |  +----Heimdallarchaeota_archaeon_AB_125_2
+|                                |    |              |  |  |  +--|
+|                                |    |              |  |  |     |  +-------Heimdallarchaeota_archaeon_LC_2_2
+|                                |    |              |  |  |     +**|
+|                                |    |              |  |  |        +------Heimdallarchaeota_archaeon_LC_3_2
+|                                |    |              |  +--|
+|                                |    |              |     |  +-----------------Lokiarchaeum_sp._GC14_75_2
+|                                |    |              |     +--|
+|                                |    |              |        |  +---Odinarchaeota_archaeon_LCB_4_2
+|                                |    |              |        +--|
+|                                |    |              |           |       +--Thorarchaeota_archaeon_AB_25_2
+|                                |    |              |           |    +--|
+|                                |    |              |           |    |  +--Thorarchaeota_archaeon_SMTZ1-83_2
+|                                |    |              |           +----|
+|                                |    |              |                +--Thorarchaeota_archaeon_SMTZ1-45_2
+|                                |    |           +--|
+|                                |    |           |  +----Pyrococcus_furiosus_2
+|                                |    |        +--|
+|                                |    |        |  |  +---Methanocaldococcus_jannaschii_2
+|                                |    |        |  +--|
+|                                |    |        |     |  +---Methanopyrus_kandleri_2
+|                                |    |        |     +--|
+|                                |    |        |        +---Methanothermobacter_thermautotrophicus_2
+|                                |    +--------|
+|                                |             |        +---Archaeoglobus_fulgidus_2
+|                                |             |     +--|
+|                                |             |     |  +----Methanosarcina_mazei_2
+|                                |             |  +--|
+|                                |             |  |  +---------Thermoplasma_volcanium_2
+|                                |             +--|
+|                                |                +------Methanomassiliicoccus_luminyensis_2
+|              +-----------------|
+|              |                 |                                     +------Aeropyrum_pernix_1
+|              |                 |                                  +--|
+|              |                 |                                  |  |  +---Hyperthermus_butylicus_1
+|              |                 |                                  |  +--|
+|              |                 |                                  |     |  +----Ignicoccus_hospitalis_1
+|              |                 |                                  |     +--|
+|              |                 |                                  |        +-----Sulfolobus_solfataricus_1
+|              |                 |                               +--|
+|              |                 |                               |  +--------Staphylothermus_marinus_1
+|              |                 |                            +--|
+|              |                 |                            |  |       +--Caldivirga_maquilingensis_1
+|              |                 |                            |  |  +----|
+|              |                 |                            |  |  |    +--Pyrobaculum_aerophilum_1
+|              |                 |                            |  +--|
+|              |                 |                            |     +-------Thermofilum_pendens_1
+|              |                 |                         +--|
+|              |                 |                         |  |  +----Caldiarchaeum_subterraneum_1
+|              |                 |                         |  +--|
+|              |                 |                         |     |     +--Cenarchaeum_symbiosum_1
+|              |                 |                         |     +-----|
+|              |                 |                         |           |  +--Nitrosoarchaeum_limnia_1
+|              |                 |                         |           +--|
+|              |                 |                         |              +--Nitrosopumilus_maritimus_1
+|              |                 |                      +--|
+|              |                 |                      |  +------Korarchaeum_cryptofilum_1
+|              |                 |                   +--|
+|              |                 |                   |  |                           +--Agaricus_bisporus_1
+|              |                 |                   |  |                        +--|
+|              |                 |                   |  |                        |  +--Saccharomyces_cerevisiae_1
+|              |                 |                   |  |                     +--|
+|              |                 |                   |  |                     |  +--Batrachochytrium_dendrobatidis_1
+|              |                 |                   |  |                  +--|
+|              |                 |                   |  |                  |  |  +--Amphimedon_queenslandica_1
+|              |                 |                   |  |                  |  +--|
+|              |                 |                   |  |                  |     |     +--Homo_sapiens_1
+|              |                 |                   |  |                  |     |  +**|
+|              |                 |                   |  |                  |     |  |  +--Limulus_polyphemus_1
+|              |                 |                   |  |                  |     +--|
+|              |                 |                   |  |                  |        +--Hydra_vulgaris_1
+|              |                 |                   |  |               +--|
+|              |                 |                   |  |               |  |   +--Dictyostelium_discoideum_1
+|              |                 |                   |  |               |  +---|
+|              |                 |                   |  |               |      +--Polysphondylium_pallidum_1
+|              |                 |                   |  |     +---------|
+|              |                 |                   |  |     |         |                    +--Arabidopsis_thaliana_1
+|              |                 |                   |  |     |         |                 +--|
+|              |                 |                   |  |     |         |                 |  +--Oryza_sativa_1
+|              |                 |                   |  |     |         |              +--|
+|              |                 |                   |  |     |         |              |  +--Physcomitrella_patens_1
+|              |                 |                   |  |     |         |           +**|
+|              |                 |                   |  |     |         |           |  |  +---Bathycoccus_prasinos_1
+|              |                 |                   |  |     |         |           |  +--|
+|              |                 |                   |  |     |         |           |     |  +--Chlamydomonas_reinhardtii_1
+|              |                 |                   |  |     |         |           |     +--|
+|              |                 |                   |  |     |         |           |        +--Volvox_carteri_1
+|              |                 |                   |  |     |         |        +--|
+|              |                 |                   |  |     |         |        |  +-----Cyanophora_paradoxa_1
+|              |                 |                   |  |     |         |     +--|
+|              |                 |                   |  |     |         |     |  |     +--Chondrus_crispus_1
+|              |                 |                   |  |     |         |     |  |  +--|
+|              |                 |                   |  |     |         |     |  |  |  +--Galdieria_sulphuraria_1
+|              |                 |                   |  |     |         |     |  +--|
+|              |                 |                   |  |     |         |     |     +----Cyanidioschyzon_merolae_1
+|              |                 |                   |  |     |         |  +--|
+|              |                 |                   |  |     |         |  |  |        +--Ectocarpus_siliculosus_1
+|              |                 |                   |  |     |         |  |  |     +--|
+|              |                 |                   |  |     |         |  |  |     |  +--Thalassiosira_pseudonana_1
+|              |                 |                   |  |     |         |  |  |  +--|
+|              |                 |                   |  |     |         |  |  |  |  +---Paramecium_tetraurelia_1
+|              |                 |                   |  |     |         |  |  +--|
+|              |                 |                   |  |     |         |  |     |   +--Elphidium_margaritaceum_1
+|              |                 |                   |  |     |         |  |     +---|
+|              |                 |                   |  |     |         |  |         +---Reticulomyxa_filosa_1
+|              |                 |                   |  |     |         +--|
+|              |                 |                   |  |     |            |     +--Bodo_saltans_1
+|              |                 |                   |  |     |            +-----|
+|              |                 |                   |  |     |                  +--Leishmania_major_1
+|              |                 |                   |  |  +--|
+|              |                 |                   |  |  |  |  +----------Heimdallarchaeota_archaeon_AB_125_1
+|              |                 |                   |  |  |  +--|
+|              |                 |                   |  |  |     |  +-------Heimdallarchaeota_archaeon_LC_2_1
+|              |                 |                   |  |  |     +--|
+|              |                 |                   |  |  |        +-------Heimdallarchaeota_archaeon_LC_3_1
+|              |                 |                   |  +--|
+|              |                 |                   |     |  +----------Lokiarchaeum_sp._GC14_75_1
+|              |                 |                   |     +--|
+|              |                 |                   |        |  +----Odinarchaeota_archaeon_LCB_4_1
+|              |                 |                   |        +--|
+|              |                 |                   |           |        +--Thorarchaeota_archaeon_AB_25_1
+|              |                 |                   |           |     +--|
+|              |                 |                   |           |     |  +--Thorarchaeota_archaeon_SMTZ1-45_1
+|              |                 |                   |           +-----|
+|              |                 |                   |                 +--Thorarchaeota_archaeon_SMTZ1-83_1
+|              |                 |                +--|
+|              |                 |                |  +--Pyrococcus_furiosus_1
+|              |                 |             +--|
+|              |                 |             |  |  +---Methanocaldococcus_jannaschii_1
+|              |                 |             |  +--|
+|              |                 |             |     |  +----Methanopyrus_kandleri_1
+|              |                 |             |     +--|
+|              |                 |             |        +---Methanothermobacter_thermautotrophicus_1
+|              |                 +-------------|
+|              |                               |        +--Archaeoglobus_fulgidus_1
+|              |                               |     +--|
+|              |                               |     |  +---Methanosarcina_mazei_1
+|              |                               |  +--|
+|              |                               |  |  +----------Thermoplasma_volcanium_1
+|              |                               +--|
+|              |                                  +---------Methanomassiliicoccus_luminyensis_1
+|           +**|
+|           |  |     +-------Actinomadura_madurae_1
+|           |  |  +--|
+|           |  |  |  +----Clostridium_acetobutylicum_1
+|           |  +--|
+|           |     |                       +--Bathycoccus_prasinos_chloro_1
+|           |     |                    +**|
+|           |     |                    |  |  +----Chlamydomonas_reinhardtii_chloro_1
+|           |     |                    |  +--|
+|           |     |                    |     +--Volvox_carteri_chloro_1
+|           |     |                 +--|
+|           |     |                 |  |  +--Oryza_sativa_chloro_1
+|           |     |                 |  +--|
+|           |     |                 |     +--Physcomitrella_patens_chloro_1
+|           |     |              +--|
+|           |     |              |  |     +---Cyanidioschyzon_merolae_chloro_1
+|           |     |              |  |  +--|
+|           |     |              |  |  |  +--Galdieria_sulphuraria_chloro_1
+|           |     |              |  +--|
+|           |     |              |     |  +--Ectocarpus_siliculosus_chloro_1
+|           |     |              |     +--|
+|           |     |              |        +--Thalassiosira_pseudonana_chloro_1
+|           |     |           +--|
+|           |     |           |  |        +--Chlorogloeopsis_fritschii_1
+|           |     |           |  |     +--|
+|           |     |           |  |     |  +--Cylindrospermopsis_raciborskii_1
+|           |     |           |  |  +--|
+|           |     |           |  |  |  +--Pseudanabaena_biceps_1
+|           |     |           |  +--|
+|           |     |           |     |  +--Leptolyngbya_valderiana_1
+|           |     |           |     +--|
+|           |     |           |        +--Synechocystis_sp._PCC_6803_1
+|           |     |        +--|
+|           |     |        |  +--Cyanobium_gracile_1
+|           |     |     +--|
+|           |     |     |  +--Gloeobacter_violaceus_1
+|           |     |  +--|
+|           |     |  |  +----Melainabacteria_bacterium_1
+|           |     +--|
+|           |        |    +--Chloroflexus_1
+|           |        +----|
+|           |             +--Oscillochloris_trichoides_1
+|        +**|
+|        |  |              +--Agaricus_bisporus_mito_1
+|        |  |           +--|
+|        |  |           |  +--Batrachochytrium_dendrobatidis_mito_1
+|        |  |        +**|
+|        |  |        |  |  +--Amphimedon_queenslandica_mito_1
+|        |  |        |  +--|
+|        |  |        |     |     +--Homo_sapiens_mito_1
+|        |  |        |     |  +--|
+|        |  |        |     |  |  +--Limulus_polyphemus_mito_1
+|        |  |        |     +--|
+|        |  |        |        +--Hydra_vulgaris_mito_1
+|        |  |     +--|
+|        |  |     |  |  +--Dictyostelium_discoideum_mito_1
+|        |  |     |  +--|
+|        |  |     |     +----Polysphondylium_pallidum_mito_1
+|        |  |  +--|
+|        |  |  |  |        +--Cyanidioschyzon_merolae_mito_1
+|        |  |  |  |     +--|
+|        |  |  |  |     |  +--Galdieria_sulphuraria_mito_1
+|        |  |  |  |  +--|
+|        |  |  |  |  |  |  +--Physcomitrella_patens_mito_1
+|        |  |  |  |  |  +--|
+|        |  |  |  |  |     +---Volvox_carteri_mito_1
+|        |  |  |  +**|
+|        |  |  |     |  +--Phytophthora_ramorum_mito_1
+|        |  |  |     +--|
+|        |  |  |        +--Thalassiosira_pseudonana_mito_1
+|        |  +--|
+|        |     |     +--Jidaibacter_acanthamoeba_1
+|        |     |  +--|
+|        |     |  |  +---Rickettsia_bellii_1
+|        |     +--|
+|        |        |     +--Rhodopseudomonas_palustris_1
+|        |        |  +--|
+|        |        |  |  +---Roseobacter_litoralis_1
+|        |        +--|
+|        |           +---Sphingopyxis_alaskensis_1
+|     +--|
+|     |  +------Chlamydia_trachomatis_1
+|  +--|
+|  |  +------Latescibacteria_bacterium_1
++--|
+|  |              +--Caldisericum_exile_1
+|  |     +--------|
+|  |     |        +--Dictyoglomus_turgidum_1
+|  |  +--|
+|  |  |  +-----Kosmotoga_olearia_1
+|  +--|
+|     |        +--Caldithrix_abyssi_1
+|     |     +--|
+|     |     |  +----Chlorobium_phaeovibrioides_1
+|     |  +--|
+|     |  |  |     +-----Campylobacter_jejuni_1
+|     |  |  |  +--|
+|     |  |  |  |  +----Verrucomicrobium_spinosum_1
+|     |  |  +--|
+|     |  |     |        +------Cloacimonas_acidaminovorans_1
+|     |  |     |     +--|
+|     |  |     |     |  +---Fibrobacter_succinogenes_1
+|     |  |     |  +--|
+|     |  |     |  |  +----Lentisphaera_araneosa_1
+|     |  |     +--|
+|     |  |        +------Rhodopirellula_baltica_1
+|     +--|
+|        |  +----Elusimicrobium_minutum_1
+|        +--|
+|           +-------Jonquetella_anthropi_1
+|
+|  +----Aquifex_aeolicus_1
++--|
+   |  +---Thermodesulfatator_indicus_1
+   +--|
+      +---Thermodesulfovibrio_islandicus_1
+
+Tree in newick format:
+
+(Acidobacterium_capsulatum_1:0.5316262925,((((((((((((((Acidobacterium_capsulatum_2:0.5490818999,((Campylobacter_jejuni_2:0.5834506592,Desulfurispirillum_indicum_2:0.4149293974):0.0595954901,(Thermodesulfatator_indicus_2:0.2826115588,Thermodesulfovibrio_islandicus_2:0.2950250534):0.0627724066):0.0285648759):0.0656252162,((Caldisericum_exile_2:0.4800902578,Dictyoglomus_turgidum_2:0.7003200447):0.3327291591,Kosmotoga_olearia_2:0.4163442607):0.0494017978):0.0293829984,((Chlorobium_phaeovibrioides_2:0.5032485648,(Cloacimonas_acidaminovorans_2:0.4081845637,Elusimicrobium_minutum_2:0.4327469747):0.1701515301):0.0681791752,Latescibacteria_bacterium_2:0.4364814223):0.0716681605):0.0280084734,(Chlamydia_trachomatis_2:0.5542824092,(Chthonomonas_calidirosea_2:0.4722911567,(Fibrobacter_succinogenes_2:0.4346574418,Rhodopirellula_baltica_2:0.6150745548):0.1267896189):0.1051214644):0.0410171808):0.0259320105,((Caldithrix_abyssi_2:0.3600960591,Lentisphaera_araneosa_2:0.5630109784):0.0564462563,Jonquetella_anthropi_2:0.5969650438):0.1561426724):0.0121735009,(((((((Agaricus_bisporus_mito_2:0.1550756423,Saccharomyces_cerevisiae_mito_2:0.3126565894):0.1041741043,Batrachochytrium_dendrobatidis_mito_2:0.2577819816):0.1257034663,(Amphimedon_queenslandica_mito_2:0.2117544447,((Homo_sapiens_mito_2:0.1810994722,Limulus_polyphemus_mito_2:0.1998380446):0.0563240945,Hydra_vulgaris_mito_2:0.2488282709):0.0285291092):0.0933662731):0.0066829845,(Dictyostelium_discoideum_mito_2:0.1609417892,Polysphondylium_pallidum_mito_2:0.1258408267):0.3182886053):0.0508750046,(((((Arabidopsis_thaliana_mito_2:0.1364727996,Oryza_sativa_mito_2:0.1142421566):0.0962267418,Physcomitrella_patens_mito_2:0.1354287037):0.0993813402,(Bathycoccus_prasinos_mito_2:0.2124715317,(Chlamydomonas_reinhardtii_mito_2:0.1561742203,Volvox_carteri_mito_2:0.0266139860):0.1966724047):0.0427975887):0.0878442685,(Chondrus_crispus_mito_2:0.2989177421,(Cyanidioschyzon_merolae_mito_2:0.2674015553,Galdieria_sulphuraria_mito_2:0.1919241193):0.0519503956):0.1104174596):0.0286937079,(Ectocarpus_siliculosus_mito_2:0.1833253808,Thalassiosira_pseudonana_mito_2:0.1677401230):0.1675946681):0.0192077610):0.0662754476,((Bodo_saltans_mito_2:0.1391951725,Leishmania_major_mito_2:0.1350469907):0.4086881393,(Elphidium_margaritaceum_mito_2:0.3255222804,Reticulomyxa_filosa_mito_2:0.6406368787):0.2897264981):0.0833480776):0.1777472101,((Jidaibacter_acanthamoeba_2:0.2440374380,Rickettsia_bellii_2:0.3719870913):0.0739320124,((Rhodopseudomonas_palustris_2:0.2438194606,Roseobacter_litoralis_2:0.3285403886):0.0279223564,Sphingopyxis_alaskensis_2:0.3275606353):0.0873368574):0.1535465307):0.2439226243):0.0105139054,(((Actinomadura_madurae_2:0.5772656178,Gemmatimonas_aurantiaca_2:0.4879557589):0.2366826811,Clostridium_acetobutylicum_2:0.4798406764):0.0283529023,((((((((Bathycoccus_prasinos_chloro_2:0.2966878496,(Chlamydomonas_reinhardtii_chloro_2:0.0298664944,Volvox_carteri_chloro_2:0.1768041722):0.1366359002):0.0444272166,(Oryza_sativa_chloro_2:0.1498838932,Physcomitrella_patens_chloro_2:0.0943008609):0.0875135014):0.0887619087,(((Chondrus_crispus_chloro_2:0.1594383798,Thalassiosira_pseudonana_chloro_2:0.3436805809):0.0481387289,Galdieria_sulphuraria_chloro_2:0.3783727997):0.0097594845,Cyanidioschyzon_merolae_chloro_2:0.3766792847):0.0822690490):0.2546618468,(((Chlorogloeopsis_fritschii_2:0.0824833608,Cylindrospermopsis_raciborskii_2:0.1110793695):0.0626409728,Pseudanabaena_biceps_2:0.2192751737):0.0257896104,Synechocystis_sp._PCC_6803_2:0.1438239742):0.0861302809):0.0054590690,Cyanobium_gracile_2:0.3228528827):0.0768176477,Gloeobacter_violaceus_2:0.3092590324):0.1905345118,Melainabacteria_bacterium_2:0.4696282965):0.0391091101,(Chloroflexus_2:0.0962533742,Oscillochloris_trichoides_2:0.1329219026):0.4857135155):0.0522713339):0.0000029384):0.9039210484,(((((((((Aeropyrum_pernix_2:0.4201735978,(Hyperthermus_butylicus_2:0.2984818646,Ignicoccus_hospitalis_2:0.5548764373):0.0394657195):0.0428597040,Staphylothermus_marinus_2:0.3962237615):0.1229147990,((Caldivirga_maquilingensis_2:0.3461995949,Pyrobaculum_aerophilum_2:0.3416171006):0.3606091871,Thermofilum_pendens_2:0.9015522655):0.1134488171):0.1066005766,(Caldiarchaeum_subterraneum_2:0.4145949782,(Cenarchaeum_symbiosum_2:0.2186327331,(Nitrosoarchaeum_limnia_2:0.0999090284,Nitrosopumilus_maritimus_2:0.0709861102):0.0810273492):0.4080237520):0.1769289535):0.0121324328,Korarchaeum_cryptofilum_2:0.8217571094):0.0495569375,(((((((Agaricus_bisporus_2:0.2772339416,Saccharomyces_cerevisiae_2:0.3736224794):0.0490409506,Batrachochytrium_dendrobatidis_2:0.1884292314):0.0830609298,(Amphimedon_queenslandica_2:0.1641477821,((Homo_sapiens_2:0.0716387886,Limulus_polyphemus_2:0.0890355263):0.0436001451,Hydra_vulgaris_2:0.1135522444):0.0307963262):0.0993131612):0.0803595969,(Dictyostelium_discoideum_2:0.0814137370,Polysphondylium_pallidum_2:0.1050890558):0.2121833797):0.0346961150,(((((((Arabidopsis_thaliana_2:0.1079370479,Oryza_sativa_2:0.0602029567):0.0595324487,Physcomitrella_patens_2:0.1095885970):0.1116597751,(Bathycoccus_prasinos_2:0.2649714382,Volvox_carteri_2:0.2169564473):0.0479522288):0.0660438723,Cyanophora_paradoxa_2:0.3632395495):0.0242810534,((Chondrus_crispus_2:0.2765314311,Galdieria_sulphuraria_2:0.1437562932):0.0426490108,Cyanidioschyzon_merolae_2:0.3805560690):0.0712195517):0.0614604596,(((Ectocarpus_siliculosus_2:0.1653220810,Thalassiosira_pseudonana_2:0.2128913200):0.0023328161,Paramecium_tetraurelia_2:0.0203464115):0.1618654652,(Elphidium_margaritaceum_2:0.1382859844,Reticulomyxa_filosa_2:0.2281514056):0.2468904872):0.1257279837):0.0079030620,(Bodo_saltans_2:0.0718929486,Leishmania_major_2:0.1247510276):0.3582424805):0.0117831826):0.7185408787,(Heimdallarchaeota_archaeon_AB_125_2:0.4734619183,(Heimdallarchaeota_archaeon_LC_2_2:0.7127965850,Heimdallarchaeota_archaeon_LC_3_2:0.5986597072):0.0000020338):0.1969223626):0.0387755113,(Lokiarchaeum_sp._GC14_75_2:1.5389141815,(Odinarchaeota_archaeon_LCB_4_2:0.3639086937,((Thorarchaeota_archaeon_AB_25_2:0.0852325573,Thorarchaeota_archaeon_SMTZ1-83_2:0.1107300862):0.0105874632,Thorarchaeota_archaeon_SMTZ1-45_2:0.0584926210):0.4770620254):0.0685280387):0.0276879082):0.1021794354):0.2795934317,Pyrococcus_furiosus_2:0.4486724449):0.0670731135,(Methanocaldococcus_jannaschii_2:0.3522693017,(Methanopyrus_kandleri_2:0.4096693664,Methanothermobacter_thermautotrophicus_2:0.4142030371):0.0365139336):0.1166425807):0.0190921912,(((Archaeoglobus_fulgidus_2:0.4148791422,Methanosarcina_mazei_2:0.4222231874):0.1487637026,Thermoplasma_volcanium_2:0.8999266063):0.0182745264,Methanomassiliicoccus_luminyensis_2:0.6489432734):0.0853031769):0.7561822821):0.4915120311,(((((((((Aeropyrum_pernix_1:0.6121624063,(Hyperthermus_butylicus_1:0.4061246977,(Ignicoccus_hospitalis_1:0.4352463251,Sulfolobus_solfataricus_1:0.5130946097):0.1345388714):0.1952075972):0.0607102013,Staphylothermus_marinus_1:0.8341268191):0.1866947509,((Caldivirga_maquilingensis_1:0.3158381030,Pyrobaculum_aerophilum_1:0.2428749791):0.4896999929,Thermofilum_pendens_1:0.7302536761):0.1388060340):0.0159655077,(Caldiarchaeum_subterraneum_1:0.4551099637,(Cenarchaeum_symbiosum_1:0.1676189694,(Nitrosoarchaeum_limnia_1:0.0532114209,Nitrosopumilus_maritimus_1:0.0577306307):0.0658273373):0.5395992287):0.2106179787):0.0486608418,Korarchaeum_cryptofilum_1:0.5983540780):0.0479579196,(((((((Agaricus_bisporus_1:0.2188004621,Saccharomyces_cerevisiae_1:0.2531365035):0.0470544830,Batrachochytrium_dendrobatidis_1:0.2084758872):0.1517177558,(Amphimedon_queenslandica_1:0.1454147044,((Homo_sapiens_1:0.1290383507,Limulus_polyphemus_1:0.2018224548):0.0000022418,Hydra_vulgaris_1:0.1426661152):0.0190120150):0.1171762305):0.0228508514,(Dictyostelium_discoideum_1:0.1226491498,Polysphondylium_pallidum_1:0.1078250390):0.3518623068):0.0481309006,(((((((Arabidopsis_thaliana_1:0.0146773490,Oryza_sativa_1:0.0395322315):0.0337448524,Physcomitrella_patens_1:0.2624871614):0.3124617484,(Bathycoccus_prasinos_1:0.4156743838,(Chlamydomonas_reinhardtii_1:0.0198470559,Volvox_carteri_1:0.0198176687):0.1578218926):0.0436266469):0.0000010000,Cyanophora_paradoxa_1:0.5831344629):0.0565049981,((Chondrus_crispus_1:0.1932129091,Galdieria_sulphuraria_1:0.2911754126):0.0515122760,Cyanidioschyzon_merolae_1:0.4883700236):0.1194069451):0.0663509114,(((Ectocarpus_siliculosus_1:0.1626640341,Thalassiosira_pseudonana_1:0.2898037687):0.1630025486,Paramecium_tetraurelia_1:0.4072521340):0.0310513718,(Elphidium_margaritaceum_1:0.1746846633,Reticulomyxa_filosa_1:0.4156525383):0.3565824211):0.0888481295):0.0172731478,(Bodo_saltans_1:0.1270524962,Leishmania_major_1:0.1462072148):0.5182072373):0.0309907368):0.8633463386,(Heimdallarchaeota_archaeon_AB_125_1:0.9791663104,(Heimdallarchaeota_archaeon_LC_2_1:0.7213007867,Heimdallarchaeota_archaeon_LC_3_1:0.7176187424):0.0939324116):0.0378134573):0.0502478941,(Lokiarchaeum_sp._GC14_75_1:0.9773090610,(Odinarchaeota_archaeon_LCB_4_1:0.4977454343,((Thorarchaeota_archaeon_AB_25_1:0.0391378105,Thorarchaeota_archaeon_SMTZ1-45_1:0.0342634359):0.1569036490,Thorarchaeota_archaeon_SMTZ1-83_1:0.0852753833):0.5522953553):0.0524688756):0.0373967836):0.1230857820):0.0258634522,Pyrococcus_furiosus_1:0.2588921069):0.1380246730,(Methanocaldococcus_jannaschii_1:0.3413719833,(Methanopyrus_kandleri_1:0.4244870544,Methanothermobacter_thermautotrophicus_1:0.4100932360):0.0389110683):0.1475872173):0.0213941747,(((Archaeoglobus_fulgidus_1:0.3023285943,Methanosarcina_mazei_1:0.4174738666):0.1711670103,Thermoplasma_volcanium_1:0.9724530372):0.0431769099,Methanomassiliicoccus_luminyensis_1:0.8590456323):0.0647836543):1.1961354298):1.5107271051,((Actinomadura_madurae_1:0.7540369867,Clostridium_acetobutylicum_1:0.4742986290):0.0849770519,((((((((Bathycoccus_prasinos_chloro_1:0.2301513486,(Chlamydomonas_reinhardtii_chloro_1:0.4434395364,Volvox_carteri_chloro_1:0.0071907710):0.2900391879):0.0000022396,(Oryza_sativa_chloro_1:0.1984045303,Physcomitrella_patens_chloro_1:0.0808515893):0.1288186111):0.0693097227,((Cyanidioschyzon_merolae_chloro_1:0.3386796298,Galdieria_sulphuraria_chloro_1:0.1925159930):0.0357483239,(Ectocarpus_siliculosus_chloro_1:0.2296839672,Thalassiosira_pseudonana_chloro_1:0.2045935033):0.0241528922):0.0372301873):0.0744012315,(((Chlorogloeopsis_fritschii_1:0.0924899736,Cylindrospermopsis_raciborskii_1:0.1081936645):0.0559005543,Pseudanabaena_biceps_1:0.2208996651):0.0252581858,(Leptolyngbya_valderiana_1:0.1749459992,Synechocystis_sp._PCC_6803_1:0.2107709247):0.0272997516):0.0939383151):0.0312802870,Cyanobium_gracile_1:0.3026658189):0.0837473439,Gloeobacter_violaceus_1:0.3136509502):0.1949686813,Melainabacteria_bacterium_1:0.4648396532):0.0903648935,(Chloroflexus_1:0.0271923811,Oscillochloris_trichoides_1:0.2205298859):0.4903180316):0.0845866709):0.0158012131):0.0000028616,(((((Agaricus_bisporus_mito_1:0.2944714198,Batrachochytrium_dendrobatidis_mito_1:0.1666913123):0.0863954760,(Amphimedon_queenslandica_mito_1:0.0858372037,((Homo_sapiens_mito_1:0.1172510630,Limulus_polyphemus_mito_1:0.0826375034):0.0104553801,Hydra_vulgaris_mito_1:0.1046084272):0.0089824894):0.1021691713):0.0000242915,(Dictyostelium_discoideum_mito_1:0.2511487275,Polysphondylium_pallidum_mito_1:0.4201192904):0.1457257951):0.0586361397,(((Cyanidioschyzon_merolae_mito_1:0.2205783312,Galdieria_sulphuraria_mito_1:0.1853759425):0.0902530956,(Physcomitrella_patens_mito_1:0.1828911747,Volvox_carteri_mito_1:0.4103756112):0.1458892607):0.0212758507,(Phytophthora_ramorum_mito_1:0.3140108697,Thalassiosira_pseudonana_mito_1:0.3223356368):0.1811577172):0.0000028013):0.1113376983,((Jidaibacter_acanthamoeba_1:0.3227840201,Rickettsia_bellii_1:0.4055961353):0.0880363166,((Rhodopseudomonas_palustris_1:0.1836856174,Roseobacter_litoralis_1:0.3761546719):0.0592214605,Sphingopyxis_alaskensis_1:0.4125656652):0.1446088785):0.0565068113):0.2774968275):0.0000021808,Chlamydia_trachomatis_1:0.6312857516):0.0756794724,Latescibacteria_bacterium_1:0.6630123127):0.0659021436,(((Caldisericum_exile_1:0.0023569568,Dictyoglomus_turgidum_1:0.1049948203):0.7562941094,Kosmotoga_olearia_1:0.5832064772):0.0724360686,(((Caldithrix_abyssi_1:0.2795385635,Chlorobium_phaeovibrioides_1:0.4436733950):0.1191401261,((Campylobacter_jejuni_1:0.5199935451,Verrucomicrobium_spinosum_1:0.4486097107):0.0646440422,(((Cloacimonas_acidaminovorans_1:0.6238738511,Fibrobacter_succinogenes_1:0.4031790165):0.0427915334,Lentisphaera_araneosa_1:0.4228006320):0.1157645993,Rhodopirellula_baltica_1:0.6017204700):0.0872743953):0.1184688503):0.0250973881,(Elusimicrobium_minutum_1:0.4911346063,Jonquetella_anthropi_1:0.7028378677):0.1185136343):0.0962575036):0.0758732829):0.0547307668,(Aquifex_aeolicus_1:0.4756410824,(Thermodesulfatator_indicus_1:0.3920751375,Thermodesulfovibrio_islandicus_1:0.3558006630):0.0759697788):0.0534631256);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Feb 29 18:11:06 2024
+Total CPU time used: 20118.7 seconds (5h:35m:18s)
+Total wall-clock time used: 10327.7 seconds (2h:52m:7s)
+

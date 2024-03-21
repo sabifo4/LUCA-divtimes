@@ -1,0 +1,4 @@
+File 1 visited : EF_filt.aln
+File 2 visited : Leu_filt.aln
+File 3 visited : SRP_filt.aln
+File 4 visited : Tyr_filt.aln

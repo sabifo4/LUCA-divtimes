@@ -1,0 +1,5 @@
+Parsing locus 1: ATP_filt
+Parsing locus 2: Leu_filt
+Parsing locus 3: SRP_filt
+Parsing locus 4: Tyr_filt
+There are 4 loci visited to generate summary statistics

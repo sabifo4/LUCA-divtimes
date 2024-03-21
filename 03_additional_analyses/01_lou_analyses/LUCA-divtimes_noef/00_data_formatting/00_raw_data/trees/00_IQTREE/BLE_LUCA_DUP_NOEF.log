@@ -1,0 +1,669 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Linux 64-bit built May 31 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    sandra (AVX512, FMA3, 15 GB RAM)
+Command: iqtree2 -s ../../../01_inp_data/LUCAdup_236sp_aln.phy -g LUCAdup_topo.tree -nt AUTO -m LG+C20+F+G -pre BLE_LUCA_DUP_NOEF
+Seed:    678278 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb 29 15:18:57 2024
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file ../../../01_inp_data/LUCAdup_236sp_aln.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0208061 secs using 606.5% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 236 sequences with 1448 columns, 1441 distinct patterns
+1364 parsimony-informative, 43 singleton sites, 41 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.010627 secs using 622.2% CPU
+   1  Acidobacterium_capsulatum_1                39.78%    failed      1.40%
+   2  Acidobacterium_capsulatum_2                10.98%    failed      0.42%
+   3  Actinomadura_madurae_1                     13.67%    failed      0.03%
+   4  Actinomadura_madurae_2                     11.19%    failed      0.00%
+   5  Aeropyrum_pernix_1                         36.67%    failed      0.01%
+   6  Aeropyrum_pernix_2                         37.36%    failed      0.00%
+   7  Agaricus_bisporus_1                        45.79%    passed     34.08%
+   8  Agaricus_bisporus_2                        50.90%    passed     15.70%
+   9  Agaricus_bisporus_mito_1                   74.10%    passed     48.18%
+  10  Agaricus_bisporus_mito_2                   38.88%    passed     88.84%
+  11  Amphimedon_queenslandica_1                 52.62%    passed     20.68%
+  12  Amphimedon_queenslandica_2                 50.97%    passed     41.11%
+  13  Amphimedon_queenslandica_mito_1            74.10%    passed     26.02%
+  14  Amphimedon_queenslandica_mito_2            38.95%    passed     29.58%
+  15  Aquifex_aeolicus_1                         23.76%    failed      0.03%
+  16  Arabidopsis_thaliana_1                     74.65%    passed     52.95%
+  17  Arabidopsis_thaliana_2                     56.77%    passed     67.12%
+  18  Arabidopsis_thaliana_mito_2                38.81%    passed     43.95%
+  19  Archaeoglobus_fulgidus_1                   63.26%    passed     22.09%
+  20  Archaeoglobus_fulgidus_2                   34.32%    failed      0.01%
+  21  Bathycoccus_prasinos_1                     58.08%    passed     20.16%
+  22  Bathycoccus_prasinos_2                     50.90%    passed     21.78%
+  23  Bathycoccus_prasinos_chloro_1              89.09%    passed     64.34%
+  24  Bathycoccus_prasinos_chloro_2              22.31%    passed     68.56%
+  25  Bathycoccus_prasinos_mito_2                38.60%    passed     32.16%
+  26  Batrachochytrium_dendrobatidis_1           46.69%    passed     52.32%
+  27  Batrachochytrium_dendrobatidis_2           50.97%    passed     42.71%
+  28  Batrachochytrium_dendrobatidis_mito_1      74.10%    passed      9.84%
+  29  Batrachochytrium_dendrobatidis_mito_2      38.88%    passed     71.56%
+  30  Bodo_saltans_1                             36.40%    failed      0.65%
+  31  Bodo_saltans_2                             50.90%    passed     27.04%
+  32  Bodo_saltans_mito_2                        37.85%    passed      5.76%
+  33  Caldiarchaeum_subterraneum_1               47.38%    passed     44.36%
+  34  Caldiarchaeum_subterraneum_2                4.77%    failed      3.24%
+  35  Caldisericum_exile_1                       51.38%    failed      0.03%
+  36  Caldisericum_exile_2                       36.67%    failed      0.06%
+  37  Caldithrix_abyssi_1                        14.16%    passed     17.65%
+  38  Caldithrix_abyssi_2                        11.19%    passed     22.52%
+  39  Caldivirga_maquilingensis_1                11.19%    failed      0.57%
+  40  Caldivirga_maquilingensis_2                21.55%    failed      0.86%
+  41  Campylobacter_jejuni_1                     63.81%    passed     10.58%
+  42  Campylobacter_jejuni_2                     28.11%    failed      0.69%
+  43  Cenarchaeum_symbiosum_1                    32.53%    passed     28.08%
+  44  Cenarchaeum_symbiosum_2                     7.46%    failed      0.40%
+  45  Chlamydia_trachomatis_1                    68.51%    passed     65.75%
+  46  Chlamydia_trachomatis_2                    53.45%    failed      0.58%
+  47  Chlamydomonas_reinhardtii_1                63.67%    passed     76.50%
+  48  Chlamydomonas_reinhardtii_chloro_1         89.09%    failed      2.81%
+  49  Chlamydomonas_reinhardtii_chloro_2         65.33%    failed      0.17%
+  50  Chlamydomonas_reinhardtii_mito_2           50.00%    passed     14.56%
+  51  Chlorobium_phaeovibrioides_1               14.36%    passed     82.05%
+  52  Chlorobium_phaeovibrioides_2               11.33%    passed     36.35%
+  53  Chloroflexus_1                             63.33%    failed      0.76%
+  54  Chloroflexus_2                             27.90%    failed      2.58%
+  55  Chlorogloeopsis_fritschii_1                14.16%    passed      8.17%
+  56  Chlorogloeopsis_fritschii_2                11.12%    passed     80.57%
+  57  Chondrus_crispus_1                         63.19%    passed     34.84%
+  58  Chondrus_crispus_2                         56.77%    passed     10.77%
+  59  Chondrus_crispus_chloro_2                  43.92%    passed     95.79%
+  60  Chondrus_crispus_mito_2                    38.95%    passed     64.47%
+  61  Chthonomonas_calidirosea_2                 11.05%    failed      4.94%
+  62  Cloacimonas_acidaminovorans_1              72.31%    passed     12.22%
+  63  Cloacimonas_acidaminovorans_2              72.31%    passed     21.76%
+  64  Clostridium_acetobutylicum_1               63.33%    passed      7.85%
+  65  Clostridium_acetobutylicum_2               27.90%    passed     24.79%
+  66  Cyanidioschyzon_merolae_1                  11.12%    failed      0.00%
+  67  Cyanidioschyzon_merolae_2                  40.12%    failed      0.04%
+  68  Cyanidioschyzon_merolae_chloro_1           74.24%    failed      0.64%
+  69  Cyanidioschyzon_merolae_chloro_2           22.38%    passed     37.09%
+  70  Cyanidioschyzon_merolae_mito_1             74.17%    failed      4.67%
+  71  Cyanidioschyzon_merolae_mito_2             38.74%    failed      0.02%
+  72  Cyanobium_gracile_1                        13.95%    failed      0.00%
+  73  Cyanobium_gracile_2                        11.12%    failed      0.00%
+  74  Cyanophora_paradoxa_1                      68.92%    passed     19.58%
+  75  Cyanophora_paradoxa_2                      84.60%    passed      5.74%
+  76  Cylindrospermopsis_raciborskii_1           14.02%    failed      3.05%
+  77  Cylindrospermopsis_raciborskii_2           11.19%    passed     37.49%
+  78  Desulfurispirillum_indicum_2               36.81%    passed     71.39%
+  79  Dictyoglomus_turgidum_1                    63.33%    passed     44.46%
+  80  Dictyoglomus_turgidum_2                    21.48%    passed      7.17%
+  81  Dictyostelium_discoideum_1                 63.33%    passed      8.02%
+  82  Dictyostelium_discoideum_2                 56.77%    failed      3.36%
+  83  Dictyostelium_discoideum_mito_1            89.02%    failed      0.00%
+  84  Dictyostelium_discoideum_mito_2            38.40%    passed     47.49%
+  85  Ectocarpus_siliculosus_1                   63.74%    passed     79.36%
+  86  Ectocarpus_siliculosus_2                   67.47%    passed     33.56%
+  87  Ectocarpus_siliculosus_chloro_1            89.09%    passed     83.17%
+  88  Ectocarpus_siliculosus_mito_2              38.67%    passed     41.51%
+  89  Elphidium_margaritaceum_1                  10.98%    passed      6.04%
+  90  Elphidium_margaritaceum_2                  50.76%    passed     33.40%
+  91  Elphidium_margaritaceum_mito_2             38.33%    failed      0.00%
+  92  Elusimicrobium_minutum_1                   30.66%    passed     16.50%
+  93  Elusimicrobium_minutum_2                   27.90%    passed     96.54%
+  94  Fibrobacter_succinogenes_1                 39.99%    failed      0.63%
+  95  Fibrobacter_succinogenes_2                 36.46%    passed     30.08%
+  96  Galdieria_sulphuraria_1                    54.28%    passed     24.61%
+  97  Galdieria_sulphuraria_2                    40.06%    passed      7.15%
+  98  Galdieria_sulphuraria_chloro_1             74.24%    failed      0.83%
+  99  Galdieria_sulphuraria_chloro_2             38.88%    passed     41.92%
+ 100  Galdieria_sulphuraria_mito_1               74.03%    passed     23.38%
+ 101  Galdieria_sulphuraria_mito_2               38.81%    passed     82.36%
+ 102  Gemmatimonas_aurantiaca_2                  11.05%    failed      0.34%
+ 103  Gloeobacter_violaceus_1                    14.16%    passed      9.17%
+ 104  Gloeobacter_violaceus_2                    11.19%    failed      0.62%
+ 105  Heimdallarchaeota_archaeon_AB_125_1        10.91%    failed      0.09%
+ 106  Heimdallarchaeota_archaeon_AB_125_2         4.77%    passed     67.02%
+ 107  Heimdallarchaeota_archaeon_LC_2_1          11.60%    passed      5.45%
+ 108  Heimdallarchaeota_archaeon_LC_2_2          44.41%    passed     16.72%
+ 109  Heimdallarchaeota_archaeon_LC_3_1          11.40%    failed      0.00%
+ 110  Heimdallarchaeota_archaeon_LC_3_2           4.49%    failed      0.00%
+ 111  Homo_sapiens_1                             63.60%    passed     43.49%
+ 112  Homo_sapiens_2                             67.68%    passed     17.47%
+ 113  Homo_sapiens_mito_1                        74.10%    passed      9.96%
+ 114  Homo_sapiens_mito_2                        39.92%    passed     59.92%
+ 115  Hydra_vulgaris_1                           46.96%    failed      2.68%
+ 116  Hydra_vulgaris_2                           50.90%    passed     15.60%
+ 117  Hydra_vulgaris_mito_1                      74.10%    passed     13.89%
+ 118  Hydra_vulgaris_mito_2                      38.88%    passed     57.65%
+ 119  Hyperthermus_butylicus_1                   11.26%    passed      7.71%
+ 120  Hyperthermus_butylicus_2                    4.63%    failed      0.00%
+ 121  Ignicoccus_hospitalis_1                    11.12%    failed      0.98%
+ 122  Ignicoccus_hospitalis_2                     4.56%    failed      0.00%
+ 123  Jidaibacter_acanthamoeba_1                 21.62%    failed      0.40%
+ 124  Jidaibacter_acanthamoeba_2                 46.62%    passed     20.16%
+ 125  Jonquetella_anthropi_1                     14.50%    failed      3.21%
+ 126  Jonquetella_anthropi_2                     11.40%    passed      5.72%
+ 127  Korarchaeum_cryptofilum_1                  63.60%    passed     68.20%
+ 128  Korarchaeum_cryptofilum_2                  21.82%    failed      0.10%
+ 129  Kosmotoga_olearia_1                        14.92%    passed      5.61%
+ 130  Kosmotoga_olearia_2                        11.26%    passed     36.59%
+ 131  Latescibacteria_bacterium_1                24.52%    passed     31.67%
+ 132  Latescibacteria_bacterium_2                29.63%    passed     69.88%
+ 133  Leishmania_major_1                         72.24%    passed     37.45%
+ 134  Leishmania_major_2                         39.99%    failed      1.00%
+ 135  Leishmania_major_mito_2                    38.54%    passed     21.85%
+ 136  Lentisphaera_araneosa_1                    14.43%    passed     39.19%
+ 137  Lentisphaera_araneosa_2                    72.31%    passed     33.81%
+ 138  Leptolyngbya_valderiana_1                  46.62%    failed      3.56%
+ 139  Limulus_polyphemus_1                       66.71%    failed      1.56%
+ 140  Limulus_polyphemus_2                       50.97%    passed     21.64%
+ 141  Limulus_polyphemus_mito_1                  75.97%    passed     26.81%
+ 142  Limulus_polyphemus_mito_2                  40.12%    passed     55.88%
+ 143  Lokiarchaeum_sp._GC14_75_1                 70.10%    failed      0.01%
+ 144  Lokiarchaeum_sp._GC14_75_2                 67.61%    failed      0.17%
+ 145  Melainabacteria_bacterium_1                41.23%    passed      7.92%
+ 146  Melainabacteria_bacterium_2                11.26%    passed     28.95%
+ 147  Methanocaldococcus_jannaschii_1            63.81%    passed     62.90%
+ 148  Methanocaldococcus_jannaschii_2            22.24%    failed      0.21%
+ 149  Methanomassiliicoccus_luminyensis_1        11.67%    passed     96.02%
+ 150  Methanomassiliicoccus_luminyensis_2         4.97%    passed     71.70%
+ 151  Methanopyrus_kandleri_1                    11.40%    failed      0.00%
+ 152  Methanopyrus_kandleri_2                     5.04%    failed      0.00%
+ 153  Methanosarcina_mazei_1                     11.53%    passed     97.85%
+ 154  Methanosarcina_mazei_2                      6.98%    passed     74.33%
+ 155  Methanothermobacter_thermautotrophicus_1   11.53%    failed      0.10%
+ 156  Methanothermobacter_thermautotrophicus_2    5.18%    passed      8.72%
+ 157  Nitrosoarchaeum_limnia_1                   47.03%    failed      1.52%
+ 158  Nitrosoarchaeum_limnia_2                    4.83%    failed      0.06%
+ 159  Nitrosopumilus_maritimus_1                 63.74%    passed     81.41%
+ 160  Nitrosopumilus_maritimus_2                 21.69%    failed      0.48%
+ 161  Odinarchaeota_archaeon_LCB_4_1             11.60%    failed      1.26%
+ 162  Odinarchaeota_archaeon_LCB_4_2              4.56%    failed      0.00%
+ 163  Oryza_sativa_1                             57.87%    passed     57.05%
+ 164  Oryza_sativa_2                             40.06%    failed      1.73%
+ 165  Oryza_sativa_chloro_1                      74.24%    failed      0.14%
+ 166  Oryza_sativa_chloro_2                      57.80%    passed     23.49%
+ 167  Oryza_sativa_mito_2                        39.02%    passed     42.17%
+ 168  Oscillochloris_trichoides_1                22.03%    passed      8.95%
+ 169  Oscillochloris_trichoides_2                11.26%    passed     26.57%
+ 170  Paramecium_tetraurelia_1                   62.98%    passed     13.97%
+ 171  Paramecium_tetraurelia_2                   89.09%    failed      0.00%
+ 172  Physcomitrella_patens_1                    46.96%    passed     32.99%
+ 173  Physcomitrella_patens_2                    52.00%    passed     85.78%
+ 174  Physcomitrella_patens_chloro_1             74.24%    failed      0.72%
+ 175  Physcomitrella_patens_chloro_2             22.44%    passed     49.43%
+ 176  Physcomitrella_patens_mito_1               73.96%    failed      4.26%
+ 177  Physcomitrella_patens_mito_2               38.88%    passed     28.85%
+ 178  Phytophthora_ramorum_mito_1                73.96%    passed     31.84%
+ 179  Polysphondylium_pallidum_1                 11.12%    failed      4.93%
+ 180  Polysphondylium_pallidum_2                 40.06%    passed      8.05%
+ 181  Polysphondylium_pallidum_mito_1            89.02%    passed      5.26%
+ 182  Polysphondylium_pallidum_mito_2            38.19%    passed     60.22%
+ 183  Pseudanabaena_biceps_1                     46.55%    failed      1.40%
+ 184  Pseudanabaena_biceps_2                     11.19%    passed     86.72%
+ 185  Pyrobaculum_aerophilum_1                   63.47%    passed     61.23%
+ 186  Pyrobaculum_aerophilum_2                   21.27%    failed      0.06%
+ 187  Pyrococcus_furiosus_1                      63.67%    passed     45.42%
+ 188  Pyrococcus_furiosus_2                      21.62%    failed      0.16%
+ 189  Reticulomyxa_filosa_1                      62.22%    passed      8.02%
+ 190  Reticulomyxa_filosa_2                      50.97%    passed     37.88%
+ 191  Reticulomyxa_filosa_mito_2                 75.14%    failed      0.33%
+ 192  Rhodopirellula_baltica_1                   63.33%    passed     38.09%
+ 193  Rhodopirellula_baltica_2                   27.62%    failed      4.12%
+ 194  Rhodopseudomonas_palustris_1               63.05%    passed     39.80%
+ 195  Rhodopseudomonas_palustris_2               27.76%    passed     17.13%
+ 196  Rickettsia_bellii_1                        41.16%    failed      0.24%
+ 197  Rickettsia_bellii_2                        46.55%    passed     10.75%
+ 198  Roseobacter_litoralis_1                    13.05%    failed      1.00%
+ 199  Roseobacter_litoralis_2                    11.19%    passed     19.21%
+ 200  Saccharomyces_cerevisiae_1                 62.98%    passed     51.40%
+ 201  Saccharomyces_cerevisiae_2                 67.68%    passed     46.10%
+ 202  Saccharomyces_cerevisiae_mito_2            38.60%    passed     87.56%
+ 203  Sphingopyxis_alaskensis_1                  12.91%    failed      0.01%
+ 204  Sphingopyxis_alaskensis_2                  10.91%    failed      0.18%
+ 205  Staphylothermus_marinus_1                  11.60%    failed      0.01%
+ 206  Staphylothermus_marinus_2                   4.97%    failed      0.03%
+ 207  Sulfolobus_solfataricus_1                  74.65%    passed     39.05%
+ 208  Synechocystis_sp._PCC_6803_1               63.33%    failed      4.62%
+ 209  Synechocystis_sp._PCC_6803_2               27.97%    passed     56.94%
+ 210  Thalassiosira_pseudonana_1                 46.27%    passed      6.90%
+ 211  Thalassiosira_pseudonana_2                 50.83%    passed     38.92%
+ 212  Thalassiosira_pseudonana_chloro_1          63.67%    passed     14.78%
+ 213  Thalassiosira_pseudonana_chloro_2          49.03%    passed     70.44%
+ 214  Thalassiosira_pseudonana_mito_1            74.10%    passed     15.71%
+ 215  Thalassiosira_pseudonana_mito_2            38.33%    passed     49.12%
+ 216  Thermodesulfatator_indicus_1               13.74%    passed     39.69%
+ 217  Thermodesulfatator_indicus_2               11.26%    passed     30.05%
+ 218  Thermodesulfovibrio_islandicus_1           13.88%    passed     17.49%
+ 219  Thermodesulfovibrio_islandicus_2           11.33%    passed     16.57%
+ 220  Thermofilum_pendens_1                      11.53%    failed      0.06%
+ 221  Thermofilum_pendens_2                       4.97%    failed      0.00%
+ 222  Thermoplasma_volcanium_1                   12.91%    failed      0.02%
+ 223  Thermoplasma_volcanium_2                    5.25%    failed      0.01%
+ 224  Thorarchaeota_archaeon_AB_25_1             11.05%    passed     70.86%
+ 225  Thorarchaeota_archaeon_AB_25_2              5.46%    passed     57.65%
+ 226  Thorarchaeota_archaeon_SMTZ1-45_1          74.31%    passed     24.14%
+ 227  Thorarchaeota_archaeon_SMTZ1-45_2          64.43%    passed     15.86%
+ 228  Thorarchaeota_archaeon_SMTZ1-83_1          89.09%    passed     26.92%
+ 229  Thorarchaeota_archaeon_SMTZ1-83_2          56.91%    passed     32.92%
+ 230  Verrucomicrobium_spinosum_1                15.33%    passed     31.88%
+ 231  Volvox_carteri_1                           46.89%    passed     76.99%
+ 232  Volvox_carteri_2                           50.97%    passed     53.47%
+ 233  Volvox_carteri_chloro_1                    63.26%    passed     13.10%
+ 234  Volvox_carteri_chloro_2                    48.76%    passed     26.16%
+ 235  Volvox_carteri_mito_1                      73.96%    failed      2.34%
+ 236  Volvox_carteri_mito_2                      38.26%    failed      4.89%
+WARNING: 88 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      40.07%  85 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading constraint tree LUCAdup_topo.tree...
+WARNING: Rooted constraint tree will be treated as unrooted tree
+Checking for duplicate sequences: done in 0.00895619 secs using 458.3% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+3.037 seconds, parsimony score: 0 (based on 1407 sites)
+Model LG+C20+F+G is alias for LG+POISSON+G+FMIX{C20pi1:1:0.0559910600,C20pi2:1:0.0514824870,C20pi3:1:0.0812922124,C20pi4:1:0.0721976867,C20pi5:1:0.0556718858,C20pi6:1:0.0331003080,C20pi7:1:0.0589501763,C20pi8:1:0.0263756889,C20pi9:1:0.0307584220,C20pi10:1:0.0376701125,C20pi11:1:0.0303058290,C20pi12:1:0.0808775576,C20pi13:1:0.0263349134,C20pi14:1:0.0579101455,C20pi15:1:0.0371248064,C20pi16:1:0.0586867766,C20pi17:1:0.0561479138,C20pi18:1:0.0349810886,C20pi19:1:0.0544937394,C20pi20:1:0.0596471901}+F+G
+
+NOTE: 4484 MB RAM (4 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+2 trees examined
+Threads: 1 / Time: 77.553 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -235293
+Threads: 2 / Time: 66.095 sec / Speedup: 1.173 / Efficiency: 59% / LogL: -235293
+Threads: 3 / Time: 55.549 sec / Speedup: 1.396 / Efficiency: 47% / LogL: -235293
+Determining AUTO threadcount: done in 199.308 secs using 181.3% CPU
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -242128.663
+2. Current log-likelihood: -233454.556
+3. Current log-likelihood: -233118.348
+4. Current log-likelihood: -233097.051
+5. Current log-likelihood: -233088.918
+6. Current log-likelihood: -233085.989
+7. Current log-likelihood: -233085.205
+8. Current log-likelihood: -233085.062
+9. Current log-likelihood: -233084.953
+Optimal log-likelihood: -233084.840
+Mixture weights: 0.348 0.022 0.067 0.009 0.013 0.008 0.030 0.022 0.134 0.039 0.015 0.038 0.023 0.083 0.021 0.012 0.012 0.041 0.051 0.013 0.000
+Gamma shape alpha: 1.222
+Parameters optimization took 9 rounds (1138.636 sec)
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
+13.189 second
+Current best score: -233084.840
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 0.0754311 secs using 193% CPU
+Finish initializing candidate tree set (1)
+Current best tree score: -233084.840 / CPU time: 28.558
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.0539031 secs using 181% CPU
+Optimizing NNI: done in 0.0557659 secs using 181.7% CPU
+Optimizing NNI: done in 0.0509539 secs using 193% CPU
+Optimizing NNI: done in 0.0816021 secs using 186% CPU
+Optimizing NNI: done in 0.0739779 secs using 199.9% CPU
+Optimizing NNI: done in 0.0725381 secs using 207.5% CPU
+Optimizing NNI: done in 0.085618 secs using 185.7% CPU
+Optimizing NNI: done in 0.115231 secs using 197.9% CPU
+Optimizing NNI: done in 0.0997279 secs using 191.6% CPU
+Iteration 10 / LogL: -233084.840 / Time: 0h:24m:10s
+Optimizing NNI: done in 0.109163 secs using 201.4% CPU
+Optimizing NNI: done in 0.111397 secs using 199.2% CPU
+Optimizing NNI: done in 0.0595219 secs using 196.8% CPU
+Optimizing NNI: done in 0.0509751 secs using 201.3% CPU
+Optimizing NNI: done in 0.0409789 secs using 193.7% CPU
+Optimizing NNI: done in 0.0948439 secs using 201.1% CPU
+Optimizing NNI: done in 0.0355742 secs using 197.4% CPU
+Optimizing NNI: done in 0.111391 secs using 198.7% CPU
+Optimizing NNI: done in 0.115525 secs using 199.6% CPU
+Optimizing NNI: done in 0.0419531 secs using 199.5% CPU
+Iteration 20 / LogL: -233084.840 / Time: 0h:25m:50s
+Optimizing NNI: done in 0.0856929 secs using 189.5% CPU
+Optimizing NNI: done in 0.047611 secs using 199% CPU
+Optimizing NNI: done in 0.111913 secs using 171.9% CPU
+Optimizing NNI: done in 0.0970261 secs using 201.4% CPU
+Optimizing NNI: done in 0.111968 secs using 201.3% CPU
+Optimizing NNI: done in 0.0563591 secs using 201.5% CPU
+Optimizing NNI: done in 0.0495899 secs using 186.4% CPU
+Optimizing NNI: done in 0.171318 secs using 184.4% CPU
+Optimizing NNI: done in 0.0526299 secs using 198.5% CPU
+Optimizing NNI: done in 0.0709779 secs using 185.8% CPU
+Iteration 30 / LogL: -233084.840 / Time: 0h:27m:9s (1h:5m:25s left)
+Optimizing NNI: done in 0.0750821 secs using 203.5% CPU
+Optimizing NNI: done in 0.083761 secs using 201.8% CPU
+Optimizing NNI: done in 0.143791 secs using 200% CPU
+Optimizing NNI: done in 0.0687969 secs using 187.1% CPU
+Optimizing NNI: done in 0.111663 secs using 191.6% CPU
+Optimizing NNI: done in 0.0490038 secs using 211.8% CPU
+Optimizing NNI: done in 0.08886 secs using 210.4% CPU
+Optimizing NNI: done in 0.093909 secs using 194% CPU
+Optimizing NNI: done in 0.0547979 secs using 183.8% CPU
+Optimizing NNI: done in 0.063765 secs using 193.5% CPU
+Iteration 40 / LogL: -233084.840 / Time: 0h:28m:19s (0h:43m:29s left)
+Optimizing NNI: done in 0.119505 secs using 192.1% CPU
+Optimizing NNI: done in 0.064471 secs using 201.5% CPU
+Optimizing NNI: done in 0.0770259 secs using 188.9% CPU
+Optimizing NNI: done in 0.055793 secs using 199.5% CPU
+Optimizing NNI: done in 0.08481 secs using 197.5% CPU
+Optimizing NNI: done in 0.101243 secs using 191.7% CPU
+Optimizing NNI: done in 0.107764 secs using 179% CPU
+Optimizing NNI: done in 0.0574141 secs using 198.8% CPU
+Optimizing NNI: done in 0.0584149 secs using 195.3% CPU
+Optimizing NNI: done in 0.070945 secs using 198.3% CPU
+Iteration 50 / LogL: -233084.840 / Time: 0h:29m:36s (0h:30m:9s left)
+Optimizing NNI: done in 0.096318 secs using 178.5% CPU
+Optimizing NNI: done in 0.088768 secs using 198.2% CPU
+Optimizing NNI: done in 0.141781 secs using 190% CPU
+Optimizing NNI: done in 0.063915 secs using 199.8% CPU
+Optimizing NNI: done in 0.07902 secs using 200% CPU
+Optimizing NNI: done in 0.0965221 secs using 191.4% CPU
+Optimizing NNI: done in 0.0617781 secs using 200.4% CPU
+Optimizing NNI: done in 0.0953081 secs using 201.8% CPU
+Optimizing NNI: done in 0.079514 secs using 185.5% CPU
+Optimizing NNI: done in 0.109791 secs using 200.5% CPU
+Iteration 60 / LogL: -233084.840 / Time: 0h:31m:13s (0h:21m:7s left)
+Optimizing NNI: done in 0.0722899 secs using 207.3% CPU
+Optimizing NNI: done in 0.077153 secs using 196% CPU
+Optimizing NNI: done in 0.052124 secs using 202.6% CPU
+Optimizing NNI: done in 0.0784962 secs using 197.9% CPU
+Optimizing NNI: done in 0.0635769 secs using 185.7% CPU
+Optimizing NNI: done in 0.0540361 secs using 199.2% CPU
+Optimizing NNI: done in 0.0680299 secs using 190.9% CPU
+Optimizing NNI: done in 0.0695391 secs using 194.2% CPU
+Optimizing NNI: done in 0.0364511 secs using 198.4% CPU
+Optimizing NNI: done in 0.0664809 secs using 204.5% CPU
+Iteration 70 / LogL: -233084.840 / Time: 0h:32m:20s (0h:14m:2s left)
+Optimizing NNI: done in 0.024508 secs using 189.3% CPU
+Optimizing NNI: done in 0.0453351 secs using 204.8% CPU
+Optimizing NNI: done in 0.049253 secs using 197.9% CPU
+Optimizing NNI: done in 0.0550461 secs using 209% CPU
+Optimizing NNI: done in 0.0485401 secs using 202.1% CPU
+Optimizing NNI: done in 0.0380969 secs using 209.5% CPU
+Optimizing NNI: done in 0.0594769 secs using 196.8% CPU
+Optimizing NNI: done in 0.0658638 secs using 201.2% CPU
+Optimizing NNI: done in 0.058939 secs using 194.7% CPU
+Optimizing NNI: done in 0.042094 secs using 199.9% CPU
+Iteration 80 / LogL: -233084.840 / Time: 0h:33m:8s (0h:8m:22s left)
+Optimizing NNI: done in 0.0655789 secs using 200.4% CPU
+Optimizing NNI: done in 0.0312109 secs using 198.8% CPU
+Optimizing NNI: done in 0.0546041 secs using 201.6% CPU
+Optimizing NNI: done in 0.059839 secs using 184.5% CPU
+Optimizing NNI: done in 0.055294 secs using 199.2% CPU
+Optimizing NNI: done in 0.0461709 secs using 182.4% CPU
+Optimizing NNI: done in 0.0635021 secs using 190.2% CPU
+Optimizing NNI: done in 0.0638399 secs using 197.4% CPU
+Optimizing NNI: done in 0.065259 secs using 201.8% CPU
+Optimizing NNI: done in 0.0671928 secs using 201.3% CPU
+Iteration 90 / LogL: -233084.840 / Time: 0h:34m:5s (0h:3m:49s left)
+Optimizing NNI: done in 0.041281 secs using 173.4% CPU
+Optimizing NNI: done in 0.054379 secs using 200.8% CPU
+Optimizing NNI: done in 0.098242 secs using 206.1% CPU
+Optimizing NNI: done in 0.073647 secs using 198% CPU
+Optimizing NNI: done in 0.0760789 secs using 199.7% CPU
+Optimizing NNI: done in 0.0666289 secs using 174.5% CPU
+Optimizing NNI: done in 0.100273 secs using 181.2% CPU
+Optimizing NNI: done in 0.105831 secs using 189.7% CPU
+Optimizing NNI: done in 0.0672281 secs using 199.7% CPU
+Optimizing NNI: done in 0.122987 secs using 189.6% CPU
+Iteration 100 / LogL: -233084.840 / Time: 0h:35m:6s (0h:0m:0s left)
+Optimizing NNI: done in 0.061245 secs using 184.5% CPU
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:35m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -233084.840
+2. Current log-likelihood: -233084.763
+3. Current log-likelihood: -233084.706
+4. Current log-likelihood: -233084.652
+5. Current log-likelihood: -233084.601
+6. Current log-likelihood: -233084.551
+7. Current log-likelihood: -233084.503
+8. Current log-likelihood: -233084.455
+9. Current log-likelihood: -233084.409
+10. Current log-likelihood: -233084.364
+11. Current log-likelihood: -233084.319
+12. Current log-likelihood: -233084.276
+13. Current log-likelihood: -233084.233
+14. Current log-likelihood: -233084.191
+15. Current log-likelihood: -233084.149
+16. Current log-likelihood: -233084.109
+17. Current log-likelihood: -233084.069
+18. Current log-likelihood: -233084.029
+19. Current log-likelihood: -233083.991
+20. Current log-likelihood: -233083.953
+21. Current log-likelihood: -233083.915
+22. Current log-likelihood: -233083.879
+23. Current log-likelihood: -233083.842
+24. Current log-likelihood: -233083.807
+25. Current log-likelihood: -233083.772
+26. Current log-likelihood: -233083.737
+27. Current log-likelihood: -233083.703
+28. Current log-likelihood: -233083.670
+29. Current log-likelihood: -233083.637
+30. Current log-likelihood: -233083.604
+31. Current log-likelihood: -233083.572
+32. Current log-likelihood: -233083.541
+33. Current log-likelihood: -233083.510
+34. Current log-likelihood: -233083.479
+35. Current log-likelihood: -233083.449
+36. Current log-likelihood: -233083.420
+37. Current log-likelihood: -233083.390
+38. Current log-likelihood: -233083.362
+39. Current log-likelihood: -233083.333
+40. Current log-likelihood: -233083.305
+41. Current log-likelihood: -233083.278
+42. Current log-likelihood: -233083.251
+43. Current log-likelihood: -233083.224
+44. Current log-likelihood: -233083.198
+45. Current log-likelihood: -233083.172
+46. Current log-likelihood: -233083.146
+47. Current log-likelihood: -233083.121
+48. Current log-likelihood: -233083.096
+49. Current log-likelihood: -233083.072
+50. Current log-likelihood: -233083.048
+51. Current log-likelihood: -233083.024
+52. Current log-likelihood: -233083.001
+53. Current log-likelihood: -233082.978
+54. Current log-likelihood: -233082.955
+55. Current log-likelihood: -233082.933
+56. Current log-likelihood: -233082.910
+57. Current log-likelihood: -233082.888
+58. Current log-likelihood: -233082.867
+59. Current log-likelihood: -233082.845
+60. Current log-likelihood: -233082.825
+61. Current log-likelihood: -233082.804
+62. Current log-likelihood: -233082.784
+63. Current log-likelihood: -233082.763
+64. Current log-likelihood: -233082.744
+65. Current log-likelihood: -233082.724
+66. Current log-likelihood: -233082.705
+67. Current log-likelihood: -233082.686
+68. Current log-likelihood: -233082.667
+69. Current log-likelihood: -233082.648
+70. Current log-likelihood: -233082.630
+71. Current log-likelihood: -233082.612
+72. Current log-likelihood: -233082.594
+73. Current log-likelihood: -233082.577
+74. Current log-likelihood: -233082.559
+75. Current log-likelihood: -233082.542
+76. Current log-likelihood: -233082.525
+77. Current log-likelihood: -233082.509
+78. Current log-likelihood: -233082.492
+79. Current log-likelihood: -233082.476
+80. Current log-likelihood: -233082.460
+81. Current log-likelihood: -233082.444
+82. Current log-likelihood: -233082.428
+83. Current log-likelihood: -233082.413
+84. Current log-likelihood: -233082.398
+85. Current log-likelihood: -233082.383
+86. Current log-likelihood: -233082.368
+87. Current log-likelihood: -233082.353
+88. Current log-likelihood: -233082.339
+89. Current log-likelihood: -233082.324
+90. Current log-likelihood: -233082.310
+91. Current log-likelihood: -233082.296
+92. Current log-likelihood: -233082.283
+93. Current log-likelihood: -233082.269
+94. Current log-likelihood: -233082.256
+95. Current log-likelihood: -233082.242
+96. Current log-likelihood: -233082.229
+97. Current log-likelihood: -233082.216
+98. Current log-likelihood: -233082.203
+99. Current log-likelihood: -233082.191
+100. Current log-likelihood: -233082.178
+101. Current log-likelihood: -233082.166
+102. Current log-likelihood: -233082.154
+103. Current log-likelihood: -233082.142
+104. Current log-likelihood: -233082.130
+105. Current log-likelihood: -233082.118
+106. Current log-likelihood: -233082.107
+107. Current log-likelihood: -233082.095
+108. Current log-likelihood: -233082.084
+109. Current log-likelihood: -233082.073
+110. Current log-likelihood: -233082.062
+111. Current log-likelihood: -233082.051
+112. Current log-likelihood: -233082.040
+113. Current log-likelihood: -233082.029
+114. Current log-likelihood: -233082.018
+115. Current log-likelihood: -233082.008
+116. Current log-likelihood: -233081.998
+117. Current log-likelihood: -233081.987
+118. Current log-likelihood: -233081.977
+Optimal log-likelihood: -233081.967
+Mixture weights: 0.347 0.022 0.067 0.011 0.013 0.010 0.031 0.021 0.133 0.039 0.017 0.037 0.026 0.082 0.022 0.013 0.012 0.039 0.049 0.010 0.000
+Gamma shape alpha: 1.225
+Parameters optimization took 118 rounds (8214.071 sec)
+BEST SCORE FOUND : -233081.967
+Total tree length: 106.851
+
+Total number of iterations: 101
+CPU time used for tree search: 1469.702 sec (0h:24m:29s)
+Wall-clock time used for tree search: 772.192 sec (0h:12m:52s)
+Total CPU time used: 20118.710 sec (5h:35m:18s)
+Total wall-clock time used: 10327.493 sec (2h:52m:7s)
+
+Analysis results written to: 
+  IQ-TREE report:                BLE_LUCA_DUP_NOEF.iqtree
+  Maximum-likelihood tree:       BLE_LUCA_DUP_NOEF.treefile
+  Screen log file:               BLE_LUCA_DUP_NOEF.log
+
+Date and Time: Thu Feb 29 18:11:06 2024

@@ -1,0 +1,1011 @@
+Job starts: Thu Feb 29 11:44:22 GMT 2024
+The analyses will take place in directory /data/scratch/btx126/LUCAdup_indgenes/MCMCtree_prior/5/CLK/4
+
+
+Running MCMCtree_prior for divergence times estimation ... ...
+MCMCTREE in paml version 4.10.7, June 2023
+
+Reading options from mcmctree_4_r5.ctl..
+
+Reading main tree.
+(((((Methanocaldococcus_jannaschii_1, (Methanopyrus_kandleri_1, Methanothermobacter_thermautotrophicus_1)), (Pyrococcus_furiosus_1, ((Korarchaeum_cryptofilum_1, ((Caldiarchaeum_subterraneum_1, (Cenarchaeum_symbiosum_1, (Nitrosoarchaeum_limnia_1, Nitrosopumilus_maritimus_1))), (((Aeropyrum_pernix_1, (Hyperthermus_butylicus_1, (Ignicoccus_hospitalis_1, Sulfolobus_solfataricus_1))), Staphylothermus_marinus_1), ((Caldivirga_maquilingensis_1, Pyrobaculum_aerophilum_1), Thermofilum_pendens_1)))), (((((((Agaricus_bisporus_1, Saccharomyces_cerevisiae_1), Batrachochytrium_dendrobatidis_1), (Amphimedon_queenslandica_1, ((Homo_sapiens_1, Limulus_polyphemus_1), Hydra_vulgaris_1))), (Dictyostelium_discoideum_1, Polysphondylium_pallidum_1)), (((((((Arabidopsis_thaliana_1, Oryza_sativa_1), Physcomitrella_patens_1), (Bathycoccus_prasinos_1, (Chlamydomonas_reinhardtii_1, Volvox_carteri_1))), Cyanophora_paradoxa_1), ((Chondrus_crispus_1, Galdieria_sulphuraria_1), Cyanidioschyzon_merolae_1)), (((Ectocarpus_siliculosus_1, Thalassiosira_pseudonana_1), Paramecium_tetraurelia_1), (Elphidium_margaritaceum_1, Reticulomyxa_filosa_1))), (Bodo_saltans_1, Leishmania_major_1))), (Heimdallarchaeota_archaeon_AB_125_1, (Heimdallarchaeota_archaeon_LC_2_1, Heimdallarchaeota_archaeon_LC_3_1))), (Lokiarchaeum_sp._GC14_75_1, (Odinarchaeota_archaeon_LCB_4_1, ((Thorarchaeota_archaeon_AB_25_1, Thorarchaeota_archaeon_SMTZ1-45_1), Thorarchaeota_archaeon_SMTZ1-83_1))))))), (((Archaeoglobus_fulgidus_1, Methanosarcina_mazei_1), (Haloarcula_marismortui_1, Thermoplasma_volcanium_1)), Methanomassiliicoccus_luminyensis_1)), (((Actinomadura_madurae_1, Clostridium_acetobutylicum_1), (((((((((Arabidopsis_thaliana_chloro_1, Oryza_sativa_chloro_1), Physcomitrella_patens_chloro_1), (Bathycoccus_prasinos_chloro_1, (Chlamydomonas_reinhardtii_chloro_1, Volvox_carteri_chloro_1))), ((Chondrus_crispus_chloro_1, (Ectocarpus_siliculosus_chloro_1, Thalassiosira_pseudonana_chloro_1)), (Cyanidioschyzon_merolae_chloro_1, Galdieria_sulphuraria_chloro_1))), (((Chlorogloeopsis_fritschii_1, Cylindrospermopsis_raciborskii_1), Pseudanabaena_biceps_1), (Leptolyngbya_valderiana_1, Synechocystis_sp._PCC_6803_1))), Cyanobium_gracile_1), Gloeobacter_violaceus_1), Melainabacteria_bacterium_1), (Chloroflexus_1, Oscillochloris_trichoides_1))), ((((((Agaricus_bisporus_mito_1, Batrachochytrium_dendrobatidis_mito_1), (Amphimedon_queenslandica_mito_1, ((Homo_sapiens_mito_1, Limulus_polyphemus_mito_1), Hydra_vulgaris_mito_1))), (Dictyostelium_discoideum_mito_1, Polysphondylium_pallidum_mito_1)), (((((Arabidopsis_thaliana_mito_1, Oryza_sativa_mito_1), Physcomitrella_patens_mito_1), (Bathycoccus_prasinos_mito_1, (Chlamydomonas_reinhardtii_mito_1, Volvox_carteri_mito_1))), (Cyanidioschyzon_merolae_mito_1, Galdieria_sulphuraria_mito_1)), (Phytophthora_ramorum_mito_1, Thalassiosira_pseudonana_mito_1))), ((Jidaibacter_acanthamoeba_1, Rickettsia_bellii_1), ((Rhodopseudomonas_palustris_1, Roseobacter_litoralis_1), Sphingopyxis_alaskensis_1))), (Chlamydia_trachomatis_1, (Latescibacteria_bacterium_1, ((((Caldisericum_exile_1, Dictyoglomus_turgidum_1), Kosmotoga_olearia_1), (((Caldithrix_abyssi_1, Chlorobium_phaeovibrioides_1), ((Campylobacter_jejuni_1, Verrucomicrobium_spinosum_1), (((Cloacimonas_acidaminovorans_1, Fibrobacter_succinogenes_1), Lentisphaera_araneosa_1), Rhodopirellula_baltica_1))), (Elusimicrobium_minutum_1, Jonquetella_anthropi_1))), (Acidobacterium_capsulatum_1, (Aquifex_aeolicus_1, (Thermodesulfatator_indicus_1, Thermodesulfovibrio_islandicus_1))))))))), ((((((((Acidobacterium_capsulatum_2, ((Campylobacter_jejuni_2, Desulfurispirillum_indicum_2), (Thermodesulfatator_indicus_2, Thermodesulfovibrio_islandicus_2))), ((Caldisericum_exile_2, Dictyoglomus_turgidum_2), Kosmotoga_olearia_2)), ((Chlorobium_phaeovibrioides_2, (Cloacimonas_acidaminovorans_2, Elusimicrobium_minutum_2)), Latescibacteria_bacterium_2)), (Chlamydia_trachomatis_2, (Chthonomonas_calidirosea_2, ((Fibrobacter_succinogenes_2, Treponema_pallidum_2), Rhodopirellula_baltica_2)))), ((Caldithrix_abyssi_2, Lentisphaera_araneosa_2), Jonquetella_anthropi_2)), (((((((Agaricus_bisporus_mito_2, Saccharomyces_cerevisiae_mito_2), Batrachochytrium_dendrobatidis_mito_2), (Amphimedon_queenslandica_mito_2, ((Homo_sapiens_mito_2, Limulus_polyphemus_mito_2), Hydra_vulgaris_mito_2))), (Dictyostelium_discoideum_mito_2, Polysphondylium_pallidum_mito_2)), (((((Arabidopsis_thaliana_mito_2, Oryza_sativa_mito_2), Physcomitrella_patens_mito_2), (Bathycoccus_prasinos_mito_2, (Chlamydomonas_reinhardtii_mito_2, Volvox_carteri_mito_2))), (Chondrus_crispus_mito_2, (Cyanidioschyzon_merolae_mito_2, Galdieria_sulphuraria_mito_2))), (Ectocarpus_siliculosus_mito_2, Thalassiosira_pseudonana_mito_2))), ((Bodo_saltans_mito_2, Leishmania_major_mito_2), (Elphidium_margaritaceum_mito_2, Reticulomyxa_filosa_mito_2))), ((Jidaibacter_acanthamoeba_2, Rickettsia_bellii_2), ((Rhodopseudomonas_palustris_2, Roseobacter_litoralis_2), Sphingopyxis_alaskensis_2)))), (((Actinomadura_madurae_2, Gemmatimonas_aurantiaca_2), Clostridium_acetobutylicum_2), ((((((((Bathycoccus_prasinos_chloro_2, (Chlamydomonas_reinhardtii_chloro_2, Volvox_carteri_chloro_2)), (Oryza_sativa_chloro_2, Physcomitrella_patens_chloro_2)), (Cyanidioschyzon_merolae_chloro_2, ((Chondrus_crispus_chloro_2, Thalassiosira_pseudonana_chloro_2), Galdieria_sulphuraria_chloro_2))), (((Chlorogloeopsis_fritschii_2, Cylindrospermopsis_raciborskii_2), Pseudanabaena_biceps_2), Synechocystis_sp._PCC_6803_2)), Cyanobium_gracile_2), Gloeobacter_violaceus_2), Melainabacteria_bacterium_2), (Chloroflexus_2, Oscillochloris_trichoides_2)))), (((Methanocaldococcus_jannaschii_2, (Methanothermobacter_thermautotrophicus_2, Methanopyrus_kandleri_2)), (Pyrococcus_furiosus_2, ((Korarchaeum_cryptofilum_2, (((Staphylothermus_marinus_2, (Aeropyrum_pernix_2, (Ignicoccus_hospitalis_2, Hyperthermus_butylicus_2))), (Thermofilum_pendens_2, (Caldivirga_maquilingensis_2, Pyrobaculum_aerophilum_2))), (Caldiarchaeum_subterraneum_2, (Cenarchaeum_symbiosum_2, (Nitrosoarchaeum_limnia_2, Nitrosopumilus_maritimus_2))))), (((((((Agaricus_bisporus_2, Saccharomyces_cerevisiae_2), Batrachochytrium_dendrobatidis_2), (Amphimedon_queenslandica_2, ((Homo_sapiens_2, Limulus_polyphemus_2), Hydra_vulgaris_2))), (Dictyostelium_discoideum_2, Polysphondylium_pallidum_2)), (((((((Arabidopsis_thaliana_2, Oryza_sativa_2), Physcomitrella_patens_2), (Bathycoccus_prasinos_2, (Chlamydomonas_reinhardtii_2, Volvox_carteri_2))), Cyanophora_paradoxa_2), ((Chondrus_crispus_2, Galdieria_sulphuraria_2), Cyanidioschyzon_merolae_2)), (((Ectocarpus_siliculosus_2, Thalassiosira_pseudonana_2), Paramecium_tetraurelia_2), (Elphidium_margaritaceum_2, Reticulomyxa_filosa_2))), (Bodo_saltans_2, Leishmania_major_2))), ((Heimdallarchaeota_archaeon_LC_2_2, Heimdallarchaeota_archaeon_LC_3_2), Heimdallarchaeota_archaeon_AB_125_2)), (Lokiarchaeum_sp._GC14_75_2, (Odinarchaeota_archaeon_LCB_4_2, ((Thorarchaeota_archaeon_AB_25_2, Thorarchaeota_archaeon_SMTZ1-83_2), Thorarchaeota_archaeon_SMTZ1-45_2))))))), (Methanomassiliicoccus_luminyensis_2, ((Archaeoglobus_fulgidus_2, Methanosarcina_mazei_2), (Haloarcula_marismortui_2, Thermoplasma_volcanium_2))))));
+0   1  52  14  18  19  15  16  76  24  21  22  23  25  26   0   0   0  27  28  17   7  12  33  30   2  29  13   3  31  32  45  43   6  37  34   5   4  35  36  39  38  42  41  40  11  44  46  47  51  50  49  48  77   0  53  54  65  64  56  63  10   9  61  60   6  34   5   4  35  36  39   0  40   0  59  58  57   0  62  66  74   8  33  30   2  13   3  31  32  75   6  34   5   4  35  36  39   0   0  71  73  72  67   0   0   0  69  70   0   0   0   0   0   0   0   0   0   0   0  68   1  65  66  67   0   0   0   0   0   0  68  69  70   0   0   0   0   0   0   0   0   0  74   8   0  33  30   2  29  13   3  31  32  75   6  34   5   4  35  36  39   0  40   0  44  11   0  71  73  72  64  56   0  63  10   9  61  60   6  34  35  36   5  39   0   0  59  58  57  62  52  14  18  19  15  16  76  24  25  26   0   0  27  28  21  22  23  17   7  12  33  30   2  29  13   3  31  32  45  43   6  37  34   5   4  35  36  39  38  42  41  40  11  44  46  47  51  50  49  48  77   0  53  54
+node 247 is mirrored by node 367.
+node 248 is mirrored by node 437.
+node 249 is mirrored by node 438.
+node 250 is mirrored by node 439.
+node 251 is mirrored by node 440.
+node 252 is mirrored by node 441.
+node 253 is mirrored by node 442.
+node 254 is mirrored by node 443.
+node 255 is mirrored by node 444.
+node 256 is mirrored by node 451.
+node 257 is mirrored by node 452.
+node 258 is mirrored by node 453.
+node 259 is mirrored by node 445.
+node 260 is mirrored by node 446.
+node 264 is mirrored by node 449.
+node 265 is mirrored by node 450.
+node 266 is mirrored by node 454.
+node 267 is mirrored by node 455.
+node 268 is mirrored by node 456.
+node 269 is mirrored by node 329.
+node 269 is mirrored by node 392.
+node 269 is mirrored by node 457.
+node 270 is mirrored by node 330.
+node 270 is mirrored by node 393.
+node 270 is mirrored by node 458.
+node 271 is mirrored by node 331.
+node 271 is mirrored by node 394.
+node 271 is mirrored by node 459.
+node 272 is mirrored by node 395.
+node 272 is mirrored by node 460.
+node 273 is mirrored by node 332.
+node 273 is mirrored by node 396.
+node 273 is mirrored by node 461.
+node 274 is mirrored by node 333.
+node 274 is mirrored by node 397.
+node 274 is mirrored by node 462.
+node 275 is mirrored by node 334.
+node 275 is mirrored by node 398.
+node 275 is mirrored by node 463.
+node 276 is mirrored by node 335.
+node 276 is mirrored by node 399.
+node 276 is mirrored by node 464.
+node 277 is mirrored by node 465.
+node 278 is mirrored by node 466.
+node 279 is mirrored by node 311.
+node 279 is mirrored by node 337.
+node 279 is mirrored by node 401.
+node 279 is mirrored by node 425.
+node 279 is mirrored by node 467.
+node 280 is mirrored by node 468.
+node 281 is mirrored by node 312.
+node 281 is mirrored by node 338.
+node 281 is mirrored by node 402.
+node 281 is mirrored by node 426.
+node 281 is mirrored by node 469.
+node 282 is mirrored by node 313.
+node 282 is mirrored by node 339.
+node 282 is mirrored by node 403.
+node 282 is mirrored by node 429.
+node 282 is mirrored by node 470.
+node 283 is mirrored by node 314.
+node 283 is mirrored by node 340.
+node 283 is mirrored by node 404.
+node 283 is mirrored by node 471.
+node 284 is mirrored by node 315.
+node 284 is mirrored by node 341.
+node 284 is mirrored by node 405.
+node 284 is mirrored by node 427.
+node 284 is mirrored by node 472.
+node 285 is mirrored by node 316.
+node 285 is mirrored by node 342.
+node 285 is mirrored by node 406.
+node 285 is mirrored by node 428.
+node 285 is mirrored by node 473.
+node 286 is mirrored by node 317.
+node 286 is mirrored by node 343.
+node 286 is mirrored by node 407.
+node 286 is mirrored by node 430.
+node 286 is mirrored by node 474.
+node 287 is mirrored by node 475.
+node 288 is mirrored by node 476.
+node 289 is mirrored by node 477.
+node 290 is mirrored by node 319.
+node 290 is mirrored by node 409.
+node 290 is mirrored by node 478.
+node 291 is mirrored by node 412.
+node 291 is mirrored by node 479.
+node 292 is mirrored by node 411.
+node 292 is mirrored by node 480.
+node 293 is mirrored by node 481.
+node 294 is mirrored by node 482.
+node 295 is mirrored by node 483.
+node 296 is mirrored by node 484.
+node 297 is mirrored by node 485.
+node 298 is mirrored by node 486.
+node 299 is mirrored by node 487.
+node 301 is mirrored by node 489.
+node 302 is mirrored by node 490.
+node 303 is mirrored by node 368.
+node 304 is mirrored by node 417.
+node 305 is mirrored by node 418.
+node 306 is mirrored by node 420.
+node 307 is mirrored by node 421.
+node 308 is mirrored by node 422.
+node 309 is mirrored by node 423.
+node 310 is mirrored by node 424.
+node 321 is mirrored by node 433.
+node 322 is mirrored by node 434.
+node 323 is mirrored by node 435.
+node 325 is mirrored by node 436.
+node 326 is mirrored by node 369.
+node 327 is mirrored by node 389.
+node 328 is mirrored by node 390.
+node 336 is mirrored by node 400.
+node 346 is mirrored by node 414.
+node 347 is mirrored by node 415.
+node 348 is mirrored by node 416.
+node 349 is mirrored by node 370.
+node 353 is mirrored by node 378.
+node 354 is mirrored by node 379.
+node 366 is mirrored by node 377.
+0   1  52  14  18  19  15  16  76  24  21  22  23  25  26   0   0   0  27  28  17   7  12  33  30   2  29  13   3  31  32  45  43   6  37  34   5   4  35  36  39  38  42  41  40  11  44  46  47  51  50  49  48  77   0  53  54  65  64  56  63  10   9  61  60   0   0   0   0   0   0   0   0   0   0  59  58  57   0  62  66  74   8   0   0   0   0   0   0   0  75   0   0   0   0   0   0   0   0   0  71  73  72  67   0   0   0  69  70   0   0   0   0   0   0   0   0   0   0   0  68   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1   0   0   0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1   0  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 279 281 282 283 284 285 286   0 290   0  -1  -1  -1   0  -1  -1  -1  -1 269 270 271 273 274 275 276  -1 279 281 282 283 284 285 286   0   0  -1  -1  -1  -1   0   0   0  -1  -1   0   0   0   0   0   0   0   0   0   0   0  -1 247 303 326 349   0   0   0   0   0   0 366 353 354   0   0   0   0   0   0   0   0   0 327 328   0 269 270 271 272 273 274 275 276 336 279 281 282 283 284 285 286   0 290   0 292 291   0 346 347 348 304 305   0 306 307 308 309 310 279 281 284 285 282 286   0   0 321 322 323 325 248 249 250 251 252 253 254 255 259 260   0   0 264 265 256 257 258 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299   0 301 302
+
+duplication dating: 121 node ages are mirrored
+
+Reading sequence data..  1 loci
+
+
+*** Locus 1 ***
+ns = 246  	ls = 252
+Reading sequences, sequential format..
+Reading seq # 1: Caldisericum_exile_1       Reading seq # 2: Jonquetella_anthropi_1       Reading seq # 3: Pseudanabaena_biceps_1       Reading seq # 4: Leptolyngbya_valderiana_1       Reading seq # 5: Chlorogloeopsis_fritschii_1       Reading seq # 6: Cylindrospermopsis_raciborskii_1       Reading seq # 7: Cyanobium_gracile_1       Reading seq # 8: Gloeobacter_violaceus_1       Reading seq # 9: Sphingopyxis_alaskensis_1       Reading seq #10: Cloacimonas_acidaminovorans_1       Reading seq #11: Lentisphaera_araneosa_1       Reading seq #12: Actinomadura_madurae_1       Reading seq #13: Thermodesulfatator_indicus_1       Reading seq #14: Oscillochloris_trichoides_1       Reading seq #15: Verrucomicrobium_spinosum_1       Reading seq #16: Fibrobacter_succinogenes_1       Reading seq #17: Latescibacteria_bacterium_1       Reading seq #18: Jidaibacter_acanthamoeba_1       Reading seq #19: Aquifex_aeolicus_1       Reading seq #20: Acidobacterium_capsulatum_1       Reading seq #21: Roseobacter_litoralis_1       Reading seq #22: Kosmotoga_olearia_1       Reading seq #23: Thermodesulfovibrio_islandicus_1       Reading seq #24: Caldithrix_abyssi_1       Reading seq #25: Chlorobium_phaeovibrioides_1       Reading seq #26: Cyanidioschyzon_merolae_1       Reading seq #27: Bathycoccus_prasinos_1       Reading seq #28: Agaricus_bisporus_1       Reading seq #29: Bodo_saltans_1       Reading seq #30: Leishmania_major_1       Reading seq #31: Hydra_vulgaris_1       Reading seq #32: Limulus_polyphemus_1       Reading seq #33: Volvox_carteri_1       Reading seq #34: Galdieria_sulphuraria_1       Reading seq #35: Thalassiosira_pseudonana_1       Reading seq #36: Amphimedon_queenslandica_1       Reading seq #37: Batrachochytrium_dendrobatidis_1       Reading seq #38: Polysphondylium_pallidum_1       Reading seq #39: Elphidium_margaritaceum_1       Reading seq #40: Reticulomyxa_filosa_1       Reading seq #41: Oryza_sativa_1       Reading seq #42: Physcomitrella_patens_1       Reading seq #43: Caldiarchaeum_subterraneum_1       Reading seq #44: Heimdallarchaeota_archaeon_LC_2_1       Reading seq #45: Heimdallarchaeota_archaeon_LC_3_1       Reading seq #46: Thermofilum_pendens_1       Reading seq #47: Heimdallarchaeota_archaeon_AB_125_1       Reading seq #48: Caldivirga_maquilingensis_1       Reading seq #49: Thermoplasma_volcanium_1       Reading seq #50: Methanosarcina_mazei_1       Reading seq #51: Methanomassiliicoccus_luminyensis_1       Reading seq #52: Methanothermobacter_thermautotrophicus_1       Reading seq #53: Odinarchaeota_archaeon_LCB_4_1       Reading seq #54: Thorarchaeota_archaeon_AB_25_1       Reading seq #55: Methanopyrus_kandleri_1       Reading seq #56: Cenarchaeum_symbiosum_1       Reading seq #57: Nitrosoarchaeum_limnia_1       Reading seq #58: Staphylothermus_marinus_1       Reading seq #59: Hyperthermus_butylicus_1       Reading seq #60: Aeropyrum_pernix_1       Reading seq #61: Ignicoccus_hospitalis_1       Reading seq #62: Caldisericum_exile_2       Reading seq #63: Lentisphaera_araneosa_2       Reading seq #64: Melainabacteria_bacterium_2       Reading seq #65: Bathycoccus_prasinos_chloro_2       Reading seq #66: Cyanidioschyzon_merolae_chloro_2       Reading seq #67: Thalassiosira_pseudonana_chloro_2       Reading seq #68: Cyanobium_gracile_2       Reading seq #69: Gloeobacter_violaceus_2       Reading seq #70: Pseudanabaena_biceps_2       Reading seq #71: Chlorogloeopsis_fritschii_2       Reading seq #72: Cylindrospermopsis_raciborskii_2       Reading seq #73: Oryza_sativa_chloro_2       Reading seq #74: Physcomitrella_patens_chloro_2       Reading seq #75: Jonquetella_anthropi_2       Reading seq #76: Rickettsia_bellii_2       Reading seq #77: Jidaibacter_acanthamoeba_2       Reading seq #78: Roseobacter_litoralis_2       Reading seq #79: Sphingopyxis_alaskensis_2       Reading seq #80: Actinomadura_madurae_2       Reading seq #81: Gemmatimonas_aurantiaca_2       Reading seq #82: Chthonomonas_calidirosea_2       Reading seq #83: Oscillochloris_trichoides_2       Reading seq #84: Acidobacterium_capsulatum_2       Reading seq #85: Desulfurispirillum_indicum_2       Reading seq #86: Chlorobium_phaeovibrioides_2       Reading seq #87: Kosmotoga_olearia_2       Reading seq #88: Thermodesulfovibrio_islandicus_2       Reading seq #89: Latescibacteria_bacterium_2       Reading seq #90: Cloacimonas_acidaminovorans_2       Reading seq #91: Fibrobacter_succinogenes_2       Reading seq #92: Caldithrix_abyssi_2       Reading seq #93: Thermodesulfatator_indicus_2       Reading seq #94: Heimdallarchaeota_archaeon_AB_125_2       Reading seq #95: Heimdallarchaeota_archaeon_LC_2_2       Reading seq #96: Elphidium_margaritaceum_2       Reading seq #97: Reticulomyxa_filosa_2       Reading seq #98: Agaricus_bisporus_2       Reading seq #99: Bodo_saltans_2       Reading seq #100: Leishmania_major_2       Reading seq #101: Polysphondylium_pallidum_2       Reading seq #102: Thalassiosira_pseudonana_2       Reading seq #103: Batrachochytrium_dendrobatidis_2       Reading seq #104: Cyanidioschyzon_merolae_2       Reading seq #105: Bathycoccus_prasinos_2       Reading seq #106: Galdieria_sulphuraria_2       Reading seq #107: Amphimedon_queenslandica_2       Reading seq #108: Hydra_vulgaris_2       Reading seq #109: Limulus_polyphemus_2       Reading seq #110: Volvox_carteri_2       Reading seq #111: Cyanophora_paradoxa_2       Reading seq #112: Oryza_sativa_2       Reading seq #113: Physcomitrella_patens_2       Reading seq #114: Heimdallarchaeota_archaeon_LC_3_2       Reading seq #115: Cenarchaeum_symbiosum_2       Reading seq #116: Nitrosoarchaeum_limnia_2       Reading seq #117: Methanopyrus_kandleri_2       Reading seq #118: Thermofilum_pendens_2       Reading seq #119: Caldiarchaeum_subterraneum_2       Reading seq #120: Ignicoccus_hospitalis_2       Reading seq #121: Aeropyrum_pernix_2       Reading seq #122: Hyperthermus_butylicus_2       Reading seq #123: Staphylothermus_marinus_2       Reading seq #124: Thorarchaeota_archaeon_AB_25_2       Reading seq #125: Odinarchaeota_archaeon_LCB_4_2       Reading seq #126: Methanothermobacter_thermautotrophicus_2       Reading seq #127: Methanosarcina_mazei_2       Reading seq #128: Thermoplasma_volcanium_2       Reading seq #129: Methanomassiliicoccus_luminyensis_2       Reading seq #130: Agaricus_bisporus_mito_1       Reading seq #131: Agaricus_bisporus_mito_2       Reading seq #132: Amphimedon_queenslandica_mito_1       Reading seq #133: Amphimedon_queenslandica_mito_2       Reading seq #134: Arabidopsis_thaliana_1       Reading seq #135: Arabidopsis_thaliana_2       Reading seq #136: Arabidopsis_thaliana_chloro_1       Reading seq #137: Arabidopsis_thaliana_mito_1       Reading seq #138: Arabidopsis_thaliana_mito_2       Reading seq #139: Archaeoglobus_fulgidus_1       Reading seq #140: Archaeoglobus_fulgidus_2       Reading seq #141: Bathycoccus_prasinos_chloro_1       Reading seq #142: Bathycoccus_prasinos_mito_1       Reading seq #143: Bathycoccus_prasinos_mito_2       Reading seq #144: Batrachochytrium_dendrobatidis_mito_1       Reading seq #145: Batrachochytrium_dendrobatidis_mito_2       Reading seq #146: Bodo_saltans_mito_2       Reading seq #147: Caldivirga_maquilingensis_2       Reading seq #148: Campylobacter_jejuni_1       Reading seq #149: Campylobacter_jejuni_2       Reading seq #150: Chlamydia_trachomatis_1       Reading seq #151: Chlamydia_trachomatis_2       Reading seq #152: Chlamydomonas_reinhardtii_1       Reading seq #153: Chlamydomonas_reinhardtii_2       Reading seq #154: Chlamydomonas_reinhardtii_chloro_1       Reading seq #155: Chlamydomonas_reinhardtii_chloro_2       Reading seq #156: Chlamydomonas_reinhardtii_mito_1       Reading seq #157: Chlamydomonas_reinhardtii_mito_2       Reading seq #158: Chloroflexus_1       Reading seq #159: Chloroflexus_2       Reading seq #160: Chondrus_crispus_1       Reading seq #161: Chondrus_crispus_2       Reading seq #162: Chondrus_crispus_chloro_1       Reading seq #163: Chondrus_crispus_chloro_2       Reading seq #164: Chondrus_crispus_mito_2       Reading seq #165: Clostridium_acetobutylicum_1       Reading seq #166: Clostridium_acetobutylicum_2       Reading seq #167: Cyanidioschyzon_merolae_chloro_1       Reading seq #168: Cyanidioschyzon_merolae_mito_1       Reading seq #169: Cyanidioschyzon_merolae_mito_2       Reading seq #170: Cyanophora_paradoxa_1       Reading seq #171: Dictyoglomus_turgidum_1       Reading seq #172: Dictyoglomus_turgidum_2       Reading seq #173: Dictyostelium_discoideum_1       Reading seq #174: Dictyostelium_discoideum_2       Reading seq #175: Dictyostelium_discoideum_mito_1       Reading seq #176: Dictyostelium_discoideum_mito_2       Reading seq #177: Ectocarpus_siliculosus_1       Reading seq #178: Ectocarpus_siliculosus_2       Reading seq #179: Ectocarpus_siliculosus_chloro_1       Reading seq #180: Ectocarpus_siliculosus_mito_2       Reading seq #181: Elphidium_margaritaceum_mito_2       Reading seq #182: Elusimicrobium_minutum_1       Reading seq #183: Elusimicrobium_minutum_2       Reading seq #184: Galdieria_sulphuraria_chloro_1       Reading seq #185: Galdieria_sulphuraria_chloro_2       Reading seq #186: Galdieria_sulphuraria_mito_1       Reading seq #187: Galdieria_sulphuraria_mito_2       Reading seq #188: Haloarcula_marismortui_1       Reading seq #189: Haloarcula_marismortui_2       Reading seq #190: Homo_sapiens_1       Reading seq #191: Homo_sapiens_2       Reading seq #192: Homo_sapiens_mito_1       Reading seq #193: Homo_sapiens_mito_2       Reading seq #194: Hydra_vulgaris_mito_1       Reading seq #195: Hydra_vulgaris_mito_2       Reading seq #196: Korarchaeum_cryptofilum_1       Reading seq #197: Korarchaeum_cryptofilum_2       Reading seq #198: Leishmania_major_mito_2       Reading seq #199: Limulus_polyphemus_mito_1       Reading seq #200: Limulus_polyphemus_mito_2       Reading seq #201: Lokiarchaeum_sp._GC14_75_1       Reading seq #202: Lokiarchaeum_sp._GC14_75_2       Reading seq #203: Melainabacteria_bacterium_1       Reading seq #204: Methanocaldococcus_jannaschii_1       Reading seq #205: Methanocaldococcus_jannaschii_2       Reading seq #206: Nitrosopumilus_maritimus_1       Reading seq #207: Nitrosopumilus_maritimus_2       Reading seq #208: Oryza_sativa_chloro_1       Reading seq #209: Oryza_sativa_mito_1       Reading seq #210: Oryza_sativa_mito_2       Reading seq #211: Paramecium_tetraurelia_1       Reading seq #212: Paramecium_tetraurelia_2       Reading seq #213: Physcomitrella_patens_chloro_1       Reading seq #214: Physcomitrella_patens_mito_1       Reading seq #215: Physcomitrella_patens_mito_2       Reading seq #216: Phytophthora_ramorum_mito_1       Reading seq #217: Polysphondylium_pallidum_mito_1       Reading seq #218: Polysphondylium_pallidum_mito_2       Reading seq #219: Pyrobaculum_aerophilum_1       Reading seq #220: Pyrobaculum_aerophilum_2       Reading seq #221: Pyrococcus_furiosus_1       Reading seq #222: Pyrococcus_furiosus_2       Reading seq #223: Reticulomyxa_filosa_mito_2       Reading seq #224: Rhodopirellula_baltica_1       Reading seq #225: Rhodopirellula_baltica_2       Reading seq #226: Rhodopseudomonas_palustris_1       Reading seq #227: Rhodopseudomonas_palustris_2       Reading seq #228: Rickettsia_bellii_1       Reading seq #229: Saccharomyces_cerevisiae_1       Reading seq #230: Saccharomyces_cerevisiae_2       Reading seq #231: Saccharomyces_cerevisiae_mito_2       Reading seq #232: Sulfolobus_solfataricus_1       Reading seq #233: Synechocystis_sp._PCC_6803_1       Reading seq #234: Synechocystis_sp._PCC_6803_2       Reading seq #235: Thalassiosira_pseudonana_chloro_1       Reading seq #236: Thalassiosira_pseudonana_mito_1       Reading seq #237: Thalassiosira_pseudonana_mito_2       Reading seq #238: Thorarchaeota_archaeon_SMTZ1-45_1       Reading seq #239: Thorarchaeota_archaeon_SMTZ1-45_2       Reading seq #240: Thorarchaeota_archaeon_SMTZ1-83_1       Reading seq #241: Thorarchaeota_archaeon_SMTZ1-83_2       Reading seq #242: Treponema_pallidum_2       Reading seq #243: Volvox_carteri_chloro_1       Reading seq #244: Volvox_carteri_chloro_2       Reading seq #245: Volvox_carteri_mito_1       Reading seq #246: Volvox_carteri_mito_2       
+Sequences read..
+Counting site patterns..  0:00
+Compressing,    246 patterns at    252 /    252 sites (100.0%),  0:00
+Collecting fpatt[] & pose[],    246 patterns at    252 /    252 sites (100.0%),  0:00
+Counting frequencies..
+246 patterns, messy
+
+
+Fossil calibration information used.
+Node 247:   U (  4.5200,  0.0000 )
+Node 248:   B (  3.3470,  4.5200,  0.0000,  0.0000 )
+Node 268:   B (  1.6191,  3.4480,  0.0000,  0.0000 )
+Node 269:   B (  1.0856,  1.8796,  0.0250,  0.0250 )
+Node 272:   B (  0.3921,  1.8910,  0.0000,  0.0250 )
+Node 274:   B (  0.5740,  0.6090,  0.0000,  0.0250 )
+Node 275:   B (  0.5611,  0.5908,  0.0000,  0.0250 )
+Node 280:   B (  1.0300,  1.8796,  0.0000,  0.0000 )
+Node 283:   B (  0.4305,  0.5155,  0.0000,  0.0250 )
+Node 284:   B (  0.1250,  0.2472,  0.0000,  0.0250 )
+Node 292:   B (  0.5225,  1.8910,  0.0000,  0.0000 )
+Node 308:   B (  2.9450,  4.5200,  0.0000,  0.0000 )
+Node 309:   B (  2.0136,  3.4480,  0.0250,  0.0250 )
+Node 329:   B (  1.0856,  4.5200,  0.0250,  0.0000 )
+
+100000 burnin, sampled every 1000, 20000 samples
+Approximating prior
+(Settings: cleandata=0  print=1  saveconP=0)
+
+getting initial values to start MCMC.
+
+*** min-age round  1: from nodes 248 (  3.72262) to 247,   2 nodes
+*** min-age round  2: from nodes 308 (  3.31623) to 248,   4 nodes
+*** min-age round  3: from nodes 329 (  2.28575) to 304,   3 nodes
+*** min-age round  4: from nodes 280 (  1.20967) to 269,   3 nodes
+*** min-age round  5: from nodes 292 (  0.86598) to 279,   2 nodes
+*** min-age round  6: from nodes 272 (  0.64239) to 269,   3 nodes
+************
+Species tree
+ns = 246  nnode = 491
+father   node  name                                            time     sons          fossil
+251      1  Methanocaldococcus_jannaschii_1                 0.00000
+252      2  Methanopyrus_kandleri_1                         0.00000
+252      3  Methanothermobacter_thermautotrophicus_1        0.00000
+253      4  Pyrococcus_furiosus_1                           0.00000
+255      5  Korarchaeum_cryptofilum_1                       0.00000
+257      6  Caldiarchaeum_subterraneum_1                    0.00000
+258      7  Cenarchaeum_symbiosum_1                         0.00000
+259      8  Nitrosoarchaeum_limnia_1                        0.00000
+259      9  Nitrosopumilus_maritimus_1                      0.00000
+262     10  Aeropyrum_pernix_1                              0.00000
+263     11  Hyperthermus_butylicus_1                        0.00000
+264     12  Ignicoccus_hospitalis_1                         0.00000
+264     13  Sulfolobus_solfataricus_1                       0.00000
+261     14  Staphylothermus_marinus_1                       0.00000
+266     15  Caldivirga_maquilingensis_1                     0.00000
+266     16  Pyrobaculum_aerophilum_1                        0.00000
+265     17  Thermofilum_pendens_1                           0.00000
+273     18  Agaricus_bisporus_1                             0.00000
+273     19  Saccharomyces_cerevisiae_1                      0.00000
+272     20  Batrachochytrium_dendrobatidis_1                0.00000
+274     21  Amphimedon_queenslandica_1                      0.00000
+276     22  Homo_sapiens_1                                  0.00000
+276     23  Limulus_polyphemus_1                            0.00000
+275     24  Hydra_vulgaris_1                                0.00000
+277     25  Dictyostelium_discoideum_1                      0.00000
+277     26  Polysphondylium_pallidum_1                      0.00000
+284     27  Arabidopsis_thaliana_1                          0.00000
+284     28  Oryza_sativa_1                                  0.00000
+283     29  Physcomitrella_patens_1                         0.00000
+285     30  Bathycoccus_prasinos_1                          0.00000
+286     31  Chlamydomonas_reinhardtii_1                     0.00000
+286     32  Volvox_carteri_1                                0.00000
+281     33  Cyanophora_paradoxa_1                           0.00000
+288     34  Chondrus_crispus_1                              0.00000
+288     35  Galdieria_sulphuraria_1                         0.00000
+287     36  Cyanidioschyzon_merolae_1                       0.00000
+291     37  Ectocarpus_siliculosus_1                        0.00000
+291     38  Thalassiosira_pseudonana_1                      0.00000
+290     39  Paramecium_tetraurelia_1                        0.00000
+292     40  Elphidium_margaritaceum_1                       0.00000
+292     41  Reticulomyxa_filosa_1                           0.00000
+293     42  Bodo_saltans_1                                  0.00000
+293     43  Leishmania_major_1                              0.00000
+294     44  Heimdallarchaeota_archaeon_AB_125_1             0.00000
+295     45  Heimdallarchaeota_archaeon_LC_2_1               0.00000
+295     46  Heimdallarchaeota_archaeon_LC_3_1               0.00000
+296     47  Lokiarchaeum_sp._GC14_75_1                      0.00000
+297     48  Odinarchaeota_archaeon_LCB_4_1                  0.00000
+299     49  Thorarchaeota_archaeon_AB_25_1                  0.00000
+299     50  Thorarchaeota_archaeon_SMTZ1-45_1               0.00000
+298     51  Thorarchaeota_archaeon_SMTZ1-83_1               0.00000
+302     52  Archaeoglobus_fulgidus_1                        0.00000
+302     53  Methanosarcina_mazei_1                          0.00000
+303     54  Haloarcula_marismortui_1                        0.00000
+303     55  Thermoplasma_volcanium_1                        0.00000
+300     56  Methanomassiliicoccus_luminyensis_1             0.00000
+306     57  Actinomadura_madurae_1                          0.00000
+306     58  Clostridium_acetobutylicum_1                    0.00000
+315     59  Arabidopsis_thaliana_chloro_1                   0.00000
+315     60  Oryza_sativa_chloro_1                           0.00000
+314     61  Physcomitrella_patens_chloro_1                  0.00000
+316     62  Bathycoccus_prasinos_chloro_1                   0.00000
+317     63  Chlamydomonas_reinhardtii_chloro_1              0.00000
+317     64  Volvox_carteri_chloro_1                         0.00000
+319     65  Chondrus_crispus_chloro_1                       0.00000
+320     66  Ectocarpus_siliculosus_chloro_1                 0.00000
+320     67  Thalassiosira_pseudonana_chloro_1               0.00000
+321     68  Cyanidioschyzon_merolae_chloro_1                0.00000
+321     69  Galdieria_sulphuraria_chloro_1                  0.00000
+324     70  Chlorogloeopsis_fritschii_1                     0.00000
+324     71  Cylindrospermopsis_raciborskii_1                0.00000
+323     72  Pseudanabaena_biceps_1                          0.00000
+325     73  Leptolyngbya_valderiana_1                       0.00000
+325     74  Synechocystis_sp._PCC_6803_1                    0.00000
+310     75  Cyanobium_gracile_1                             0.00000
+309     76  Gloeobacter_violaceus_1                         0.00000
+308     77  Melainabacteria_bacterium_1                     0.00000
+326     78  Chloroflexus_1                                  0.00000
+326     79  Oscillochloris_trichoides_1                     0.00000
+332     80  Agaricus_bisporus_mito_1                        0.00000
+332     81  Batrachochytrium_dendrobatidis_mito_1           0.00000
+333     82  Amphimedon_queenslandica_mito_1                 0.00000
+335     83  Homo_sapiens_mito_1                             0.00000
+335     84  Limulus_polyphemus_mito_1                       0.00000
+334     85  Hydra_vulgaris_mito_1                           0.00000
+336     86  Dictyostelium_discoideum_mito_1                 0.00000
+336     87  Polysphondylium_pallidum_mito_1                 0.00000
+341     88  Arabidopsis_thaliana_mito_1                     0.00000
+341     89  Oryza_sativa_mito_1                             0.00000
+340     90  Physcomitrella_patens_mito_1                    0.00000
+342     91  Bathycoccus_prasinos_mito_1                     0.00000
+343     92  Chlamydomonas_reinhardtii_mito_1                0.00000
+343     93  Volvox_carteri_mito_1                           0.00000
+344     94  Cyanidioschyzon_merolae_mito_1                  0.00000
+344     95  Galdieria_sulphuraria_mito_1                    0.00000
+345     96  Phytophthora_ramorum_mito_1                     0.00000
+345     97  Thalassiosira_pseudonana_mito_1                 0.00000
+347     98  Jidaibacter_acanthamoeba_1                      0.00000
+347     99  Rickettsia_bellii_1                             0.00000
+349    100  Rhodopseudomonas_palustris_1                    0.00000
+349    101  Roseobacter_litoralis_1                         0.00000
+348    102  Sphingopyxis_alaskensis_1                       0.00000
+350    103  Chlamydia_trachomatis_1                         0.00000
+351    104  Latescibacteria_bacterium_1                     0.00000
+355    105  Caldisericum_exile_1                            0.00000
+355    106  Dictyoglomus_turgidum_1                         0.00000
+354    107  Kosmotoga_olearia_1                             0.00000
+358    108  Caldithrix_abyssi_1                             0.00000
+358    109  Chlorobium_phaeovibrioides_1                    0.00000
+360    110  Campylobacter_jejuni_1                          0.00000
+360    111  Verrucomicrobium_spinosum_1                     0.00000
+363    112  Cloacimonas_acidaminovorans_1                   0.00000
+363    113  Fibrobacter_succinogenes_1                      0.00000
+362    114  Lentisphaera_araneosa_1                         0.00000
+361    115  Rhodopirellula_baltica_1                        0.00000
+364    116  Elusimicrobium_minutum_1                        0.00000
+364    117  Jonquetella_anthropi_1                          0.00000
+365    118  Acidobacterium_capsulatum_1                     0.00000
+366    119  Aquifex_aeolicus_1                              0.00000
+367    120  Thermodesulfatator_indicus_1                    0.00000
+367    121  Thermodesulfovibrio_islandicus_1                0.00000
+375    122  Acidobacterium_capsulatum_2                     0.00000
+377    123  Campylobacter_jejuni_2                          0.00000
+377    124  Desulfurispirillum_indicum_2                    0.00000
+378    125  Thermodesulfatator_indicus_2                    0.00000
+378    126  Thermodesulfovibrio_islandicus_2                0.00000
+380    127  Caldisericum_exile_2                            0.00000
+380    128  Dictyoglomus_turgidum_2                         0.00000
+379    129  Kosmotoga_olearia_2                             0.00000
+382    130  Chlorobium_phaeovibrioides_2                    0.00000
+383    131  Cloacimonas_acidaminovorans_2                   0.00000
+383    132  Elusimicrobium_minutum_2                        0.00000
+381    133  Latescibacteria_bacterium_2                     0.00000
+384    134  Chlamydia_trachomatis_2                         0.00000
+385    135  Chthonomonas_calidirosea_2                      0.00000
+387    136  Fibrobacter_succinogenes_2                      0.00000
+387    137  Treponema_pallidum_2                            0.00000
+386    138  Rhodopirellula_baltica_2                        0.00000
+389    139  Caldithrix_abyssi_2                             0.00000
+389    140  Lentisphaera_araneosa_2                         0.00000
+388    141  Jonquetella_anthropi_2                          0.00000
+396    142  Agaricus_bisporus_mito_2                        0.00000
+396    143  Saccharomyces_cerevisiae_mito_2                 0.00000
+395    144  Batrachochytrium_dendrobatidis_mito_2           0.00000
+397    145  Amphimedon_queenslandica_mito_2                 0.00000
+399    146  Homo_sapiens_mito_2                             0.00000
+399    147  Limulus_polyphemus_mito_2                       0.00000
+398    148  Hydra_vulgaris_mito_2                           0.00000
+400    149  Dictyostelium_discoideum_mito_2                 0.00000
+400    150  Polysphondylium_pallidum_mito_2                 0.00000
+405    151  Arabidopsis_thaliana_mito_2                     0.00000
+405    152  Oryza_sativa_mito_2                             0.00000
+404    153  Physcomitrella_patens_mito_2                    0.00000
+406    154  Bathycoccus_prasinos_mito_2                     0.00000
+407    155  Chlamydomonas_reinhardtii_mito_2                0.00000
+407    156  Volvox_carteri_mito_2                           0.00000
+408    157  Chondrus_crispus_mito_2                         0.00000
+409    158  Cyanidioschyzon_merolae_mito_2                  0.00000
+409    159  Galdieria_sulphuraria_mito_2                    0.00000
+410    160  Ectocarpus_siliculosus_mito_2                   0.00000
+410    161  Thalassiosira_pseudonana_mito_2                 0.00000
+412    162  Bodo_saltans_mito_2                             0.00000
+412    163  Leishmania_major_mito_2                         0.00000
+413    164  Elphidium_margaritaceum_mito_2                  0.00000
+413    165  Reticulomyxa_filosa_mito_2                      0.00000
+415    166  Jidaibacter_acanthamoeba_2                      0.00000
+415    167  Rickettsia_bellii_2                             0.00000
+417    168  Rhodopseudomonas_palustris_2                    0.00000
+417    169  Roseobacter_litoralis_2                         0.00000
+416    170  Sphingopyxis_alaskensis_2                       0.00000
+420    171  Actinomadura_madurae_2                          0.00000
+420    172  Gemmatimonas_aurantiaca_2                       0.00000
+419    173  Clostridium_acetobutylicum_2                    0.00000
+428    174  Bathycoccus_prasinos_chloro_2                   0.00000
+429    175  Chlamydomonas_reinhardtii_chloro_2              0.00000
+429    176  Volvox_carteri_chloro_2                         0.00000
+430    177  Oryza_sativa_chloro_2                           0.00000
+430    178  Physcomitrella_patens_chloro_2                  0.00000
+431    179  Cyanidioschyzon_merolae_chloro_2                0.00000
+433    180  Chondrus_crispus_chloro_2                       0.00000
+433    181  Thalassiosira_pseudonana_chloro_2               0.00000
+432    182  Galdieria_sulphuraria_chloro_2                  0.00000
+436    183  Chlorogloeopsis_fritschii_2                     0.00000
+436    184  Cylindrospermopsis_raciborskii_2                0.00000
+435    185  Pseudanabaena_biceps_2                          0.00000
+434    186  Synechocystis_sp._PCC_6803_2                    0.00000
+424    187  Cyanobium_gracile_2                             0.00000
+423    188  Gloeobacter_violaceus_2                         0.00000
+422    189  Melainabacteria_bacterium_2                     0.00000
+437    190  Chloroflexus_2                                  0.00000
+437    191  Oscillochloris_trichoides_2                     0.00000
+440    192  Methanocaldococcus_jannaschii_2                 0.00000
+441    193  Methanothermobacter_thermautotrophicus_2        0.00000
+441    194  Methanopyrus_kandleri_2                         0.00000
+442    195  Pyrococcus_furiosus_2                           0.00000
+444    196  Korarchaeum_cryptofilum_2                       0.00000
+447    197  Staphylothermus_marinus_2                       0.00000
+448    198  Aeropyrum_pernix_2                              0.00000
+449    199  Ignicoccus_hospitalis_2                         0.00000
+449    200  Hyperthermus_butylicus_2                        0.00000
+450    201  Thermofilum_pendens_2                           0.00000
+451    202  Caldivirga_maquilingensis_2                     0.00000
+451    203  Pyrobaculum_aerophilum_2                        0.00000
+452    204  Caldiarchaeum_subterraneum_2                    0.00000
+453    205  Cenarchaeum_symbiosum_2                         0.00000
+454    206  Nitrosoarchaeum_limnia_2                        0.00000
+454    207  Nitrosopumilus_maritimus_2                      0.00000
+461    208  Agaricus_bisporus_2                             0.00000
+461    209  Saccharomyces_cerevisiae_2                      0.00000
+460    210  Batrachochytrium_dendrobatidis_2                0.00000
+462    211  Amphimedon_queenslandica_2                      0.00000
+464    212  Homo_sapiens_2                                  0.00000
+464    213  Limulus_polyphemus_2                            0.00000
+463    214  Hydra_vulgaris_2                                0.00000
+465    215  Dictyostelium_discoideum_2                      0.00000
+465    216  Polysphondylium_pallidum_2                      0.00000
+472    217  Arabidopsis_thaliana_2                          0.00000
+472    218  Oryza_sativa_2                                  0.00000
+471    219  Physcomitrella_patens_2                         0.00000
+473    220  Bathycoccus_prasinos_2                          0.00000
+474    221  Chlamydomonas_reinhardtii_2                     0.00000
+474    222  Volvox_carteri_2                                0.00000
+469    223  Cyanophora_paradoxa_2                           0.00000
+476    224  Chondrus_crispus_2                              0.00000
+476    225  Galdieria_sulphuraria_2                         0.00000
+475    226  Cyanidioschyzon_merolae_2                       0.00000
+479    227  Ectocarpus_siliculosus_2                        0.00000
+479    228  Thalassiosira_pseudonana_2                      0.00000
+478    229  Paramecium_tetraurelia_2                        0.00000
+480    230  Elphidium_margaritaceum_2                       0.00000
+480    231  Reticulomyxa_filosa_2                           0.00000
+481    232  Bodo_saltans_2                                  0.00000
+481    233  Leishmania_major_2                              0.00000
+483    234  Heimdallarchaeota_archaeon_LC_2_2               0.00000
+483    235  Heimdallarchaeota_archaeon_LC_3_2               0.00000
+482    236  Heimdallarchaeota_archaeon_AB_125_2             0.00000
+484    237  Lokiarchaeum_sp._GC14_75_2                      0.00000
+485    238  Odinarchaeota_archaeon_LCB_4_2                  0.00000
+487    239  Thorarchaeota_archaeon_AB_25_2                  0.00000
+487    240  Thorarchaeota_archaeon_SMTZ1-83_2               0.00000
+486    241  Thorarchaeota_archaeon_SMTZ1-45_2               0.00000
+488    242  Methanomassiliicoccus_luminyensis_2             0.00000
+490    243  Archaeoglobus_fulgidus_2                        0.00000
+490    244  Methanosarcina_mazei_2                          0.00000
+491    245  Haloarcula_marismortui_2                        0.00000
+491    246  Thermoplasma_volcanium_2                        0.00000
+0    247                                                  4.07957  (248 368)  U ( 4.5200, 0.0000 )
+247    248                                                  3.72262  (249 304)  B ( 3.3470, 4.5200, 0.0000, 0.0000 )
+248    249                                                  3.18811  (250 300)
+249    250                                                  2.57103  (251 253)
+250    251                                                  2.53536  ( 1 252)
+251    252                                                  1.49302  ( 2  3)
+250    253                                                  2.39164  ( 4 254)
+253    254                                                  2.16666  (255 267)
+254    255                                                  2.13170  ( 5 256)
+255    256                                                  1.87873  (257 260)
+256    257                                                  1.55273  ( 6 258)
+257    258                                                  0.77299  ( 7 259)
+258    259                                                  0.53798  ( 8  9)
+256    260                                                  1.15515  (261 265)
+260    261                                                  0.77920  (262 14)
+261    262                                                  0.61435  (10 263)
+262    263                                                  0.38845  (11 264)
+263    264                                                  0.27748  (12 13)
+260    265                                                  1.13343  (266 17)
+265    266                                                  0.33878  (15 16)
+254    267                                                  1.74812  (268 296)
+267    268                                                  1.61876  (269 294)  B ( 1.6191, 3.4480, 0.0000, 0.0000 )
+268    269                                                  1.60875  (270 278)  B ( 1.0856, 1.8796, 0.0250, 0.0250 )
+269    270                                                  1.60216  (271 277)
+270    271                                                  0.83068  (272 274)
+271    272                                                  0.64239  (273 20)  B ( 0.3921, 1.8910, 0.0000, 0.0250 )
+272    273                                                  0.23196  (18 19)
+271    274                                                  0.61529  (21 275)  B ( 0.5740, 0.6090, 0.0000, 0.0250 )
+274    275                                                  0.28463  (276 24)  B ( 0.5611, 0.5908, 0.0000, 0.0250 )
+275    276                                                  0.23815  (22 23)
+270    277                                                  0.95600  (25 26)
+269    278                                                  1.53768  (279 293)
+278    279                                                  1.29575  (280 289)
+279    280                                                  1.20967  (281 287)  B ( 1.0300, 1.8796, 0.0000, 0.0000 )
+280    281                                                  1.01397  (282 33)
+281    282                                                  0.72417  (283 285)
+282    283                                                  0.32054  (284 29)  B ( 0.4305, 0.5155, 0.0000, 0.0250 )
+283    284                                                  0.08565  (27 28)  B ( 0.1250, 0.2472, 0.0000, 0.0250 )
+282    285                                                  0.38557  (30 286)
+285    286                                                  0.05384  (31 32)
+280    287                                                  0.79161  (288 36)
+287    288                                                  0.20222  (34 35)
+279    289                                                  1.15503  (290 292)
+289    290                                                  0.83944  (291 39)
+290    291                                                  0.12315  (37 38)
+289    292                                                  0.86598  (40 41)  B ( 0.5225, 1.8910, 0.0000, 0.0000 )
+278    293                                                  0.70476  (42 43)
+268    294                                                  0.82631  (44 295)
+294    295                                                  0.34706  (45 46)
+267    296                                                  1.70187  (47 297)
+296    297                                                  1.52842  (48 298)
+297    298                                                  0.78834  (299 51)
+298    299                                                  0.68101  (49 50)
+249    300                                                  2.44968  (301 56)
+300    301                                                  1.13748  (302 303)
+301    302                                                  0.99161  (52 53)
+301    303                                                  0.13294  (54 55)
+248    304                                                  3.54035  (305 327)
+304    305                                                  3.50390  (306 307)
+305    306                                                  3.12297  (57 58)
+305    307                                                  3.35365  (308 326)
+307    308                                                  3.31623  (309 77)  B ( 2.9450, 4.5200, 0.0000, 0.0000 )
+308    309                                                  2.80660  (310 76)  B ( 2.0136, 3.4480, 0.0250, 0.0250 )
+309    310                                                  2.58089  (311 75)
+310    311                                                  2.15710  (312 322)
+311    312                                                  1.20967  (313 318)
+312    313                                                  0.72417  (314 316)
+313    314                                                  0.32054  (315 61)
+314    315                                                  0.08565  (59 60)
+313    316                                                  0.38557  (62 317)
+316    317                                                  0.05384  (63 64)
+312    318                                                  0.79161  (319 321)
+318    319                                                  0.68487  (65 320)
+319    320                                                  0.12315  (66 67)
+318    321                                                  0.02900  (68 69)
+311    322                                                  1.16969  (323 325)
+322    323                                                  0.41181  (324 72)
+323    324                                                  0.16794  (70 71)
+322    325                                                  1.07847  (73 74)
+307    326                                                  2.26813  (78 79)
+304    327                                                  3.28533  (328 350)
+327    328                                                  2.81323  (329 346)
+328    329                                                  2.28575  (330 337)  B ( 1.0856, 4.5200, 0.0250, 0.0000 )
+329    330                                                  1.60216  (331 336)
+330    331                                                  0.83068  (332 333)
+331    332                                                  0.64239  (80 81)
+331    333                                                  0.61529  (82 334)
+333    334                                                  0.28463  (335 85)
+334    335                                                  0.23815  (83 84)
+330    336                                                  0.95600  (86 87)
+329    337                                                  1.54452  (338 345)
+337    338                                                  1.20967  (339 344)
+338    339                                                  0.72417  (340 342)
+339    340                                                  0.32054  (341 90)
+340    341                                                  0.08565  (88 89)
+339    342                                                  0.38557  (91 343)
+342    343                                                  0.05384  (92 93)
+338    344                                                  0.79161  (94 95)
+337    345                                                  0.91864  (96 97)
+328    346                                                  2.02590  (347 348)
+346    347                                                  1.88912  (98 99)
+346    348                                                  2.00573  (349 102)
+348    349                                                  0.02292  (100 101)
+327    350                                                  2.79868  (103 351)
+350    351                                                  2.62457  (104 352)
+351    352                                                  2.35038  (353 365)
+352    353                                                  1.86240  (354 356)
+353    354                                                  1.53987  (355 107)
+354    355                                                  0.24451  (105 106)
+353    356                                                  1.75141  (357 364)
+356    357                                                  1.09186  (358 359)
+357    358                                                  0.58952  (108 109)
+357    359                                                  0.73737  (360 361)
+359    360                                                  0.67658  (110 111)
+359    361                                                  0.43577  (362 115)
+361    362                                                  0.33726  (363 114)
+362    363                                                  0.03229  (112 113)
+356    364                                                  1.56632  (116 117)
+352    365                                                  1.93271  (118 366)
+365    366                                                  0.06469  (119 367)
+366    367                                                  0.00461  (120 121)
+247    368                                                  3.72262  (369 438)
+368    369                                                  3.54035  (370 418)
+369    370                                                  3.28533  (371 390)
+370    371                                                  2.79868  (372 388)
+371    372                                                  2.63118  (373 384)
+372    373                                                  1.58662  (374 381)
+373    374                                                  1.54630  (375 379)
+374    375                                                  0.88263  (122 376)
+375    376                                                  0.79364  (377 378)
+376    377                                                  0.64576  (123 124)
+376    378                                                  0.00461  (125 126)
+374    379                                                  1.53987  (380 129)
+379    380                                                  0.24451  (127 128)
+373    381                                                  1.05306  (382 133)
+381    382                                                  0.71878  (130 383)
+382    383                                                  0.21960  (131 132)
+372    384                                                  2.12676  (134 385)
+384    385                                                  1.56705  (135 386)
+385    386                                                  0.59553  (387 138)
+386    387                                                  0.05492  (136 137)
+371    388                                                  1.87799  (389 141)
+388    389                                                  1.71228  (139 140)
+370    390                                                  2.81323  (391 414)
+390    391                                                  2.28575  (392 411)
+391    392                                                  1.64942  (393 401)
+392    393                                                  1.60216  (394 400)
+393    394                                                  0.83068  (395 397)
+394    395                                                  0.64239  (396 144)
+395    396                                                  0.23196  (142 143)
+394    397                                                  0.61529  (145 398)
+397    398                                                  0.28463  (399 148)
+398    399                                                  0.23815  (146 147)
+393    400                                                  0.95600  (149 150)
+392    401                                                  1.54452  (402 410)
+401    402                                                  1.20967  (403 408)
+402    403                                                  0.72417  (404 406)
+403    404                                                  0.32054  (405 153)
+404    405                                                  0.08565  (151 152)
+403    406                                                  0.38557  (154 407)
+406    407                                                  0.05384  (155 156)
+402    408                                                  0.79161  (157 409)
+408    409                                                  0.67988  (158 159)
+401    410                                                  0.12315  (160 161)
+391    411                                                  1.80840  (412 413)
+411    412                                                  0.70476  (162 163)
+411    413                                                  0.86598  (164 165)
+390    414                                                  2.53027  (415 416)
+414    415                                                  1.88912  (166 167)
+414    416                                                  2.00573  (417 170)
+416    417                                                  0.02292  (168 169)
+369    418                                                  3.50390  (419 421)
+418    419                                                  3.12297  (420 173)
+419    420                                                  0.72840  (171 172)
+418    421                                                  3.35365  (422 437)
+421    422                                                  3.31623  (423 189)
+422    423                                                  2.80660  (424 188)
+423    424                                                  2.58089  (425 187)
+424    425                                                  2.15710  (426 434)
+425    426                                                  1.20967  (427 431)
+426    427                                                  0.72417  (428 430)
+427    428                                                  0.38557  (174 429)
+428    429                                                  0.05384  (175 176)
+427    430                                                  0.32054  (177 178)
+426    431                                                  0.79161  (179 432)
+431    432                                                  0.28016  (433 182)
+432    433                                                  0.16608  (180 181)
+425    434                                                  1.16969  (435 186)
+434    435                                                  0.41181  (436 185)
+435    436                                                  0.16794  (183 184)
+421    437                                                  2.26813  (190 191)
+368    438                                                  3.18811  (439 488)
+438    439                                                  2.57103  (440 442)
+439    440                                                  2.53536  (192 441)
+440    441                                                  1.49302  (193 194)
+439    442                                                  2.39164  (195 443)
+442    443                                                  2.16666  (444 455)
+443    444                                                  2.13170  (196 445)
+444    445                                                  1.87873  (446 452)
+445    446                                                  1.15515  (447 450)
+446    447                                                  0.77920  (197 448)
+447    448                                                  0.77236  (198 449)
+448    449                                                  0.58760  (199 200)
+446    450                                                  1.13343  (201 451)
+450    451                                                  0.33878  (202 203)
+445    452                                                  1.55273  (204 453)
+452    453                                                  0.77299  (205 454)
+453    454                                                  0.53798  (206 207)
+443    455                                                  1.74812  (456 484)
+455    456                                                  1.61876  (457 482)
+456    457                                                  1.60875  (458 466)
+457    458                                                  1.60216  (459 465)
+458    459                                                  0.83068  (460 462)
+459    460                                                  0.64239  (461 210)
+460    461                                                  0.23196  (208 209)
+459    462                                                  0.61529  (211 463)
+462    463                                                  0.28463  (464 214)
+463    464                                                  0.23815  (212 213)
+458    465                                                  0.95600  (215 216)
+457    466                                                  1.53768  (467 481)
+466    467                                                  1.29575  (468 477)
+467    468                                                  1.20967  (469 475)
+468    469                                                  1.01397  (470 223)
+469    470                                                  0.72417  (471 473)
+470    471                                                  0.32054  (472 219)
+471    472                                                  0.08565  (217 218)
+470    473                                                  0.38557  (220 474)
+473    474                                                  0.05384  (221 222)
+468    475                                                  0.79161  (476 226)
+475    476                                                  0.20222  (224 225)
+467    477                                                  1.15503  (478 480)
+477    478                                                  0.83944  (479 229)
+478    479                                                  0.12315  (227 228)
+477    480                                                  0.86598  (230 231)
+466    481                                                  0.70476  (232 233)
+456    482                                                  0.82631  (483 236)
+482    483                                                  0.34706  (234 235)
+455    484                                                  1.70187  (237 485)
+484    485                                                  1.52842  (238 486)
+485    486                                                  0.78834  (487 241)
+486    487                                                  0.68101  (239 240)
+438    488                                                  2.44968  (242 489)
+488    489                                                  0.99846  (490 491)
+489    490                                                  0.99161  (243 244)
+489    491                                                  0.13294  (245 246)
+
+(((((1, (2, 3)), (4, ((5, ((6, (7, (8, 9))), (((10, (11, (12, 13))), 14), ((15, 16), 17)))), (((((((18, 19), 20), (21, ((22, 23), 24))), (25, 26)), (((((((27, 28), 29), (30, (31, 32))), 33), ((34, 35), 36)), (((37, 38), 39), (40, 41))), (42, 43))), (44, (45, 46))), (47, (48, ((49, 50), 51))))))), (((52, 53), (54, 55)), 56)), (((57, 58), (((((((((59, 60), 61), (62, (63, 64))), ((65, (66, 67)), (68, 69))), (((70, 71), 72), (73, 74))), 75), 76), 77), (78, 79))), ((((((80, 81), (82, ((83, 84), 85))), (86, 87)), (((((88, 89), 90), (91, (92, 93))), (94, 95)), (96, 97))), ((98, 99), ((100, 101), 102))), (103, (104, ((((105, 106), 107), (((108, 109), ((110, 111), (((112, 113), 114), 115))), (116, 117))), (118, (119, (120, 121))))))))), ((((((((122, ((123, 124), (125, 126))), ((127, 128), 129)), ((130, (131, 132)), 133)), (134, (135, ((136, 137), 138)))), ((139, 140), 141)), (((((((142, 143), 144), (145, ((146, 147), 148))), (149, 150)), (((((151, 152), 153), (154, (155, 156))), (157, (158, 159))), (160, 161))), ((162, 163), (164, 165))), ((166, 167), ((168, 169), 170)))), (((171, 172), 173), ((((((((174, (175, 176)), (177, 178)), (179, ((180, 181), 182))), (((183, 184), 185), 186)), 187), 188), 189), (190, 191)))), (((192, (193, 194)), (195, ((196, (((197, (198, (199, 200))), (201, (202, 203))), (204, (205, (206, 207))))), (((((((208, 209), 210), (211, ((212, 213), 214))), (215, 216)), (((((((217, 218), 219), (220, (221, 222))), 223), ((224, 225), 226)), (((227, 228), 229), (230, 231))), (232, 233))), ((234, 235), 236)), (237, (238, ((239, 240), 241))))))), (242, ((243, 244), (245, 246))))));
+(((((Methanocaldococcus_jannaschii_1, (Methanopyrus_kandleri_1, Methanothermobacter_thermautotrophicus_1)), (Pyrococcus_furiosus_1, ((Korarchaeum_cryptofilum_1, ((Caldiarchaeum_subterraneum_1, (Cenarchaeum_symbiosum_1, (Nitrosoarchaeum_limnia_1, Nitrosopumilus_maritimus_1))), (((Aeropyrum_pernix_1, (Hyperthermus_butylicus_1, (Ignicoccus_hospitalis_1, Sulfolobus_solfataricus_1))), Staphylothermus_marinus_1), ((Caldivirga_maquilingensis_1, Pyrobaculum_aerophilum_1), Thermofilum_pendens_1)))), (((((((Agaricus_bisporus_1, Saccharomyces_cerevisiae_1), Batrachochytrium_dendrobatidis_1), (Amphimedon_queenslandica_1, ((Homo_sapiens_1, Limulus_polyphemus_1), Hydra_vulgaris_1))), (Dictyostelium_discoideum_1, Polysphondylium_pallidum_1)), (((((((Arabidopsis_thaliana_1, Oryza_sativa_1), Physcomitrella_patens_1), (Bathycoccus_prasinos_1, (Chlamydomonas_reinhardtii_1, Volvox_carteri_1))), Cyanophora_paradoxa_1), ((Chondrus_crispus_1, Galdieria_sulphuraria_1), Cyanidioschyzon_merolae_1)), (((Ectocarpus_siliculosus_1, Thalassiosira_pseudonana_1), Paramecium_tetraurelia_1), (Elphidium_margaritaceum_1, Reticulomyxa_filosa_1))), (Bodo_saltans_1, Leishmania_major_1))), (Heimdallarchaeota_archaeon_AB_125_1, (Heimdallarchaeota_archaeon_LC_2_1, Heimdallarchaeota_archaeon_LC_3_1))), (Lokiarchaeum_sp._GC14_75_1, (Odinarchaeota_archaeon_LCB_4_1, ((Thorarchaeota_archaeon_AB_25_1, Thorarchaeota_archaeon_SMTZ1-45_1), Thorarchaeota_archaeon_SMTZ1-83_1))))))), (((Archaeoglobus_fulgidus_1, Methanosarcina_mazei_1), (Haloarcula_marismortui_1, Thermoplasma_volcanium_1)), Methanomassiliicoccus_luminyensis_1)), (((Actinomadura_madurae_1, Clostridium_acetobutylicum_1), (((((((((Arabidopsis_thaliana_chloro_1, Oryza_sativa_chloro_1), Physcomitrella_patens_chloro_1), (Bathycoccus_prasinos_chloro_1, (Chlamydomonas_reinhardtii_chloro_1, Volvox_carteri_chloro_1))), ((Chondrus_crispus_chloro_1, (Ectocarpus_siliculosus_chloro_1, Thalassiosira_pseudonana_chloro_1)), (Cyanidioschyzon_merolae_chloro_1, Galdieria_sulphuraria_chloro_1))), (((Chlorogloeopsis_fritschii_1, Cylindrospermopsis_raciborskii_1), Pseudanabaena_biceps_1), (Leptolyngbya_valderiana_1, Synechocystis_sp._PCC_6803_1))), Cyanobium_gracile_1), Gloeobacter_violaceus_1), Melainabacteria_bacterium_1), (Chloroflexus_1, Oscillochloris_trichoides_1))), ((((((Agaricus_bisporus_mito_1, Batrachochytrium_dendrobatidis_mito_1), (Amphimedon_queenslandica_mito_1, ((Homo_sapiens_mito_1, Limulus_polyphemus_mito_1), Hydra_vulgaris_mito_1))), (Dictyostelium_discoideum_mito_1, Polysphondylium_pallidum_mito_1)), (((((Arabidopsis_thaliana_mito_1, Oryza_sativa_mito_1), Physcomitrella_patens_mito_1), (Bathycoccus_prasinos_mito_1, (Chlamydomonas_reinhardtii_mito_1, Volvox_carteri_mito_1))), (Cyanidioschyzon_merolae_mito_1, Galdieria_sulphuraria_mito_1)), (Phytophthora_ramorum_mito_1, Thalassiosira_pseudonana_mito_1))), ((Jidaibacter_acanthamoeba_1, Rickettsia_bellii_1), ((Rhodopseudomonas_palustris_1, Roseobacter_litoralis_1), Sphingopyxis_alaskensis_1))), (Chlamydia_trachomatis_1, (Latescibacteria_bacterium_1, ((((Caldisericum_exile_1, Dictyoglomus_turgidum_1), Kosmotoga_olearia_1), (((Caldithrix_abyssi_1, Chlorobium_phaeovibrioides_1), ((Campylobacter_jejuni_1, Verrucomicrobium_spinosum_1), (((Cloacimonas_acidaminovorans_1, Fibrobacter_succinogenes_1), Lentisphaera_araneosa_1), Rhodopirellula_baltica_1))), (Elusimicrobium_minutum_1, Jonquetella_anthropi_1))), (Acidobacterium_capsulatum_1, (Aquifex_aeolicus_1, (Thermodesulfatator_indicus_1, Thermodesulfovibrio_islandicus_1))))))))), ((((((((Acidobacterium_capsulatum_2, ((Campylobacter_jejuni_2, Desulfurispirillum_indicum_2), (Thermodesulfatator_indicus_2, Thermodesulfovibrio_islandicus_2))), ((Caldisericum_exile_2, Dictyoglomus_turgidum_2), Kosmotoga_olearia_2)), ((Chlorobium_phaeovibrioides_2, (Cloacimonas_acidaminovorans_2, Elusimicrobium_minutum_2)), Latescibacteria_bacterium_2)), (Chlamydia_trachomatis_2, (Chthonomonas_calidirosea_2, ((Fibrobacter_succinogenes_2, Treponema_pallidum_2), Rhodopirellula_baltica_2)))), ((Caldithrix_abyssi_2, Lentisphaera_araneosa_2), Jonquetella_anthropi_2)), (((((((Agaricus_bisporus_mito_2, Saccharomyces_cerevisiae_mito_2), Batrachochytrium_dendrobatidis_mito_2), (Amphimedon_queenslandica_mito_2, ((Homo_sapiens_mito_2, Limulus_polyphemus_mito_2), Hydra_vulgaris_mito_2))), (Dictyostelium_discoideum_mito_2, Polysphondylium_pallidum_mito_2)), (((((Arabidopsis_thaliana_mito_2, Oryza_sativa_mito_2), Physcomitrella_patens_mito_2), (Bathycoccus_prasinos_mito_2, (Chlamydomonas_reinhardtii_mito_2, Volvox_carteri_mito_2))), (Chondrus_crispus_mito_2, (Cyanidioschyzon_merolae_mito_2, Galdieria_sulphuraria_mito_2))), (Ectocarpus_siliculosus_mito_2, Thalassiosira_pseudonana_mito_2))), ((Bodo_saltans_mito_2, Leishmania_major_mito_2), (Elphidium_margaritaceum_mito_2, Reticulomyxa_filosa_mito_2))), ((Jidaibacter_acanthamoeba_2, Rickettsia_bellii_2), ((Rhodopseudomonas_palustris_2, Roseobacter_litoralis_2), Sphingopyxis_alaskensis_2)))), (((Actinomadura_madurae_2, Gemmatimonas_aurantiaca_2), Clostridium_acetobutylicum_2), ((((((((Bathycoccus_prasinos_chloro_2, (Chlamydomonas_reinhardtii_chloro_2, Volvox_carteri_chloro_2)), (Oryza_sativa_chloro_2, Physcomitrella_patens_chloro_2)), (Cyanidioschyzon_merolae_chloro_2, ((Chondrus_crispus_chloro_2, Thalassiosira_pseudonana_chloro_2), Galdieria_sulphuraria_chloro_2))), (((Chlorogloeopsis_fritschii_2, Cylindrospermopsis_raciborskii_2), Pseudanabaena_biceps_2), Synechocystis_sp._PCC_6803_2)), Cyanobium_gracile_2), Gloeobacter_violaceus_2), Melainabacteria_bacterium_2), (Chloroflexus_2, Oscillochloris_trichoides_2)))), (((Methanocaldococcus_jannaschii_2, (Methanothermobacter_thermautotrophicus_2, Methanopyrus_kandleri_2)), (Pyrococcus_furiosus_2, ((Korarchaeum_cryptofilum_2, (((Staphylothermus_marinus_2, (Aeropyrum_pernix_2, (Ignicoccus_hospitalis_2, Hyperthermus_butylicus_2))), (Thermofilum_pendens_2, (Caldivirga_maquilingensis_2, Pyrobaculum_aerophilum_2))), (Caldiarchaeum_subterraneum_2, (Cenarchaeum_symbiosum_2, (Nitrosoarchaeum_limnia_2, Nitrosopumilus_maritimus_2))))), (((((((Agaricus_bisporus_2, Saccharomyces_cerevisiae_2), Batrachochytrium_dendrobatidis_2), (Amphimedon_queenslandica_2, ((Homo_sapiens_2, Limulus_polyphemus_2), Hydra_vulgaris_2))), (Dictyostelium_discoideum_2, Polysphondylium_pallidum_2)), (((((((Arabidopsis_thaliana_2, Oryza_sativa_2), Physcomitrella_patens_2), (Bathycoccus_prasinos_2, (Chlamydomonas_reinhardtii_2, Volvox_carteri_2))), Cyanophora_paradoxa_2), ((Chondrus_crispus_2, Galdieria_sulphuraria_2), Cyanidioschyzon_merolae_2)), (((Ectocarpus_siliculosus_2, Thalassiosira_pseudonana_2), Paramecium_tetraurelia_2), (Elphidium_margaritaceum_2, Reticulomyxa_filosa_2))), (Bodo_saltans_2, Leishmania_major_2))), ((Heimdallarchaeota_archaeon_LC_2_2, Heimdallarchaeota_archaeon_LC_3_2), Heimdallarchaeota_archaeon_AB_125_2)), (Lokiarchaeum_sp._GC14_75_2, (Odinarchaeota_archaeon_LCB_4_2, ((Thorarchaeota_archaeon_AB_25_2, Thorarchaeota_archaeon_SMTZ1-83_2), Thorarchaeota_archaeon_SMTZ1-45_2))))))), (Methanomassiliicoccus_luminyensis_2, ((Archaeoglobus_fulgidus_2, Methanosarcina_mazei_2), (Haloarcula_marismortui_2, Thermoplasma_volcanium_2))))));
+(((((Methanocaldococcus_jannaschii_1: 2.535356, (Methanopyrus_kandleri_1: 1.493022, Methanothermobacter_thermautotrophicus_1: 1.493022): 1.042335): 0.035676, (Pyrococcus_furiosus_1: 2.391638, ((Korarchaeum_cryptofilum_1: 2.131697, ((Caldiarchaeum_subterraneum_1: 1.552735, (Cenarchaeum_symbiosum_1: 0.772986, (Nitrosoarchaeum_limnia_1: 0.537985, Nitrosopumilus_maritimus_1: 0.537985): 0.235001): 0.779749): 0.325993, (((Aeropyrum_pernix_1: 0.614351, (Hyperthermus_butylicus_1: 0.388446, (Ignicoccus_hospitalis_1: 0.277479, Sulfolobus_solfataricus_1: 0.277479): 0.110966): 0.225905): 0.164852, Staphylothermus_marinus_1: 0.779203): 0.375948, ((Caldivirga_maquilingensis_1: 0.338781, Pyrobaculum_aerophilum_1: 0.338781): 0.794650, Thermofilum_pendens_1: 1.133431): 0.021720): 0.723577): 0.252970): 0.034960, (((((((Agaricus_bisporus_1: 0.231955, Saccharomyces_cerevisiae_1: 0.231955): 0.410434, Batrachochytrium_dendrobatidis_1: 0.642389): 0.188288, (Amphimedon_queenslandica_1: 0.615293, ((Homo_sapiens_1: 0.238151, Limulus_polyphemus_1: 0.238151): 0.046484, Hydra_vulgaris_1: 0.284634): 0.330658): 0.215384): 0.771485, (Dictyostelium_discoideum_1: 0.956005, Polysphondylium_pallidum_1: 0.956005): 0.646157): 0.006593, (((((((Arabidopsis_thaliana_1: 0.085654, Oryza_sativa_1: 0.085654): 0.234886, Physcomitrella_patens_1: 0.320540): 0.403629, (Bathycoccus_prasinos_1: 0.385568, (Chlamydomonas_reinhardtii_1: 0.053842, Volvox_carteri_1: 0.053842): 0.331726): 0.338602): 0.289796, Cyanophora_paradoxa_1: 1.013965): 0.195708, ((Chondrus_crispus_1: 0.202216, Galdieria_sulphuraria_1: 0.202216): 0.589391, Cyanidioschyzon_merolae_1: 0.791607): 0.418066): 0.086073, (((Ectocarpus_siliculosus_1: 0.123152, Thalassiosira_pseudonana_1: 0.123152): 0.716288, Paramecium_tetraurelia_1: 0.839440): 0.315587, (Elphidium_margaritaceum_1: 0.865981, Reticulomyxa_filosa_1: 0.865981): 0.289047): 0.140720): 0.241936, (Bodo_saltans_1: 0.704757, Leishmania_major_1: 0.704757): 0.832926): 0.071071): 0.010011, (Heimdallarchaeota_archaeon_AB_125_1: 0.826311, (Heimdallarchaeota_archaeon_LC_2_1: 0.347059, Heimdallarchaeota_archaeon_LC_3_1: 0.347059): 0.479253): 0.792453): 0.129353, (Lokiarchaeum_sp._GC14_75_1: 1.701866, (Odinarchaeota_archaeon_LCB_4_1: 1.528425, ((Thorarchaeota_archaeon_AB_25_1: 0.681011, Thorarchaeota_archaeon_SMTZ1-45_1: 0.681011): 0.107329, Thorarchaeota_archaeon_SMTZ1-83_1: 0.788340): 0.740085): 0.173442): 0.046251): 0.418541): 0.224980): 0.179395): 0.617075, (((Archaeoglobus_fulgidus_1: 0.991608, Methanosarcina_mazei_1: 0.991608): 0.145876, (Haloarcula_marismortui_1: 0.132936, Thermoplasma_volcanium_1: 0.132936): 1.004547): 1.312200, Methanomassiliicoccus_luminyensis_1: 2.449684): 0.738424): 0.534515, (((Actinomadura_madurae_1: 3.122974, Clostridium_acetobutylicum_1: 3.122974): 0.380924, (((((((((Arabidopsis_thaliana_chloro_1: 0.085654, Oryza_sativa_chloro_1: 0.085654): 0.234886, Physcomitrella_patens_chloro_1: 0.320540): 0.403629, (Bathycoccus_prasinos_chloro_1: 0.385568, (Chlamydomonas_reinhardtii_chloro_1: 0.053842, Volvox_carteri_chloro_1: 0.053842): 0.331726): 0.338602): 0.485504, ((Chondrus_crispus_chloro_1: 0.684873, (Ectocarpus_siliculosus_chloro_1: 0.123152, Thalassiosira_pseudonana_chloro_1: 0.123152): 0.561721): 0.106734, (Cyanidioschyzon_merolae_chloro_1: 0.028996, Galdieria_sulphuraria_chloro_1: 0.028996): 0.762611): 0.418066): 0.947424, (((Chlorogloeopsis_fritschii_1: 0.167940, Cylindrospermopsis_raciborskii_1: 0.167940): 0.243872, Pseudanabaena_biceps_1: 0.411812): 0.757879, (Leptolyngbya_valderiana_1: 1.078474, Synechocystis_sp._PCC_6803_1: 1.078474): 0.091218): 0.987406): 0.423797, Cyanobium_gracile_1: 2.580894): 0.225704, Gloeobacter_violaceus_1: 2.806598): 0.509629, Melainabacteria_bacterium_1: 3.316228): 0.037421, (Chloroflexus_1: 2.268130, Oscillochloris_trichoides_1: 2.268130): 1.085519): 0.150250): 0.036452, ((((((Agaricus_bisporus_mito_1: 0.642389, Batrachochytrium_dendrobatidis_mito_1: 0.642389): 0.188288, (Amphimedon_queenslandica_mito_1: 0.615293, ((Homo_sapiens_mito_1: 0.238151, Limulus_polyphemus_mito_1: 0.238151): 0.046484, Hydra_vulgaris_mito_1: 0.284634): 0.330658): 0.215384): 0.771485, (Dictyostelium_discoideum_mito_1: 0.956005, Polysphondylium_pallidum_mito_1: 0.956005): 0.646157): 0.683589, (((((Arabidopsis_thaliana_mito_1: 0.085654, Oryza_sativa_mito_1: 0.085654): 0.234886, Physcomitrella_patens_mito_1: 0.320540): 0.403629, (Bathycoccus_prasinos_mito_1: 0.385568, (Chlamydomonas_reinhardtii_mito_1: 0.053842, Volvox_carteri_mito_1: 0.053842): 0.331726): 0.338602): 0.485504, (Cyanidioschyzon_merolae_mito_1: 0.791607, Galdieria_sulphuraria_mito_1: 0.791607): 0.418066): 0.334848, (Phytophthora_ramorum_mito_1: 0.918638, Thalassiosira_pseudonana_mito_1: 0.918638): 0.625883): 0.741229): 0.527475, ((Jidaibacter_acanthamoeba_1: 1.889124, Rickettsia_bellii_1: 1.889124): 0.136778, ((Rhodopseudomonas_palustris_1: 0.022920, Roseobacter_litoralis_1: 0.022920): 1.982813, Sphingopyxis_alaskensis_1: 2.005733): 0.020169): 0.787323): 0.472108, (Chlamydia_trachomatis_1: 2.798677, (Latescibacteria_bacterium_1: 2.624572, ((((Caldisericum_exile_1: 0.244508, Dictyoglomus_turgidum_1: 0.244508): 1.295363, Kosmotoga_olearia_1: 1.539871): 0.322531, (((Caldithrix_abyssi_1: 0.589522, Chlorobium_phaeovibrioides_1: 0.589522): 0.502341, ((Campylobacter_jejuni_1: 0.676579, Verrucomicrobium_spinosum_1: 0.676579): 0.060789, (((Cloacimonas_acidaminovorans_1: 0.032290, Fibrobacter_succinogenes_1: 0.032290): 0.304968, Lentisphaera_araneosa_1: 0.337258): 0.098508, Rhodopirellula_baltica_1: 0.435767): 0.301601): 0.354495): 0.659543, (Elusimicrobium_minutum_1: 1.566324, Jonquetella_anthropi_1: 1.566324): 0.185081): 0.110997): 0.487981, (Acidobacterium_capsulatum_1: 1.932706, (Aquifex_aeolicus_1: 0.064690, (Thermodesulfatator_indicus_1: 0.004609, Thermodesulfovibrio_islandicus_1: 0.004609): 0.060081): 1.868016): 0.417677): 0.274189): 0.174104): 0.486657): 0.255017): 0.182272): 0.356946, ((((((((Acidobacterium_capsulatum_2: 0.882630, ((Campylobacter_jejuni_2: 0.645765, Desulfurispirillum_indicum_2: 0.645765): 0.147874, (Thermodesulfatator_indicus_2: 0.004609, Thermodesulfovibrio_islandicus_2: 0.004609): 0.789030): 0.088991): 0.663675, ((Caldisericum_exile_2: 0.244508, Dictyoglomus_turgidum_2: 0.244508): 1.295363, Kosmotoga_olearia_2: 1.539871): 0.006433): 0.040317, ((Chlorobium_phaeovibrioides_2: 0.718783, (Cloacimonas_acidaminovorans_2: 0.219600, Elusimicrobium_minutum_2: 0.219600): 0.499182): 0.334273, Latescibacteria_bacterium_2: 1.053055): 0.533566): 1.044557, (Chlamydia_trachomatis_2: 2.126764, (Chthonomonas_calidirosea_2: 1.567050, ((Fibrobacter_succinogenes_2: 0.054917, Treponema_pallidum_2: 0.054917): 0.540613, Rhodopirellula_baltica_2: 0.595531): 0.971520): 0.559714): 0.504414): 0.167498, ((Caldithrix_abyssi_2: 1.712281, Lentisphaera_araneosa_2: 1.712281): 0.165712, Jonquetella_anthropi_2: 1.877993): 0.920683): 0.486657, (((((((Agaricus_bisporus_mito_2: 0.231955, Saccharomyces_cerevisiae_mito_2: 0.231955): 0.410434, Batrachochytrium_dendrobatidis_mito_2: 0.642389): 0.188288, (Amphimedon_queenslandica_mito_2: 0.615293, ((Homo_sapiens_mito_2: 0.238151, Limulus_polyphemus_mito_2: 0.238151): 0.046484, Hydra_vulgaris_mito_2: 0.284634): 0.330658): 0.215384): 0.771485, (Dictyostelium_discoideum_mito_2: 0.956005, Polysphondylium_pallidum_mito_2: 0.956005): 0.646157): 0.047258, (((((Arabidopsis_thaliana_mito_2: 0.085654, Oryza_sativa_mito_2: 0.085654): 0.234886, Physcomitrella_patens_mito_2: 0.320540): 0.403629, (Bathycoccus_prasinos_mito_2: 0.385568, (Chlamydomonas_reinhardtii_mito_2: 0.053842, Volvox_carteri_mito_2: 0.053842): 0.331726): 0.338602): 0.485504, (Chondrus_crispus_mito_2: 0.791607, (Cyanidioschyzon_merolae_mito_2: 0.679877, Galdieria_sulphuraria_mito_2: 0.679877): 0.111730): 0.418066): 0.334848, (Ectocarpus_siliculosus_mito_2: 0.123152, Thalassiosira_pseudonana_mito_2: 0.123152): 1.421369): 0.104898): 0.636331, ((Bodo_saltans_mito_2: 0.704757, Leishmania_major_mito_2: 0.704757): 1.103638, (Elphidium_margaritaceum_mito_2: 0.865981, Reticulomyxa_filosa_mito_2: 0.865981): 0.942415): 0.477355): 0.527475, ((Jidaibacter_acanthamoeba_2: 1.889124, Rickettsia_bellii_2: 1.889124): 0.641141, ((Rhodopseudomonas_palustris_2: 0.022920, Roseobacter_litoralis_2: 0.022920): 1.982813, Sphingopyxis_alaskensis_2: 2.005733): 0.524532): 0.282960): 0.472108): 0.255017, (((Actinomadura_madurae_2: 0.728398, Gemmatimonas_aurantiaca_2: 0.728398): 2.394576, Clostridium_acetobutylicum_2: 3.122974): 0.380924, ((((((((Bathycoccus_prasinos_chloro_2: 0.385568, (Chlamydomonas_reinhardtii_chloro_2: 0.053842, Volvox_carteri_chloro_2: 0.053842): 0.331726): 0.338602, (Oryza_sativa_chloro_2: 0.320540, Physcomitrella_patens_chloro_2: 0.320540): 0.403629): 0.485504, (Cyanidioschyzon_merolae_chloro_2: 0.791607, ((Chondrus_crispus_chloro_2: 0.166075, Thalassiosira_pseudonana_chloro_2: 0.166075): 0.114088, Galdieria_sulphuraria_chloro_2: 0.280164): 0.511443): 0.418066): 0.947424, (((Chlorogloeopsis_fritschii_2: 0.167940, Cylindrospermopsis_raciborskii_2: 0.167940): 0.243872, Pseudanabaena_biceps_2: 0.411812): 0.757879, Synechocystis_sp._PCC_6803_2: 1.169692): 0.987406): 0.423797, Cyanobium_gracile_2: 2.580894): 0.225704, Gloeobacter_violaceus_2: 2.806598): 0.509629, Melainabacteria_bacterium_2: 3.316228): 0.037421, (Chloroflexus_2: 2.268130, Oscillochloris_trichoides_2: 2.268130): 1.085519): 0.150250): 0.036452): 0.182272, (((Methanocaldococcus_jannaschii_2: 2.535356, (Methanothermobacter_thermautotrophicus_2: 1.493022, Methanopyrus_kandleri_2: 1.493022): 1.042335): 0.035676, (Pyrococcus_furiosus_2: 2.391638, ((Korarchaeum_cryptofilum_2: 2.131697, (((Staphylothermus_marinus_2: 0.779203, (Aeropyrum_pernix_2: 0.772356, (Ignicoccus_hospitalis_2: 0.587598, Hyperthermus_butylicus_2: 0.587598): 0.184758): 0.006847): 0.375948, (Thermofilum_pendens_2: 1.133431, (Caldivirga_maquilingensis_2: 0.338781, Pyrobaculum_aerophilum_2: 0.338781): 0.794650): 0.021720): 0.723577, (Caldiarchaeum_subterraneum_2: 1.552735, (Cenarchaeum_symbiosum_2: 0.772986, (Nitrosoarchaeum_limnia_2: 0.537985, Nitrosopumilus_maritimus_2: 0.537985): 0.235001): 0.779749): 0.325993): 0.252970): 0.034960, (((((((Agaricus_bisporus_2: 0.231955, Saccharomyces_cerevisiae_2: 0.231955): 0.410434, Batrachochytrium_dendrobatidis_2: 0.642389): 0.188288, (Amphimedon_queenslandica_2: 0.615293, ((Homo_sapiens_2: 0.238151, Limulus_polyphemus_2: 0.238151): 0.046484, Hydra_vulgaris_2: 0.284634): 0.330658): 0.215384): 0.771485, (Dictyostelium_discoideum_2: 0.956005, Polysphondylium_pallidum_2: 0.956005): 0.646157): 0.006593, (((((((Arabidopsis_thaliana_2: 0.085654, Oryza_sativa_2: 0.085654): 0.234886, Physcomitrella_patens_2: 0.320540): 0.403629, (Bathycoccus_prasinos_2: 0.385568, (Chlamydomonas_reinhardtii_2: 0.053842, Volvox_carteri_2: 0.053842): 0.331726): 0.338602): 0.289796, Cyanophora_paradoxa_2: 1.013965): 0.195708, ((Chondrus_crispus_2: 0.202216, Galdieria_sulphuraria_2: 0.202216): 0.589391, Cyanidioschyzon_merolae_2: 0.791607): 0.418066): 0.086073, (((Ectocarpus_siliculosus_2: 0.123152, Thalassiosira_pseudonana_2: 0.123152): 0.716288, Paramecium_tetraurelia_2: 0.839440): 0.315587, (Elphidium_margaritaceum_2: 0.865981, Reticulomyxa_filosa_2: 0.865981): 0.289047): 0.140720): 0.241936, (Bodo_saltans_2: 0.704757, Leishmania_major_2: 0.704757): 0.832926): 0.071071): 0.010011, ((Heimdallarchaeota_archaeon_LC_2_2: 0.347059, Heimdallarchaeota_archaeon_LC_3_2: 0.347059): 0.479253, Heimdallarchaeota_archaeon_AB_125_2: 0.826311): 0.792453): 0.129353, (Lokiarchaeum_sp._GC14_75_2: 1.701866, (Odinarchaeota_archaeon_LCB_4_2: 1.528425, ((Thorarchaeota_archaeon_AB_25_2: 0.681011, Thorarchaeota_archaeon_SMTZ1-83_2: 0.681011): 0.107329, Thorarchaeota_archaeon_SMTZ1-45_2: 0.788340): 0.740085): 0.173442): 0.046251): 0.418541): 0.224980): 0.179395): 0.617075, (Methanomassiliicoccus_luminyensis_2: 2.449684, ((Archaeoglobus_fulgidus_2: 0.991608, Methanosarcina_mazei_2: 0.991608): 0.006848, (Haloarcula_marismortui_2: 0.132936, Thermoplasma_volcanium_2: 0.132936): 0.865520): 1.451227): 0.738424): 0.534515): 0.356946);
+
+priors:
+mu_i ~ gammaDir(2.000, 2.500, 1.000), SD(mu_i) =  0.56569, corr(mu_i,mu_j) = -0.50000
+
+Initial parameters (np = 246):
+4.079568  3.722622  3.188108  2.571033  2.535356  1.493022  2.391638  2.166658  2.131697  1.878728  1.552735  0.772986  0.537985  1.155151  0.779203  0.614351  0.388446  0.277479  1.133431  0.338781  1.748117  1.618764  1.608754  1.602161  0.830677  0.642389  0.231955  0.615293  0.284634  0.238151  0.956005  1.537683  1.295747  1.209674  1.013965  0.724169  0.320540  0.085654  0.385568  0.053842  0.791607  0.202216  1.155027  0.839440  0.123152  0.865981  0.704757  0.826311  0.347059  1.701866  1.528425  0.788340  0.681011  2.449684  1.137484  0.991608  0.132936  3.540351  3.503898  3.122974  3.353649  3.316228  2.806598  2.580894  2.157098  1.209674  0.724169  0.320540  0.085654  0.385568  0.053842  0.791607  0.684873  0.123152  0.028996  1.169692  0.411812  0.167940  1.078474  2.268130  3.285333  2.813225  2.285750  1.602161  0.830677  0.642389  0.615293  0.284634  0.238151  0.956005  1.544521  1.209674  0.724169  0.320540  0.085654  0.385568  0.053842  0.791607  0.918638  2.025902  1.889124  2.005733  0.022920  2.798677  2.624572  2.350383  1.862403  1.539871  0.244508  1.751406  1.091863  0.589522  0.737368  0.676579  0.435767  0.337258  0.032290  1.566324  1.932706  0.064690  0.004609  3.722622  3.540351  3.285333  2.798677  2.631178  1.586621  1.546304  0.882630  0.793639  0.645765  0.004609  1.539871  0.244508  1.053055  0.718783  0.219600  2.126764  1.567050  0.595531  0.054917  1.877993  1.712281  2.813225  2.285750  1.649419  1.602161  0.830677  0.642389  0.231955  0.615293  0.284634  0.238151  0.956005  1.544521  1.209674  0.724169  0.320540  0.085654  0.385568  0.053842  0.791607  0.679877  0.123152  1.808395  0.704757  0.865981  2.530265  1.889124  2.005733  0.022920  3.503898  3.122974  0.728398  3.353649  3.316228  2.806598  2.580894  2.157098  1.209674  0.724169  0.385568  0.053842  0.320540  0.791607  0.280164  0.166075  1.169692  0.411812  0.167940  2.268130  3.188108  2.571033  2.535356  1.493022  2.391638  2.166658  2.131697  1.878728  1.155151  0.779203  0.772356  0.587598  1.133431  0.338781  1.552735  0.772986  0.537985  1.748117  1.618764  1.608754  1.602161  0.830677  0.642389  0.231955  0.615293  0.284634  0.238151  0.956005  1.537683  1.295747  1.209674  1.013965  0.724169  0.320540  0.085654  0.385568  0.053842  0.791607  0.202216  1.155027  0.839440  0.123152  0.865981  0.704757  0.826311  0.347059  1.701866  1.528425  0.788340  0.681011  2.449684  0.998456  0.991608  0.132936  0.416847
+
+lnL0 =      0.00
+
+Starting MCMC (np = 246) . . .
+paras: 245 times, 1 mu, (& kappa, alpha)
+
+(nsteps = 247)
+Current Pjump:      0.11970  0.99605  0.99185  0.98670  0.98715  0.99300  0.98575  0.99415  0.98315  0.98010  0.96665  0.98530  0.99875  0.97255  0.97130  0.98300  0.97445  0.95755  0.96545  0.97165  0.97535  0.97420  0.38615  0.98045  0.97025  0.96490  0.99370  0.32155  0.27185  0.98485  0.97810  0.98290  0.99660  0.99470  0.96240  0.98355  0.52565  0.98085  0.97300  0.97755  0.97350  0.99205  0.98980  0.97405  0.99365  0.95035  0.98835  0.96290  0.97005  0.96670  0.99270  0.96675  0.96915  0.97850  0.99285  0.99185  0.96285  0.99395  0.97700  0.96035  0.98885  0.91145  0.91820  0.99450  0.97635  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.96655  0.00000  0.98125  0.96670  0.97060  0.99070  0.97790  0.98005  0.99195  0.99745  0.99190  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.98740  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.95950  0.98250  0.96070  0.97780  0.96235  0.98765  0.97600  0.98995  0.98340  0.99615  0.95790  0.99865  0.98870  0.99095  0.98430  0.96790  0.98435  0.96125  0.98510  0.96750  0.98155  0.98980  0.98745  0.00000  0.00000  0.00000  0.00000  0.98780  0.97680  0.98350  0.95890  0.98785  0.97005  0.00000  0.00000  0.00000  0.97370  0.96060  0.95525  0.99865  0.99495  0.98880  0.99940  0.96060  0.97560  0.00000  0.00000  0.99825  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.96815  0.00000  0.95635  0.00000  0.00000  0.98345  0.00000  0.00000  0.00000  0.00000  0.00000  0.98085  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.99275  0.96160  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.96035  0.99615  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.98720  0.00000  0.00000  0.98330  0.02065
+Current steps:   0.06612  0.01471  0.03132  0.07216  0.02723  0.01523  0.07464  0.01331  0.05032  0.06872  0.07939  0.02846  0.00186  0.08990  0.08972  0.03487  0.05342  0.09439  0.08496  0.06283  0.08339  0.01502  0.09005  0.05119  0.07074  0.07151  0.01166  0.08301  0.09188  0.03578  0.04843  0.09106  0.00640  0.01006  0.09881  0.03783  0.09280  0.00993  0.06482  0.04968  0.06998  0.01957  0.02533  0.05998  0.01556  0.06141  0.02713  0.09075  0.06693  0.09719  0.01737  0.07754  0.06585  0.05289  0.01570  0.01739  0.08279  0.03449  0.09964  0.09423  0.03166  0.07691  0.05152  0.01180  0.06110  0.04312  0.09054  0.03844  0.08312  0.06588  0.08826  0.04365  0.07509  0.09906  0.04106  0.08102  0.06603  0.02080  0.04797  0.04723  0.09309  0.00578  0.01733  0.02180  0.08918  0.05867  0.10062  0.06734  0.03771  0.07603  0.02707  0.04484  0.00537  0.07878  0.08730  0.07393  0.03881  0.03247  0.08963  0.04249  0.08628  0.04758  0.08723  0.04556  0.08011  0.02693  0.04989  0.00812  0.09095  0.00247  0.02850  0.02145  0.03971  0.07859  0.03592  0.09769  0.02816  0.07421  0.04257  0.02245  0.02417  0.03073  0.06025  0.05998  0.01241  0.02815  0.06250  0.04069  0.09653  0.02639  0.06509  0.03566  0.01377  0.02420  0.06495  0.09791  0.09791  0.00265  0.01111  0.02501  0.00145  0.09553  0.05591  0.07271  0.06302  0.00374  0.01012  0.02448  0.08103  0.04601  0.10022  0.09635  0.02927  0.01288  0.00142  0.03197  0.02562  0.06646  0.09478  0.01746  0.03973  0.00286  0.07190  0.02081  0.10056  0.06961  0.08556  0.03543  0.03981  0.00535  0.01990  0.08259  0.08206  0.04376  0.02834  0.00252  0.06770  0.09905  0.06289  0.03864  0.06946  0.02529  0.09319  0.09483  0.03853  0.01647  0.08875  0.02031  0.09127  0.08985  0.01275  0.05186  0.02230  0.06951  0.05096  0.01801  0.00503  0.06236  0.07415  0.08499  0.01556  0.09386  0.00742  0.09899  0.09081  0.04563  0.05485  0.05457  0.00687  0.01202  0.00308  0.09381  0.03854  0.06794  0.00204  0.01587  0.03593  0.01516  0.09634  0.05170  0.02908  0.04914  0.05593  0.03366  0.04657  0.06371  0.02911  0.06450  0.00899  0.08568  0.01674  0.06567  0.03335  0.00669  0.04072  0.05947  0.05910  0.05432  0.05545  0.01474  0.08206  0.01982  0.02552  0.06084  0.05683  0.03455  0.06824
+New     steps:   0.02469  4.65151  4.80192  6.77788  2.64761  2.71759  6.54354  2.84361  3.73037  4.31344  2.97147  2.41887  1.85467  4.08953  3.90322  2.56230  2.61078  2.77409  3.06952  2.76717  4.22448  0.72681  0.12263  3.27023  2.96883  2.54275  2.31211  0.09008  0.08205  2.95029  2.76189  6.65199  2.35312  2.37129  3.27946  2.87255  0.19743  0.64738  2.99775  2.76383  3.29737  3.07621  3.10252  2.88653  3.06184  1.54227  2.90949  3.05269  2.78989  3.64329  2.97264  2.91125  2.66482  3.07230  2.74316  2.66548  2.78119  7.12344  5.41021  2.96551  3.54756  1.07813  0.78261  2.68059  3.22667  0.00043  0.00091  0.00038  0.00083  0.00066  0.00088  0.00044  2.80236  0.00099  2.73509  3.03729  2.80430  2.79362  2.71115  2.95700 14.44755  2.83038  2.67353  0.00022  0.00089  0.00059  0.00101  0.00067  0.00038  0.00076  2.68383  0.00045  0.00005  0.00079  0.00087  0.00074  0.00039  0.00032  2.76123  3.03288  2.73948  2.67672  2.89146  4.60848  4.16875  3.34788  3.75459  2.63570  2.69541  2.28327  3.15126  2.96073  3.15946  3.05626  2.86703  3.14595  2.36099  2.85030  2.88226  2.75009  2.40626  0.00031  0.00060  0.00060  0.00012  2.88248  3.36460  3.08022  2.93037  2.71362  2.71326  0.00036  0.00014  0.00024  3.08385  3.10106  2.72931  2.45321  2.74848  2.78935  0.14459  3.02538  2.86177  0.00073  0.00063  2.67187  0.00010  0.00024  0.00081  0.00046  0.00100  0.00096  0.00029  0.00013  0.00001  0.00032  0.00026  0.00066  0.00095  0.00017  0.00040  0.00003  2.81804  0.00021  2.87398  0.00070  0.00086  2.67395  0.00040  0.00005  0.00020  0.00083  0.00082  2.85400  0.00028  0.00003  0.00068  0.00099  0.00063  0.00039  0.00069  0.00025  0.00093  0.00095  0.00039  2.83773  2.88420  0.00020  0.00091  0.00090  0.00013  0.00052  0.00022  0.00070  0.00051  0.00018  0.00005  0.00062  0.00074  0.00085  0.00016  2.95393  2.40645  0.00099  0.00091  0.00046  0.00055  0.00055  0.00007  0.00012  0.00003  0.00094  0.00039  0.00068  0.00002  0.00016  0.00036  0.00015  0.00096  0.00052  0.00029  0.00049  0.00056  0.00034  0.00047  0.00064  0.00029  0.00064  0.00009  0.00086  0.00017  0.00066  0.00033  0.00007  0.00041  0.00059  0.00059  0.00054  0.00055  0.00015  0.00082  0.00020  2.49099  0.00061  0.00057  2.58400  0.00435
+
+
+(nsteps = 247)
+Current Pjump:      0.37755  0.99550  0.99055  0.98640  0.74465  0.33800  0.98555  0.98570  0.97245  0.97305  0.86180  0.74860  0.45530  0.96465  0.94150  0.86050  0.75365  0.32050  0.75855  0.32605  0.95795  0.85100  0.35520  0.93545  0.90240  0.65725  0.38365  0.29745  0.30480  0.29855  0.32160  0.98090  0.97920  0.96745  0.92245  0.89565  0.17425  0.19825  0.75765  0.32245  0.95330  0.29315  0.92025  0.69705  0.29120  0.20260  0.31585  0.75970  0.31420  0.90385  0.86645  0.75340  0.33175  0.92720  0.81935  0.33395  0.32250  0.99465  0.97755  0.74625  0.97255  0.85925  0.86260  0.94990  0.94355  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.69520  0.00000  0.32460  0.90575  0.74785  0.32925  0.33245  0.30885  0.99270  0.97580  0.95060  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.91215  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.31870  0.87300  0.32030  0.75680  0.30820  0.99030  0.97745  0.97755  0.97070  0.74360  0.34105  0.95895  0.94765  0.30705  0.92785  0.28450  0.85990  0.75710  0.37165  0.31230  0.83970  0.70610  0.36555  0.00000  0.00000  0.00000  0.00000  0.97440  0.96525  0.93980  0.89575  0.83620  0.32485  0.00000  0.00000  0.00000  0.86570  0.75970  0.32195  0.90245  0.86010  0.73380  0.93805  0.75510  0.31415  0.00000  0.00000  0.92365  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.31815  0.00000  0.80705  0.00000  0.00000  0.87435  0.00000  0.00000  0.00000  0.00000  0.00000  0.31560  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.74745  0.31540  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.75905  0.36340  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.82295  0.00000  0.00000  0.19605  0.62205
+Current steps:   0.02469  4.65151  4.80192  6.77788  2.64761  2.71759  6.54354  2.84361  3.73037  4.31344  2.97147  2.41887  1.85467  4.08953  3.90322  2.56230  2.61078  2.77409  3.06952  2.76717  4.22448  0.72681  0.12263  3.27023  2.96883  2.54275  2.31211  0.09008  0.08205  2.95029  2.76189  6.65199  2.35312  2.37129  3.27946  2.87255  0.19743  0.64738  2.99775  2.76383  3.29737  3.07621  3.10252  2.88653  3.06184  1.54227  2.90949  3.05269  2.78989  3.64329  2.97264  2.91125  2.66482  3.07230  2.74316  2.66548  2.78119  7.12344  5.41021  2.96551  3.54756  1.07813  0.78261  2.68059  3.22667  0.00043  0.00091  0.00038  0.00083  0.00066  0.00088  0.00044  2.80236  0.00099  2.73509  3.03729  2.80430  2.79362  2.71115  2.95700 14.44755  2.83038  2.67353  0.00022  0.00089  0.00059  0.00101  0.00067  0.00038  0.00076  2.68383  0.00045  0.00005  0.00079  0.00087  0.00074  0.00039  0.00032  2.76123  3.03288  2.73948  2.67672  2.89146  4.60848  4.16875  3.34788  3.75459  2.63570  2.69541  2.28327  3.15126  2.96073  3.15946  3.05626  2.86703  3.14595  2.36099  2.85030  2.88226  2.75009  2.40626  0.00031  0.00060  0.00060  0.00012  2.88248  3.36460  3.08022  2.93037  2.71362  2.71326  0.00036  0.00014  0.00024  3.08385  3.10106  2.72931  2.45321  2.74848  2.78935  0.14459  3.02538  2.86177  0.00073  0.00063  2.67187  0.00010  0.00024  0.00081  0.00046  0.00100  0.00096  0.00029  0.00013  0.00001  0.00032  0.00026  0.00066  0.00095  0.00017  0.00040  0.00003  2.81804  0.00021  2.87398  0.00070  0.00086  2.67395  0.00040  0.00005  0.00020  0.00083  0.00082  2.85400  0.00028  0.00003  0.00068  0.00099  0.00063  0.00039  0.00069  0.00025  0.00093  0.00095  0.00039  2.83773  2.88420  0.00020  0.00091  0.00090  0.00013  0.00052  0.00022  0.00070  0.00051  0.00018  0.00005  0.00062  0.00074  0.00085  0.00016  2.95393  2.40645  0.00099  0.00091  0.00046  0.00055  0.00055  0.00007  0.00012  0.00003  0.00094  0.00039  0.00068  0.00002  0.00016  0.00036  0.00015  0.00096  0.00052  0.00029  0.00049  0.00056  0.00034  0.00047  0.00064  0.00029  0.00064  0.00009  0.00086  0.00017  0.00066  0.00033  0.00007  0.00041  0.00059  0.00059  0.00054  0.00055  0.00015  0.00082  0.00020  2.49099  0.00061  0.00057  2.58400  0.00435
+New     steps:   0.03266 99.00000 99.00000 99.00000 12.25254  3.13169 99.00000 99.00000 99.00000 99.00000 26.44110 11.39011  3.16163 99.00000 83.12967 22.58081 12.57371  2.99868 15.11492  3.05321 99.00000  5.98292  0.15020 63.08192 37.70751  8.35575  3.12204  0.08919  0.08359  2.93370  2.99772 99.00000 99.00000 90.94290 52.57503 34.08599  0.10879  0.40897 14.70104  3.00928 88.06134  2.99483 48.35240 10.99225  2.95793  0.99717  3.09090 15.11134  2.94553 46.98274 27.40157 14.00506  3.00222 52.49855 18.46060  3.02705  3.02875 99.00000 99.00000 13.82026 99.00000  9.41413  7.00572 66.71283 71.23031  0.00000  0.00001  0.00000  0.00001  0.00001  0.00001  0.00000 10.59596  0.00001  3.00175 39.96961 13.16132  3.11877  3.06220  3.05935 99.00000 99.00000 67.48388  0.00000  0.00001  0.00001  0.00001  0.00001  0.00000  0.00001 37.92792  0.00000  0.00000  0.00001  0.00001  0.00001  0.00000  0.00000  2.96484 29.44087  2.95907 13.07606  2.98415 99.00000 99.00000 99.00000 99.00000 12.14168  3.14031 69.39943 75.04147  3.04225 54.47862  2.87452 25.15459 15.38927  3.06100  2.98781 21.98856 10.84866  3.05510  0.00000  0.00001  0.00001  0.00000 99.00000 99.00000 63.73855 34.80596 20.24020  2.98054  0.00000  0.00000  0.00000 28.26323 15.35080  2.96620 31.17487 24.15002 12.32002  2.90685 14.66598  3.02084  0.00001  0.00001 43.51427  0.00000  0.00000  0.00001  0.00000  0.00001  0.00001  0.00000  0.00000  0.00000  0.00000  0.00000  0.00001  0.00001  0.00000  0.00000  0.00000  3.01964  0.00000 18.03693  0.00001  0.00001 26.24300  0.00000  0.00000  0.00000  0.00001  0.00001  3.02911  0.00000  0.00000  0.00001  0.00001  0.00001  0.00000  0.00001  0.00000  0.00001  0.00001  0.00000 13.29475  3.05887  0.00000  0.00001  0.00001  0.00000  0.00001  0.00000  0.00001  0.00001  0.00000  0.00000  0.00001  0.00001  0.00001  0.00000 14.57900  3.03276  0.00001  0.00001  0.00000  0.00001  0.00001  0.00000  0.00000  0.00000  0.00001  0.00000  0.00001  0.00000  0.00000  0.00000  0.00000  0.00001  0.00001  0.00000  0.00000  0.00001  0.00000  0.00000  0.00001  0.00000  0.00001  0.00000  0.00001  0.00000  0.00001  0.00000  0.00000  0.00000  0.00001  0.00001  0.00001  0.00001  0.00000  0.00001  0.00000 17.12331  0.00001  0.00001  1.61307  0.01264
+
+
+(nsteps = 247)
+Current Pjump:      0.28695  0.99605  0.98985  0.98615  0.77890  0.27980  0.98660  0.98470  0.97500  0.97240  0.86525  0.77345  0.27835  0.96000  0.93980  0.86840  0.77635  0.30075  0.77060  0.29400  0.95645  0.85970  0.28130  0.93625  0.90115  0.69985  0.28925  0.30025  0.29050  0.30605  0.29500  0.98105  0.97760  0.96715  0.91960  0.90380  0.46015  0.39935  0.76740  0.29445  0.95300  0.29615  0.91940  0.72675  0.30105  0.39220  0.28495  0.77395  0.30015  0.90500  0.86905  0.78070  0.29310  0.92710  0.83040  0.29305  0.29625  0.99435  0.97825  0.77140  0.97240  0.84910  0.86480  0.94955  0.94510  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.72330  0.00000  0.29810  0.90490  0.77485  0.28190  0.29285  0.29255  0.99275  0.97600  0.95165  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.90980  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.30115  0.86940  0.29575  0.77320  0.30180  0.98930  0.97670  0.97700  0.96885  0.76995  0.28055  0.96270  0.94610  0.29430  0.92315  0.31265  0.86360  0.77200  0.29195  0.29415  0.84630  0.73120  0.29580  0.00000  0.00000  0.00000  0.00000  0.97680  0.96515  0.94460  0.89275  0.84055  0.30320  0.00000  0.00000  0.00000  0.86395  0.78000  0.29625  0.90280  0.86510  0.77755  0.30130  0.77020  0.29775  0.00000  0.00000  0.92850  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.30415  0.00000  0.80790  0.00000  0.00000  0.87370  0.00000  0.00000  0.00000  0.00000  0.00000  0.29735  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.77330  0.28910  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.77030  0.29305  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.83020  0.00000  0.00000  0.36355  0.26720
+Current steps:   0.03266 99.00000 99.00000 99.00000 12.25254  3.13169 99.00000 99.00000 99.00000 99.00000 26.44110 11.39011  3.16163 99.00000 83.12967 22.58081 12.57371  2.99868 15.11492  3.05321 99.00000  5.98292  0.15020 63.08192 37.70751  8.35575  3.12204  0.08919  0.08359  2.93370  2.99772 99.00000 99.00000 90.94290 52.57503 34.08599  0.10879  0.40897 14.70104  3.00928 88.06134  2.99483 48.35240 10.99225  2.95793  0.99717  3.09090 15.11134  2.94553 46.98274 27.40157 14.00506  3.00222 52.49855 18.46060  3.02705  3.02875 99.00000 99.00000 13.82026 99.00000  9.41413  7.00572 66.71283 71.23031  0.00000  0.00001  0.00000  0.00001  0.00001  0.00001  0.00000 10.59596  0.00001  3.00175 39.96961 13.16132  3.11877  3.06220  3.05935 99.00000 99.00000 67.48388  0.00000  0.00001  0.00001  0.00001  0.00001  0.00000  0.00001 37.92792  0.00000  0.00000  0.00001  0.00001  0.00001  0.00000  0.00000  2.96484 29.44087  2.95907 13.07606  2.98415 99.00000 99.00000 99.00000 99.00000 12.14168  3.14031 69.39943 75.04147  3.04225 54.47862  2.87452 25.15459 15.38927  3.06100  2.98781 21.98856 10.84866  3.05510  0.00000  0.00001  0.00001  0.00000 99.00000 99.00000 63.73855 34.80596 20.24020  2.98054  0.00000  0.00000  0.00000 28.26323 15.35080  2.96620 31.17487 24.15002 12.32002  2.90685 14.66598  3.02084  0.00001  0.00001 43.51427  0.00000  0.00000  0.00001  0.00000  0.00001  0.00001  0.00000  0.00000  0.00000  0.00000  0.00000  0.00001  0.00001  0.00000  0.00000  0.00000  3.01964  0.00000 18.03693  0.00001  0.00001 26.24300  0.00000  0.00000  0.00000  0.00001  0.00001  3.02911  0.00000  0.00000  0.00001  0.00001  0.00001  0.00000  0.00001  0.00000  0.00001  0.00001  0.00000 13.29475  3.05887  0.00000  0.00001  0.00001  0.00000  0.00001  0.00000  0.00001  0.00001  0.00000  0.00000  0.00001  0.00001  0.00001  0.00000 14.57900  3.03276  0.00001  0.00001  0.00000  0.00001  0.00001  0.00000  0.00000  0.00000  0.00001  0.00000  0.00001  0.00000  0.00000  0.00000  0.00000  0.00001  0.00001  0.00000  0.00000  0.00001  0.00000  0.00000  0.00001  0.00000  0.00001  0.00000  0.00001  0.00000  0.00001  0.00000  0.00000  0.00000  0.00001  0.00001  0.00001  0.00001  0.00000  0.00001  0.00000 17.12331  0.00001  0.00001  1.61307  0.01264
+New     steps:   0.03102 99.00000 99.00000 99.00000 66.43262  2.88986 99.00000 99.00000 99.00000 99.00000 99.00000 60.14275  2.90025 99.00000 99.00000 99.00000 67.33008  3.00742 78.72967  2.98241 99.00000 52.41532  0.13945 99.00000 99.00000 32.16629  2.99281  0.08927  0.08053  3.00296  2.93975 99.00000 99.00000 99.00000 99.00000 99.00000  0.18832  0.58191 75.42267  2.94471 99.00000  2.95019 99.00000 47.13692  2.97001  1.38558  2.91238 79.98414  2.94724 99.00000 99.00000 76.61085  2.92222 99.00000 99.00000  2.94580  2.98478 99.00000 99.00000 72.26122 99.00000 76.48270 63.76636 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 44.79445  0.00000  2.97964 99.00000 69.96601  2.90264  2.97766  2.97137 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.97809 99.00000  2.91040 68.96211  3.00503 99.00000 99.00000 99.00000 99.00000 63.04766  2.90669 99.00000 99.00000  2.97521 99.00000  3.01719 99.00000 80.69609  2.96592  2.92025 99.00000 47.39385  3.00544  0.00000  0.00000  0.00000  0.00000 99.00000 99.00000 99.00000 99.00000 99.00000  3.01767  0.00000  0.00000  0.00000 99.00000 83.68272  2.92314 99.00000 99.00000 66.35849  2.92154 76.24603  2.99449  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  3.06847  0.00000 99.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.99801  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 70.14913  2.93050  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 75.82987  2.95136  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  2.03395  0.01107
+
+
+(nsteps = 247)
+Current Pjump:      0.30400  0.99650  0.99030  0.98740  0.76835  0.31300  0.98635  0.98505  0.97530  0.97175  0.86255  0.76720  0.31350  0.96225  0.94225  0.86590  0.77255  0.29680  0.76745  0.30230  0.95645  0.86415  0.29580  0.93900  0.90745  0.69445  0.29805  0.29815  0.30250  0.29585  0.30370  0.98170  0.97970  0.96895  0.91920  0.89990  0.19155  0.23935  0.76955  0.30745  0.95585  0.30040  0.91960  0.73035  0.30110  0.25080  0.30340  0.77560  0.29660  0.90410  0.85945  0.76650  0.30790  0.92860  0.82255  0.30025  0.29880  0.99465  0.97725  0.77770  0.97290  0.85965  0.85995  0.95400  0.94470  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.72045  0.00000  0.29595  0.90575  0.78010  0.30455  0.29930  0.30890  0.99355  0.97350  0.95220  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.90920  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.30280  0.87685  0.30375  0.77630  0.29900  0.98895  0.97810  0.97405  0.97000  0.77600  0.30400  0.96135  0.94915  0.29550  0.92330  0.29090  0.86905  0.77440  0.29430  0.31095  0.84460  0.72895  0.29495  0.00000  0.00000  0.00000  0.00000  0.97755  0.96665  0.94160  0.89370  0.83480  0.30380  0.00000  0.00000  0.00000  0.86235  0.76910  0.30785  0.90370  0.86375  0.76935  0.30565  0.77300  0.30220  0.00000  0.00000  0.92865  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.28665  0.00000  0.81130  0.00000  0.00000  0.86975  0.00000  0.00000  0.00000  0.00000  0.00000  0.29010  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.77905  0.30130  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.77200  0.30950  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.82500  0.00000  0.00000  0.27345  0.30905
+Current steps:   0.03102 99.00000 99.00000 99.00000 66.43262  2.88986 99.00000 99.00000 99.00000 99.00000 99.00000 60.14275  2.90025 99.00000 99.00000 99.00000 67.33008  3.00742 78.72967  2.98241 99.00000 52.41532  0.13945 99.00000 99.00000 32.16629  2.99281  0.08927  0.08053  3.00296  2.93975 99.00000 99.00000 99.00000 99.00000 99.00000  0.18832  0.58191 75.42267  2.94471 99.00000  2.95019 99.00000 47.13692  2.97001  1.38558  2.91238 79.98414  2.94724 99.00000 99.00000 76.61085  2.92222 99.00000 99.00000  2.94580  2.98478 99.00000 99.00000 72.26122 99.00000 76.48270 63.76636 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 44.79445  0.00000  2.97964 99.00000 69.96601  2.90264  2.97766  2.97137 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.97809 99.00000  2.91040 68.96211  3.00503 99.00000 99.00000 99.00000 99.00000 63.04766  2.90669 99.00000 99.00000  2.97521 99.00000  3.01719 99.00000 80.69609  2.96592  2.92025 99.00000 47.39385  3.00544  0.00000  0.00000  0.00000  0.00000 99.00000 99.00000 99.00000 99.00000 99.00000  3.01767  0.00000  0.00000  0.00000 99.00000 83.68272  2.92314 99.00000 99.00000 66.35849  2.92154 76.24603  2.99449  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  3.06847  0.00000 99.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.99801  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 70.14913  2.93050  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 75.82987  2.95136  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  2.03395  0.01107
+New     steps:   0.03151 99.00000 99.00000 99.00000 99.00000  3.03730 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000  3.05398 99.00000 99.00000 99.00000 99.00000  2.97015 99.00000  3.00910 99.00000 99.00000  0.13718 99.00000 99.00000 99.00000  2.97019  0.08863  0.08131  2.95472  2.98211 99.00000 99.00000 99.00000 99.00000 99.00000  0.11469  0.45082 99.00000  3.03042 99.00000  2.95477 99.00000 99.00000  2.98270  1.13040  2.95094 99.00000  2.90843 99.00000 99.00000 99.00000  3.01244 99.00000 99.00000  2.94866  2.97088 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  2.93293 99.00000 99.00000  2.95411  2.96957  3.07480 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  3.01055 99.00000  2.95291 99.00000  2.99337 99.00000 99.00000 99.00000 99.00000 99.00000  2.95199 99.00000 99.00000  2.92341 99.00000  2.91133 99.00000 99.00000  2.90057  3.04553 99.00000 99.00000  2.94674  0.00000  0.00000  0.00000  0.00000 99.00000 99.00000 99.00000 99.00000 99.00000  3.06234  0.00000  0.00000  0.00000 99.00000 99.00000  3.01281 99.00000 99.00000 99.00000  2.98593 99.00000  3.02012  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.91105  0.00000 99.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.88365  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  2.94531  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  3.06108  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  1.82850  0.01146
+
+  0% 0.30 1.00 0.99 0.99 0.78  4.473 4.426 4.295 4.141 2.764 1.406 - 1.081 0.797  0:09
+
+(nsteps = 247)
+Current Pjump:      0.29765  0.99645  0.98980  0.98635  0.77895  0.28920  0.98620  0.98420  0.97500  0.97435  0.86375  0.77840  0.29230  0.95930  0.93800  0.87035  0.77355  0.29735  0.77615  0.29655  0.95750  0.85215  0.31145  0.94165  0.90295  0.68710  0.30420  0.30455  0.30420  0.29875  0.30150  0.98150  0.97790  0.96905  0.91905  0.89915  0.43130  0.36070  0.76585  0.30075  0.95250  0.30675  0.92150  0.72250  0.29855  0.33860  0.29690  0.77075  0.30505  0.90335  0.86865  0.77735  0.29315  0.92525  0.82645  0.30640  0.29975  0.99540  0.97640  0.77250  0.97110  0.85700  0.86965  0.95115  0.94200  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.72690  0.00000  0.30095  0.90905  0.76950  0.29545  0.30785  0.29035  0.99270  0.97245  0.95130  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.91105  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.30295  0.86890  0.30500  0.77435  0.28980  0.98860  0.97740  0.97730  0.96870  0.77255  0.30815  0.96105  0.95025  0.30610  0.92750  0.29730  0.86460  0.76875  0.31055  0.29345  0.84430  0.72800  0.30255  0.00000  0.00000  0.00000  0.00000  0.97735  0.96335  0.94205  0.89065  0.84580  0.28845  0.00000  0.00000  0.00000  0.86010  0.76755  0.30135  0.90540  0.86290  0.77240  0.30225  0.77345  0.29625  0.00000  0.00000  0.92615  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.30880  0.00000  0.80775  0.00000  0.00000  0.87280  0.00000  0.00000  0.00000  0.00000  0.00000  0.30570  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.76885  0.30685  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.77500  0.28840  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.82915  0.00000  0.00000  0.30815  0.29600
+Current steps:   0.03151 99.00000 99.00000 99.00000 99.00000  3.03730 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000  3.05398 99.00000 99.00000 99.00000 99.00000  2.97015 99.00000  3.00910 99.00000 99.00000  0.13718 99.00000 99.00000 99.00000  2.97019  0.08863  0.08131  2.95472  2.98211 99.00000 99.00000 99.00000 99.00000 99.00000  0.11469  0.45082 99.00000  3.03042 99.00000  2.95477 99.00000 99.00000  2.98270  1.13040  2.95094 99.00000  2.90843 99.00000 99.00000 99.00000  3.01244 99.00000 99.00000  2.94866  2.97088 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  2.93293 99.00000 99.00000  2.95411  2.96957  3.07480 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  3.01055 99.00000  2.95291 99.00000  2.99337 99.00000 99.00000 99.00000 99.00000 99.00000  2.95199 99.00000 99.00000  2.92341 99.00000  2.91133 99.00000 99.00000  2.90057  3.04553 99.00000 99.00000  2.94674  0.00000  0.00000  0.00000  0.00000 99.00000 99.00000 99.00000 99.00000 99.00000  3.06234  0.00000  0.00000  0.00000 99.00000 99.00000  3.01281 99.00000 99.00000 99.00000  2.98593 99.00000  3.02012  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.91105  0.00000 99.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.88365  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  2.94531  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  3.06108  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  1.82850  0.01146
+New     steps:   0.03122 99.00000 99.00000 99.00000 99.00000  2.91100 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000  2.96322 99.00000 99.00000 99.00000 99.00000  2.93965 99.00000  2.96890 99.00000 99.00000  0.14334 99.00000 99.00000 99.00000  3.01879  0.09021  0.08264  2.94040  2.99950 99.00000 99.00000 99.00000 99.00000 99.00000  0.18109  0.56287 99.00000  3.03925 99.00000  3.03265 99.00000 99.00000  2.96593  1.30546  2.91550 99.00000  2.96570 99.00000 99.00000 99.00000  2.93275 99.00000 99.00000  3.02232  2.96800 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  2.94376 99.00000 99.00000  2.90210  3.06067  2.96046 99.00000 99.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  3.04512 99.00000  3.01048 99.00000  2.87576 99.00000 99.00000 99.00000 99.00000 99.00000  3.04603 99.00000 99.00000  2.99300 99.00000  2.88087 99.00000 99.00000  3.02042  2.96847 99.00000 99.00000  2.97598  0.00000  0.00000  0.00000  0.00000 99.00000 99.00000 99.00000 99.00000 99.00000  2.92623  0.00000  0.00000  0.00000 99.00000 99.00000  3.02862 99.00000 99.00000 99.00000  3.01207 99.00000  2.97627  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  3.01124  0.00000 99.00000  0.00000  0.00000 99.00000  0.00000  0.00000  0.00000  0.00000  0.00000  2.94777  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  3.02409  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  2.92445  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000 99.00000  0.00000  0.00000  1.88675  0.01128
+
+  1% 0.30 1.00 0.99 0.99 0.77  4.474 4.427 4.295 4.140 2.763 1.373 - 1.081 0.799  2% 0.30 1.00 0.99 0.99 0.77  4.474 4.427 4.295 4.140 2.761 1.377 - 1.076 0.799  3% 0.30 1.00 0.99 0.99 0.77  4.473 4.427 4.294 4.139 2.759 1.375 - 1.074 0.799  4% 0.30 1.00 0.99 0.99 0.77  4.473 4.427 4.294 4.139 2.760 1.378 - 1.071 0.799  5% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.760 1.377 - 1.072 0.800  1:42
+  6% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.760 1.377 - 1.072 0.800  7% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.760 1.379 - 1.073 0.801  8% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.760 1.379 - 1.074 0.800  9% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.378 - 1.074 0.800 10% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.379 - 1.075 0.800  3:15
+ 11% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.760 1.380 - 1.074 0.801 12% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.380 - 1.075 0.801 13% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.381 - 1.075 0.800 14% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.380 - 1.074 0.800 15% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.380 - 1.074 0.800  4:48
+ 16% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.380 - 1.075 0.800 17% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.381 - 1.075 0.800 18% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.382 - 1.075 0.800 19% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.381 - 1.075 0.800 20% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.382 - 1.075 0.800  6:19
+ 21% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.382 - 1.075 0.800 22% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.382 - 1.075 0.800 23% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.075 0.800 24% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.381 - 1.074 0.800 25% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.074 0.800  7:50
+ 26% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.074 0.800 27% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.758 1.380 - 1.073 0.800 28% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.758 1.380 - 1.073 0.800 29% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.380 - 1.073 0.800 30% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.380 - 1.073 0.800  9:21
+ 31% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.380 - 1.073 0.800 32% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.760 1.381 - 1.073 0.800 33% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.381 - 1.073 0.800 34% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.760 1.381 - 1.073 0.800 35% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.073 0.800 10:54
+ 36% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.073 0.800 37% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.073 0.800 38% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.073 0.800 39% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.293 4.137 2.759 1.381 - 1.073 0.800 40% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.381 - 1.073 0.800 12:26
+ 41% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.380 - 1.073 0.800 42% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.381 - 1.073 0.800 43% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.381 - 1.073 0.800 44% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.381 - 1.073 0.800 45% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.380 - 1.073 0.800 13:58
+ 46% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.137 2.759 1.380 - 1.073 0.800 47% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 48% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 49% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 50% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 15:29
+ 51% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 52% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 53% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 54% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 55% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 17:03
+ 56% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 57% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 58% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 59% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 60% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 18:35
+ 61% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 62% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 63% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 64% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 65% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 20:09
+ 66% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 67% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 68% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 69% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 70% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 21:42
+ 71% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 72% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 73% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 74% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 75% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 23:15
+ 76% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 77% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 78% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 79% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 80% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 24:47
+ 81% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 82% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 83% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.380 - 1.073 0.800 84% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.379 - 1.073 0.800 85% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 26:21
+ 86% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 87% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 88% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 89% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 90% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 27:55
+ 91% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 92% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 93% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 94% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 95% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 29:28
+ 96% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 97% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.758 1.379 - 1.073 0.800 98% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.379 - 1.073 0.800 99% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.379 - 1.073 0.800100% 0.30 1.00 0.99 0.99 0.77  4.473 4.426 4.294 4.138 2.759 1.379 - 1.073 0.800 31:00
+
+Time used: 31:00me is at a0..
+
+Summarizing MCMC samples . ..
+
+Data file has a header line.
+20001 records, 247 variables
+Collecting mean, median, min, max, percentiles, etc.
+			   100/   247 done  31:02			   200/   247 done  31:02			   247/   247 done  31:02
+
+
+Posterior means (95% Equal-tail CI) (95% HPD CI) HPD-CI-width
+
+t_n247         4.4729 ( 4.3471,  4.5188) ( 4.3794,  4.5200)  0.1406  (Jnode 490)
+t_n248         4.4261 ( 4.2647,  4.5088) ( 4.2987,  4.5182)  0.2195  (Jnode 489)
+t_n249         4.2934 ( 3.9334,  4.4752) ( 4.0111,  4.5033)  0.4922  (Jnode 488)
+t_n250         4.1357 ( 3.6546,  4.4215) ( 3.7400,  4.4524)  0.7124  (Jnode 487)
+t_n251         2.7569 ( 0.6424,  4.1823) ( 0.8810,  4.3308)  3.4497  (Jnode 486)
+t_n252         1.3775 ( 0.0523,  3.5056) ( 0.0002,  3.2167)  3.2165  (Jnode 485)
+t_n253         3.9660 ( 3.3948,  4.3478) ( 3.4832,  4.3999)  0.9167  (Jnode 484)
+t_n254         3.7993 ( 3.1710,  4.2594) ( 3.2597,  4.3152)  1.0556  (Jnode 483)
+t_n255         3.5441 ( 2.7516,  4.1281) ( 2.8430,  4.1777)  1.3347  (Jnode 482)
+t_n256         3.2908 ( 2.4133,  3.9793) ( 2.5064,  4.0384)  1.5319  (Jnode 481)
+t_n257         2.4604 ( 0.9172,  3.6465) ( 1.0417,  3.7252)  2.6835  (Jnode 480)
+t_n258         1.6350 ( 0.3094,  3.1314) ( 0.2573,  3.0628)  2.8055  (Jnode 479)
+t_n259         0.8189 ( 0.0280,  2.3740) ( 0.0000,  2.0903)  2.0903  (Jnode 478)
+t_n260         2.9625 ( 1.9615,  3.7783) ( 2.0498,  3.8429)  1.7931  (Jnode 477)
+t_n261         2.5411 ( 1.4031,  3.5181) ( 1.4578,  3.5599)  2.1020  (Jnode 476)
+t_n262         1.9071 ( 0.6448,  3.1397) ( 0.6386,  3.1312)  2.4927  (Jnode 475)
+t_n263         1.2709 ( 0.2248,  2.6007) ( 0.1572,  2.4844)  2.3272  (Jnode 474)
+t_n264         0.6325 ( 0.0208,  1.9056) ( 0.0001,  1.6723)  1.6722  (Jnode 473)
+t_n265         1.9743 ( 0.4487,  3.3355) ( 0.4379,  3.3168)  2.8789  (Jnode 472)
+t_n266         0.9828 ( 0.0349,  2.6117) ( 0.0001,  2.3592)  2.3591  (Jnode 471)
+t_n267         3.3858 ( 2.4798,  4.0672) ( 2.5577,  4.1113)  1.5535  (Jnode 470)
+t_n268         2.6748 ( 1.8899,  3.3979) ( 1.9481,  3.4450)  1.4969  (Jnode 469)
+t_n269         1.8308 ( 1.6386,  1.9438) ( 1.6636,  1.9604)  0.2968  (Jnode 468)
+t_n270         1.5562 ( 0.9996,  1.8703) ( 1.0809,  1.9041)  0.8233  (Jnode 467)
+t_n271         1.2326 ( 0.6727,  1.7513) ( 0.6817,  1.7582)  1.0764  (Jnode 466)
+t_n272         0.8835 ( 0.4224,  1.5300) ( 0.3922,  1.4393)  1.0472  (Jnode 465)
+t_n273         0.4442 ( 0.0205,  1.1679) ( 0.0001,  1.0381)  1.0380  (Jnode 464)
+t_n274         0.5941 ( 0.5758,  0.6092) ( 0.5769,  0.6100)  0.0332  (Jnode 463)
+t_n275         0.5749 ( 0.5617,  0.5903) ( 0.5611,  0.5892)  0.0281  (Jnode 462)
+t_n276         0.2880 ( 0.0143,  0.5604) ( 0.0106,  0.5555)  0.5449  (Jnode 461)
+t_n277         0.7750 ( 0.0365,  1.6506) ( 0.0003,  1.5570)  1.5567  (Jnode 460)
+t_n278         1.7359 ( 1.4697,  1.8995) ( 1.5011,  1.9146)  0.4135  (Jnode 459)
+t_n279         1.6376 ( 1.3275,  1.8510) ( 1.3597,  1.8672)  0.5074  (Jnode 458)
+t_n280         1.5082 ( 1.1496,  1.7840) ( 1.1871,  1.8091)  0.6220  (Jnode 457)
+t_n281         1.2386 ( 0.7076,  1.6643) ( 0.7430,  1.6902)  0.9471  (Jnode 456)
+t_n282         0.9667 ( 0.5129,  1.4976) ( 0.4777,  1.4421)  0.9644  (Jnode 455)
+t_n283         0.4736 ( 0.4326,  0.5154) ( 0.4306,  0.5131)  0.0825  (Jnode 454)
+t_n284         0.1877 ( 0.1280,  0.2470) ( 0.1266,  0.2453)  0.1187  (Jnode 453)
+t_n285         0.6428 ( 0.1384,  1.2607) ( 0.0958,  1.1955)  1.0997  (Jnode 452)
+t_n286         0.3199 ( 0.0112,  0.9360) ( 0.0000,  0.8104)  0.8104  (Jnode 451)
+t_n287         1.3308 ( 0.8717,  1.6938) ( 0.9220,  1.7314)  0.8094  (Jnode 450)
+t_n288         0.6638 ( 0.0325,  1.4365) ( 0.0000,  1.3488)  1.3488  (Jnode 449)
+t_n289         1.3376 ( 0.7812,  1.7477) ( 0.8323,  1.7795)  0.9471  (Jnode 448)
+t_n290         0.8309 ( 0.1659,  1.5212) ( 0.1379,  1.4874)  1.3495  (Jnode 447)
+t_n291         0.3224 ( 0.0100,  0.9424) ( 0.0000,  0.8327)  0.8327  (Jnode 446)
+t_n292         0.9140 ( 0.5384,  1.5102) ( 0.5227,  1.4225)  0.8998  (Jnode 445)
+t_n293         0.8188 ( 0.0370,  1.7135) ( 0.0001,  1.6435)  1.6433  (Jnode 444)
+t_n294         1.7822 ( 0.4097,  3.0706) ( 0.4174,  3.0742)  2.6568  (Jnode 443)
+t_n295         0.8923 ( 0.0316,  2.3982) ( 0.0000,  2.1441)  2.1441  (Jnode 442)
+t_n296         2.7152 ( 1.3083,  3.7601) ( 1.4741,  3.8746)  2.4005  (Jnode 441)
+t_n297         2.0372 ( 0.6463,  3.3782) ( 0.6817,  3.4090)  2.7273  (Jnode 440)
+t_n298         1.3587 ( 0.2279,  2.8416) ( 0.1248,  2.6519)  2.5272  (Jnode 439)
+t_n299         0.6738 ( 0.0218,  2.0505) ( 0.0000,  1.7883)  1.7883  (Jnode 438)
+t_n300         3.5828 ( 2.0746,  4.3553) ( 2.3674,  4.4643)  2.0969  (Jnode 437)
+t_n301         2.4996 ( 0.7783,  3.9958) ( 0.9123,  4.0892)  3.1769  (Jnode 436)
+t_n302         1.0688 ( 0.0422,  2.8659) ( 0.0002,  2.5562)  2.5560  (Jnode 435)
+t_n303         1.0654 ( 0.0422,  2.8580) ( 0.0002,  2.5536)  2.5534  (Jnode 434)
+t_n304         4.3554 ( 4.1245,  4.4851) ( 4.1683,  4.5029)  0.3346  (Jnode 433)
+t_n305         4.0803 ( 3.5061,  4.4149) ( 3.6076,  4.4611)  0.8535  (Jnode 432)
+t_n306         2.7277 ( 0.6187,  4.1610) ( 0.8441,  4.3104)  3.4663  (Jnode 431)
+t_n307         3.7666 ( 3.1630,  4.2850) ( 3.1839,  4.2966)  1.1127  (Jnode 430)
+t_n308         3.4315 ( 2.9763,  4.0327) ( 2.9451,  3.9383)  0.9932  (Jnode 429)
+t_n309         2.9880 ( 2.2422,  3.4616) ( 2.3277,  3.4974)  1.1697  (Jnode 428)
+t_n310         2.6247 ( 1.8288,  3.3087) ( 1.8671,  3.3372)  1.4701  (Jnode 427)
+t_n311         2.2622 ( 1.5184,  3.0858) ( 1.5038,  3.0673)  1.5636  (Jnode 426)
+t_n312         1.5082 ( 1.1496,  1.7840) ( 1.1871,  1.8091)  0.6220  (Jnode 425)
+t_n313         0.9667 ( 0.5129,  1.4976) ( 0.4777,  1.4421)  0.9644  (Jnode 424)
+t_n314         0.4736 ( 0.4326,  0.5154) ( 0.4306,  0.5131)  0.0825  (Jnode 423)
+t_n315         0.1877 ( 0.1280,  0.2470) ( 0.1266,  0.2453)  0.1187  (Jnode 422)
+t_n316         0.6428 ( 0.1384,  1.2607) ( 0.0958,  1.1955)  1.0997  (Jnode 421)
+t_n317         0.3199 ( 0.0112,  0.9360) ( 0.0000,  0.8104)  0.8104  (Jnode 420)
+t_n318         1.3308 ( 0.8717,  1.6938) ( 0.9220,  1.7314)  0.8094  (Jnode 419)
+t_n319         0.8307 ( 0.1690,  1.4783) ( 0.1668,  1.4749)  1.3081  (Jnode 418)
+t_n320         0.3224 ( 0.0100,  0.9424) ( 0.0000,  0.8327)  0.8327  (Jnode 417)
+t_n321         0.6696 ( 0.0326,  1.4363) ( 0.0001,  1.3510)  1.3509  (Jnode 416)
+t_n322         1.8108 ( 0.8270,  2.7888) ( 0.8486,  2.8082)  1.9595  (Jnode 415)
+t_n323         1.2071 ( 0.2513,  2.3535) ( 0.1888,  2.2508)  2.0620  (Jnode 414)
+t_n324         0.6047 ( 0.0206,  1.7491) ( 0.0000,  1.5275)  1.5275  (Jnode 413)
+t_n325         0.9017 ( 0.0405,  2.2130) ( 0.0002,  2.0079)  2.0077  (Jnode 412)
+t_n326         1.8776 ( 0.0995,  3.7923) ( 0.0030,  3.6261)  3.6230  (Jnode 411)
+t_n327         4.2649 ( 3.9592,  4.4522) ( 4.0155,  4.4801)  0.4646  (Jnode 410)
+t_n328         3.9622 ( 3.2098,  4.3671) ( 3.3505,  4.4199)  1.0694  (Jnode 409)
+t_n329         3.4816 ( 2.4385,  4.1996) ( 2.5449,  4.2683)  1.7234  (Jnode 408)
+t_n330         1.5562 ( 0.9996,  1.8703) ( 1.0809,  1.9041)  0.8233  (Jnode 407)
+t_n331         1.2326 ( 0.6727,  1.7513) ( 0.6817,  1.7582)  1.0764  (Jnode 406)
+t_n332         0.8835 ( 0.4224,  1.5300) ( 0.3922,  1.4393)  1.0472  (Jnode 405)
+t_n333         0.5941 ( 0.5758,  0.6092) ( 0.5769,  0.6100)  0.0332  (Jnode 404)
+t_n334         0.5749 ( 0.5617,  0.5903) ( 0.5611,  0.5892)  0.0281  (Jnode 403)
+t_n335         0.2880 ( 0.0143,  0.5604) ( 0.0106,  0.5555)  0.5449  (Jnode 402)
+t_n336         0.7750 ( 0.0365,  1.6506) ( 0.0003,  1.5570)  1.5567  (Jnode 401)
+t_n337         2.2727 ( 1.4482,  3.4468) ( 1.3755,  3.3383)  1.9628  (Jnode 400)
+t_n338         1.5082 ( 1.1496,  1.7840) ( 1.1871,  1.8091)  0.6220  (Jnode 399)
+t_n339         0.9667 ( 0.5129,  1.4976) ( 0.4777,  1.4421)  0.9644  (Jnode 398)
+t_n340         0.4736 ( 0.4326,  0.5154) ( 0.4306,  0.5131)  0.0825  (Jnode 397)
+t_n341         0.1877 ( 0.1280,  0.2470) ( 0.1266,  0.2453)  0.1187  (Jnode 396)
+t_n342         0.6428 ( 0.1384,  1.2607) ( 0.0958,  1.1955)  1.0997  (Jnode 395)
+t_n343         0.3199 ( 0.0112,  0.9360) ( 0.0000,  0.8104)  0.8104  (Jnode 394)
+t_n344         1.3308 ( 0.8717,  1.6938) ( 0.9220,  1.7314)  0.8094  (Jnode 393)
+t_n345         1.1362 ( 0.0507,  2.6878) ( 0.0005,  2.4353)  2.4348  (Jnode 392)
+t_n346         2.9748 ( 1.3119,  4.1241) ( 1.5120,  4.2383)  2.7263  (Jnode 391)
+t_n347         1.3290 ( 0.0546,  3.1816) ( 0.0003,  2.9213)  2.9209  (Jnode 390)
+t_n348         1.7647 ( 0.3527,  3.3611) ( 0.2671,  3.2524)  2.9853  (Jnode 389)
+t_n349         0.8841 ( 0.0296,  2.5572) ( 0.0000,  2.2711)  2.2710  (Jnode 388)
+t_n350         4.1392 ( 3.7304,  4.4013) ( 3.7957,  4.4360)  0.6403  (Jnode 387)
+t_n351         3.8855 ( 3.1864,  4.3078) ( 3.3022,  4.3616)  1.0594  (Jnode 386)
+t_n352         3.6314 ( 2.8135,  4.1873) ( 2.9192,  4.2479)  1.3286  (Jnode 385)
+t_n353         3.3267 ( 2.3988,  4.0264) ( 2.4824,  4.0778)  1.5955  (Jnode 384)
+t_n354         1.9400 ( 0.4515,  3.3004) ( 0.4562,  3.3034)  2.8471  (Jnode 383)
+t_n355         0.9724 ( 0.0382,  2.6108) ( 0.0002,  2.3387)  2.3386  (Jnode 382)
+t_n356         2.9996 ( 1.9476,  3.8355) ( 2.0325,  3.8997)  1.8672  (Jnode 381)
+t_n357         2.6249 ( 1.5114,  3.5859) ( 1.5600,  3.6253)  2.0653  (Jnode 380)
+t_n358         1.3096 ( 0.0646,  2.9566) ( 0.0003,  2.7359)  2.7356  (Jnode 379)
+t_n359         2.1876 ( 1.0302,  3.2899) ( 1.0520,  3.3095)  2.2576  (Jnode 378)
+t_n360         1.0883 ( 0.0480,  2.5899) ( 0.0000,  2.3743)  2.3742  (Jnode 377)
+t_n361         1.6427 ( 0.5015,  2.8747) ( 0.4726,  2.8236)  2.3510  (Jnode 376)
+t_n362         1.0910 ( 0.1804,  2.3762) ( 0.0834,  2.2078)  2.1245  (Jnode 375)
+t_n363         0.5457 ( 0.0165,  1.6970) ( 0.0000,  1.4654)  1.4654  (Jnode 374)
+t_n364         1.4991 ( 0.0708,  3.2464) ( 0.0010,  3.0453)  3.0443  (Jnode 373)
+t_n365         2.6315 ( 0.9475,  3.8700) ( 1.1006,  3.9748)  2.8743  (Jnode 372)
+t_n366         1.6370 ( 0.2818,  3.2771) ( 0.1672,  3.1167)  2.9495  (Jnode 371)
+t_n367         0.6425 ( 0.0223,  1.8930) ( 0.0000,  1.6519)  1.6519  (Jnode 370)
+t_n368         4.4261 ( 4.2647,  4.5088) ( 4.2987,  4.5182)  0.2195  (Jnode 369)
+t_n369         4.3554 ( 4.1245,  4.4851) ( 4.1683,  4.5029)  0.3346  (Jnode 368)
+t_n370         4.2649 ( 3.9592,  4.4522) ( 4.0155,  4.4801)  0.4646  (Jnode 367)
+t_n371         4.1392 ( 3.7304,  4.4013) ( 3.7957,  4.4360)  0.6403  (Jnode 366)
+t_n372         3.8811 ( 3.1838,  4.3070) ( 3.3057,  4.3779)  1.0721  (Jnode 365)
+t_n373         3.5328 ( 2.5867,  4.1562) ( 2.7210,  4.2216)  1.5006  (Jnode 364)
+t_n374         3.0340 ( 1.8484,  3.9263) ( 1.9613,  3.9999)  2.0387  (Jnode 363)
+t_n375         2.3595 ( 0.9840,  3.5557) ( 1.0575,  3.6056)  2.5481  (Jnode 362)
+t_n376         1.6946 ( 0.4621,  3.0711) ( 0.4279,  3.0143)  2.5864  (Jnode 361)
+t_n377         0.8415 ( 0.0324,  2.3336) ( 0.0000,  2.0668)  2.0668  (Jnode 360)
+t_n378         0.6425 ( 0.0223,  1.8930) ( 0.0000,  1.6519)  1.6519  (Jnode 359)
+t_n379         1.9400 ( 0.4515,  3.3004) ( 0.4562,  3.3034)  2.8471  (Jnode 358)
+t_n380         0.9724 ( 0.0382,  2.6108) ( 0.0002,  2.3387)  2.3386  (Jnode 357)
+t_n381         2.6470 ( 0.9980,  3.8550) ( 1.1911,  3.9862)  2.7951  (Jnode 356)
+t_n382         1.7679 ( 0.3342,  3.3579) ( 0.2970,  3.3069)  3.0099  (Jnode 355)
+t_n383         0.8758 ( 0.0274,  2.5466) ( 0.0001,  2.2384)  2.2382  (Jnode 354)
+t_n384         3.1067 ( 1.5174,  4.0957) ( 1.7166,  4.1888)  2.4722  (Jnode 353)
+t_n385         2.3314 ( 0.7469,  3.7371) ( 0.7914,  3.7686)  2.9772  (Jnode 352)
+t_n386         1.5539 ( 0.2669,  3.1793) ( 0.1731,  3.0278)  2.8547  (Jnode 351)
+t_n387         0.7723 ( 0.0239,  2.3472) ( 0.0001,  2.0466)  2.0465  (Jnode 350)
+t_n388         2.7603 ( 0.6240,  4.1585) ( 0.8336,  4.2614)  3.4278  (Jnode 349)
+t_n389         1.3666 ( 0.0522,  3.4980) ( 0.0002,  3.2074)  3.2072  (Jnode 348)
+t_n390         3.9622 ( 3.2098,  4.3671) ( 3.3505,  4.4199)  1.0694  (Jnode 347)
+t_n391         3.4816 ( 2.4385,  4.1996) ( 2.5449,  4.2683)  1.7234  (Jnode 346)
+t_n392         2.8840 ( 1.8437,  3.9072) ( 1.8437,  3.9072)  2.0635  (Jnode 345)
+t_n393         1.5562 ( 0.9996,  1.8703) ( 1.0809,  1.9041)  0.8233  (Jnode 344)
+t_n394         1.2326 ( 0.6727,  1.7513) ( 0.6817,  1.7582)  1.0764  (Jnode 343)
+t_n395         0.8835 ( 0.4224,  1.5300) ( 0.3922,  1.4393)  1.0472  (Jnode 342)
+t_n396         0.4442 ( 0.0205,  1.1679) ( 0.0001,  1.0381)  1.0380  (Jnode 341)
+t_n397         0.5941 ( 0.5758,  0.6092) ( 0.5769,  0.6100)  0.0332  (Jnode 340)
+t_n398         0.5749 ( 0.5617,  0.5903) ( 0.5611,  0.5892)  0.0281  (Jnode 339)
+t_n399         0.2880 ( 0.0143,  0.5604) ( 0.0106,  0.5555)  0.5449  (Jnode 338)
+t_n400         0.7750 ( 0.0365,  1.6506) ( 0.0003,  1.5570)  1.5567  (Jnode 337)
+t_n401         2.2727 ( 1.4482,  3.4468) ( 1.3755,  3.3383)  1.9628  (Jnode 336)
+t_n402         1.5082 ( 1.1496,  1.7840) ( 1.1871,  1.8091)  0.6220  (Jnode 335)
+t_n403         0.9667 ( 0.5129,  1.4976) ( 0.4777,  1.4421)  0.9644  (Jnode 334)
+t_n404         0.4736 ( 0.4326,  0.5154) ( 0.4306,  0.5131)  0.0825  (Jnode 333)
+t_n405         0.1877 ( 0.1280,  0.2470) ( 0.1266,  0.2453)  0.1187  (Jnode 332)
+t_n406         0.6428 ( 0.1384,  1.2607) ( 0.0958,  1.1955)  1.0997  (Jnode 331)
+t_n407         0.3199 ( 0.0112,  0.9360) ( 0.0000,  0.8104)  0.8104  (Jnode 330)
+t_n408         1.3308 ( 0.8717,  1.6938) ( 0.9220,  1.7314)  0.8094  (Jnode 329)
+t_n409         0.6675 ( 0.0322,  1.4345) ( 0.0000,  1.3459)  1.3459  (Jnode 328)
+t_n410         0.3224 ( 0.0100,  0.9424) ( 0.0000,  0.8327)  0.8327  (Jnode 327)
+t_n411         2.2925 ( 0.9371,  3.7397) ( 0.9109,  3.7103)  2.7994  (Jnode 326)
+t_n412         0.8188 ( 0.0370,  1.7135) ( 0.0001,  1.6435)  1.6433  (Jnode 325)
+t_n413         0.9140 ( 0.5384,  1.5102) ( 0.5227,  1.4225)  0.8998  (Jnode 324)
+t_n414         2.9706 ( 1.2948,  4.1274) ( 1.5057,  4.2327)  2.7269  (Jnode 323)
+t_n415         1.3290 ( 0.0546,  3.1816) ( 0.0003,  2.9213)  2.9209  (Jnode 322)
+t_n416         1.7647 ( 0.3527,  3.3611) ( 0.2671,  3.2524)  2.9853  (Jnode 321)
+t_n417         0.8841 ( 0.0296,  2.5572) ( 0.0000,  2.2711)  2.2710  (Jnode 320)
+t_n418         4.0803 ( 3.5061,  4.4149) ( 3.6076,  4.4611)  0.8535  (Jnode 319)
+t_n419         2.7277 ( 0.6187,  4.1610) ( 0.8441,  4.3104)  3.4663  (Jnode 318)
+t_n420         1.3692 ( 0.0529,  3.4729) ( 0.0002,  3.1946)  3.1944  (Jnode 317)
+t_n421         3.7666 ( 3.1630,  4.2850) ( 3.1839,  4.2966)  1.1127  (Jnode 316)
+t_n422         3.4315 ( 2.9763,  4.0327) ( 2.9451,  3.9383)  0.9932  (Jnode 315)
+t_n423         2.9880 ( 2.2422,  3.4616) ( 2.3277,  3.4974)  1.1697  (Jnode 314)
+t_n424         2.6247 ( 1.8288,  3.3087) ( 1.8671,  3.3372)  1.4701  (Jnode 313)
+t_n425         2.2622 ( 1.5184,  3.0858) ( 1.5038,  3.0673)  1.5636  (Jnode 312)
+t_n426         1.5082 ( 1.1496,  1.7840) ( 1.1871,  1.8091)  0.6220  (Jnode 311)
+t_n427         0.9667 ( 0.5129,  1.4976) ( 0.4777,  1.4421)  0.9644  (Jnode 310)
+t_n428         0.6428 ( 0.1384,  1.2607) ( 0.0958,  1.1955)  1.0997  (Jnode 309)
+t_n429         0.3199 ( 0.0112,  0.9360) ( 0.0000,  0.8104)  0.8104  (Jnode 308)
+t_n430         0.4736 ( 0.4326,  0.5154) ( 0.4306,  0.5131)  0.0825  (Jnode 307)
+t_n431         1.3308 ( 0.8717,  1.6938) ( 0.9220,  1.7314)  0.8094  (Jnode 306)
+t_n432         0.8882 ( 0.1999,  1.5011) ( 0.2184,  1.5177)  1.2993  (Jnode 305)
+t_n433         0.4463 ( 0.0169,  1.1916) ( 0.0000,  1.0706)  1.0706  (Jnode 304)
+t_n434         1.8108 ( 0.8270,  2.7888) ( 0.8486,  2.8082)  1.9595  (Jnode 303)
+t_n435         1.2071 ( 0.2513,  2.3535) ( 0.1888,  2.2508)  2.0620  (Jnode 302)
+t_n436         0.6047 ( 0.0206,  1.7491) ( 0.0000,  1.5275)  1.5275  (Jnode 301)
+t_n437         1.8776 ( 0.0995,  3.7923) ( 0.0030,  3.6261)  3.6230  (Jnode 300)
+t_n438         4.2934 ( 3.9334,  4.4752) ( 4.0111,  4.5033)  0.4922  (Jnode 299)
+t_n439         4.1357 ( 3.6546,  4.4215) ( 3.7400,  4.4524)  0.7124  (Jnode 298)
+t_n440         2.7569 ( 0.6424,  4.1823) ( 0.8810,  4.3308)  3.4497  (Jnode 297)
+t_n441         1.3775 ( 0.0523,  3.5056) ( 0.0002,  3.2167)  3.2165  (Jnode 296)
+t_n442         3.9660 ( 3.3948,  4.3478) ( 3.4832,  4.3999)  0.9167  (Jnode 295)
+t_n443         3.7993 ( 3.1710,  4.2594) ( 3.2597,  4.3152)  1.0556  (Jnode 294)
+t_n444         3.5441 ( 2.7516,  4.1281) ( 2.8430,  4.1777)  1.3347  (Jnode 293)
+t_n445         3.2908 ( 2.4133,  3.9793) ( 2.5064,  4.0384)  1.5319  (Jnode 292)
+t_n446         2.9625 ( 1.9615,  3.7783) ( 2.0498,  3.8429)  1.7931  (Jnode 291)
+t_n447         2.5411 ( 1.4031,  3.5181) ( 1.4578,  3.5599)  2.1020  (Jnode 290)
+t_n448         1.6946 ( 0.3721,  3.0587) ( 0.2982,  2.9603)  2.6621  (Jnode 289)
+t_n449         0.8470 ( 0.0300,  2.3203) ( 0.0001,  2.0841)  2.0840  (Jnode 288)
+t_n450         1.9743 ( 0.4487,  3.3355) ( 0.4379,  3.3168)  2.8789  (Jnode 287)
+t_n451         0.9828 ( 0.0349,  2.6117) ( 0.0001,  2.3592)  2.3591  (Jnode 286)
+t_n452         2.4604 ( 0.9172,  3.6465) ( 1.0417,  3.7252)  2.6835  (Jnode 285)
+t_n453         1.6350 ( 0.3094,  3.1314) ( 0.2573,  3.0628)  2.8055  (Jnode 284)
+t_n454         0.8189 ( 0.0280,  2.3740) ( 0.0000,  2.0903)  2.0903  (Jnode 283)
+t_n455         3.3858 ( 2.4798,  4.0672) ( 2.5577,  4.1113)  1.5535  (Jnode 282)
+t_n456         2.6748 ( 1.8899,  3.3979) ( 1.9481,  3.4450)  1.4969  (Jnode 281)
+t_n457         1.8308 ( 1.6386,  1.9438) ( 1.6636,  1.9604)  0.2968  (Jnode 280)
+t_n458         1.5562 ( 0.9996,  1.8703) ( 1.0809,  1.9041)  0.8233  (Jnode 279)
+t_n459         1.2326 ( 0.6727,  1.7513) ( 0.6817,  1.7582)  1.0764  (Jnode 278)
+t_n460         0.8835 ( 0.4224,  1.5300) ( 0.3922,  1.4393)  1.0472  (Jnode 277)
+t_n461         0.4442 ( 0.0205,  1.1679) ( 0.0001,  1.0381)  1.0380  (Jnode 276)
+t_n462         0.5941 ( 0.5758,  0.6092) ( 0.5769,  0.6100)  0.0332  (Jnode 275)
+t_n463         0.5749 ( 0.5617,  0.5903) ( 0.5611,  0.5892)  0.0281  (Jnode 274)
+t_n464         0.2880 ( 0.0143,  0.5604) ( 0.0106,  0.5555)  0.5449  (Jnode 273)
+t_n465         0.7750 ( 0.0365,  1.6506) ( 0.0003,  1.5570)  1.5567  (Jnode 272)
+t_n466         1.7359 ( 1.4697,  1.8995) ( 1.5011,  1.9146)  0.4135  (Jnode 271)
+t_n467         1.6376 ( 1.3275,  1.8510) ( 1.3597,  1.8672)  0.5074  (Jnode 270)
+t_n468         1.5082 ( 1.1496,  1.7840) ( 1.1871,  1.8091)  0.6220  (Jnode 269)
+t_n469         1.2386 ( 0.7076,  1.6643) ( 0.7430,  1.6902)  0.9471  (Jnode 268)
+t_n470         0.9667 ( 0.5129,  1.4976) ( 0.4777,  1.4421)  0.9644  (Jnode 267)
+t_n471         0.4736 ( 0.4326,  0.5154) ( 0.4306,  0.5131)  0.0825  (Jnode 266)
+t_n472         0.1877 ( 0.1280,  0.2470) ( 0.1266,  0.2453)  0.1187  (Jnode 265)
+t_n473         0.6428 ( 0.1384,  1.2607) ( 0.0958,  1.1955)  1.0997  (Jnode 264)
+t_n474         0.3199 ( 0.0112,  0.9360) ( 0.0000,  0.8104)  0.8104  (Jnode 263)
+t_n475         1.3308 ( 0.8717,  1.6938) ( 0.9220,  1.7314)  0.8094  (Jnode 262)
+t_n476         0.6638 ( 0.0325,  1.4365) ( 0.0000,  1.3488)  1.3488  (Jnode 261)
+t_n477         1.3376 ( 0.7812,  1.7477) ( 0.8323,  1.7795)  0.9471  (Jnode 260)
+t_n478         0.8309 ( 0.1659,  1.5212) ( 0.1379,  1.4874)  1.3495  (Jnode 259)
+t_n479         0.3224 ( 0.0100,  0.9424) ( 0.0000,  0.8327)  0.8327  (Jnode 258)
+t_n480         0.9140 ( 0.5384,  1.5102) ( 0.5227,  1.4225)  0.8998  (Jnode 257)
+t_n481         0.8188 ( 0.0370,  1.7135) ( 0.0001,  1.6435)  1.6433  (Jnode 256)
+t_n482         1.7822 ( 0.4097,  3.0706) ( 0.4174,  3.0742)  2.6568  (Jnode 255)
+t_n483         0.8923 ( 0.0316,  2.3982) ( 0.0000,  2.1441)  2.1441  (Jnode 254)
+t_n484         2.7152 ( 1.3083,  3.7601) ( 1.4741,  3.8746)  2.4005  (Jnode 253)
+t_n485         2.0372 ( 0.6463,  3.3782) ( 0.6817,  3.4090)  2.7273  (Jnode 252)
+t_n486         1.3587 ( 0.2279,  2.8416) ( 0.1248,  2.6519)  2.5272  (Jnode 251)
+t_n487         0.6738 ( 0.0218,  2.0505) ( 0.0000,  1.7883)  1.7883  (Jnode 250)
+t_n488         3.5828 ( 2.0746,  4.3553) ( 2.3674,  4.4643)  2.0969  (Jnode 249)
+t_n489         2.5001 ( 0.8003,  4.0047) ( 0.8512,  4.0334)  3.1822  (Jnode 248)
+t_n490         1.0688 ( 0.0422,  2.8659) ( 0.0002,  2.5562)  2.5560  (Jnode 247)
+t_n491         1.0654 ( 0.0422,  2.8580) ( 0.0002,  2.5536)  2.5534  (Jnode 246)
+mu             0.7972 ( 0.0974,  2.2461) ( 0.0192,  1.9124)  1.8931
+
+mean	4.4729	4.4261	4.2934	4.1357	2.7569	1.3775	3.9660	3.7993	3.5441	3.2908	2.4604	1.6350	0.8189	2.9625	2.5411	1.9071	1.2709	0.6325	1.9743	0.9828	3.3858	2.6748	1.8308	1.5562	1.2326	0.8835	0.4442	0.5941	0.5749	0.2880	0.7750	1.7359	1.6376	1.5082	1.2386	0.9667	0.4736	0.1877	0.6428	0.3199	1.3308	0.6638	1.3376	0.8309	0.3224	0.9140	0.8188	1.7822	0.8923	2.7152	2.0372	1.3587	0.6738	3.5828	2.4996	1.0688	1.0654	4.3554	4.0803	2.7277	3.7666	3.4315	2.9880	2.6247	2.2622	1.5082	0.9667	0.4736	0.1877	0.6428	0.3199	1.3308	0.8307	0.3224	0.6696	1.8108	1.2071	0.6047	0.9017	1.8776	4.2649	3.9622	3.4816	1.5562	1.2326	0.8835	0.5941	0.5749	0.2880	0.7750	2.2727	1.5082	0.9667	0.4736	0.1877	0.6428	0.3199	1.3308	1.1362	2.9748	1.3290	1.7647	0.8841	4.1392	3.8855	3.6314	3.3267	1.9400	0.9724	2.9996	2.6249	1.3096	2.1876	1.0883	1.6427	1.0910	0.5457	1.4991	2.6315	1.6370	0.6425	4.4261	4.3554	4.2649	4.1392	3.8811	3.5328	3.0340	2.3595	1.6946	0.8415	0.6425	1.9400	0.9724	2.6470	1.7679	0.8758	3.1067	2.3314	1.5539	0.7723	2.7603	1.3666	3.9622	3.4816	2.8840	1.5562	1.2326	0.8835	0.4442	0.5941	0.5749	0.2880	0.7750	2.2727	1.5082	0.9667	0.4736	0.1877	0.6428	0.3199	1.3308	0.6675	0.3224	2.2925	0.8188	0.9140	2.9706	1.3290	1.7647	0.8841	4.0803	2.7277	1.3692	3.7666	3.4315	2.9880	2.6247	2.2622	1.5082	0.9667	0.6428	0.3199	0.4736	1.3308	0.8882	0.4463	1.8108	1.2071	0.6047	1.8776	4.2934	4.1357	2.7569	1.3775	3.9660	3.7993	3.5441	3.2908	2.9625	2.5411	1.6946	0.8470	1.9743	0.9828	2.4604	1.6350	0.8189	3.3858	2.6748	1.8308	1.5562	1.2326	0.8835	0.4442	0.5941	0.5749	0.2880	0.7750	1.7359	1.6376	1.5082	1.2386	0.9667	0.4736	0.1877	0.6428	0.3199	1.3308	0.6638	1.3376	0.8309	0.3224	0.9140	0.8188	1.7822	0.8923	2.7152	2.0372	1.3587	0.6738	3.5828	2.5001	1.0688	1.0654	0.7972
+Eff 	0.9821	1.0228	0.8745	0.8896	0.9266	0.9735	0.9477	0.9135	0.9274	1.0085	1.0121	1.0516	0.9973	1.0721	1.0500	0.9799	1.0102	0.9899	0.9400	0.9726	0.9319	0.9773	0.9696	1.0845	1.0226	1.0191	0.9959	0.9920	1.0165	1.0159	1.0823	1.0205	1.1210	1.0626	0.9755	0.9197	1.0028	0.9487	1.0080	1.0304	0.9969	0.9946	1.0242	1.0111	1.0093	0.9669	0.9852	1.0646	1.0075	1.0750	1.0627	0.9983	0.9996	0.9909	1.0205	1.0809	1.0057	1.0619	1.0562	0.9662	1.0646	1.0384	1.0636	1.0692	0.9999	1.0626	0.9197	1.0028	0.9487	1.0080	1.0304	0.9969	1.0288	1.0093	1.0614	0.9635	1.0041	0.9577	0.9592	0.9700	1.0110	1.0362	0.9996	1.0845	1.0226	1.0191	0.9920	1.0165	1.0159	1.0823	0.9545	1.0626	0.9197	1.0028	0.9487	1.0080	1.0304	0.9969	1.0051	0.9968	0.9769	1.0262	1.0015	0.9509	0.9853	1.0522	1.0385	0.9743	0.9979	1.0351	1.0451	0.9769	1.0311	1.0895	1.0360	1.0289	1.0150	1.0254	1.0284	1.0325	1.1078	1.0228	1.0619	1.0110	0.9509	0.9815	1.0185	0.9464	1.0158	1.0088	1.0089	1.1078	0.9743	0.9979	0.9674	1.0366	1.0089	1.0066	1.0001	1.0082	1.0278	1.0256	0.9937	1.0362	0.9996	1.0062	1.0845	1.0226	1.0191	0.9959	0.9920	1.0165	1.0159	1.0823	0.9545	1.0626	0.9197	1.0028	0.9487	1.0080	1.0304	0.9969	1.0724	1.0093	0.9990	0.9852	0.9669	0.9603	0.9769	1.0262	1.0015	1.0562	0.9662	0.9679	1.0646	1.0384	1.0636	1.0692	0.9999	1.0626	0.9197	1.0080	1.0304	1.0028	0.9969	1.0181	1.0295	0.9635	1.0041	0.9577	0.9700	0.8745	0.8896	0.9266	0.9735	0.9477	0.9135	0.9274	1.0085	1.0721	1.0500	0.9382	0.9478	0.9400	0.9726	1.0121	1.0516	0.9973	0.9319	0.9773	0.9696	1.0845	1.0226	1.0191	0.9959	0.9920	1.0165	1.0159	1.0823	1.0205	1.1210	1.0626	0.9755	0.9197	1.0028	0.9487	1.0080	1.0304	0.9969	0.9946	1.0242	1.0111	1.0093	0.9669	0.9852	1.0646	1.0075	1.0750	1.0627	0.9983	0.9996	0.9909	1.0173	1.0809	1.0057	0.9472
+time prior: Birth-Death-Sampling
+rate prior: Log-Normal
+
+Time used: 31:02
+
+MCMCtree_prior FINISHED!
+

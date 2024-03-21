@@ -1,0 +1,615 @@
+Job starts: Thu Feb 29 16:50:14 GMT 2024
+The analyses will take place in directory /data/scratch/btx126/LUCAdup_noatp/Hessian/1
+
+
+Running CODEML to calculate the Hessian and the gradient...
+
+AAML in paml version 4.10.7, June 2023
+ns = 241  	ls = 1182
+Reading sequences, sequential format..
+Reading seq # 1: Acidobacterium_capsulatum_1       Reading seq # 2: Acidobacterium_capsulatum_2       Reading seq # 3: Actinomadura_madurae_1       Reading seq # 4: Actinomadura_madurae_2       Reading seq # 5: Aeropyrum_pernix_1       Reading seq # 6: Aeropyrum_pernix_2       Reading seq # 7: Agaricus_bisporus_1       Reading seq # 8: Agaricus_bisporus_2       Reading seq # 9: Agaricus_bisporus_mito_1       Reading seq #10: Agaricus_bisporus_mito_2       Reading seq #11: Amphimedon_queenslandica_1       Reading seq #12: Amphimedon_queenslandica_2       Reading seq #13: Amphimedon_queenslandica_mito_1       Reading seq #14: Amphimedon_queenslandica_mito_2       Reading seq #15: Aquifex_aeolicus_1       Reading seq #16: Arabidopsis_thaliana_1       Reading seq #17: Arabidopsis_thaliana_2       Reading seq #18: Arabidopsis_thaliana_chloro_1       Reading seq #19: Arabidopsis_thaliana_mito_1       Reading seq #20: Arabidopsis_thaliana_mito_2       Reading seq #21: Archaeoglobus_fulgidus_1       Reading seq #22: Archaeoglobus_fulgidus_2       Reading seq #23: Bathycoccus_prasinos_1       Reading seq #24: Bathycoccus_prasinos_2       Reading seq #25: Bathycoccus_prasinos_chloro_1       Reading seq #26: Bathycoccus_prasinos_chloro_2       Reading seq #27: Bathycoccus_prasinos_mito_1       Reading seq #28: Bathycoccus_prasinos_mito_2       Reading seq #29: Batrachochytrium_dendrobatidis_1       Reading seq #30: Batrachochytrium_dendrobatidis_2       Reading seq #31: Batrachochytrium_dendrobatidis_mito_1       Reading seq #32: Batrachochytrium_dendrobatidis_mito_2       Reading seq #33: Bodo_saltans_1       Reading seq #34: Bodo_saltans_2       Reading seq #35: Bodo_saltans_mito_2       Reading seq #36: Caldiarchaeum_subterraneum_1       Reading seq #37: Caldiarchaeum_subterraneum_2       Reading seq #38: Caldisericum_exile_1       Reading seq #39: Caldisericum_exile_2       Reading seq #40: Caldithrix_abyssi_1       Reading seq #41: Caldithrix_abyssi_2       Reading seq #42: Caldivirga_maquilingensis_1       Reading seq #43: Caldivirga_maquilingensis_2       Reading seq #44: Campylobacter_jejuni_1       Reading seq #45: Campylobacter_jejuni_2       Reading seq #46: Cenarchaeum_symbiosum_1       Reading seq #47: Cenarchaeum_symbiosum_2       Reading seq #48: Chlamydia_trachomatis_1       Reading seq #49: Chlamydia_trachomatis_2       Reading seq #50: Chlamydomonas_reinhardtii_1       Reading seq #51: Chlamydomonas_reinhardtii_2       Reading seq #52: Chlamydomonas_reinhardtii_chloro_1       Reading seq #53: Chlamydomonas_reinhardtii_chloro_2       Reading seq #54: Chlamydomonas_reinhardtii_mito_1       Reading seq #55: Chlamydomonas_reinhardtii_mito_2       Reading seq #56: Chlorobium_phaeovibrioides_1       Reading seq #57: Chlorobium_phaeovibrioides_2       Reading seq #58: Chloroflexus_1       Reading seq #59: Chloroflexus_2       Reading seq #60: Chlorogloeopsis_fritschii_1       Reading seq #61: Chlorogloeopsis_fritschii_2       Reading seq #62: Chondrus_crispus_1       Reading seq #63: Chondrus_crispus_2       Reading seq #64: Chondrus_crispus_chloro_1       Reading seq #65: Chondrus_crispus_chloro_2       Reading seq #66: Chondrus_crispus_mito_2       Reading seq #67: Chthonomonas_calidirosea_2       Reading seq #68: Cloacimonas_acidaminovorans_1       Reading seq #69: Cloacimonas_acidaminovorans_2       Reading seq #70: Clostridium_acetobutylicum_1       Reading seq #71: Clostridium_acetobutylicum_2       Reading seq #72: Cyanidioschyzon_merolae_1       Reading seq #73: Cyanidioschyzon_merolae_2       Reading seq #74: Cyanidioschyzon_merolae_chloro_1       Reading seq #75: Cyanidioschyzon_merolae_chloro_2       Reading seq #76: Cyanidioschyzon_merolae_mito_2       Reading seq #77: Cyanobium_gracile_1       Reading seq #78: Cyanobium_gracile_2       Reading seq #79: Cyanophora_paradoxa_1       Reading seq #80: Cyanophora_paradoxa_2       Reading seq #81: Cylindrospermopsis_raciborskii_1       Reading seq #82: Cylindrospermopsis_raciborskii_2       Reading seq #83: Desulfurispirillum_indicum_2       Reading seq #84: Dictyoglomus_turgidum_1       Reading seq #85: Dictyoglomus_turgidum_2       Reading seq #86: Dictyostelium_discoideum_1       Reading seq #87: Dictyostelium_discoideum_2       Reading seq #88: Dictyostelium_discoideum_mito_1       Reading seq #89: Dictyostelium_discoideum_mito_2       Reading seq #90: Ectocarpus_siliculosus_1       Reading seq #91: Ectocarpus_siliculosus_2       Reading seq #92: Ectocarpus_siliculosus_chloro_1       Reading seq #93: Ectocarpus_siliculosus_mito_2       Reading seq #94: Elphidium_margaritaceum_1       Reading seq #95: Elphidium_margaritaceum_2       Reading seq #96: Elphidium_margaritaceum_mito_2       Reading seq #97: Elusimicrobium_minutum_1       Reading seq #98: Elusimicrobium_minutum_2       Reading seq #99: Fibrobacter_succinogenes_1       Reading seq #100: Fibrobacter_succinogenes_2       Reading seq #101: Galdieria_sulphuraria_1       Reading seq #102: Galdieria_sulphuraria_2       Reading seq #103: Galdieria_sulphuraria_chloro_1       Reading seq #104: Galdieria_sulphuraria_chloro_2       Reading seq #105: Galdieria_sulphuraria_mito_1       Reading seq #106: Galdieria_sulphuraria_mito_2       Reading seq #107: Gemmatimonas_aurantiaca_2       Reading seq #108: Gloeobacter_violaceus_1       Reading seq #109: Gloeobacter_violaceus_2       Reading seq #110: Haloarcula_marismortui_1       Reading seq #111: Haloarcula_marismortui_2       Reading seq #112: Heimdallarchaeota_archaeon_AB_125_1       Reading seq #113: Heimdallarchaeota_archaeon_AB_125_2       Reading seq #114: Heimdallarchaeota_archaeon_LC_2_1       Reading seq #115: Heimdallarchaeota_archaeon_LC_2_2       Reading seq #116: Heimdallarchaeota_archaeon_LC_3_1       Reading seq #117: Heimdallarchaeota_archaeon_LC_3_2       Reading seq #118: Homo_sapiens_1       Reading seq #119: Homo_sapiens_2       Reading seq #120: Homo_sapiens_mito_1       Reading seq #121: Homo_sapiens_mito_2       Reading seq #122: Hydra_vulgaris_1       Reading seq #123: Hydra_vulgaris_2       Reading seq #124: Hydra_vulgaris_mito_1       Reading seq #125: Hydra_vulgaris_mito_2       Reading seq #126: Hyperthermus_butylicus_1       Reading seq #127: Hyperthermus_butylicus_2       Reading seq #128: Ignicoccus_hospitalis_1       Reading seq #129: Ignicoccus_hospitalis_2       Reading seq #130: Jidaibacter_acanthamoeba_1       Reading seq #131: Jidaibacter_acanthamoeba_2       Reading seq #132: Jonquetella_anthropi_1       Reading seq #133: Jonquetella_anthropi_2       Reading seq #134: Korarchaeum_cryptofilum_1       Reading seq #135: Korarchaeum_cryptofilum_2       Reading seq #136: Kosmotoga_olearia_1       Reading seq #137: Kosmotoga_olearia_2       Reading seq #138: Latescibacteria_bacterium_1       Reading seq #139: Latescibacteria_bacterium_2       Reading seq #140: Leishmania_major_1       Reading seq #141: Leishmania_major_2       Reading seq #142: Leishmania_major_mito_2       Reading seq #143: Lentisphaera_araneosa_1       Reading seq #144: Lentisphaera_araneosa_2       Reading seq #145: Leptolyngbya_valderiana_1       Reading seq #146: Limulus_polyphemus_1       Reading seq #147: Limulus_polyphemus_2       Reading seq #148: Limulus_polyphemus_mito_2       Reading seq #149: Lokiarchaeum_sp._GC14_75_1       Reading seq #150: Lokiarchaeum_sp._GC14_75_2       Reading seq #151: Melainabacteria_bacterium_1       Reading seq #152: Melainabacteria_bacterium_2       Reading seq #153: Methanocaldococcus_jannaschii_1       Reading seq #154: Methanocaldococcus_jannaschii_2       Reading seq #155: Methanomassiliicoccus_luminyensis_1       Reading seq #156: Methanomassiliicoccus_luminyensis_2       Reading seq #157: Methanopyrus_kandleri_1       Reading seq #158: Methanopyrus_kandleri_2       Reading seq #159: Methanosarcina_mazei_1       Reading seq #160: Methanosarcina_mazei_2       Reading seq #161: Methanothermobacter_thermautotrophicus_1       Reading seq #162: Methanothermobacter_thermautotrophicus_2       Reading seq #163: Nitrosoarchaeum_limnia_1       Reading seq #164: Nitrosoarchaeum_limnia_2       Reading seq #165: Nitrosopumilus_maritimus_1       Reading seq #166: Nitrosopumilus_maritimus_2       Reading seq #167: Odinarchaeota_archaeon_LCB_4_1       Reading seq #168: Odinarchaeota_archaeon_LCB_4_2       Reading seq #169: Oryza_sativa_1       Reading seq #170: Oryza_sativa_2       Reading seq #171: Oryza_sativa_chloro_1       Reading seq #172: Oryza_sativa_chloro_2       Reading seq #173: Oryza_sativa_mito_1       Reading seq #174: Oryza_sativa_mito_2       Reading seq #175: Oscillochloris_trichoides_1       Reading seq #176: Oscillochloris_trichoides_2       Reading seq #177: Paramecium_tetraurelia_1       Reading seq #178: Paramecium_tetraurelia_2       Reading seq #179: Physcomitrella_patens_1       Reading seq #180: Physcomitrella_patens_2       Reading seq #181: Physcomitrella_patens_chloro_1       Reading seq #182: Physcomitrella_patens_chloro_2       Reading seq #183: Physcomitrella_patens_mito_1       Reading seq #184: Physcomitrella_patens_mito_2       Reading seq #185: Polysphondylium_pallidum_1       Reading seq #186: Polysphondylium_pallidum_2       Reading seq #187: Polysphondylium_pallidum_mito_1       Reading seq #188: Polysphondylium_pallidum_mito_2       Reading seq #189: Pseudanabaena_biceps_1       Reading seq #190: Pseudanabaena_biceps_2       Reading seq #191: Pyrobaculum_aerophilum_1       Reading seq #192: Pyrobaculum_aerophilum_2       Reading seq #193: Pyrococcus_furiosus_1       Reading seq #194: Pyrococcus_furiosus_2       Reading seq #195: Reticulomyxa_filosa_1       Reading seq #196: Reticulomyxa_filosa_2       Reading seq #197: Reticulomyxa_filosa_mito_2       Reading seq #198: Rhodopirellula_baltica_1       Reading seq #199: Rhodopirellula_baltica_2       Reading seq #200: Rhodopseudomonas_palustris_1       Reading seq #201: Rhodopseudomonas_palustris_2       Reading seq #202: Rickettsia_bellii_1       Reading seq #203: Rickettsia_bellii_2       Reading seq #204: Roseobacter_litoralis_1       Reading seq #205: Roseobacter_litoralis_2       Reading seq #206: Saccharomyces_cerevisiae_1       Reading seq #207: Saccharomyces_cerevisiae_mito_2       Reading seq #208: Sphingopyxis_alaskensis_1       Reading seq #209: Sphingopyxis_alaskensis_2       Reading seq #210: Staphylothermus_marinus_1       Reading seq #211: Staphylothermus_marinus_2       Reading seq #212: Sulfolobus_solfataricus_1       Reading seq #213: Synechocystis_sp._PCC_6803_1       Reading seq #214: Synechocystis_sp._PCC_6803_2       Reading seq #215: Thalassiosira_pseudonana_1       Reading seq #216: Thalassiosira_pseudonana_2       Reading seq #217: Thalassiosira_pseudonana_chloro_1       Reading seq #218: Thalassiosira_pseudonana_chloro_2       Reading seq #219: Thalassiosira_pseudonana_mito_2       Reading seq #220: Thermodesulfatator_indicus_1       Reading seq #221: Thermodesulfatator_indicus_2       Reading seq #222: Thermodesulfovibrio_islandicus_1       Reading seq #223: Thermodesulfovibrio_islandicus_2       Reading seq #224: Thermofilum_pendens_1       Reading seq #225: Thermofilum_pendens_2       Reading seq #226: Thermoplasma_volcanium_1       Reading seq #227: Thermoplasma_volcanium_2       Reading seq #228: Thorarchaeota_archaeon_AB_25_1       Reading seq #229: Thorarchaeota_archaeon_AB_25_2       Reading seq #230: Thorarchaeota_archaeon_SMTZ1-45_1       Reading seq #231: Thorarchaeota_archaeon_SMTZ1-45_2       Reading seq #232: Thorarchaeota_archaeon_SMTZ1-83_1       Reading seq #233: Thorarchaeota_archaeon_SMTZ1-83_2       Reading seq #234: Treponema_pallidum_2       Reading seq #235: Verrucomicrobium_spinosum_1       Reading seq #236: Volvox_carteri_1       Reading seq #237: Volvox_carteri_2       Reading seq #238: Volvox_carteri_chloro_1       Reading seq #239: Volvox_carteri_chloro_2       Reading seq #240: Volvox_carteri_mito_1       Reading seq #241: Volvox_carteri_mito_2       
+Sequences read..
+
+1182 site patterns read, 1190 sites
+Counting frequencies..
+
+231360 bytes for distance
+378240 bytes for conP
+37824 bytes for fhK
+5000000 bytes for space
+
+TREE #  1
+
+180798720 bytes for conP, adjusted
+
+4 node(s) used for scaling (Yang 2000 J Mol Evol 51:423-432):
+244 298 359 428
+
+ntime & nrate & np:   479     0   480
+
+np =   480
+lnL0 = -221463.179710
+
+
+Round 1a: Paras (1) (e=5)
+Iterating by ming2
+Initial: fx= 221463.179710
+x=  0.49745
+
+1 h-m-p  0.0000 0.0002 2487.9639 +Y    221288.650098  0 0.0000     7 | 0/1
+2 h-m-p  1.6000 8.0000   0.0421 C     221279.516045  0 0.5240    11
+
+0.375866         0:05
+
+Round 1b: Blengths (479, e=5)
+lnL0 =    -221279.516045
+Cycle  1: -207551.002890
+Cycle  2: -206414.615245
+Cycle  3: -206196.128809
+Cycle  4: -206118.139108
+Cycle  5: -206087.221496
+Cycle  6: -206075.114607
+Cycle  7: -206070.780169
+
+0:22
+
+
+Round 2a: Paras (1) (e=2.5)
+Iterating by ming2
+Initial: fx= 206070.780169
+x=  0.37587
+
+1 h-m-p  0.0000 0.0051 9484.5275 +Y    204861.006691  0 0.0000    19 | 0/1
+2 h-m-p  1.6000 8.0000   0.0177 +Y    204846.546805  0 4.1976    24
+
+0.829416         0:27
+
+Round 2b: Blengths (479, e=2.5)
+lnL0 =    -204846.546805
+Cycle  1: -204568.440280
+Cycle  2: -204454.692968
+Cycle  3: -204405.147005
+Cycle  4: -204377.531133
+Cycle  5: -204361.556636
+Cycle  6: -204350.832700
+Cycle  7: -204342.173841
+Cycle  8: -204336.134928
+Cycle  9: -204332.920065
+Cycle 10: -204331.430109
+
+0:49
+
+
+Round 3a: Paras (1) (e=1.25)
+Iterating by ming2
+Initial: fx= 204331.430109
+x=  0.82942
+
+1 h-m-p  0.0000 0.0514 936.4028 ++C   204231.590471  0 0.0004    33 | 0/1
+2 h-m-p  1.6000 8.0000   0.0351 C     204227.903161  0 1.7586    37
+
+1.114290         0:54
+
+Round 3b: Blengths (479, e=1.25)
+lnL0 =    -204227.903161
+Cycle  1: -204221.698913
+Cycle  2: -204219.540135
+Cycle  3: -204218.587168
+
+1:01
+
+
+Round 4a: Paras (1) (e=0.625)
+Iterating by ming2
+Initial: fx= 204218.587168
+x=  1.11429
+
+1 h-m-p  0.0008 1.5265  31.3686 Y     204218.296921  0 0.0006    44 | 0/1
+2 h-m-p  1.6000 8.0000   0.0001 Y     204218.296916  0 0.9955    48
+
+1.132836         1:05
+
+Round 4b: Blengths (479, e=0.625)
+lnL0 =    -204218.296916
+Cycle  1: -204217.793435
+
+1:07
+
+
+Round 5a: Paras (1) (e=0.15625)
+Iterating by ming2
+Initial: fx= 204217.793435
+x=  1.13284
+
+1 h-m-p  0.0040 8.0000   4.4175 Y     204217.787737  0 0.0006    55 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 Y     204217.787737  0 0.4000    59
+
+1.135415         1:11
+
+Round 5b: Blengths (479, e=0.15625)
+lnL0 =    -204217.787737
+Cycle  1: -204217.542937
+Cycle  2: -204217.429857
+
+1:16
+
+
+Round 6a: Paras (1) (e=0.001)
+Iterating by ming2
+Initial: fx= 204217.429857
+x=  1.13541
+
+1 h-m-p  0.0040 8.0000   3.8539 Y     204217.425611  0 0.0006    66 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 ----Y 204217.425611  0 0.0016    74
+
+1.137618         1:21
+
+Round 6b: Blengths (479, e=0.001)
+lnL0 =    -204217.425611
+Cycle  1: -204217.369703
+Cycle  2: -204217.340558
+Cycle  3: -204217.324301
+Cycle  4: -204217.314469
+Cycle  5: -204217.308081
+Cycle  6: -204217.303691
+Cycle  7: -204217.300548
+Cycle  8: -204217.298226
+Cycle  9: -204217.296472
+Cycle 10: -204217.295125
+Cycle 11: -204217.294077
+Cycle 12: -204217.293254
+
+1:55
+
+
+Round 7a: Paras (1) (e=0.00025)
+Iterating by ming2
+Initial: fx= 204217.293254
+x=  1.13762
+
+1 h-m-p  0.0040 8.0000   2.0104 Y     204217.292114  0 0.0006    81 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 --C   204217.292114  0 0.0250    87
+
+1.138752         2:00
+
+Round 7b: Blengths (479, e=0.00025)
+lnL0 =    -204217.292114
+Cycle  1: -204217.291441
+Cycle  2: -204217.290912
+Cycle  3: -204217.290493
+Cycle  4: -204217.290161
+Cycle  5: -204217.289896
+Cycle  6: -204217.289684
+
+2:18
+
+
+Round 8a: Paras (1) (e=6.25e-05)
+Iterating by ming2
+Initial: fx= 204217.289684
+x=  1.13875
+
+1 h-m-p  0.0040 8.0000   0.1002 Y     204217.289682  0 0.0006    94
+
+1.138808         2:20
+
+Round 8b: Blengths (479, e=6.25e-05)
+lnL0 =    -204217.289682
+Cycle  1: -204217.289512
+Cycle  2: -204217.289377
+Cycle  3: -204217.289268
+Cycle  4: -204217.289181
+Cycle  5: -204217.289112
+Cycle  6: -204217.289056
+
+3:10
+
+
+Round 9a: Paras (1) (e=1.5625e-05)
+Iterating by ming2
+Initial: fx= 204217.289056
+x=  1.13881
+
+1 h-m-p  0.0040 8.0000   0.0110 Y     204217.289056  0 0.0006   101
+
+1.138814         3:12
+
+Round 9b: Blengths (479, e=1.5625e-05)
+lnL0 =    -204217.289056
+Cycle  1: -204217.289012
+Cycle  2: -204217.288976
+Cycle  3: -204217.288947
+Cycle  4: -204217.288924
+Cycle  5: -204217.288906
+Cycle  6: -204217.288891
+
+4:23
+
+
+Round 10a: Paras (1) (e=3.90625e-06)
+Iterating by ming2
+Initial: fx= 204217.288891
+x=  1.13881
+
+1 h-m-p  0.0040 8.0000   0.0024 C     204217.288891  0 0.0010   108 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 C     204217.288891  0 1.2968   113
+
+1.138816         4:28
+
+Round 10b: Blengths (479, e=3.90625e-06)
+lnL0 =    -204217.288891
+Cycle  1: -204217.288880
+Cycle  2: -204217.288870
+Cycle  3: -204217.288863
+Cycle  4: -204217.288857
+Cycle  5: -204217.288852
+Cycle  6: -204217.288848
+
+5:44
+
+
+Round 11a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288848
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0022 Y     204217.288848  0 0.0007   120 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 C     204217.288848  0 0.4000   125
+
+1.138818         5:48
+
+Round 11b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288848
+Cycle  1: -204217.288845
+Cycle  2: -204217.288842
+Cycle  3: -204217.288840
+Cycle  4: -204217.288839
+Cycle  5: -204217.288838
+Cycle  6: -204217.288837
+Cycle  7: -204217.288836
+
+7:22
+
+
+Round 12a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288836
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0019 ------Y 204217.288836  0 0.0000   138 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 -----C 204217.288836  0 0.0004   148
+
+1.138818         7:30
+
+Round 12b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288836
+Cycle  1: -204217.288835
+
+7:45
+
+
+Round 13a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288835
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0003 ---C  204217.288835  0 0.0000   158
+
+1.138818         7:48
+
+Round 13b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288835
+Cycle  1: -204217.288835
+
+8:02
+
+6 rounds of small improvement.
+
+Round 14a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288835
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0001 C     204217.288835  0 0.0040   165
+
+1.138818         8:04
+
+Round 14b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288835
+Cycle  1: -204217.288834
+
+8:17
+
+7 rounds of small improvement.
+
+Round 15a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288834
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0015 -C    204217.288834  0 0.0003   173 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 --------Y 204217.288834  0 0.0000   186
+
+1.138819         8:25
+
+Round 15b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288834
+Cycle  1: -204217.288834
+
+8:40
+
+8 rounds of small improvement.
+
+Round 16a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288834
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0005 --C   204217.288834  0 0.0001   195
+
+1.138819         8:43
+
+Round 16b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288834
+Cycle  1: -204217.288834
+
+8:56
+
+9 rounds of small improvement.
+
+Round 17a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288834
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0010 -----------Y 204217.288834  0 0.0000   213
+
+1.138819         9:03
+
+Round 17b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288834
+Cycle  1: -204217.288833
+
+9:18
+
+10 rounds of small improvement.
+
+Round 18a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0014 --C   204217.288833  0 0.0001   222 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 -C    204217.288833  0 0.0966   228
+
+1.138819         9:23
+
+Round 18b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+9:37
+
+11 rounds of small improvement.
+
+Round 19a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0015 -C    204217.288833  0 0.0002   236 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 C     204217.288833  0 0.4000   241
+
+1.138819         9:42
+
+Round 19b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+9:56
+
+12 rounds of small improvement.
+
+Round 20a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0004 C     204217.288833  0 0.0010   248
+
+1.138819         9:59
+
+Round 20b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+10:13
+
+13 rounds of small improvement.
+
+Round 21a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0012 --C   204217.288833  0 0.0001   257 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 ----------Y 204217.288833  0 0.0000   272
+
+1.138819        10:22
+
+Round 21b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+10:37
+
+14 rounds of small improvement.
+
+Round 22a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0007 Y     204217.288833  0 0.0010   279
+
+1.138819        10:39
+
+Round 22b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+10:54
+
+15 rounds of small improvement.
+
+Round 23a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0011 --Y   204217.288833  0 0.0001   288 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 -C    204217.288833  0 0.1000   294
+
+1.138819        10:59
+
+Round 23b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+11:13
+
+16 rounds of small improvement.
+
+Round 24a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0003 -Y    204217.288833  0 0.0003   302
+
+1.138819        11:16
+
+Round 24b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+11:30
+
+17 rounds of small improvement.
+
+Round 25a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0004 C     204217.288833  0 0.0012   309
+
+1.138819        11:32
+
+Round 25b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+11:47
+
+18 rounds of small improvement.
+
+Round 26a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0015 -----------C 204217.288833  0 0.0000   327 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 N     204217.288833  0 1.6000   332
+
+1.138819        11:56
+
+Round 26b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+12:11
+
+19 rounds of small improvement.
+
+Round 27a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0011 ---C  204217.288833  0 0.0000   342 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 ---C  204217.288833  0 0.0063   350
+
+1.138819        12:17
+
+Round 27b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+12:32
+
+20 rounds of small improvement.
+
+Round 28a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0003 Y     204217.288833  0 0.0010   357
+
+1.138819        12:34
+
+Round 28b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+12:48
+
+21 rounds of small improvement.
+
+Round 29a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0001 ---Y  204217.288833  0 0.0000   367
+
+1.138819        12:52
+
+Round 29b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+13:07
+
+22 rounds of small improvement.
+
+Round 30a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 204217.288833
+x=  1.13882
+
+1 h-m-p  0.0040 8.0000   0.0023 ----Y 204217.288833  0 0.0000   378 | 0/1
+2 h-m-p  1.6000 8.0000   0.0000 -----Y 204217.288833  0 0.0003   388
+
+1.138819        13:15
+
+Round 30b: Blengths (479, e=1e-06)
+lnL0 =    -204217.288833
+Cycle  1: -204217.288833
+
+13:29
+
+lnL  = -204217.288833
+Out..
+lnL  = -204217.288833
+391 lfun, 0 eigenQcodon, 1235516 P(t)
+Calculating SE's
+
+Warning: Hessian matrix may be unreliable for zero branch lengths
+
+Time used: 19:46
+
+CODEML FINISHED!
+
+Job ends: Thu Feb 29 17:10:00 GMT 2024

@@ -1,0 +1,1024 @@
+MCMCTREE (paml version 4.9h, March 2018) /mnt/c/Users/sandr/Sync/00_Collabs/LUCA-divtimes/LUCA-divtimes/03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/dummy_aln/dummy_aln.aln
+
+
+*** Locus 1 ***
+    246      2
+
+Methanocaldococcus_jannaschii_1  PR
+Methanopyrus_kandleri_1         PR
+Methanothermobacter_thermautotrophicus_1  PR
+Pyrococcus_furiosus_1           PR
+Korarchaeum_cryptofilum_1       PR
+Caldiarchaeum_subterraneum_1    PR
+Cenarchaeum_symbiosum_1         PR
+Nitrosoarchaeum_limnia_1        PR
+Nitrosopumilus_maritimus_1      PR
+Aeropyrum_pernix_1              PR
+Hyperthermus_butylicus_1        PR
+Ignicoccus_hospitalis_1         PR
+Sulfolobus_solfataricus_1       PR
+Staphylothermus_marinus_1       PR
+Caldivirga_maquilingensis_1     PR
+Pyrobaculum_aerophilum_1        PR
+Thermofilum_pendens_1           PR
+Agaricus_bisporus_1             PR
+Saccharomyces_cerevisiae_1      PR
+Batrachochytrium_dendrobatidis_1  PR
+Amphimedon_queenslandica_1      PR
+Homo_sapiens_1                  PR
+Limulus_polyphemus_1            PR
+Hydra_vulgaris_1                PR
+Dictyostelium_discoideum_1      PR
+Polysphondylium_pallidum_1      PR
+Arabidopsis_thaliana_1          PR
+Oryza_sativa_1                  PR
+Physcomitrella_patens_1         PR
+Bathycoccus_prasinos_1          PR
+Chlamydomonas_reinhardtii_1     PR
+Volvox_carteri_1                PR
+Cyanophora_paradoxa_1           PR
+Chondrus_crispus_1              PR
+Galdieria_sulphuraria_1         PR
+Cyanidioschyzon_merolae_1       PR
+Ectocarpus_siliculosus_1        PR
+Thalassiosira_pseudonana_1      PR
+Paramecium_tetraurelia_1        PR
+Elphidium_margaritaceum_1       PR
+Reticulomyxa_filosa_1           PR
+Bodo_saltans_1                  PR
+Leishmania_major_1              PR
+Heimdallarchaeota_archaeon_AB_125_1  PR
+Heimdallarchaeota_archaeon_LC_2_1  PR
+Heimdallarchaeota_archaeon_LC_3_1  PR
+Lokiarchaeum_sp._GC14_75_1      PR
+Odinarchaeota_archaeon_LCB_4_1  PR
+Thorarchaeota_archaeon_AB_25_1  PR
+Thorarchaeota_archaeon_SMTZ1-45_1  PR
+Thorarchaeota_archaeon_SMTZ1-83_1  PR
+Archaeoglobus_fulgidus_1        PR
+Methanosarcina_mazei_1          PR
+Haloarcula_marismortui_1        PR
+Thermoplasma_volcanium_1        PR
+Methanomassiliicoccus_luminyensis_1  PR
+Actinomadura_madurae_1          PR
+Clostridium_acetobutylicum_1    PR
+Arabidopsis_thaliana_chloro_1   PR
+Oryza_sativa_chloro_1           PR
+Physcomitrella_patens_chloro_1  PR
+Bathycoccus_prasinos_chloro_1   PR
+Chlamydomonas_reinhardtii_chloro_1  PR
+Volvox_carteri_chloro_1         PR
+Chondrus_crispus_chloro_1       PR
+Ectocarpus_siliculosus_chloro_1  PR
+Thalassiosira_pseudonana_chloro_1  PR
+Cyanidioschyzon_merolae_chloro_1  PR
+Galdieria_sulphuraria_chloro_1  PR
+Chlorogloeopsis_fritschii_1     PR
+Cylindrospermopsis_raciborskii_1  PR
+Pseudanabaena_biceps_1          PR
+Leptolyngbya_valderiana_1       PR
+Synechocystis_sp._PCC_6803_1    PR
+Cyanobium_gracile_1             PR
+Gloeobacter_violaceus_1         PR
+Melainabacteria_bacterium_1     PR
+Chloroflexus_1                  PR
+Oscillochloris_trichoides_1     PR
+Agaricus_bisporus_mito_1        PR
+Batrachochytrium_dendrobatidis_mito_1  PR
+Amphimedon_queenslandica_mito_1  PR
+Homo_sapiens_mito_1             PR
+Limulus_polyphemus_mito_1       PR
+Hydra_vulgaris_mito_1           PR
+Dictyostelium_discoideum_mito_1  PR
+Polysphondylium_pallidum_mito_1  PR
+Arabidopsis_thaliana_mito_1     PR
+Oryza_sativa_mito_1             PR
+Physcomitrella_patens_mito_1    PR
+Bathycoccus_prasinos_mito_1     PR
+Chlamydomonas_reinhardtii_mito_1  PR
+Volvox_carteri_mito_1           PR
+Cyanidioschyzon_merolae_mito_1  PR
+Galdieria_sulphuraria_mito_1    PR
+Phytophthora_ramorum_mito_1     PR
+Thalassiosira_pseudonana_mito_1  PR
+Jidaibacter_acanthamoeba_1      PR
+Rickettsia_bellii_1             PR
+Rhodopseudomonas_palustris_1    PR
+Roseobacter_litoralis_1         PR
+Sphingopyxis_alaskensis_1       PR
+Chlamydia_trachomatis_1         PR
+Latescibacteria_bacterium_1     PR
+Caldisericum_exile_1            PR
+Dictyoglomus_turgidum_1         PR
+Kosmotoga_olearia_1             PR
+Caldithrix_abyssi_1             PR
+Chlorobium_phaeovibrioides_1    PR
+Campylobacter_jejuni_1          PR
+Verrucomicrobium_spinosum_1     PR
+Cloacimonas_acidaminovorans_1   PR
+Fibrobacter_succinogenes_1      PR
+Lentisphaera_araneosa_1         PR
+Rhodopirellula_baltica_1        PR
+Elusimicrobium_minutum_1        PR
+Jonquetella_anthropi_1          PR
+Acidobacterium_capsulatum_1     PR
+Aquifex_aeolicus_1              PR
+Thermodesulfatator_indicus_1    PR
+Thermodesulfovibrio_islandicus_1  PR
+Acidobacterium_capsulatum_2     PR
+Campylobacter_jejuni_2          PR
+Desulfurispirillum_indicum_2    PR
+Thermodesulfatator_indicus_2    PR
+Thermodesulfovibrio_islandicus_2  PR
+Caldisericum_exile_2            PR
+Dictyoglomus_turgidum_2         PR
+Kosmotoga_olearia_2             PR
+Chlorobium_phaeovibrioides_2    PR
+Cloacimonas_acidaminovorans_2   PR
+Elusimicrobium_minutum_2        PR
+Latescibacteria_bacterium_2     PR
+Chlamydia_trachomatis_2         PR
+Chthonomonas_calidirosea_2      PR
+Fibrobacter_succinogenes_2      PR
+Treponema_pallidum_2            PR
+Rhodopirellula_baltica_2        PR
+Caldithrix_abyssi_2             PR
+Lentisphaera_araneosa_2         PR
+Jonquetella_anthropi_2          PR
+Agaricus_bisporus_mito_2        PR
+Saccharomyces_cerevisiae_mito_2  PR
+Batrachochytrium_dendrobatidis_mito_2  PR
+Amphimedon_queenslandica_mito_2  PR
+Homo_sapiens_mito_2             PR
+Limulus_polyphemus_mito_2       PR
+Hydra_vulgaris_mito_2           PR
+Dictyostelium_discoideum_mito_2  PR
+Polysphondylium_pallidum_mito_2  PR
+Arabidopsis_thaliana_mito_2     PR
+Oryza_sativa_mito_2             PR
+Physcomitrella_patens_mito_2    PR
+Bathycoccus_prasinos_mito_2     PR
+Chlamydomonas_reinhardtii_mito_2  PR
+Volvox_carteri_mito_2           PR
+Chondrus_crispus_mito_2         PR
+Cyanidioschyzon_merolae_mito_2  PR
+Galdieria_sulphuraria_mito_2    PR
+Ectocarpus_siliculosus_mito_2   PR
+Thalassiosira_pseudonana_mito_2  PR
+Bodo_saltans_mito_2             PR
+Leishmania_major_mito_2         PR
+Elphidium_margaritaceum_mito_2  PR
+Reticulomyxa_filosa_mito_2      PR
+Jidaibacter_acanthamoeba_2      PR
+Rickettsia_bellii_2             PR
+Rhodopseudomonas_palustris_2    PR
+Roseobacter_litoralis_2         PR
+Sphingopyxis_alaskensis_2       PR
+Actinomadura_madurae_2          PR
+Gemmatimonas_aurantiaca_2       PR
+Clostridium_acetobutylicum_2    PR
+Bathycoccus_prasinos_chloro_2   PR
+Chlamydomonas_reinhardtii_chloro_2  PR
+Volvox_carteri_chloro_2         PR
+Oryza_sativa_chloro_2           PR
+Physcomitrella_patens_chloro_2  PR
+Cyanidioschyzon_merolae_chloro_2  PR
+Chondrus_crispus_chloro_2       PR
+Thalassiosira_pseudonana_chloro_2  PR
+Galdieria_sulphuraria_chloro_2  PR
+Chlorogloeopsis_fritschii_2     PR
+Cylindrospermopsis_raciborskii_2  PR
+Pseudanabaena_biceps_2          PR
+Synechocystis_sp._PCC_6803_2    PR
+Cyanobium_gracile_2             PR
+Gloeobacter_violaceus_2         PR
+Melainabacteria_bacterium_2     PR
+Chloroflexus_2                  PR
+Oscillochloris_trichoides_2     PR
+Methanocaldococcus_jannaschii_2  PR
+Methanothermobacter_thermautotrophicus_2  PR
+Methanopyrus_kandleri_2         PR
+Pyrococcus_furiosus_2           PR
+Korarchaeum_cryptofilum_2       PR
+Staphylothermus_marinus_2       PR
+Aeropyrum_pernix_2              PR
+Ignicoccus_hospitalis_2         PR
+Hyperthermus_butylicus_2        PR
+Thermofilum_pendens_2           PR
+Caldivirga_maquilingensis_2     PR
+Pyrobaculum_aerophilum_2        PR
+Caldiarchaeum_subterraneum_2    PR
+Cenarchaeum_symbiosum_2         PR
+Nitrosoarchaeum_limnia_2        PR
+Nitrosopumilus_maritimus_2      PR
+Agaricus_bisporus_2             PR
+Saccharomyces_cerevisiae_2      PR
+Batrachochytrium_dendrobatidis_2  PR
+Amphimedon_queenslandica_2      PR
+Homo_sapiens_2                  PR
+Limulus_polyphemus_2            PR
+Hydra_vulgaris_2                PR
+Dictyostelium_discoideum_2      PR
+Polysphondylium_pallidum_2      PR
+Arabidopsis_thaliana_2          PR
+Oryza_sativa_2                  PR
+Physcomitrella_patens_2         PR
+Bathycoccus_prasinos_2          PR
+Chlamydomonas_reinhardtii_2     PR
+Volvox_carteri_2                PR
+Cyanophora_paradoxa_2           PR
+Chondrus_crispus_2              PR
+Galdieria_sulphuraria_2         PR
+Cyanidioschyzon_merolae_2       PR
+Ectocarpus_siliculosus_2        PR
+Thalassiosira_pseudonana_2      PR
+Paramecium_tetraurelia_2        PR
+Elphidium_margaritaceum_2       PR
+Reticulomyxa_filosa_2           PR
+Bodo_saltans_2                  PR
+Leishmania_major_2              PR
+Heimdallarchaeota_archaeon_LC_2_2  PR
+Heimdallarchaeota_archaeon_LC_3_2  PR
+Heimdallarchaeota_archaeon_AB_125_2  PR
+Lokiarchaeum_sp._GC14_75_2      PR
+Odinarchaeota_archaeon_LCB_4_2  PR
+Thorarchaeota_archaeon_AB_25_2  PR
+Thorarchaeota_archaeon_SMTZ1-83_2  PR
+Thorarchaeota_archaeon_SMTZ1-45_2  PR
+Methanomassiliicoccus_luminyensis_2  PR
+Archaeoglobus_fulgidus_2        PR
+Methanosarcina_mazei_2          PR
+Haloarcula_marismortui_2        PR
+Thermoplasma_volcanium_2        PR
+
+
+
+Printing out site pattern counts
+
+
+       246          2  P
+
+Methanocaldococcus_jannaschii_1  PR
+Methanopyrus_kandleri_1         PR
+Methanothermobacter_thermautotrophicus_1  PR
+Pyrococcus_furiosus_1           PR
+Korarchaeum_cryptofilum_1       PR
+Caldiarchaeum_subterraneum_1    PR
+Cenarchaeum_symbiosum_1         PR
+Nitrosoarchaeum_limnia_1        PR
+Nitrosopumilus_maritimus_1      PR
+Aeropyrum_pernix_1              PR
+Hyperthermus_butylicus_1        PR
+Ignicoccus_hospitalis_1         PR
+Sulfolobus_solfataricus_1       PR
+Staphylothermus_marinus_1       PR
+Caldivirga_maquilingensis_1     PR
+Pyrobaculum_aerophilum_1        PR
+Thermofilum_pendens_1           PR
+Agaricus_bisporus_1             PR
+Saccharomyces_cerevisiae_1      PR
+Batrachochytrium_dendrobatidis_1  PR
+Amphimedon_queenslandica_1      PR
+Homo_sapiens_1                  PR
+Limulus_polyphemus_1            PR
+Hydra_vulgaris_1                PR
+Dictyostelium_discoideum_1      PR
+Polysphondylium_pallidum_1      PR
+Arabidopsis_thaliana_1          PR
+Oryza_sativa_1                  PR
+Physcomitrella_patens_1         PR
+Bathycoccus_prasinos_1          PR
+Chlamydomonas_reinhardtii_1     PR
+Volvox_carteri_1                PR
+Cyanophora_paradoxa_1           PR
+Chondrus_crispus_1              PR
+Galdieria_sulphuraria_1         PR
+Cyanidioschyzon_merolae_1       PR
+Ectocarpus_siliculosus_1        PR
+Thalassiosira_pseudonana_1      PR
+Paramecium_tetraurelia_1        PR
+Elphidium_margaritaceum_1       PR
+Reticulomyxa_filosa_1           PR
+Bodo_saltans_1                  PR
+Leishmania_major_1              PR
+Heimdallarchaeota_archaeon_AB_125_1  PR
+Heimdallarchaeota_archaeon_LC_2_1  PR
+Heimdallarchaeota_archaeon_LC_3_1  PR
+Lokiarchaeum_sp._GC14_75_1      PR
+Odinarchaeota_archaeon_LCB_4_1  PR
+Thorarchaeota_archaeon_AB_25_1  PR
+Thorarchaeota_archaeon_SMTZ1-45_1  PR
+Thorarchaeota_archaeon_SMTZ1-83_1  PR
+Archaeoglobus_fulgidus_1        PR
+Methanosarcina_mazei_1          PR
+Haloarcula_marismortui_1        PR
+Thermoplasma_volcanium_1        PR
+Methanomassiliicoccus_luminyensis_1  PR
+Actinomadura_madurae_1          PR
+Clostridium_acetobutylicum_1    PR
+Arabidopsis_thaliana_chloro_1   PR
+Oryza_sativa_chloro_1           PR
+Physcomitrella_patens_chloro_1  PR
+Bathycoccus_prasinos_chloro_1   PR
+Chlamydomonas_reinhardtii_chloro_1  PR
+Volvox_carteri_chloro_1         PR
+Chondrus_crispus_chloro_1       PR
+Ectocarpus_siliculosus_chloro_1  PR
+Thalassiosira_pseudonana_chloro_1  PR
+Cyanidioschyzon_merolae_chloro_1  PR
+Galdieria_sulphuraria_chloro_1  PR
+Chlorogloeopsis_fritschii_1     PR
+Cylindrospermopsis_raciborskii_1  PR
+Pseudanabaena_biceps_1          PR
+Leptolyngbya_valderiana_1       PR
+Synechocystis_sp._PCC_6803_1    PR
+Cyanobium_gracile_1             PR
+Gloeobacter_violaceus_1         PR
+Melainabacteria_bacterium_1     PR
+Chloroflexus_1                  PR
+Oscillochloris_trichoides_1     PR
+Agaricus_bisporus_mito_1        PR
+Batrachochytrium_dendrobatidis_mito_1  PR
+Amphimedon_queenslandica_mito_1  PR
+Homo_sapiens_mito_1             PR
+Limulus_polyphemus_mito_1       PR
+Hydra_vulgaris_mito_1           PR
+Dictyostelium_discoideum_mito_1  PR
+Polysphondylium_pallidum_mito_1  PR
+Arabidopsis_thaliana_mito_1     PR
+Oryza_sativa_mito_1             PR
+Physcomitrella_patens_mito_1    PR
+Bathycoccus_prasinos_mito_1     PR
+Chlamydomonas_reinhardtii_mito_1  PR
+Volvox_carteri_mito_1           PR
+Cyanidioschyzon_merolae_mito_1  PR
+Galdieria_sulphuraria_mito_1    PR
+Phytophthora_ramorum_mito_1     PR
+Thalassiosira_pseudonana_mito_1  PR
+Jidaibacter_acanthamoeba_1      PR
+Rickettsia_bellii_1             PR
+Rhodopseudomonas_palustris_1    PR
+Roseobacter_litoralis_1         PR
+Sphingopyxis_alaskensis_1       PR
+Chlamydia_trachomatis_1         PR
+Latescibacteria_bacterium_1     PR
+Caldisericum_exile_1            PR
+Dictyoglomus_turgidum_1         PR
+Kosmotoga_olearia_1             PR
+Caldithrix_abyssi_1             PR
+Chlorobium_phaeovibrioides_1    PR
+Campylobacter_jejuni_1          PR
+Verrucomicrobium_spinosum_1     PR
+Cloacimonas_acidaminovorans_1   PR
+Fibrobacter_succinogenes_1      PR
+Lentisphaera_araneosa_1         PR
+Rhodopirellula_baltica_1        PR
+Elusimicrobium_minutum_1        PR
+Jonquetella_anthropi_1          PR
+Acidobacterium_capsulatum_1     PR
+Aquifex_aeolicus_1              PR
+Thermodesulfatator_indicus_1    PR
+Thermodesulfovibrio_islandicus_1  PR
+Acidobacterium_capsulatum_2     PR
+Campylobacter_jejuni_2          PR
+Desulfurispirillum_indicum_2    PR
+Thermodesulfatator_indicus_2    PR
+Thermodesulfovibrio_islandicus_2  PR
+Caldisericum_exile_2            PR
+Dictyoglomus_turgidum_2         PR
+Kosmotoga_olearia_2             PR
+Chlorobium_phaeovibrioides_2    PR
+Cloacimonas_acidaminovorans_2   PR
+Elusimicrobium_minutum_2        PR
+Latescibacteria_bacterium_2     PR
+Chlamydia_trachomatis_2         PR
+Chthonomonas_calidirosea_2      PR
+Fibrobacter_succinogenes_2      PR
+Treponema_pallidum_2            PR
+Rhodopirellula_baltica_2        PR
+Caldithrix_abyssi_2             PR
+Lentisphaera_araneosa_2         PR
+Jonquetella_anthropi_2          PR
+Agaricus_bisporus_mito_2        PR
+Saccharomyces_cerevisiae_mito_2  PR
+Batrachochytrium_dendrobatidis_mito_2  PR
+Amphimedon_queenslandica_mito_2  PR
+Homo_sapiens_mito_2             PR
+Limulus_polyphemus_mito_2       PR
+Hydra_vulgaris_mito_2           PR
+Dictyostelium_discoideum_mito_2  PR
+Polysphondylium_pallidum_mito_2  PR
+Arabidopsis_thaliana_mito_2     PR
+Oryza_sativa_mito_2             PR
+Physcomitrella_patens_mito_2    PR
+Bathycoccus_prasinos_mito_2     PR
+Chlamydomonas_reinhardtii_mito_2  PR
+Volvox_carteri_mito_2           PR
+Chondrus_crispus_mito_2         PR
+Cyanidioschyzon_merolae_mito_2  PR
+Galdieria_sulphuraria_mito_2    PR
+Ectocarpus_siliculosus_mito_2   PR
+Thalassiosira_pseudonana_mito_2  PR
+Bodo_saltans_mito_2             PR
+Leishmania_major_mito_2         PR
+Elphidium_margaritaceum_mito_2  PR
+Reticulomyxa_filosa_mito_2      PR
+Jidaibacter_acanthamoeba_2      PR
+Rickettsia_bellii_2             PR
+Rhodopseudomonas_palustris_2    PR
+Roseobacter_litoralis_2         PR
+Sphingopyxis_alaskensis_2       PR
+Actinomadura_madurae_2          PR
+Gemmatimonas_aurantiaca_2       PR
+Clostridium_acetobutylicum_2    PR
+Bathycoccus_prasinos_chloro_2   PR
+Chlamydomonas_reinhardtii_chloro_2  PR
+Volvox_carteri_chloro_2         PR
+Oryza_sativa_chloro_2           PR
+Physcomitrella_patens_chloro_2  PR
+Cyanidioschyzon_merolae_chloro_2  PR
+Chondrus_crispus_chloro_2       PR
+Thalassiosira_pseudonana_chloro_2  PR
+Galdieria_sulphuraria_chloro_2  PR
+Chlorogloeopsis_fritschii_2     PR
+Cylindrospermopsis_raciborskii_2  PR
+Pseudanabaena_biceps_2          PR
+Synechocystis_sp._PCC_6803_2    PR
+Cyanobium_gracile_2             PR
+Gloeobacter_violaceus_2         PR
+Melainabacteria_bacterium_2     PR
+Chloroflexus_2                  PR
+Oscillochloris_trichoides_2     PR
+Methanocaldococcus_jannaschii_2  PR
+Methanothermobacter_thermautotrophicus_2  PR
+Methanopyrus_kandleri_2         PR
+Pyrococcus_furiosus_2           PR
+Korarchaeum_cryptofilum_2       PR
+Staphylothermus_marinus_2       PR
+Aeropyrum_pernix_2              PR
+Ignicoccus_hospitalis_2         PR
+Hyperthermus_butylicus_2        PR
+Thermofilum_pendens_2           PR
+Caldivirga_maquilingensis_2     PR
+Pyrobaculum_aerophilum_2        PR
+Caldiarchaeum_subterraneum_2    PR
+Cenarchaeum_symbiosum_2         PR
+Nitrosoarchaeum_limnia_2        PR
+Nitrosopumilus_maritimus_2      PR
+Agaricus_bisporus_2             PR
+Saccharomyces_cerevisiae_2      PR
+Batrachochytrium_dendrobatidis_2  PR
+Amphimedon_queenslandica_2      PR
+Homo_sapiens_2                  PR
+Limulus_polyphemus_2            PR
+Hydra_vulgaris_2                PR
+Dictyostelium_discoideum_2      PR
+Polysphondylium_pallidum_2      PR
+Arabidopsis_thaliana_2          PR
+Oryza_sativa_2                  PR
+Physcomitrella_patens_2         PR
+Bathycoccus_prasinos_2          PR
+Chlamydomonas_reinhardtii_2     PR
+Volvox_carteri_2                PR
+Cyanophora_paradoxa_2           PR
+Chondrus_crispus_2              PR
+Galdieria_sulphuraria_2         PR
+Cyanidioschyzon_merolae_2       PR
+Ectocarpus_siliculosus_2        PR
+Thalassiosira_pseudonana_2      PR
+Paramecium_tetraurelia_2        PR
+Elphidium_margaritaceum_2       PR
+Reticulomyxa_filosa_2           PR
+Bodo_saltans_2                  PR
+Leishmania_major_2              PR
+Heimdallarchaeota_archaeon_LC_2_2  PR
+Heimdallarchaeota_archaeon_LC_3_2  PR
+Heimdallarchaeota_archaeon_AB_125_2  PR
+Lokiarchaeum_sp._GC14_75_2      PR
+Odinarchaeota_archaeon_LCB_4_2  PR
+Thorarchaeota_archaeon_AB_25_2  PR
+Thorarchaeota_archaeon_SMTZ1-83_2  PR
+Thorarchaeota_archaeon_SMTZ1-45_2  PR
+Methanomassiliicoccus_luminyensis_2  PR
+Archaeoglobus_fulgidus_2        PR
+Methanosarcina_mazei_2          PR
+Haloarcula_marismortui_2        PR
+Thermoplasma_volcanium_2        PR
+
+
+
+    1    1
+
+
+Frequencies..
+                                    A      R      N      D      C      Q      E      G      H      I      L      K      M      F      P      S      T      W      Y      V
+Methanocaldococcus_jannaschii_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanopyrus_kandleri_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanothermobacter_thermautotrophicus_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Pyrococcus_furiosus_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Korarchaeum_cryptofilum_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldiarchaeum_subterraneum_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cenarchaeum_symbiosum_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Nitrosoarchaeum_limnia_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Nitrosopumilus_maritimus_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Aeropyrum_pernix_1             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Hyperthermus_butylicus_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Ignicoccus_hospitalis_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Sulfolobus_solfataricus_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Staphylothermus_marinus_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldivirga_maquilingensis_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Pyrobaculum_aerophilum_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermofilum_pendens_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Agaricus_bisporus_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Saccharomyces_cerevisiae_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Batrachochytrium_dendrobatidis_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Amphimedon_queenslandica_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Homo_sapiens_1                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Limulus_polyphemus_1           0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Hydra_vulgaris_1               0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Dictyostelium_discoideum_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Polysphondylium_pallidum_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Arabidopsis_thaliana_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oryza_sativa_1                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Physcomitrella_patens_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bathycoccus_prasinos_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydomonas_reinhardtii_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Volvox_carteri_1               0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanophora_paradoxa_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chondrus_crispus_1             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Galdieria_sulphuraria_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanidioschyzon_merolae_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Ectocarpus_siliculosus_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thalassiosira_pseudonana_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Paramecium_tetraurelia_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Elphidium_margaritaceum_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Reticulomyxa_filosa_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bodo_saltans_1                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Leishmania_major_1             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Heimdallarchaeota_archaeon_AB_125_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Heimdallarchaeota_archaeon_LC_2_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Heimdallarchaeota_archaeon_LC_3_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Lokiarchaeum_sp._GC14_75_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Odinarchaeota_archaeon_LCB_4_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thorarchaeota_archaeon_AB_25_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thorarchaeota_archaeon_SMTZ1-45_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thorarchaeota_archaeon_SMTZ1-83_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Archaeoglobus_fulgidus_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanosarcina_mazei_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Haloarcula_marismortui_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermoplasma_volcanium_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanomassiliicoccus_luminyensis_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Actinomadura_madurae_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Clostridium_acetobutylicum_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Arabidopsis_thaliana_chloro_1  0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oryza_sativa_chloro_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Physcomitrella_patens_chloro_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bathycoccus_prasinos_chloro_1  0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydomonas_reinhardtii_chloro_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Volvox_carteri_chloro_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chondrus_crispus_chloro_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Ectocarpus_siliculosus_chloro_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thalassiosira_pseudonana_chloro_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanidioschyzon_merolae_chloro_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Galdieria_sulphuraria_chloro_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlorogloeopsis_fritschii_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cylindrospermopsis_raciborskii_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Pseudanabaena_biceps_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Leptolyngbya_valderiana_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Synechocystis_sp._PCC_6803_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanobium_gracile_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Gloeobacter_violaceus_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Melainabacteria_bacterium_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chloroflexus_1                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oscillochloris_trichoides_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Agaricus_bisporus_mito_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Batrachochytrium_dendrobatidis_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Amphimedon_queenslandica_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Homo_sapiens_mito_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Limulus_polyphemus_mito_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Hydra_vulgaris_mito_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Dictyostelium_discoideum_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Polysphondylium_pallidum_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Arabidopsis_thaliana_mito_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oryza_sativa_mito_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Physcomitrella_patens_mito_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bathycoccus_prasinos_mito_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydomonas_reinhardtii_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Volvox_carteri_mito_1          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanidioschyzon_merolae_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Galdieria_sulphuraria_mito_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Phytophthora_ramorum_mito_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thalassiosira_pseudonana_mito_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Jidaibacter_acanthamoeba_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Rickettsia_bellii_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Rhodopseudomonas_palustris_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Roseobacter_litoralis_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Sphingopyxis_alaskensis_1      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydia_trachomatis_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Latescibacteria_bacterium_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldisericum_exile_1           0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Dictyoglomus_turgidum_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Kosmotoga_olearia_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldithrix_abyssi_1            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlorobium_phaeovibrioides_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Campylobacter_jejuni_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Verrucomicrobium_spinosum_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cloacimonas_acidaminovorans_1  0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Fibrobacter_succinogenes_1     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Lentisphaera_araneosa_1        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Rhodopirellula_baltica_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Elusimicrobium_minutum_1       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Jonquetella_anthropi_1         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Acidobacterium_capsulatum_1    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Aquifex_aeolicus_1             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermodesulfatator_indicus_1   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermodesulfovibrio_islandicus_1 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Acidobacterium_capsulatum_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Campylobacter_jejuni_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Desulfurispirillum_indicum_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermodesulfatator_indicus_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermodesulfovibrio_islandicus_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldisericum_exile_2           0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Dictyoglomus_turgidum_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Kosmotoga_olearia_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlorobium_phaeovibrioides_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cloacimonas_acidaminovorans_2  0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Elusimicrobium_minutum_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Latescibacteria_bacterium_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydia_trachomatis_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chthonomonas_calidirosea_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Fibrobacter_succinogenes_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Treponema_pallidum_2           0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Rhodopirellula_baltica_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldithrix_abyssi_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Lentisphaera_araneosa_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Jonquetella_anthropi_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Agaricus_bisporus_mito_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Saccharomyces_cerevisiae_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Batrachochytrium_dendrobatidis_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Amphimedon_queenslandica_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Homo_sapiens_mito_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Limulus_polyphemus_mito_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Hydra_vulgaris_mito_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Dictyostelium_discoideum_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Polysphondylium_pallidum_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Arabidopsis_thaliana_mito_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oryza_sativa_mito_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Physcomitrella_patens_mito_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bathycoccus_prasinos_mito_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydomonas_reinhardtii_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Volvox_carteri_mito_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chondrus_crispus_mito_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanidioschyzon_merolae_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Galdieria_sulphuraria_mito_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Ectocarpus_siliculosus_mito_2  0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thalassiosira_pseudonana_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bodo_saltans_mito_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Leishmania_major_mito_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Elphidium_margaritaceum_mito_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Reticulomyxa_filosa_mito_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Jidaibacter_acanthamoeba_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Rickettsia_bellii_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Rhodopseudomonas_palustris_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Roseobacter_litoralis_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Sphingopyxis_alaskensis_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Actinomadura_madurae_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Gemmatimonas_aurantiaca_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Clostridium_acetobutylicum_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bathycoccus_prasinos_chloro_2  0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydomonas_reinhardtii_chloro_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Volvox_carteri_chloro_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oryza_sativa_chloro_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Physcomitrella_patens_chloro_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanidioschyzon_merolae_chloro_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chondrus_crispus_chloro_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thalassiosira_pseudonana_chloro_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Galdieria_sulphuraria_chloro_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlorogloeopsis_fritschii_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cylindrospermopsis_raciborskii_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Pseudanabaena_biceps_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Synechocystis_sp._PCC_6803_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanobium_gracile_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Gloeobacter_violaceus_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Melainabacteria_bacterium_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chloroflexus_2                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oscillochloris_trichoides_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanocaldococcus_jannaschii_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanothermobacter_thermautotrophicus_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanopyrus_kandleri_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Pyrococcus_furiosus_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Korarchaeum_cryptofilum_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Staphylothermus_marinus_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Aeropyrum_pernix_2             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Ignicoccus_hospitalis_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Hyperthermus_butylicus_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermofilum_pendens_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldivirga_maquilingensis_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Pyrobaculum_aerophilum_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Caldiarchaeum_subterraneum_2   0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cenarchaeum_symbiosum_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Nitrosoarchaeum_limnia_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Nitrosopumilus_maritimus_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Agaricus_bisporus_2            0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Saccharomyces_cerevisiae_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Batrachochytrium_dendrobatidis_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Amphimedon_queenslandica_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Homo_sapiens_2                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Limulus_polyphemus_2           0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Hydra_vulgaris_2               0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Dictyostelium_discoideum_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Polysphondylium_pallidum_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Arabidopsis_thaliana_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Oryza_sativa_2                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Physcomitrella_patens_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bathycoccus_prasinos_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chlamydomonas_reinhardtii_2    0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Volvox_carteri_2               0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanophora_paradoxa_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Chondrus_crispus_2             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Galdieria_sulphuraria_2        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Cyanidioschyzon_merolae_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Ectocarpus_siliculosus_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thalassiosira_pseudonana_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Paramecium_tetraurelia_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Elphidium_margaritaceum_2      0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Reticulomyxa_filosa_2          0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Bodo_saltans_2                 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Leishmania_major_2             0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Heimdallarchaeota_archaeon_LC_2_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Heimdallarchaeota_archaeon_LC_3_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Heimdallarchaeota_archaeon_AB_125_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Lokiarchaeum_sp._GC14_75_2     0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Odinarchaeota_archaeon_LCB_4_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thorarchaeota_archaeon_AB_25_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thorarchaeota_archaeon_SMTZ1-83_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thorarchaeota_archaeon_SMTZ1-45_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanomassiliicoccus_luminyensis_2 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Archaeoglobus_fulgidus_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Methanosarcina_mazei_2         0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Haloarcula_marismortui_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+Thermoplasma_volcanium_2       0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+
+Homogeneity statistic: X2 = 0.00000 G = 0.00000 
+
+Average                        0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.50000 0.00000 0.00000 0.00000 0.00000 0.00000
+
+# constant sites:      2 (100.00%)
+ln Lmax (unconstrained) = -1.386294
+
+Species tree for FigTree.
+(((((1_Methanocaldococcus_jannaschii_1, (2_Methanopyrus_kandleri_1, 3_Methanothermobacter_thermautotrophicus_1) 252 ) 251 , (4_Pyrococcus_furiosus_1, ((5_Korarchaeum_cryptofilum_1, ((6_Caldiarchaeum_subterraneum_1, (7_Cenarchaeum_symbiosum_1, (8_Nitrosoarchaeum_limnia_1, 9_Nitrosopumilus_maritimus_1) 259 ) 258 ) 257 , (((10_Aeropyrum_pernix_1, (11_Hyperthermus_butylicus_1, (12_Ignicoccus_hospitalis_1, 13_Sulfolobus_solfataricus_1) 264 ) 263 ) 262 , 14_Staphylothermus_marinus_1) 261 , ((15_Caldivirga_maquilingensis_1, 16_Pyrobaculum_aerophilum_1) 266 , 17_Thermofilum_pendens_1) 265 ) 260 ) 256 ) 255 , (((((((18_Agaricus_bisporus_1, 19_Saccharomyces_cerevisiae_1) 273 , 20_Batrachochytrium_dendrobatidis_1) 272 , (21_Amphimedon_queenslandica_1, ((22_Homo_sapiens_1, 23_Limulus_polyphemus_1) 276 , 24_Hydra_vulgaris_1) 275 ) 274 ) 271 , (25_Dictyostelium_discoideum_1, 26_Polysphondylium_pallidum_1) 277 ) 270 , (((((((27_Arabidopsis_thaliana_1, 28_Oryza_sativa_1) 284 , 29_Physcomitrella_patens_1) 283 , (30_Bathycoccus_prasinos_1, (31_Chlamydomonas_reinhardtii_1, 32_Volvox_carteri_1) 286 ) 285 ) 282 , 33_Cyanophora_paradoxa_1) 281 , ((34_Chondrus_crispus_1, 35_Galdieria_sulphuraria_1) 288 , 36_Cyanidioschyzon_merolae_1) 287 ) 280 , (((37_Ectocarpus_siliculosus_1, 38_Thalassiosira_pseudonana_1) 291 , 39_Paramecium_tetraurelia_1) 290 , (40_Elphidium_margaritaceum_1, 41_Reticulomyxa_filosa_1) 292 ) 289 ) 279 , (42_Bodo_saltans_1, 43_Leishmania_major_1) 293 ) 278 ) 269 , (44_Heimdallarchaeota_archaeon_AB_125_1, (45_Heimdallarchaeota_archaeon_LC_2_1, 46_Heimdallarchaeota_archaeon_LC_3_1) 295 ) 294 ) 268 , (47_Lokiarchaeum_sp._GC14_75_1, (48_Odinarchaeota_archaeon_LCB_4_1, ((49_Thorarchaeota_archaeon_AB_25_1, 50_Thorarchaeota_archaeon_SMTZ1-45_1) 299 , 51_Thorarchaeota_archaeon_SMTZ1-83_1) 298 ) 297 ) 296 ) 267 ) 254 ) 253 ) 250 , (((52_Archaeoglobus_fulgidus_1, 53_Methanosarcina_mazei_1) 302 , (54_Haloarcula_marismortui_1, 55_Thermoplasma_volcanium_1) 303 ) 301 , 56_Methanomassiliicoccus_luminyensis_1) 300 ) 249 , (((57_Actinomadura_madurae_1, 58_Clostridium_acetobutylicum_1) 306 , (((((((((59_Arabidopsis_thaliana_chloro_1, 60_Oryza_sativa_chloro_1) 315 , 61_Physcomitrella_patens_chloro_1) 314 , (62_Bathycoccus_prasinos_chloro_1, (63_Chlamydomonas_reinhardtii_chloro_1, 64_Volvox_carteri_chloro_1) 317 ) 316 ) 313 , ((65_Chondrus_crispus_chloro_1, (66_Ectocarpus_siliculosus_chloro_1, 67_Thalassiosira_pseudonana_chloro_1) 320 ) 319 , (68_Cyanidioschyzon_merolae_chloro_1, 69_Galdieria_sulphuraria_chloro_1) 321 ) 318 ) 312 , (((70_Chlorogloeopsis_fritschii_1, 71_Cylindrospermopsis_raciborskii_1) 324 , 72_Pseudanabaena_biceps_1) 323 , (73_Leptolyngbya_valderiana_1, 74_Synechocystis_sp._PCC_6803_1) 325 ) 322 ) 311 , 75_Cyanobium_gracile_1) 310 , 76_Gloeobacter_violaceus_1) 309 , 77_Melainabacteria_bacterium_1) 308 , (78_Chloroflexus_1, 79_Oscillochloris_trichoides_1) 326 ) 307 ) 305 , ((((((80_Agaricus_bisporus_mito_1, 81_Batrachochytrium_dendrobatidis_mito_1) 332 , (82_Amphimedon_queenslandica_mito_1, ((83_Homo_sapiens_mito_1, 84_Limulus_polyphemus_mito_1) 335 , 85_Hydra_vulgaris_mito_1) 334 ) 333 ) 331 , (86_Dictyostelium_discoideum_mito_1, 87_Polysphondylium_pallidum_mito_1) 336 ) 330 , (((((88_Arabidopsis_thaliana_mito_1, 89_Oryza_sativa_mito_1) 341 , 90_Physcomitrella_patens_mito_1) 340 , (91_Bathycoccus_prasinos_mito_1, (92_Chlamydomonas_reinhardtii_mito_1, 93_Volvox_carteri_mito_1) 343 ) 342 ) 339 , (94_Cyanidioschyzon_merolae_mito_1, 95_Galdieria_sulphuraria_mito_1) 344 ) 338 , (96_Phytophthora_ramorum_mito_1, 97_Thalassiosira_pseudonana_mito_1) 345 ) 337 ) 329 , ((98_Jidaibacter_acanthamoeba_1, 99_Rickettsia_bellii_1) 347 , ((100_Rhodopseudomonas_palustris_1, 101_Roseobacter_litoralis_1) 349 , 102_Sphingopyxis_alaskensis_1) 348 ) 346 ) 328 , (103_Chlamydia_trachomatis_1, (104_Latescibacteria_bacterium_1, ((((105_Caldisericum_exile_1, 106_Dictyoglomus_turgidum_1) 355 , 107_Kosmotoga_olearia_1) 354 , (((108_Caldithrix_abyssi_1, 109_Chlorobium_phaeovibrioides_1) 358 , ((110_Campylobacter_jejuni_1, 111_Verrucomicrobium_spinosum_1) 360 , (((112_Cloacimonas_acidaminovorans_1, 113_Fibrobacter_succinogenes_1) 363 , 114_Lentisphaera_araneosa_1) 362 , 115_Rhodopirellula_baltica_1) 361 ) 359 ) 357 , (116_Elusimicrobium_minutum_1, 117_Jonquetella_anthropi_1) 364 ) 356 ) 353 , (118_Acidobacterium_capsulatum_1, (119_Aquifex_aeolicus_1, (120_Thermodesulfatator_indicus_1, 121_Thermodesulfovibrio_islandicus_1) 367 ) 366 ) 365 ) 352 ) 351 ) 350 ) 327 ) 304 ) 248 , ((((((((122_Acidobacterium_capsulatum_2, ((123_Campylobacter_jejuni_2, 124_Desulfurispirillum_indicum_2) 377 , (125_Thermodesulfatator_indicus_2, 126_Thermodesulfovibrio_islandicus_2) 378 ) 376 ) 375 , ((127_Caldisericum_exile_2, 128_Dictyoglomus_turgidum_2) 380 , 129_Kosmotoga_olearia_2) 379 ) 374 , ((130_Chlorobium_phaeovibrioides_2, (131_Cloacimonas_acidaminovorans_2, 132_Elusimicrobium_minutum_2) 383 ) 382 , 133_Latescibacteria_bacterium_2) 381 ) 373 , (134_Chlamydia_trachomatis_2, (135_Chthonomonas_calidirosea_2, ((136_Fibrobacter_succinogenes_2, 137_Treponema_pallidum_2) 387 , 138_Rhodopirellula_baltica_2) 386 ) 385 ) 384 ) 372 , ((139_Caldithrix_abyssi_2, 140_Lentisphaera_araneosa_2) 389 , 141_Jonquetella_anthropi_2) 388 ) 371 , (((((((142_Agaricus_bisporus_mito_2, 143_Saccharomyces_cerevisiae_mito_2) 396 , 144_Batrachochytrium_dendrobatidis_mito_2) 395 , (145_Amphimedon_queenslandica_mito_2, ((146_Homo_sapiens_mito_2, 147_Limulus_polyphemus_mito_2) 399 , 148_Hydra_vulgaris_mito_2) 398 ) 397 ) 394 , (149_Dictyostelium_discoideum_mito_2, 150_Polysphondylium_pallidum_mito_2) 400 ) 393 , (((((151_Arabidopsis_thaliana_mito_2, 152_Oryza_sativa_mito_2) 405 , 153_Physcomitrella_patens_mito_2) 404 , (154_Bathycoccus_prasinos_mito_2, (155_Chlamydomonas_reinhardtii_mito_2, 156_Volvox_carteri_mito_2) 407 ) 406 ) 403 , (157_Chondrus_crispus_mito_2, (158_Cyanidioschyzon_merolae_mito_2, 159_Galdieria_sulphuraria_mito_2) 409 ) 408 ) 402 , (160_Ectocarpus_siliculosus_mito_2, 161_Thalassiosira_pseudonana_mito_2) 410 ) 401 ) 392 , ((162_Bodo_saltans_mito_2, 163_Leishmania_major_mito_2) 412 , (164_Elphidium_margaritaceum_mito_2, 165_Reticulomyxa_filosa_mito_2) 413 ) 411 ) 391 , ((166_Jidaibacter_acanthamoeba_2, 167_Rickettsia_bellii_2) 415 , ((168_Rhodopseudomonas_palustris_2, 169_Roseobacter_litoralis_2) 417 , 170_Sphingopyxis_alaskensis_2) 416 ) 414 ) 390 ) 370 , (((171_Actinomadura_madurae_2, 172_Gemmatimonas_aurantiaca_2) 420 , 173_Clostridium_acetobutylicum_2) 419 , ((((((((174_Bathycoccus_prasinos_chloro_2, (175_Chlamydomonas_reinhardtii_chloro_2, 176_Volvox_carteri_chloro_2) 429 ) 428 , (177_Oryza_sativa_chloro_2, 178_Physcomitrella_patens_chloro_2) 430 ) 427 , (179_Cyanidioschyzon_merolae_chloro_2, ((180_Chondrus_crispus_chloro_2, 181_Thalassiosira_pseudonana_chloro_2) 433 , 182_Galdieria_sulphuraria_chloro_2) 432 ) 431 ) 426 , (((183_Chlorogloeopsis_fritschii_2, 184_Cylindrospermopsis_raciborskii_2) 436 , 185_Pseudanabaena_biceps_2) 435 , 186_Synechocystis_sp._PCC_6803_2) 434 ) 425 , 187_Cyanobium_gracile_2) 424 , 188_Gloeobacter_violaceus_2) 423 , 189_Melainabacteria_bacterium_2) 422 , (190_Chloroflexus_2, 191_Oscillochloris_trichoides_2) 437 ) 421 ) 418 ) 369 , (((192_Methanocaldococcus_jannaschii_2, (193_Methanothermobacter_thermautotrophicus_2, 194_Methanopyrus_kandleri_2) 441 ) 440 , (195_Pyrococcus_furiosus_2, ((196_Korarchaeum_cryptofilum_2, (((197_Staphylothermus_marinus_2, (198_Aeropyrum_pernix_2, (199_Ignicoccus_hospitalis_2, 200_Hyperthermus_butylicus_2) 449 ) 448 ) 447 , (201_Thermofilum_pendens_2, (202_Caldivirga_maquilingensis_2, 203_Pyrobaculum_aerophilum_2) 451 ) 450 ) 446 , (204_Caldiarchaeum_subterraneum_2, (205_Cenarchaeum_symbiosum_2, (206_Nitrosoarchaeum_limnia_2, 207_Nitrosopumilus_maritimus_2) 454 ) 453 ) 452 ) 445 ) 444 , (((((((208_Agaricus_bisporus_2, 209_Saccharomyces_cerevisiae_2) 461 , 210_Batrachochytrium_dendrobatidis_2) 460 , (211_Amphimedon_queenslandica_2, ((212_Homo_sapiens_2, 213_Limulus_polyphemus_2) 464 , 214_Hydra_vulgaris_2) 463 ) 462 ) 459 , (215_Dictyostelium_discoideum_2, 216_Polysphondylium_pallidum_2) 465 ) 458 , (((((((217_Arabidopsis_thaliana_2, 218_Oryza_sativa_2) 472 , 219_Physcomitrella_patens_2) 471 , (220_Bathycoccus_prasinos_2, (221_Chlamydomonas_reinhardtii_2, 222_Volvox_carteri_2) 474 ) 473 ) 470 , 223_Cyanophora_paradoxa_2) 469 , ((224_Chondrus_crispus_2, 225_Galdieria_sulphuraria_2) 476 , 226_Cyanidioschyzon_merolae_2) 475 ) 468 , (((227_Ectocarpus_siliculosus_2, 228_Thalassiosira_pseudonana_2) 479 , 229_Paramecium_tetraurelia_2) 478 , (230_Elphidium_margaritaceum_2, 231_Reticulomyxa_filosa_2) 480 ) 477 ) 467 , (232_Bodo_saltans_2, 233_Leishmania_major_2) 481 ) 466 ) 457 , ((234_Heimdallarchaeota_archaeon_LC_2_2, 235_Heimdallarchaeota_archaeon_LC_3_2) 483 , 236_Heimdallarchaeota_archaeon_AB_125_2) 482 ) 456 , (237_Lokiarchaeum_sp._GC14_75_2, (238_Odinarchaeota_archaeon_LCB_4_2, ((239_Thorarchaeota_archaeon_AB_25_2, 240_Thorarchaeota_archaeon_SMTZ1-83_2) 487 , 241_Thorarchaeota_archaeon_SMTZ1-45_2) 486 ) 485 ) 484 ) 455 ) 443 ) 442 ) 439 , (242_Methanomassiliicoccus_luminyensis_2, ((243_Archaeoglobus_fulgidus_2, 244_Methanosarcina_mazei_2) 490 , (245_Haloarcula_marismortui_2, 246_Thermoplasma_volcanium_2) 491 ) 489 ) 488 ) 438 ) 368 ) 247 ;
+
+(((((Methanocaldococcus_jannaschii_1: 2.464800, (Methanopyrus_kandleri_1: 2.004501, Methanothermobacter_thermautotrophicus_1: 2.004501) [&95%={1.11263, 2.90709}]: 0.460299) [&95%={1.44804, 3.3438}]: 1.188145, (Pyrococcus_furiosus_1: 3.598446, ((Korarchaeum_cryptofilum_1: 3.112039, ((Caldiarchaeum_subterraneum_1: 1.911435, (Cenarchaeum_symbiosum_1: 0.966585, (Nitrosoarchaeum_limnia_1: 0.419437, Nitrosopumilus_maritimus_1: 0.419437) [&95%={0.157624, 0.866583}]: 0.547148) [&95%={0.492344, 1.62863}]: 0.944849) [&95%={1.17057, 2.64637}]: 1.108391, (((Aeropyrum_pernix_1: 2.119066, (Hyperthermus_butylicus_1: 1.351220, (Ignicoccus_hospitalis_1: 0.468016, Sulfolobus_solfataricus_1: 0.468016) [&95%={0.0204115, 1.26105}]: 0.883204) [&95%={0.755787, 1.97924}]: 0.767846) [&95%={1.57955, 2.6163}]: 0.232406, Staphylothermus_marinus_1: 2.351472) [&95%={1.8795, 2.79718}]: 0.281809, ((Caldivirga_maquilingensis_1: 1.244558, Pyrobaculum_aerophilum_1: 1.244558) [&95%={0.590802, 1.97611}]: 1.039795, Thermofilum_pendens_1: 2.284353) [&95%={1.77034, 2.75871}]: 0.348929) [&95%={2.2112, 3.03637}]: 0.386544) [&95%={2.65081, 3.37577}]: 0.092214) [&95%={2.75215, 3.45958}]: 0.117858, (((((((Agaricus_bisporus_1: 0.555419, Saccharomyces_cerevisiae_1: 0.555419) [&95%={0.28391, 0.895746}]: 0.321782, Batrachochytrium_dendrobatidis_1: 0.877201) [&95%={0.560865, 1.22307}]: 0.376828, (Amphimedon_queenslandica_1: 0.599088, ((Homo_sapiens_1: 0.425021, Limulus_polyphemus_1: 0.425021) [&95%={0.270278, 0.535276}]: 0.147336, Hydra_vulgaris_1: 0.572358) [&95%={0.561516, 0.589241}]: 0.026730) [&95%={0.579473, 0.609814}]: 0.654941) [&95%={0.925319, 1.56453}]: 0.148439, (Dictyostelium_discoideum_1: 0.562367, Polysphondylium_pallidum_1: 0.562367) [&95%={0.230489, 1.01853}]: 0.840101) [&95%={1.09687, 1.67245}]: 0.454616, (((((((Arabidopsis_thaliana_1: 0.211498, Oryza_sativa_1: 0.211498) [&95%={0.143322, 0.249812}]: 0.265538, Physcomitrella_patens_1: 0.477036) [&95%={0.433346, 0.51588}]: 0.518108, (Bathycoccus_prasinos_1: 0.858444, (Chlamydomonas_reinhardtii_1: 0.372697, Volvox_carteri_1: 0.372697) [&95%={0.19283, 0.618204}]: 0.485746) [&95%={0.605568, 1.14135}]: 0.136700) [&95%={0.746517, 1.2733}]: 0.152343, Cyanophora_paradoxa_1: 1.147487) [&95%={0.851906, 1.4585}]: 0.384319, ((Chondrus_crispus_1: 0.591538, Galdieria_sulphuraria_1: 0.591538) [&95%={0.0285554, 1.22298}]: 0.592939, Cyanidioschyzon_merolae_1: 1.184477) [&95%={0.927472, 1.43266}]: 0.347329) [&95%={1.3267, 1.72003}]: 0.145143, (((Ectocarpus_siliculosus_1: 0.586689, Thalassiosira_pseudonana_1: 0.586689) [&95%={0.272699, 0.967501}]: 0.319764, Paramecium_tetraurelia_1: 0.906453) [&95%={0.446971, 1.38405}]: 0.319020, (Elphidium_margaritaceum_1: 0.902327, Reticulomyxa_filosa_1: 0.902327) [&95%={0.570965, 1.27484}]: 0.323147) [&95%={0.834357, 1.58461}]: 0.451476) [&95%={1.48772, 1.83406}]: 0.098973, (Bodo_saltans_1: 0.597625, Leishmania_major_1: 0.597625) [&95%={0.250692, 1.08195}]: 1.178298) [&95%={1.60692, 1.90258}]: 0.081162) [&95%={1.72588, 1.95507}]: 0.826035, (Heimdallarchaeota_archaeon_AB_125_1: 2.337463, (Heimdallarchaeota_archaeon_LC_2_1: 1.714572, Heimdallarchaeota_archaeon_LC_3_1: 1.714572) [&95%={1.01022, 2.35625}]: 0.622890) [&95%={1.79404, 2.80133}]: 0.345656) [&95%={2.30883, 3.08063}]: 0.200688, (Lokiarchaeum_sp._GC14_75_1: 2.630335, (Odinarchaeota_archaeon_LCB_4_1: 2.456767, ((Thorarchaeota_archaeon_AB_25_1: 0.240053, Thorarchaeota_archaeon_SMTZ1-45_1: 0.240053) [&95%={0.0109456, 0.744269}]: 0.268490, Thorarchaeota_archaeon_SMTZ1-83_1: 0.508542) [&95%={0.203954, 1.03754}]: 1.948225) [&95%={1.85318, 2.94371}]: 0.173568) [&95%={1.96816, 3.11739}]: 0.253473) [&95%={2.52351, 3.2444}]: 0.346091) [&95%={2.89689, 3.55617}]: 0.368548) [&95%={3.27236, 3.89524}]: 0.054499) [&95%={3.33348, 3.94077}]: 0.053447, (((Archaeoglobus_fulgidus_1: 1.852043, Methanosarcina_mazei_1: 1.852043) [&95%={0.799461, 2.89611}]: 1.492108, (Haloarcula_marismortui_1: 1.868712, Thermoplasma_volcanium_1: 1.868712) [&95%={1.01847, 2.71175}]: 1.475439) [&95%={2.75397, 3.77429}]: 0.191941, Methanomassiliicoccus_luminyensis_1: 3.536092) [&95%={3.11675, 3.8748}]: 0.170300) [&95%={3.39291, 3.98622}]: 0.580244, (((Actinomadura_madurae_1: 2.589873, Clostridium_acetobutylicum_1: 2.589873) [&95%={1.70056, 3.21364}]: 0.771702, (((((((((Arabidopsis_thaliana_chloro_1: 0.211498, Oryza_sativa_chloro_1: 0.211498) [&95%={0.143322, 0.249812}]: 0.265538, Physcomitrella_patens_chloro_1: 0.477036) [&95%={0.433346, 0.51588}]: 0.518108, (Bathycoccus_prasinos_chloro_1: 0.858444, (Chlamydomonas_reinhardtii_chloro_1: 0.372697, Volvox_carteri_chloro_1: 0.372697) [&95%={0.19283, 0.618204}]: 0.485746) [&95%={0.605568, 1.14135}]: 0.136700) [&95%={0.746517, 1.2733}]: 0.536662, ((Chondrus_crispus_chloro_1: 0.886172, (Ectocarpus_siliculosus_chloro_1: 0.586689, Thalassiosira_pseudonana_chloro_1: 0.586689) [&95%={0.272699, 0.967501}]: 0.299483) [&95%={0.448128, 1.27924}]: 0.298305, (Cyanidioschyzon_merolae_chloro_1: 0.591954, Galdieria_sulphuraria_chloro_1: 0.591954) [&95%={0.0293276, 1.22481}]: 0.592523) [&95%={0.927472, 1.43266}]: 0.347329) [&95%={1.3267, 1.72003}]: 0.613856, (((Chlorogloeopsis_fritschii_1: 0.353934, Cylindrospermopsis_raciborskii_1: 0.353934) [&95%={0.169758, 0.644326}]: 0.268537, Pseudanabaena_biceps_1: 0.622471) [&95%={0.32651, 1.0938}]: 0.456230, (Leptolyngbya_valderiana_1: 0.539242, Synechocystis_sp._PCC_6803_1: 0.539242) [&95%={0.0246474, 1.34884}]: 0.539459) [&95%={0.572483, 1.78014}]: 1.066961) [&95%={1.79219, 2.55784}]: 0.045888, Cyanobium_gracile_1: 2.191550) [&95%={1.83894, 2.6}]: 0.205385, Gloeobacter_violaceus_1: 2.396935) [&95%={2.03818, 2.79835}]: 0.684939, Melainabacteria_bacterium_1: 3.081873) [&95%={2.94953, 3.36073}]: 0.157986, (Chloroflexus_1: 0.725198, Oscillochloris_trichoides_1: 0.725198) [&95%={0.24022, 1.70009}]: 2.514662) [&95%={3.03361, 3.54001}]: 0.121716) [&95%={3.12921, 3.66605}]: 0.058737, ((((((Agaricus_bisporus_mito_1: 0.877201, Batrachochytrium_dendrobatidis_mito_1: 0.877201) [&95%={0.560865, 1.22307}]: 0.376828, (Amphimedon_queenslandica_mito_1: 0.599088, ((Homo_sapiens_mito_1: 0.425021, Limulus_polyphemus_mito_1: 0.425021) [&95%={0.270278, 0.535276}]: 0.147336, Hydra_vulgaris_mito_1: 0.572358) [&95%={0.561516, 0.589241}]: 0.026730) [&95%={0.579473, 0.609814}]: 0.654941) [&95%={0.925319, 1.56453}]: 0.148439, (Dictyostelium_discoideum_mito_1: 0.562367, Polysphondylium_pallidum_mito_1: 0.562367) [&95%={0.230489, 1.01853}]: 0.840101) [&95%={1.09687, 1.67245}]: 0.608258, (((((Arabidopsis_thaliana_mito_1: 0.211498, Oryza_sativa_mito_1: 0.211498) [&95%={0.143322, 0.249812}]: 0.265538, Physcomitrella_patens_mito_1: 0.477036) [&95%={0.433346, 0.51588}]: 0.518108, (Bathycoccus_prasinos_mito_1: 0.858444, (Chlamydomonas_reinhardtii_mito_1: 0.372697, Volvox_carteri_mito_1: 0.372697) [&95%={0.19283, 0.618204}]: 0.485746) [&95%={0.605568, 1.14135}]: 0.136700) [&95%={0.746517, 1.2733}]: 0.536662, (Cyanidioschyzon_merolae_mito_1: 1.184477, Galdieria_sulphuraria_mito_1: 1.184477) [&95%={0.927472, 1.43266}]: 0.347329) [&95%={1.3267, 1.72003}]: 0.088927, (Phytophthora_ramorum_mito_1: 0.809558, Thalassiosira_pseudonana_mito_1: 0.809558) [&95%={0.0403143, 1.63007}]: 0.811175) [&95%={1.38803, 1.89913}]: 0.389992) [&95%={1.66643, 2.46618}]: 0.865646, ((Jidaibacter_acanthamoeba_1: 1.468463, Rickettsia_bellii_1: 1.468463) [&95%={0.702052, 2.24982}]: 0.743413, ((Rhodopseudomonas_palustris_1: 1.096875, Roseobacter_litoralis_1: 1.096875) [&95%={0.538073, 1.76339}]: 0.443336, Sphingopyxis_alaskensis_1: 1.540211) [&95%={1.00124, 2.1343}]: 0.671665) [&95%={1.58851, 2.81402}]: 0.664495) [&95%={2.38943, 3.32857}]: 0.460171, (Chlamydia_trachomatis_1: 3.235485, (Latescibacteria_bacterium_1: 3.050974, ((((Caldisericum_exile_1: 1.555614, Dictyoglomus_turgidum_1: 1.555614) [&95%={0.864991, 2.21259}]: 0.467170, Kosmotoga_olearia_1: 2.022784) [&95%={1.4732, 2.54834}]: 0.477729, (((Caldithrix_abyssi_1: 1.312263, Chlorobium_phaeovibrioides_1: 1.312263) [&95%={0.659058, 1.96781}]: 0.409796, ((Campylobacter_jejuni_1: 0.772961, Verrucomicrobium_spinosum_1: 0.772961) [&95%={0.0401219, 1.71866}]: 0.788588, (((Cloacimonas_acidaminovorans_1: 0.474675, Fibrobacter_succinogenes_1: 0.474675) [&95%={0.0221337, 1.23218}]: 0.630172, Lentisphaera_araneosa_1: 1.104847) [&95%={0.597768, 1.69011}]: 0.225163, Rhodopirellula_baltica_1: 1.330010) [&95%={0.760482, 1.94268}]: 0.231539) [&95%={1.04772, 2.12187}]: 0.160510) [&95%={1.2199, 2.26384}]: 0.276933, (Elusimicrobium_minutum_1: 1.395063, Jonquetella_anthropi_1: 1.395063) [&95%={0.712529, 2.08558}]: 0.603930) [&95%={1.49361, 2.52902}]: 0.501521) [&95%={2.02516, 2.96993}]: 0.402657, (Acidobacterium_capsulatum_1: 2.379447, (Aquifex_aeolicus_1: 2.043611, (Thermodesulfatator_indicus_1: 1.490854, Thermodesulfovibrio_islandicus_1: 1.490854) [&95%={0.849767, 2.14952}]: 0.552757) [&95%={1.27507, 2.77273}]: 0.335837) [&95%={1.59344, 3.02478}]: 0.523723) [&95%={2.43302, 3.32682}]: 0.147804) [&95%={2.61288, 3.43882}]: 0.184511) [&95%={2.90298, 3.57771}]: 0.101058) [&95%={3.03906, 3.66119}]: 0.083770) [&95%={3.1748, 3.72647}]: 0.866324) [&95%={4.09998, 4.41904}]: 0.183980, ((((((((Acidobacterium_capsulatum_2: 2.114097, ((Campylobacter_jejuni_2: 1.692332, Desulfurispirillum_indicum_2: 1.692332) [&95%={0.975627, 2.38259}]: 0.291246, (Thermodesulfatator_indicus_2: 1.490854, Thermodesulfovibrio_islandicus_2: 1.490854) [&95%={0.849767, 2.14952}]: 0.492724) [&95%={1.38284, 2.5935}]: 0.130519) [&95%={1.52047, 2.71063}]: 0.258063, ((Caldisericum_exile_2: 1.555614, Dictyoglomus_turgidum_2: 1.555614) [&95%={0.864991, 2.21259}]: 0.467170, Kosmotoga_olearia_2: 2.022784) [&95%={1.4732, 2.54834}]: 0.349376) [&95%={1.81651, 2.93337}]: 0.572100, ((Chlorobium_phaeovibrioides_2: 1.974957, (Cloacimonas_acidaminovorans_2: 0.776342, Elusimicrobium_minutum_2: 0.776342) [&95%={0.0376243, 1.91066}]: 1.198615) [&95%={1.16814, 2.71283}]: 0.415860, Latescibacteria_bacterium_2: 2.390817) [&95%={1.58418, 3.04558}]: 0.553443) [&95%={2.4103, 3.38842}]: 0.221195, (Chlamydia_trachomatis_2: 2.869499, (Chthonomonas_calidirosea_2: 2.352872, ((Fibrobacter_succinogenes_2: 0.714762, Treponema_pallidum_2: 0.714762) [&95%={0.0373095, 1.79016}]: 0.842332, Rhodopirellula_baltica_2: 1.557094) [&95%={0.842743, 2.3251}]: 0.795778) [&95%={1.6102, 2.97601}]: 0.516627) [&95%={2.26422, 3.33717}]: 0.295955) [&95%={2.79073, 3.52461}]: 0.070030, ((Caldithrix_abyssi_2: 1.513824, Lentisphaera_araneosa_2: 1.513824) [&95%={0.0619054, 2.98155}]: 1.276483, Jonquetella_anthropi_2: 2.790307) [&95%={1.82456, 3.35451}]: 0.445178) [&95%={2.90298, 3.57771}]: 0.101058, (((((((Agaricus_bisporus_mito_2: 0.555419, Saccharomyces_cerevisiae_mito_2: 0.555419) [&95%={0.28391, 0.895746}]: 0.321782, Batrachochytrium_dendrobatidis_mito_2: 0.877201) [&95%={0.560865, 1.22307}]: 0.376828, (Amphimedon_queenslandica_mito_2: 0.599088, ((Homo_sapiens_mito_2: 0.425021, Limulus_polyphemus_mito_2: 0.425021) [&95%={0.270278, 0.535276}]: 0.147336, Hydra_vulgaris_mito_2: 0.572358) [&95%={0.561516, 0.589241}]: 0.026730) [&95%={0.579473, 0.609814}]: 0.654941) [&95%={0.925319, 1.56453}]: 0.148439, (Dictyostelium_discoideum_mito_2: 0.562367, Polysphondylium_pallidum_mito_2: 0.562367) [&95%={0.230489, 1.01853}]: 0.840101) [&95%={1.09687, 1.67245}]: 0.356029, (((((Arabidopsis_thaliana_mito_2: 0.211498, Oryza_sativa_mito_2: 0.211498) [&95%={0.143322, 0.249812}]: 0.265538, Physcomitrella_patens_mito_2: 0.477036) [&95%={0.433346, 0.51588}]: 0.518108, (Bathycoccus_prasinos_mito_2: 0.858444, (Chlamydomonas_reinhardtii_mito_2: 0.372697, Volvox_carteri_mito_2: 0.372697) [&95%={0.19283, 0.618204}]: 0.485746) [&95%={0.605568, 1.14135}]: 0.136700) [&95%={0.746517, 1.2733}]: 0.536662, (Chondrus_crispus_mito_2: 1.184477, (Cyanidioschyzon_merolae_mito_2: 0.827131, Galdieria_sulphuraria_mito_2: 0.827131) [&95%={0.439808, 1.19064}]: 0.357346) [&95%={0.927472, 1.43266}]: 0.347329) [&95%={1.3267, 1.72003}]: 0.088927, (Ectocarpus_siliculosus_mito_2: 0.586689, Thalassiosira_pseudonana_mito_2: 0.586689) [&95%={0.272699, 0.967501}]: 1.034044) [&95%={1.38803, 1.89913}]: 0.137763) [&95%={1.49538, 2.10005}]: 0.252229, ((Bodo_saltans_mito_2: 0.597625, Leishmania_major_mito_2: 0.597625) [&95%={0.250692, 1.08195}]: 0.937747, (Elphidium_margaritaceum_mito_2: 0.902327, Reticulomyxa_filosa_mito_2: 0.902327) [&95%={0.570965, 1.27484}]: 0.633045) [&95%={1.04729, 2.05603}]: 0.475354) [&95%={1.66643, 2.46618}]: 0.865646, ((Jidaibacter_acanthamoeba_2: 1.468463, Rickettsia_bellii_2: 1.468463) [&95%={0.702052, 2.24982}]: 0.900794, ((Rhodopseudomonas_palustris_2: 1.096875, Roseobacter_litoralis_2: 1.096875) [&95%={0.538073, 1.76339}]: 0.443336, Sphingopyxis_alaskensis_2: 1.540211) [&95%={1.00124, 2.1343}]: 0.829045) [&95%={1.47041, 3.11249}]: 0.507115) [&95%={2.38943, 3.32857}]: 0.460171) [&95%={3.03906, 3.66119}]: 0.083770, (((Actinomadura_madurae_2: 1.909611, Gemmatimonas_aurantiaca_2: 1.909611) [&95%={0.961842, 2.7713}]: 0.680262, Clostridium_acetobutylicum_2: 2.589873) [&95%={1.70056, 3.21364}]: 0.771702, ((((((((Bathycoccus_prasinos_chloro_2: 0.858444, (Chlamydomonas_reinhardtii_chloro_2: 0.372697, Volvox_carteri_chloro_2: 0.372697) [&95%={0.19283, 0.618204}]: 0.485746) [&95%={0.605568, 1.14135}]: 0.136700, (Oryza_sativa_chloro_2: 0.477036, Physcomitrella_patens_chloro_2: 0.477036) [&95%={0.433346, 0.51588}]: 0.518108) [&95%={0.746517, 1.2733}]: 0.536662, (Cyanidioschyzon_merolae_chloro_2: 1.184477, ((Chondrus_crispus_chloro_2: 0.734175, Thalassiosira_pseudonana_chloro_2: 0.734175) [&95%={0.37775, 1.10597}]: 0.309533, Galdieria_sulphuraria_chloro_2: 1.043709) [&95%={0.710823, 1.33997}]: 0.140769) [&95%={0.927472, 1.43266}]: 0.347329) [&95%={1.3267, 1.72003}]: 0.613856, (((Chlorogloeopsis_fritschii_2: 0.353934, Cylindrospermopsis_raciborskii_2: 0.353934) [&95%={0.169758, 0.644326}]: 0.268537, Pseudanabaena_biceps_2: 0.622471) [&95%={0.32651, 1.0938}]: 0.456230, Synechocystis_sp._PCC_6803_2: 1.078701) [&95%={0.572483, 1.78014}]: 1.066961) [&95%={1.79219, 2.55784}]: 0.045888, Cyanobium_gracile_2: 2.191550) [&95%={1.83894, 2.6}]: 0.205385, Gloeobacter_violaceus_2: 2.396935) [&95%={2.03818, 2.79835}]: 0.684939, Melainabacteria_bacterium_2: 3.081873) [&95%={2.94953, 3.36073}]: 0.157986, (Chloroflexus_2: 0.725198, Oscillochloris_trichoides_2: 0.725198) [&95%={0.24022, 1.70009}]: 2.514662) [&95%={3.03361, 3.54001}]: 0.121716) [&95%={3.12921, 3.66605}]: 0.058737) [&95%={3.1748, 3.72647}]: 0.866324, (((Methanocaldococcus_jannaschii_2: 2.464800, (Methanothermobacter_thermautotrophicus_2: 2.004501, Methanopyrus_kandleri_2: 2.004501) [&95%={1.11263, 2.90709}]: 0.460299) [&95%={1.44804, 3.3438}]: 1.188145, (Pyrococcus_furiosus_2: 3.598446, ((Korarchaeum_cryptofilum_2: 3.112039, (((Staphylothermus_marinus_2: 2.351472, (Aeropyrum_pernix_2: 2.084278, (Ignicoccus_hospitalis_2: 1.870908, Hyperthermus_butylicus_2: 1.870908) [&95%={1.12669, 2.48623}]: 0.213370) [&95%={1.42244, 2.62802}]: 0.267194) [&95%={1.8795, 2.79718}]: 0.281809, (Thermofilum_pendens_2: 2.284353, (Caldivirga_maquilingensis_2: 1.244558, Pyrobaculum_aerophilum_2: 1.244558) [&95%={0.590802, 1.97611}]: 1.039795) [&95%={1.77034, 2.75871}]: 0.348929) [&95%={2.2112, 3.03637}]: 0.386544, (Caldiarchaeum_subterraneum_2: 1.911435, (Cenarchaeum_symbiosum_2: 0.966585, (Nitrosoarchaeum_limnia_2: 0.419437, Nitrosopumilus_maritimus_2: 0.419437) [&95%={0.157624, 0.866583}]: 0.547148) [&95%={0.492344, 1.62863}]: 0.944849) [&95%={1.17057, 2.64637}]: 1.108391) [&95%={2.65081, 3.37577}]: 0.092214) [&95%={2.75215, 3.45958}]: 0.117858, (((((((Agaricus_bisporus_2: 0.555419, Saccharomyces_cerevisiae_2: 0.555419) [&95%={0.28391, 0.895746}]: 0.321782, Batrachochytrium_dendrobatidis_2: 0.877201) [&95%={0.560865, 1.22307}]: 0.376828, (Amphimedon_queenslandica_2: 0.599088, ((Homo_sapiens_2: 0.425021, Limulus_polyphemus_2: 0.425021) [&95%={0.270278, 0.535276}]: 0.147336, Hydra_vulgaris_2: 0.572358) [&95%={0.561516, 0.589241}]: 0.026730) [&95%={0.579473, 0.609814}]: 0.654941) [&95%={0.925319, 1.56453}]: 0.148439, (Dictyostelium_discoideum_2: 0.562367, Polysphondylium_pallidum_2: 0.562367) [&95%={0.230489, 1.01853}]: 0.840101) [&95%={1.09687, 1.67245}]: 0.454616, (((((((Arabidopsis_thaliana_2: 0.211498, Oryza_sativa_2: 0.211498) [&95%={0.143322, 0.249812}]: 0.265538, Physcomitrella_patens_2: 0.477036) [&95%={0.433346, 0.51588}]: 0.518108, (Bathycoccus_prasinos_2: 0.858444, (Chlamydomonas_reinhardtii_2: 0.372697, Volvox_carteri_2: 0.372697) [&95%={0.19283, 0.618204}]: 0.485746) [&95%={0.605568, 1.14135}]: 0.136700) [&95%={0.746517, 1.2733}]: 0.152343, Cyanophora_paradoxa_2: 1.147487) [&95%={0.851906, 1.4585}]: 0.384319, ((Chondrus_crispus_2: 0.591538, Galdieria_sulphuraria_2: 0.591538) [&95%={0.0285554, 1.22298}]: 0.592939, Cyanidioschyzon_merolae_2: 1.184477) [&95%={0.927472, 1.43266}]: 0.347329) [&95%={1.3267, 1.72003}]: 0.145143, (((Ectocarpus_siliculosus_2: 0.586689, Thalassiosira_pseudonana_2: 0.586689) [&95%={0.272699, 0.967501}]: 0.319764, Paramecium_tetraurelia_2: 0.906453) [&95%={0.446971, 1.38405}]: 0.319020, (Elphidium_margaritaceum_2: 0.902327, Reticulomyxa_filosa_2: 0.902327) [&95%={0.570965, 1.27484}]: 0.323147) [&95%={0.834357, 1.58461}]: 0.451476) [&95%={1.48772, 1.83406}]: 0.098973, (Bodo_saltans_2: 0.597625, Leishmania_major_2: 0.597625) [&95%={0.250692, 1.08195}]: 1.178298) [&95%={1.60692, 1.90258}]: 0.081162) [&95%={1.72588, 1.95507}]: 0.826035, ((Heimdallarchaeota_archaeon_LC_2_2: 1.714572, Heimdallarchaeota_archaeon_LC_3_2: 1.714572) [&95%={1.01022, 2.35625}]: 0.622890, Heimdallarchaeota_archaeon_AB_125_2: 2.337463) [&95%={1.79404, 2.80133}]: 0.345656) [&95%={2.30883, 3.08063}]: 0.200688, (Lokiarchaeum_sp._GC14_75_2: 2.630335, (Odinarchaeota_archaeon_LCB_4_2: 2.456767, ((Thorarchaeota_archaeon_AB_25_2: 0.240053, Thorarchaeota_archaeon_SMTZ1-83_2: 0.240053) [&95%={0.0109456, 0.744269}]: 0.268490, Thorarchaeota_archaeon_SMTZ1-45_2: 0.508542) [&95%={0.203954, 1.03754}]: 1.948225) [&95%={1.85318, 2.94371}]: 0.173568) [&95%={1.96816, 3.11739}]: 0.253473) [&95%={2.52351, 3.2444}]: 0.346091) [&95%={2.89689, 3.55617}]: 0.368548) [&95%={3.27236, 3.89524}]: 0.054499) [&95%={3.33348, 3.94077}]: 0.053447, (Methanomassiliicoccus_luminyensis_2: 3.536092, ((Archaeoglobus_fulgidus_2: 1.852043, Methanosarcina_mazei_2: 1.852043) [&95%={0.799461, 2.89611}]: 1.502519, (Haloarcula_marismortui_2: 1.868712, Thermoplasma_volcanium_2: 1.868712) [&95%={1.01847, 2.71175}]: 1.485850) [&95%={2.7462, 3.77755}]: 0.181530) [&95%={3.11675, 3.8748}]: 0.170300) [&95%={3.39291, 3.98622}]: 0.580244) [&95%={4.09998, 4.41904}]: 0.183980) [&95%={4.3428, 4.51872}];
+
+
+Posterior mean (95% Equal-tail CI) (95% HPD CI) HPD-CI-width
+
+t_n247         4.4706 (4.3428, 4.5187) (4.3745, 4.5200) 0.1455 (Jnode 490)
+t_n248         4.2866 (4.1000, 4.4190) (4.1213, 4.4312) 0.3100 (Jnode 489)
+t_n249         3.7064 (3.3929, 3.9862) (3.4049, 3.9961) 0.5912 (Jnode 488)
+t_n250         3.6529 (3.3335, 3.9408) (3.3483, 3.9542) 0.6058 (Jnode 487)
+t_n251         2.4648 (1.4480, 3.3438) (1.4935, 3.3815) 1.8880 (Jnode 486)
+t_n252         2.0045 (1.1126, 2.9071) (1.1052, 2.8992) 1.7940 (Jnode 485)
+t_n253         3.5984 (3.2724, 3.8952) (3.2863, 3.9075) 0.6211 (Jnode 484)
+t_n254         3.2299 (2.8969, 3.5562) (2.9034, 3.5624) 0.6589 (Jnode 483)
+t_n255         3.1120 (2.7522, 3.4596) (2.7574, 3.4641) 0.7067 (Jnode 482)
+t_n256         3.0198 (2.6508, 3.3758) (2.6595, 3.3840) 0.7245 (Jnode 481)
+t_n257         1.9114 (1.1706, 2.6464) (1.1703, 2.6460) 1.4757 (Jnode 480)
+t_n258         0.9666 (0.4923, 1.6286) (0.4436, 1.5522) 1.1086 (Jnode 479)
+t_n259         0.4194 (0.1576, 0.8666) (0.1232, 0.7893) 0.6661 (Jnode 478)
+t_n260         2.6333 (2.2112, 3.0364) (2.2170, 3.0414) 0.8244 (Jnode 477)
+t_n261         2.3515 (1.8795, 2.7972) (1.8888, 2.8058) 0.9169 (Jnode 476)
+t_n262         2.1191 (1.5796, 2.6163) (1.5893, 2.6242) 1.0349 (Jnode 475)
+t_n263         1.3512 (0.7558, 1.9792) (0.7368, 1.9582) 1.2215 (Jnode 474)
+t_n264         0.4680 (0.0204, 1.2610) (0.0000, 1.1187) 1.1187 (Jnode 473)
+t_n265         2.2844 (1.7703, 2.7587) (1.7915, 2.7772) 0.9857 (Jnode 472)
+t_n266         1.2446 (0.5908, 1.9761) (0.5608, 1.9404) 1.3796 (Jnode 471)
+t_n267         2.8838 (2.5235, 3.2444) (2.5285, 3.2488) 0.7203 (Jnode 470)
+t_n268         2.6831 (2.3088, 3.0806) (2.2965, 3.0671) 0.7706 (Jnode 469)
+t_n269         1.8571 (1.7259, 1.9551) (1.7320, 1.9598) 0.2278 (Jnode 468)
+t_n270         1.4025 (1.0969, 1.6724) (1.1096, 1.6831) 0.5735 (Jnode 467)
+t_n271         1.2540 (0.9253, 1.5645) (0.9278, 1.5667) 0.6389 (Jnode 466)
+t_n272         0.8772 (0.5609, 1.2231) (0.5568, 1.2182) 0.6614 (Jnode 465)
+t_n273         0.5554 (0.2839, 0.8957) (0.2662, 0.8703) 0.6041 (Jnode 464)
+t_n274         0.5991 (0.5795, 0.6098) (0.5816, 0.6108) 0.0292 (Jnode 463)
+t_n275         0.5724 (0.5615, 0.5892) (0.5611, 0.5874) 0.0263 (Jnode 462)
+t_n276         0.4250 (0.2703, 0.5353) (0.2882, 0.5463) 0.2582 (Jnode 461)
+t_n277         0.5624 (0.2305, 1.0185) (0.2025, 0.9729) 0.7704 (Jnode 460)
+t_n278         1.7759 (1.6069, 1.9026) (1.6172, 1.9102) 0.2930 (Jnode 459)
+t_n279         1.6769 (1.4877, 1.8341) (1.4981, 1.8422) 0.3441 (Jnode 458)
+t_n280         1.5318 (1.3267, 1.7200) (1.3288, 1.7218) 0.3930 (Jnode 457)
+t_n281         1.1475 (0.8519, 1.4585) (0.8441, 1.4496) 0.6055 (Jnode 456)
+t_n282         0.9951 (0.7465, 1.2733) (0.7348, 1.2596) 0.5248 (Jnode 455)
+t_n283         0.4770 (0.4333, 0.5159) (0.4340, 0.5164) 0.0824 (Jnode 454)
+t_n284         0.2115 (0.1433, 0.2498) (0.1506, 0.2534) 0.1028 (Jnode 453)
+t_n285         0.8584 (0.6056, 1.1414) (0.5942, 1.1285) 0.5343 (Jnode 452)
+t_n286         0.3727 (0.1928, 0.6182) (0.1755, 0.5915) 0.4159 (Jnode 451)
+t_n287         1.1845 (0.9275, 1.4327) (0.9302, 1.4351) 0.5050 (Jnode 450)
+t_n288         0.5915 (0.0286, 1.2230) (0.0000, 1.1571) 1.1571 (Jnode 449)
+t_n289         1.2255 (0.8344, 1.5846) (0.8397, 1.5892) 0.7495 (Jnode 448)
+t_n290         0.9065 (0.4470, 1.3840) (0.4346, 1.3701) 0.9356 (Jnode 447)
+t_n291         0.5867 (0.2727, 0.9675) (0.2526, 0.9415) 0.6890 (Jnode 446)
+t_n292         0.9023 (0.5710, 1.2748) (0.5419, 1.2347) 0.6928 (Jnode 445)
+t_n293         0.5976 (0.2507, 1.0820) (0.2094, 1.0194) 0.8101 (Jnode 444)
+t_n294         2.3375 (1.7940, 2.8013) (1.8177, 2.8194) 1.0018 (Jnode 443)
+t_n295         1.7146 (1.0102, 2.3562) (1.0205, 2.3647) 1.3443 (Jnode 442)
+t_n296         2.6303 (1.9682, 3.1174) (2.0294, 3.1592) 1.1298 (Jnode 441)
+t_n297         2.4568 (1.8532, 2.9437) (1.8957, 2.9752) 1.0795 (Jnode 440)
+t_n298         0.5085 (0.2040, 1.0375) (0.1619, 0.9397) 0.7779 (Jnode 439)
+t_n299         0.2401 (0.0109, 0.7443) (0.0000, 0.6249) 0.6249 (Jnode 438)
+t_n300         3.5361 (3.1167, 3.8748) (3.1484, 3.8972) 0.7488 (Jnode 437)
+t_n301         3.3442 (2.7540, 3.7743) (2.8172, 3.8150) 0.9979 (Jnode 436)
+t_n302         1.8520 (0.7995, 2.8961) (0.7860, 2.8819) 2.0958 (Jnode 435)
+t_n303         1.8687 (1.0185, 2.7117) (1.0201, 2.7130) 1.6930 (Jnode 434)
+t_n304         3.4203 (3.1748, 3.7265) (3.1569, 3.7020) 0.5451 (Jnode 433)
+t_n305         3.3616 (3.1292, 3.6661) (3.1093, 3.6370) 0.5277 (Jnode 432)
+t_n306         2.5899 (1.7006, 3.2136) (1.7849, 3.2697) 1.4848 (Jnode 431)
+t_n307         3.2399 (3.0336, 3.5400) (3.0107, 3.4999) 0.4892 (Jnode 430)
+t_n308         3.0819 (2.9495, 3.3607) (2.9450, 3.3040) 0.3590 (Jnode 429)
+t_n309         2.3969 (2.0382, 2.7984) (2.0092, 2.7564) 0.7473 (Jnode 428)
+t_n310         2.1915 (1.8389, 2.6000) (1.8210, 2.5780) 0.7570 (Jnode 427)
+t_n311         2.1457 (1.7922, 2.5578) (1.7698, 2.5320) 0.7622 (Jnode 426)
+t_n312         1.5318 (1.3267, 1.7200) (1.3288, 1.7218) 0.3930 (Jnode 425)
+t_n313         0.9951 (0.7465, 1.2733) (0.7348, 1.2596) 0.5248 (Jnode 424)
+t_n314         0.4770 (0.4333, 0.5159) (0.4340, 0.5164) 0.0824 (Jnode 423)
+t_n315         0.2115 (0.1433, 0.2498) (0.1506, 0.2534) 0.1028 (Jnode 422)
+t_n316         0.8584 (0.6056, 1.1414) (0.5942, 1.1285) 0.5343 (Jnode 421)
+t_n317         0.3727 (0.1928, 0.6182) (0.1755, 0.5915) 0.4159 (Jnode 420)
+t_n318         1.1845 (0.9275, 1.4327) (0.9302, 1.4351) 0.5050 (Jnode 419)
+t_n319         0.8862 (0.4481, 1.2792) (0.4599, 1.2903) 0.8304 (Jnode 418)
+t_n320         0.5867 (0.2727, 0.9675) (0.2526, 0.9415) 0.6890 (Jnode 417)
+t_n321         0.5920 (0.0293, 1.2248) (0.0000, 1.1584) 1.1584 (Jnode 416)
+t_n322         1.0787 (0.5725, 1.7801) (0.5262, 1.7120) 1.1858 (Jnode 415)
+t_n323         0.6225 (0.3265, 1.0938) (0.2878, 1.0200) 0.7322 (Jnode 414)
+t_n324         0.3539 (0.1698, 0.6443) (0.1455, 0.5980) 0.4525 (Jnode 413)
+t_n325         0.5392 (0.0246, 1.3488) (0.0000, 1.2023) 1.2023 (Jnode 412)
+t_n326         0.7252 (0.2402, 1.7001) (0.1667, 1.4937) 1.3270 (Jnode 411)
+t_n327         3.3365 (3.0391, 3.6612) (3.0377, 3.6596) 0.6220 (Jnode 410)
+t_n328         2.8764 (2.3894, 3.3286) (2.3951, 3.3329) 0.9379 (Jnode 409)
+t_n329         2.0107 (1.6664, 2.4662) (1.6333, 2.4206) 0.7873 (Jnode 408)
+t_n330         1.4025 (1.0969, 1.6724) (1.1096, 1.6831) 0.5735 (Jnode 407)
+t_n331         1.2540 (0.9253, 1.5645) (0.9278, 1.5667) 0.6389 (Jnode 406)
+t_n332         0.8772 (0.5609, 1.2231) (0.5568, 1.2182) 0.6614 (Jnode 405)
+t_n333         0.5991 (0.5795, 0.6098) (0.5816, 0.6108) 0.0292 (Jnode 404)
+t_n334         0.5724 (0.5615, 0.5892) (0.5611, 0.5874) 0.0263 (Jnode 403)
+t_n335         0.4250 (0.2703, 0.5353) (0.2882, 0.5463) 0.2582 (Jnode 402)
+t_n336         0.5624 (0.2305, 1.0185) (0.2025, 0.9729) 0.7704 (Jnode 401)
+t_n337         1.6207 (1.3880, 1.8991) (1.3743, 1.8801) 0.5058 (Jnode 400)
+t_n338         1.5318 (1.3267, 1.7200) (1.3288, 1.7218) 0.3930 (Jnode 399)
+t_n339         0.9951 (0.7465, 1.2733) (0.7348, 1.2596) 0.5248 (Jnode 398)
+t_n340         0.4770 (0.4333, 0.5159) (0.4340, 0.5164) 0.0824 (Jnode 397)
+t_n341         0.2115 (0.1433, 0.2498) (0.1506, 0.2534) 0.1028 (Jnode 396)
+t_n342         0.8584 (0.6056, 1.1414) (0.5942, 1.1285) 0.5343 (Jnode 395)
+t_n343         0.3727 (0.1928, 0.6182) (0.1755, 0.5915) 0.4159 (Jnode 394)
+t_n344         1.1845 (0.9275, 1.4327) (0.9302, 1.4351) 0.5050 (Jnode 393)
+t_n345         0.8096 (0.0403, 1.6301) (0.0000, 1.5563) 1.5563 (Jnode 392)
+t_n346         2.2119 (1.5885, 2.8140) (1.5960, 2.8212) 1.2252 (Jnode 391)
+t_n347         1.4685 (0.7021, 2.2498) (0.6768, 2.2239) 1.5471 (Jnode 390)
+t_n348         1.5402 (1.0012, 2.1343) (0.9920, 2.1225) 1.1305 (Jnode 389)
+t_n349         1.0969 (0.5381, 1.7634) (0.5074, 1.7244) 1.2170 (Jnode 388)
+t_n350         3.2355 (2.9030, 3.5777) (2.9004, 3.5747) 0.6743 (Jnode 387)
+t_n351         3.0510 (2.6129, 3.4388) (2.6310, 3.4541) 0.8231 (Jnode 386)
+t_n352         2.9032 (2.4330, 3.3268) (2.4472, 3.3393) 0.8921 (Jnode 385)
+t_n353         2.5005 (2.0252, 2.9699) (2.0313, 2.9753) 0.9440 (Jnode 384)
+t_n354         2.0228 (1.4732, 2.5483) (1.4815, 2.5558) 1.0743 (Jnode 383)
+t_n355         1.5556 (0.8650, 2.2126) (0.8679, 2.2151) 1.3472 (Jnode 382)
+t_n356         1.9990 (1.4936, 2.5290) (1.4834, 2.5172) 1.0338 (Jnode 381)
+t_n357         1.7221 (1.2199, 2.2638) (1.2063, 2.2486) 1.0423 (Jnode 380)
+t_n358         1.3123 (0.6591, 1.9678) (0.6466, 1.9541) 1.3075 (Jnode 379)
+t_n359         1.5615 (1.0477, 2.1219) (1.0376, 2.1093) 1.0717 (Jnode 378)
+t_n360         0.7730 (0.0401, 1.7187) (0.0000, 1.5844) 1.5844 (Jnode 377)
+t_n361         1.3300 (0.7605, 1.9427) (0.7448, 1.9243) 1.1794 (Jnode 376)
+t_n362         1.1048 (0.5978, 1.6901) (0.5663, 1.6513) 1.0851 (Jnode 375)
+t_n363         0.4747 (0.0221, 1.2322) (0.0000, 1.0989) 1.0989 (Jnode 374)
+t_n364         1.3951 (0.7125, 2.0856) (0.7024, 2.0741) 1.3717 (Jnode 373)
+t_n365         2.3794 (1.5934, 3.0248) (1.6403, 3.0613) 1.4210 (Jnode 372)
+t_n366         2.0436 (1.2751, 2.7727) (1.2744, 2.7720) 1.4976 (Jnode 371)
+t_n367         1.4909 (0.8498, 2.1495) (0.8383, 2.1358) 1.2975 (Jnode 370)
+t_n368         4.2866 (4.1000, 4.4190) (4.1213, 4.4312) 0.3100 (Jnode 369)
+t_n369         3.4203 (3.1748, 3.7265) (3.1569, 3.7020) 0.5451 (Jnode 368)
+t_n370         3.3365 (3.0391, 3.6612) (3.0377, 3.6596) 0.6220 (Jnode 367)
+t_n371         3.2355 (2.9030, 3.5777) (2.9004, 3.5747) 0.6743 (Jnode 366)
+t_n372         3.1655 (2.7907, 3.5246) (2.8005, 3.5335) 0.7330 (Jnode 365)
+t_n373         2.9443 (2.4103, 3.3884) (2.4419, 3.4136) 0.9717 (Jnode 364)
+t_n374         2.3722 (1.8165, 2.9334) (1.8089, 2.9254) 1.1166 (Jnode 363)
+t_n375         2.1141 (1.5205, 2.7106) (1.5161, 2.7057) 1.1896 (Jnode 362)
+t_n376         1.9836 (1.3828, 2.5935) (1.3861, 2.5966) 1.2105 (Jnode 361)
+t_n377         1.6923 (0.9756, 2.3826) (0.9859, 2.3917) 1.4058 (Jnode 360)
+t_n378         1.4909 (0.8498, 2.1495) (0.8383, 2.1358) 1.2975 (Jnode 359)
+t_n379         2.0228 (1.4732, 2.5483) (1.4815, 2.5558) 1.0743 (Jnode 358)
+t_n380         1.5556 (0.8650, 2.2126) (0.8679, 2.2151) 1.3472 (Jnode 357)
+t_n381         2.3908 (1.5842, 3.0456) (1.6340, 3.0838) 1.4499 (Jnode 356)
+t_n382         1.9750 (1.1681, 2.7128) (1.1937, 2.7361) 1.5424 (Jnode 355)
+t_n383         0.7763 (0.0376, 1.9107) (0.0000, 1.7321) 1.7321 (Jnode 354)
+t_n384         2.8695 (2.2642, 3.3372) (2.3197, 3.3786) 1.0589 (Jnode 353)
+t_n385         2.3529 (1.6102, 2.9760) (1.6535, 3.0104) 1.3569 (Jnode 352)
+t_n386         1.5571 (0.8427, 2.3251) (0.8185, 2.2988) 1.4803 (Jnode 351)
+t_n387         0.7148 (0.0373, 1.7902) (0.0000, 1.6142) 1.6142 (Jnode 350)
+t_n388         2.7903 (1.8246, 3.3545) (1.9662, 3.4331) 1.4669 (Jnode 349)
+t_n389         1.5138 (0.0619, 2.9816) (0.0002, 2.8547) 2.8546 (Jnode 348)
+t_n390         2.8764 (2.3894, 3.3286) (2.3951, 3.3329) 0.9379 (Jnode 347)
+t_n391         2.0107 (1.6664, 2.4662) (1.6333, 2.4206) 0.7873 (Jnode 346)
+t_n392         1.7585 (1.4954, 2.1001) (1.4734, 2.0682) 0.5949 (Jnode 345)
+t_n393         1.4025 (1.0969, 1.6724) (1.1096, 1.6831) 0.5735 (Jnode 344)
+t_n394         1.2540 (0.9253, 1.5645) (0.9278, 1.5667) 0.6389 (Jnode 343)
+t_n395         0.8772 (0.5609, 1.2231) (0.5568, 1.2182) 0.6614 (Jnode 342)
+t_n396         0.5554 (0.2839, 0.8957) (0.2662, 0.8703) 0.6041 (Jnode 341)
+t_n397         0.5991 (0.5795, 0.6098) (0.5816, 0.6108) 0.0292 (Jnode 340)
+t_n398         0.5724 (0.5615, 0.5892) (0.5611, 0.5874) 0.0263 (Jnode 339)
+t_n399         0.4250 (0.2703, 0.5353) (0.2882, 0.5463) 0.2582 (Jnode 338)
+t_n400         0.5624 (0.2305, 1.0185) (0.2025, 0.9729) 0.7704 (Jnode 337)
+t_n401         1.6207 (1.3880, 1.8991) (1.3743, 1.8801) 0.5058 (Jnode 336)
+t_n402         1.5318 (1.3267, 1.7200) (1.3288, 1.7218) 0.3930 (Jnode 335)
+t_n403         0.9951 (0.7465, 1.2733) (0.7348, 1.2596) 0.5248 (Jnode 334)
+t_n404         0.4770 (0.4333, 0.5159) (0.4340, 0.5164) 0.0824 (Jnode 333)
+t_n405         0.2115 (0.1433, 0.2498) (0.1506, 0.2534) 0.1028 (Jnode 332)
+t_n406         0.8584 (0.6056, 1.1414) (0.5942, 1.1285) 0.5343 (Jnode 331)
+t_n407         0.3727 (0.1928, 0.6182) (0.1755, 0.5915) 0.4159 (Jnode 330)
+t_n408         1.1845 (0.9275, 1.4327) (0.9302, 1.4351) 0.5050 (Jnode 329)
+t_n409         0.8271 (0.4398, 1.1906) (0.4467, 1.1971) 0.7504 (Jnode 328)
+t_n410         0.5867 (0.2727, 0.9675) (0.2526, 0.9415) 0.6890 (Jnode 327)
+t_n411         1.5354 (1.0473, 2.0560) (1.0295, 2.0353) 1.0058 (Jnode 326)
+t_n412         0.5976 (0.2507, 1.0820) (0.2094, 1.0194) 0.8101 (Jnode 325)
+t_n413         0.9023 (0.5710, 1.2748) (0.5419, 1.2347) 0.6928 (Jnode 324)
+t_n414         2.3693 (1.4704, 3.1125) (1.5112, 3.1477) 1.6365 (Jnode 323)
+t_n415         1.4685 (0.7021, 2.2498) (0.6768, 2.2239) 1.5471 (Jnode 322)
+t_n416         1.5402 (1.0012, 2.1343) (0.9920, 2.1225) 1.1305 (Jnode 321)
+t_n417         1.0969 (0.5381, 1.7634) (0.5074, 1.7244) 1.2170 (Jnode 320)
+t_n418         3.3616 (3.1292, 3.6661) (3.1093, 3.6370) 0.5277 (Jnode 319)
+t_n419         2.5899 (1.7006, 3.2136) (1.7849, 3.2697) 1.4848 (Jnode 318)
+t_n420         1.9096 (0.9618, 2.7713) (0.9804, 2.7871) 1.8068 (Jnode 317)
+t_n421         3.2399 (3.0336, 3.5400) (3.0107, 3.4999) 0.4892 (Jnode 316)
+t_n422         3.0819 (2.9495, 3.3607) (2.9450, 3.3040) 0.3590 (Jnode 315)
+t_n423         2.3969 (2.0382, 2.7984) (2.0092, 2.7564) 0.7473 (Jnode 314)
+t_n424         2.1915 (1.8389, 2.6000) (1.8210, 2.5780) 0.7570 (Jnode 313)
+t_n425         2.1457 (1.7922, 2.5578) (1.7698, 2.5320) 0.7622 (Jnode 312)
+t_n426         1.5318 (1.3267, 1.7200) (1.3288, 1.7218) 0.3930 (Jnode 311)
+t_n427         0.9951 (0.7465, 1.2733) (0.7348, 1.2596) 0.5248 (Jnode 310)
+t_n428         0.8584 (0.6056, 1.1414) (0.5942, 1.1285) 0.5343 (Jnode 309)
+t_n429         0.3727 (0.1928, 0.6182) (0.1755, 0.5915) 0.4159 (Jnode 308)
+t_n430         0.4770 (0.4333, 0.5159) (0.4340, 0.5164) 0.0824 (Jnode 307)
+t_n431         1.1845 (0.9275, 1.4327) (0.9302, 1.4351) 0.5050 (Jnode 306)
+t_n432         1.0437 (0.7108, 1.3400) (0.7249, 1.3516) 0.6267 (Jnode 305)
+t_n433         0.7342 (0.3778, 1.1060) (0.3703, 1.0970) 0.7267 (Jnode 304)
+t_n434         1.0787 (0.5725, 1.7801) (0.5262, 1.7120) 1.1858 (Jnode 303)
+t_n435         0.6225 (0.3265, 1.0938) (0.2878, 1.0200) 0.7322 (Jnode 302)
+t_n436         0.3539 (0.1698, 0.6443) (0.1455, 0.5980) 0.4525 (Jnode 301)
+t_n437         0.7252 (0.2402, 1.7001) (0.1667, 1.4937) 1.3270 (Jnode 300)
+t_n438         3.7064 (3.3929, 3.9862) (3.4049, 3.9961) 0.5912 (Jnode 299)
+t_n439         3.6529 (3.3335, 3.9408) (3.3483, 3.9542) 0.6058 (Jnode 298)
+t_n440         2.4648 (1.4480, 3.3438) (1.4935, 3.3815) 1.8880 (Jnode 297)
+t_n441         2.0045 (1.1126, 2.9071) (1.1052, 2.8992) 1.7940 (Jnode 296)
+t_n442         3.5984 (3.2724, 3.8952) (3.2863, 3.9075) 0.6211 (Jnode 295)
+t_n443         3.2299 (2.8969, 3.5562) (2.9034, 3.5624) 0.6589 (Jnode 294)
+t_n444         3.1120 (2.7522, 3.4596) (2.7574, 3.4641) 0.7067 (Jnode 293)
+t_n445         3.0198 (2.6508, 3.3758) (2.6595, 3.3840) 0.7245 (Jnode 292)
+t_n446         2.6333 (2.2112, 3.0364) (2.2170, 3.0414) 0.8244 (Jnode 291)
+t_n447         2.3515 (1.8795, 2.7972) (1.8888, 2.8058) 0.9169 (Jnode 290)
+t_n448         2.0843 (1.4224, 2.6280) (1.4680, 2.6632) 1.1951 (Jnode 289)
+t_n449         1.8709 (1.1267, 2.4862) (1.1679, 2.5190) 1.3512 (Jnode 288)
+t_n450         2.2844 (1.7703, 2.7587) (1.7915, 2.7772) 0.9857 (Jnode 287)
+t_n451         1.2446 (0.5908, 1.9761) (0.5608, 1.9404) 1.3796 (Jnode 286)
+t_n452         1.9114 (1.1706, 2.6464) (1.1703, 2.6460) 1.4757 (Jnode 285)
+t_n453         0.9666 (0.4923, 1.6286) (0.4436, 1.5522) 1.1086 (Jnode 284)
+t_n454         0.4194 (0.1576, 0.8666) (0.1232, 0.7893) 0.6661 (Jnode 283)
+t_n455         2.8838 (2.5235, 3.2444) (2.5285, 3.2488) 0.7203 (Jnode 282)
+t_n456         2.6831 (2.3088, 3.0806) (2.2965, 3.0671) 0.7706 (Jnode 281)
+t_n457         1.8571 (1.7259, 1.9551) (1.7320, 1.9598) 0.2278 (Jnode 280)
+t_n458         1.4025 (1.0969, 1.6724) (1.1096, 1.6831) 0.5735 (Jnode 279)
+t_n459         1.2540 (0.9253, 1.5645) (0.9278, 1.5667) 0.6389 (Jnode 278)
+t_n460         0.8772 (0.5609, 1.2231) (0.5568, 1.2182) 0.6614 (Jnode 277)
+t_n461         0.5554 (0.2839, 0.8957) (0.2662, 0.8703) 0.6041 (Jnode 276)
+t_n462         0.5991 (0.5795, 0.6098) (0.5816, 0.6108) 0.0292 (Jnode 275)
+t_n463         0.5724 (0.5615, 0.5892) (0.5611, 0.5874) 0.0263 (Jnode 274)
+t_n464         0.4250 (0.2703, 0.5353) (0.2882, 0.5463) 0.2582 (Jnode 273)
+t_n465         0.5624 (0.2305, 1.0185) (0.2025, 0.9729) 0.7704 (Jnode 272)
+t_n466         1.7759 (1.6069, 1.9026) (1.6172, 1.9102) 0.2930 (Jnode 271)
+t_n467         1.6769 (1.4877, 1.8341) (1.4981, 1.8422) 0.3441 (Jnode 270)
+t_n468         1.5318 (1.3267, 1.7200) (1.3288, 1.7218) 0.3930 (Jnode 269)
+t_n469         1.1475 (0.8519, 1.4585) (0.8441, 1.4496) 0.6055 (Jnode 268)
+t_n470         0.9951 (0.7465, 1.2733) (0.7348, 1.2596) 0.5248 (Jnode 267)
+t_n471         0.4770 (0.4333, 0.5159) (0.4340, 0.5164) 0.0824 (Jnode 266)
+t_n472         0.2115 (0.1433, 0.2498) (0.1506, 0.2534) 0.1028 (Jnode 265)
+t_n473         0.8584 (0.6056, 1.1414) (0.5942, 1.1285) 0.5343 (Jnode 264)
+t_n474         0.3727 (0.1928, 0.6182) (0.1755, 0.5915) 0.4159 (Jnode 263)
+t_n475         1.1845 (0.9275, 1.4327) (0.9302, 1.4351) 0.5050 (Jnode 262)
+t_n476         0.5915 (0.0286, 1.2230) (0.0000, 1.1571) 1.1571 (Jnode 261)
+t_n477         1.2255 (0.8344, 1.5846) (0.8397, 1.5892) 0.7495 (Jnode 260)
+t_n478         0.9065 (0.4470, 1.3840) (0.4346, 1.3701) 0.9356 (Jnode 259)
+t_n479         0.5867 (0.2727, 0.9675) (0.2526, 0.9415) 0.6890 (Jnode 258)
+t_n480         0.9023 (0.5710, 1.2748) (0.5419, 1.2347) 0.6928 (Jnode 257)
+t_n481         0.5976 (0.2507, 1.0820) (0.2094, 1.0194) 0.8101 (Jnode 256)
+t_n482         2.3375 (1.7940, 2.8013) (1.8177, 2.8194) 1.0018 (Jnode 255)
+t_n483         1.7146 (1.0102, 2.3562) (1.0205, 2.3647) 1.3443 (Jnode 254)
+t_n484         2.6303 (1.9682, 3.1174) (2.0294, 3.1592) 1.1298 (Jnode 253)
+t_n485         2.4568 (1.8532, 2.9437) (1.8957, 2.9752) 1.0795 (Jnode 252)
+t_n486         0.5085 (0.2040, 1.0375) (0.1619, 0.9397) 0.7779 (Jnode 251)
+t_n487         0.2401 (0.0109, 0.7443) (0.0000, 0.6249) 0.6249 (Jnode 250)
+t_n488         3.5361 (3.1167, 3.8748) (3.1484, 3.8972) 0.7488 (Jnode 249)
+t_n489         3.3546 (2.7462, 3.7775) (2.8259, 3.8273) 1.0014 (Jnode 248)
+t_n490         1.8520 (0.7995, 2.8961) (0.7860, 2.8819) 2.0958 (Jnode 247)
+t_n491         1.8687 (1.0185, 2.7117) (1.0201, 2.7130) 1.6930 (Jnode 246)
+mu             0.2748 (0.2481, 0.3049) (0.2466, 0.3032) 0.0566
+sigma2         0.4008 (0.3114, 0.5117) (0.3053, 0.5035) 0.1982
+lnL         -130.6794 (-153.0490, -110.0370) (-152.4280, -109.5160) 42.9120

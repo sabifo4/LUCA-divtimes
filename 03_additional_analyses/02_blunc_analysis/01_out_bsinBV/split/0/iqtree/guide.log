@@ -1,0 +1,296 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Linux 64-bit built May 31 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    sandra (AVX512, FMA3, 15 GB RAM)
+Command: iqtree2 -redo -s ../01_out_bsinBV/split/0/combined.phy -pre ../01_out_bsinBV/split/0/iqtree/guide -T 4 -quiet -m LG4M+G -te ../00_inp_data/ref.tre
+Seed:    863754 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb 29 10:59:55 2024
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file ../01_out_bsinBV/split/0/combined.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00856495 secs using 324.9% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 246 sequences with 1680 columns, 1671 distinct patterns
+1572 parsimony-informative, 47 singleton sites, 61 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000421047 secs using 341.3% CPU
+   1  Acidobacterium_capsulatum_1                34.82%    failed      2.89%
+   2  Acidobacterium_capsulatum_2                10.06%    failed      4.56%
+   3  Actinomadura_madurae_1                     12.32%    failed      0.09%
+   4  Actinomadura_madurae_2                     10.36%    failed      0.00%
+   5  Aeropyrum_pernix_1                         32.14%    failed      0.02%
+   6  Aeropyrum_pernix_2                         32.80%    failed      0.00%
+   7  Agaricus_bisporus_1                        40.00%    passed     24.49%
+   8  Agaricus_bisporus_2                        44.52%    failed      2.15%
+   9  Agaricus_bisporus_mito_1                   64.40%    passed     32.53%
+  10  Agaricus_bisporus_mito_2                   47.32%    passed     83.19%
+  11  Amphimedon_queenslandica_1                 45.89%    passed     18.38%
+  12  Amphimedon_queenslandica_2                 44.58%    failed      4.57%
+  13  Amphimedon_queenslandica_mito_1            64.40%    passed     33.41%
+  14  Amphimedon_queenslandica_mito_2            47.38%    passed     19.29%
+  15  Aquifex_aeolicus_1                         21.01%    failed      0.08%
+  16  Arabidopsis_thaliana_1                     64.88%    passed     75.78%
+  17  Arabidopsis_thaliana_2                     49.58%    passed      8.25%
+  18  Arabidopsis_thaliana_chloro_1              86.73%    passed     36.91%
+  19  Arabidopsis_thaliana_mito_1                86.73%    passed     90.07%
+  20  Arabidopsis_thaliana_mito_2                47.26%    passed     28.77%
+  21  Archaeoglobus_fulgidus_1                   55.06%    passed     35.00%
+  22  Archaeoglobus_fulgidus_2                   30.18%    failed      0.05%
+  23  Bathycoccus_prasinos_1                     63.87%    passed     22.30%
+  24  Bathycoccus_prasinos_2                     44.52%    failed      3.34%
+  25  Bathycoccus_prasinos_chloro_1              77.32%    passed     20.56%
+  26  Bathycoccus_prasinos_chloro_2              33.04%    passed     58.85%
+  27  Bathycoccus_prasinos_mito_1                86.73%    passed     87.17%
+  28  Bathycoccus_prasinos_mito_2                33.87%    passed     14.12%
+  29  Batrachochytrium_dendrobatidis_1           40.77%    passed     34.60%
+  30  Batrachochytrium_dendrobatidis_2           44.58%    failed      3.71%
+  31  Batrachochytrium_dendrobatidis_mito_1      66.31%    passed     50.23%
+  32  Batrachochytrium_dendrobatidis_mito_2      47.32%    passed     61.00%
+  33  Bodo_saltans_1                             31.90%    failed      0.23%
+  34  Bodo_saltans_2                             44.52%    passed      6.47%
+  35  Bodo_saltans_mito_2                        46.43%    passed      6.48%
+  36  Caldiarchaeum_subterraneum_1               41.37%    passed     34.79%
+  37  Caldiarchaeum_subterraneum_2                4.70%    failed      0.80%
+  38  Caldisericum_exile_1                       44.82%    failed      0.30%
+  39  Caldisericum_exile_2                       32.20%    failed      0.05%
+  40  Caldithrix_abyssi_1                        12.74%    passed      6.10%
+  41  Caldithrix_abyssi_2                        10.24%    passed     13.93%
+  42  Caldivirga_maquilingensis_1                10.18%    failed      0.20%
+  43  Caldivirga_maquilingensis_2                19.17%    failed      0.61%
+  44  Campylobacter_jejuni_1                     55.54%    passed     10.75%
+  45  Campylobacter_jejuni_2                     24.82%    failed      1.06%
+  46  Cenarchaeum_symbiosum_1                    28.57%    passed     21.50%
+  47  Cenarchaeum_symbiosum_2                     7.02%    failed      2.72%
+  48  Chlamydia_trachomatis_1                    59.58%    passed     72.92%
+  49  Chlamydia_trachomatis_2                    46.67%    passed      9.83%
+  50  Chlamydomonas_reinhardtii_1                68.69%    passed     73.11%
+  51  Chlamydomonas_reinhardtii_2                86.85%    passed      6.61%
+  52  Chlamydomonas_reinhardtii_chloro_1         77.32%    passed     20.43%
+  53  Chlamydomonas_reinhardtii_chloro_2         70.12%    failed      0.01%
+  54  Chlamydomonas_reinhardtii_mito_1           86.61%    passed     38.24%
+  55  Chlamydomonas_reinhardtii_mito_2           43.69%    passed     44.67%
+  56  Chlorobium_phaeovibrioides_1               12.92%    passed     72.75%
+  57  Chlorobium_phaeovibrioides_2               10.36%    passed     39.89%
+  58  Chloroflexus_1                             55.12%    failed      1.75%
+  59  Chloroflexus_2                             24.64%    failed      3.01%
+  60  Chlorogloeopsis_fritschii_1                12.74%    passed      9.76%
+  61  Chlorogloeopsis_fritschii_2                10.18%    passed     77.43%
+  62  Chondrus_crispus_1                         68.27%    passed     32.76%
+  63  Chondrus_crispus_2                         49.58%    failed      2.17%
+  64  Chondrus_crispus_chloro_1                  86.73%    passed     66.81%
+  65  Chondrus_crispus_chloro_2                  51.67%    passed     76.46%
+  66  Chondrus_crispus_mito_2                    34.17%    passed     75.34%
+  67  Chthonomonas_calidirosea_2                 10.12%    failed      3.10%
+  68  Cloacimonas_acidaminovorans_1              62.86%    passed     13.19%
+  69  Cloacimonas_acidaminovorans_2              62.92%    passed     42.96%
+  70  Clostridium_acetobutylicum_1               55.12%    passed     20.32%
+  71  Clostridium_acetobutylicum_2               24.64%    passed     13.16%
+  72  Cyanidioschyzon_merolae_1                  10.12%    failed      0.00%
+  73  Cyanidioschyzon_merolae_2                  35.24%    failed      0.03%
+  74  Cyanidioschyzon_merolae_chloro_1           64.52%    passed      5.70%
+  75  Cyanidioschyzon_merolae_chloro_2           33.10%    passed     21.56%
+  76  Cyanidioschyzon_merolae_mito_1             77.74%    failed      3.96%
+  77  Cyanidioschyzon_merolae_mito_2             33.99%    failed      0.51%
+  78  Cyanobium_gracile_1                        12.56%    failed      0.00%
+  79  Cyanobium_gracile_2                        10.18%    failed      0.01%
+  80  Cyanophora_paradoxa_1                      73.21%    passed      7.58%
+  81  Cyanophora_paradoxa_2                      74.35%    failed      4.65%
+  82  Cylindrospermopsis_raciborskii_1           12.62%    failed      4.00%
+  83  Cylindrospermopsis_raciborskii_2           10.24%    passed     53.89%
+  84  Desulfurispirillum_indicum_2               32.32%    passed     78.43%
+  85  Dictyoglomus_turgidum_1                    55.12%    passed     37.23%
+  86  Dictyoglomus_turgidum_2                    32.32%    failed      0.51%
+  87  Dictyostelium_discoideum_1                 55.12%    passed     17.84%
+  88  Dictyostelium_discoideum_2                 49.58%    failed      0.04%
+  89  Dictyostelium_discoideum_mito_1            77.26%    passed     27.12%
+  90  Dictyostelium_discoideum_mito_2            46.90%    passed     54.81%
+  91  Ectocarpus_siliculosus_1                   68.75%    passed     78.22%
+  92  Ectocarpus_siliculosus_2                   58.81%    failed      0.89%
+  93  Ectocarpus_siliculosus_chloro_1            77.32%    passed     96.17%
+  94  Ectocarpus_siliculosus_mito_2              33.93%    passed     40.71%
+  95  Elphidium_margaritaceum_1                  23.27%    failed      1.41%
+  96  Elphidium_margaritaceum_2                  44.40%    passed     10.09%
+  97  Elphidium_margaritaceum_mito_2             46.85%    failed      0.00%
+  98  Elusimicrobium_minutum_1                   26.85%    passed     17.16%
+  99  Elusimicrobium_minutum_2                   24.64%    passed     92.34%
+ 100  Fibrobacter_succinogenes_1                 35.00%    failed      0.15%
+ 101  Fibrobacter_succinogenes_2                 32.08%    passed     53.50%
+ 102  Galdieria_sulphuraria_1                    47.38%    passed     47.36%
+ 103  Galdieria_sulphuraria_2                    35.18%    failed      1.75%
+ 104  Galdieria_sulphuraria_chloro_1             64.52%    failed      1.09%
+ 105  Galdieria_sulphuraria_chloro_2             47.32%    passed      9.35%
+ 106  Galdieria_sulphuraria_mito_1               64.35%    passed     12.36%
+ 107  Galdieria_sulphuraria_mito_2               34.05%    passed     87.59%
+ 108  Gemmatimonas_aurantiaca_2                  10.12%    failed      1.29%
+ 109  Gloeobacter_violaceus_1                    12.74%    passed      8.66%
+ 110  Gloeobacter_violaceus_2                    10.24%    failed      0.39%
+ 111  Haloarcula_marismortui_1                   86.73%    passed     23.56%
+ 112  Haloarcula_marismortui_2                   46.55%    failed      0.00%
+ 113  Heimdallarchaeota_archaeon_AB_125_1         9.94%    failed      0.35%
+ 114  Heimdallarchaeota_archaeon_AB_125_2         4.70%    passed     21.58%
+ 115  Heimdallarchaeota_archaeon_LC_2_1          23.81%    failed      2.16%
+ 116  Heimdallarchaeota_archaeon_LC_2_2          52.08%    passed     21.03%
+ 117  Heimdallarchaeota_archaeon_LC_3_1          10.48%    failed      0.00%
+ 118  Heimdallarchaeota_archaeon_LC_3_2           4.46%    failed      0.00%
+ 119  Homo_sapiens_1                             55.36%    passed     71.11%
+ 120  Homo_sapiens_2                             58.99%    failed      1.22%
+ 121  Homo_sapiens_mito_1                        64.40%    passed     44.79%
+ 122  Homo_sapiens_mito_2                        48.21%    passed     44.11%
+ 123  Hydra_vulgaris_1                           41.01%    failed      0.89%
+ 124  Hydra_vulgaris_2                           44.52%    failed      0.66%
+ 125  Hydra_vulgaris_mito_1                      64.40%    passed     35.47%
+ 126  Hydra_vulgaris_mito_2                      47.32%    passed     52.27%
+ 127  Hyperthermus_butylicus_1                   10.24%    failed      4.54%
+ 128  Hyperthermus_butylicus_2                    4.58%    failed      0.00%
+ 129  Ignicoccus_hospitalis_1                    10.12%    failed      0.51%
+ 130  Ignicoccus_hospitalis_2                     4.52%    failed      0.00%
+ 131  Jidaibacter_acanthamoeba_1                 19.17%    failed      2.29%
+ 132  Jidaibacter_acanthamoeba_2                 40.77%    passed     20.73%
+ 133  Jonquetella_anthropi_1                     13.04%    passed     19.88%
+ 134  Jonquetella_anthropi_2                     10.42%    failed      3.59%
+ 135  Korarchaeum_cryptofilum_1                  55.24%    passed     57.19%
+ 136  Korarchaeum_cryptofilum_2                  19.40%    failed      0.06%
+ 137  Kosmotoga_olearia_1                        13.39%    failed      2.47%
+ 138  Kosmotoga_olearia_2                        10.30%    passed     30.50%
+ 139  Latescibacteria_bacterium_1                34.94%    passed     32.06%
+ 140  Latescibacteria_bacterium_2                26.13%    passed     66.46%
+ 141  Leishmania_major_1                         62.80%    failed      3.02%
+ 142  Leishmania_major_2                         35.12%    failed      0.07%
+ 143  Leishmania_major_mito_2                    47.02%    passed     31.23%
+ 144  Lentisphaera_araneosa_1                    12.98%    passed     37.16%
+ 145  Lentisphaera_araneosa_2                    64.29%    passed     31.56%
+ 146  Leptolyngbya_valderiana_1                  40.71%    passed      5.35%
+ 147  Limulus_polyphemus_1                       58.04%    failed      3.14%
+ 148  Limulus_polyphemus_2                       44.58%    failed      0.68%
+ 149  Limulus_polyphemus_mito_1                  79.29%    passed     25.44%
+ 150  Limulus_polyphemus_mito_2                  48.39%    passed     73.78%
+ 151  Lokiarchaeum_sp._GC14_75_1                 60.95%    failed      0.15%
+ 152  Lokiarchaeum_sp._GC14_75_2                 58.81%    failed      0.05%
+ 153  Melainabacteria_bacterium_1                36.07%    passed     20.63%
+ 154  Melainabacteria_bacterium_2                23.51%    passed     25.72%
+ 155  Methanocaldococcus_jannaschii_1            55.48%    passed     52.41%
+ 156  Methanocaldococcus_jannaschii_2            19.76%    failed      0.25%
+ 157  Methanomassiliicoccus_luminyensis_1        10.60%    passed     89.29%
+ 158  Methanomassiliicoccus_luminyensis_2         4.82%    passed     92.41%
+ 159  Methanopyrus_kandleri_1                    10.36%    failed      0.00%
+ 160  Methanopyrus_kandleri_2                     4.94%    failed      0.00%
+ 161  Methanosarcina_mazei_1                     10.48%    passed     91.00%
+ 162  Methanosarcina_mazei_2                      6.61%    passed     88.64%
+ 163  Methanothermobacter_thermautotrophicus_1   10.48%    failed      0.25%
+ 164  Methanothermobacter_thermautotrophicus_2    5.06%    passed     25.75%
+ 165  Nitrosoarchaeum_limnia_1                   41.07%    failed      2.86%
+ 166  Nitrosoarchaeum_limnia_2                    4.76%    failed      0.25%
+ 167  Nitrosopumilus_maritimus_1                 55.48%    passed     53.82%
+ 168  Nitrosopumilus_maritimus_2                 32.50%    failed      0.09%
+ 169  Odinarchaeota_archaeon_LCB_4_1             10.54%    failed      3.91%
+ 170  Odinarchaeota_archaeon_LCB_4_2              4.52%    failed      0.00%
+ 171  Oryza_sativa_1                             50.42%    passed     61.16%
+ 172  Oryza_sativa_2                             35.18%    failed      0.32%
+ 173  Oryza_sativa_chloro_1                      64.52%    passed      6.68%
+ 174  Oryza_sativa_chloro_2                      63.63%    passed     29.69%
+ 175  Oryza_sativa_mito_1                        86.73%    passed     72.71%
+ 176  Oryza_sativa_mito_2                        34.17%    passed     54.33%
+ 177  Oscillochloris_trichoides_1                19.52%    passed     10.45%
+ 178  Oscillochloris_trichoides_2                10.30%    passed     30.31%
+ 179  Paramecium_tetraurelia_1                   55.60%    passed     29.70%
+ 180  Paramecium_tetraurelia_2                   77.44%    failed      0.66%
+ 181  Physcomitrella_patens_1                    41.01%    passed     11.16%
+ 182  Physcomitrella_patens_2                    45.48%    passed     49.62%
+ 183  Physcomitrella_patens_chloro_1             70.48%    failed      0.06%
+ 184  Physcomitrella_patens_chloro_2             33.15%    passed     30.56%
+ 185  Physcomitrella_patens_mito_1               64.29%    passed      6.41%
+ 186  Physcomitrella_patens_mito_2               34.11%    passed     52.94%
+ 187  Phytophthora_ramorum_mito_1                77.56%    passed     28.65%
+ 188  Polysphondylium_pallidum_1                 10.24%    failed      1.44%
+ 189  Polysphondylium_pallidum_2                 35.18%    failed      1.87%
+ 190  Polysphondylium_pallidum_mito_1            77.26%    passed     54.37%
+ 191  Polysphondylium_pallidum_mito_2            46.73%    passed     62.77%
+ 192  Pseudanabaena_biceps_1                     40.65%    failed      2.85%
+ 193  Pseudanabaena_biceps_2                     10.24%    passed     81.23%
+ 194  Pyrobaculum_aerophilum_1                   68.51%    passed     47.13%
+ 195  Pyrobaculum_aerophilum_2                   32.14%    failed      0.01%
+ 196  Pyrococcus_furiosus_1                      55.42%    passed     26.17%
+ 197  Pyrococcus_furiosus_2                      19.23%    failed      0.19%
+ 198  Reticulomyxa_filosa_1                      67.44%    passed     11.23%
+ 199  Reticulomyxa_filosa_2                      57.74%    passed     52.65%
+ 200  Reticulomyxa_filosa_mito_2                 78.57%    failed      0.59%
+ 201  Rhodopirellula_baltica_1                   55.00%    passed     28.94%
+ 202  Rhodopirellula_baltica_2                   24.46%    passed     14.47%
+ 203  Rhodopseudomonas_palustris_1               54.88%    passed     64.02%
+ 204  Rhodopseudomonas_palustris_2               24.52%    passed     43.65%
+ 205  Rickettsia_bellii_1                        36.01%    failed      0.93%
+ 206  Rickettsia_bellii_2                        40.71%    passed      8.07%
+ 207  Roseobacter_litoralis_1                    11.79%    failed      1.47%
+ 208  Roseobacter_litoralis_2                    10.24%    passed      7.68%
+ 209  Saccharomyces_cerevisiae_1                 54.82%    passed     63.21%
+ 210  Saccharomyces_cerevisiae_2                 72.14%    passed     40.06%
+ 211  Saccharomyces_cerevisiae_mito_2            47.08%    passed     75.78%
+ 212  Sphingopyxis_alaskensis_1                  11.67%    failed      0.01%
+ 213  Sphingopyxis_alaskensis_2                  10.00%    failed      0.54%
+ 214  Staphylothermus_marinus_1                  10.54%    failed      0.01%
+ 215  Staphylothermus_marinus_2                   4.88%    failed      0.03%
+ 216  Sulfolobus_solfataricus_1                  64.88%    passed     70.61%
+ 217  Synechocystis_sp._PCC_6803_1               55.12%    passed     21.89%
+ 218  Synechocystis_sp._PCC_6803_2               24.70%    passed     49.41%
+ 219  Thalassiosira_pseudonana_1                 53.69%    passed      6.45%
+ 220  Thalassiosira_pseudonana_2                 44.46%    failed      3.74%
+ 221  Thalassiosira_pseudonana_chloro_1          55.42%    passed     21.79%
+ 222  Thalassiosira_pseudonana_chloro_2          56.07%    passed     52.85%
+ 223  Thalassiosira_pseudonana_mito_1            77.68%    passed     16.10%
+ 224  Thalassiosira_pseudonana_mito_2            33.63%    passed     38.98%
+ 225  Thermodesulfatator_indicus_1               12.38%    passed     26.65%
+ 226  Thermodesulfatator_indicus_2               10.30%    passed     46.88%
+ 227  Thermodesulfovibrio_islandicus_1           12.50%    passed     16.69%
+ 228  Thermodesulfovibrio_islandicus_2           10.36%    passed     14.07%
+ 229  Thermofilum_pendens_1                      10.48%    failed      0.03%
+ 230  Thermofilum_pendens_2                       4.88%    failed      0.01%
+ 231  Thermoplasma_volcanium_1                   11.55%    failed      0.79%
+ 232  Thermoplasma_volcanium_2                    5.12%    failed      0.01%
+ 233  Thorarchaeota_archaeon_AB_25_1             23.33%    passed     56.72%
+ 234  Thorarchaeota_archaeon_AB_25_2              5.30%    passed     66.45%
+ 235  Thorarchaeota_archaeon_SMTZ1-45_1          64.58%    passed     45.74%
+ 236  Thorarchaeota_archaeon_SMTZ1-45_2          56.07%    passed     34.83%
+ 237  Thorarchaeota_archaeon_SMTZ1-83_1          90.60%    passed     25.26%
+ 238  Thorarchaeota_archaeon_SMTZ1-83_2          62.86%    passed     36.92%
+ 239  Treponema_pallidum_2                       86.85%    passed     57.27%
+ 240  Verrucomicrobium_spinosum_1                13.75%    passed     29.53%
+ 241  Volvox_carteri_1                           54.23%    passed     85.14%
+ 242  Volvox_carteri_2                           44.58%    passed     18.97%
+ 243  Volvox_carteri_chloro_1                    55.06%    passed     27.52%
+ 244  Volvox_carteri_chloro_2                    55.83%    passed      7.41%
+ 245  Volvox_carteri_mito_1                      64.29%    failed      1.65%
+ 246  Volvox_carteri_mito_2                      33.57%    passed     13.18%
+WARNING: 85 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      39.72%  95 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000941992 secs using 399% CPU
+Reading input tree file ../00_inp_data/ref.tre ...
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+
+NOTE: 257 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -274583.157
+2. Current log-likelihood: -274285.965
+3. Current log-likelihood: -274274.451
+4. Current log-likelihood: -274274.322
+Optimal log-likelihood: -274274.312
+Gamma shape alpha: 1.289
+Parameters optimization took 4 rounds (7.391 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -274274.312
+Total tree length: 75.114
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 29.526 sec (0h:0m:29s)
+Total wall-clock time used: 7.525 sec (0h:0m:7s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../01_out_bsinBV/split/0/iqtree/guide.iqtree
+  Maximum-likelihood tree:       ../01_out_bsinBV/split/0/iqtree/guide.treefile
+  Screen log file:               ../01_out_bsinBV/split/0/iqtree/guide.log
+
+Date and Time: Thu Feb 29 11:00:03 2024
