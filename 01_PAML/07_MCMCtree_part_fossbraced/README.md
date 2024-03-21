@@ -25,7 +25,7 @@ LUCAdup_arcsin
   |- MCMCtree_part_fossbraced
   |    |- [1-16] # 16 chains
   |         |- [GBM|ILN]
-  |              |- 1 # Only 1 dataset, only 1 dir
+  |              |- 1 # Only 1 partitioned dataset, only 1 dir
   |                
   |- pipelines_MCMCtree_part_fossbraced
        |- [GBM|ILN]/
@@ -226,11 +226,15 @@ cd ../sum_analyses/00_prior
 ## arg3 --> "`seq 1 36`", "1 2 5", etc. | depends on whether some chains were filtered out or not
 ## arg4 --> clock model used: ILN, GBM, CLK
 ## arg5 --> number of samples specified to collect in the control file to run `MCMCtree`
+## arg6 --> 'Y' to generate a directory with files compatible with programs such as `Tracer` to visually
+##          inspect traceplots, convergence plots, etc. 'N' otherwise
+## arg7 --> if arg6 is 'Y', arg7 needs to have a name for the `mcmcf4traces_<name>` that will be
+##          generated. If `arg6` is equal to 'N', then please write `N` too.
 dataset=$( echo CLK )
-./Combine_MCMC.sh $dataset mcmc_files_part_fosscb_CLK "`seq 1 6`" CLK 20000
+./Combine_MCMC.sh $dataset mcmc_files_part_fosscb_CLK "`seq 1 6`" CLK 20000 Y part_fosscb_CLK
 ```
 
-The script above will generate a directory called `mcmc_files_CLK` inside the `00_prior` directory, where the `mcmc.txt` with the concatenated samples will be saved. A template script to generate the `FigTree.tre` file with this `mcmc.txt` has been saved inside the [`dummy_ctl_files`](dummy_ctl_files) directory.
+The script above will generate a directory called `mcmc_files_part_fosscb_CLK` inside the `00_prior` directory, where the `mcmc.txt` with the concatenated samples will be saved. In addition, a directory called `mcmcf4traces_part_fosscb_CLK` will also be generated so that formatted MCMC files compatible with programs such as `Tracer` can be used to check for chain convergence. A template script to generate the `FigTree.tre` file with this `mcmc.txt` has been saved inside the [`dummy_ctl_files`](dummy_ctl_files) directory.
 
 We now will create a dummy alignment with only 2 AAs to generate the `FigTree` files using the concatenated `mcmc.txt` files. In order to do that, we can run the [`Generate_dummy_aln.R`](scripts/Generate_dummy_aln.R). Once you run it, a new directory called `dummy_aln` will be created, which will contain the dummy alignment.
 
@@ -273,14 +277,14 @@ mv FigTree.tre FigTree_part_fosscb_CLK_95CI.tree
 cd $base_dir
 ```
 
-The next step is to plot the user-specified prior VS the effective prior. We used our in-house R script [`Check_priors_effVSuser.R`](scripts/Check_priors_effVSuser.R) to generate these plots. If you are to run this script with other datasets, however, make sure that your "hard bounds" are not `0.000` in the `Calibnodes_*csv` files and, instead, they are `1e-300` (i.e., while 1e-300 is rounded to `0.000` in the `MCMCtre` output, which can be used to generate the csv files aforementioned, we need `1e-300` to plot distributions in R). To make sure this was not affecting our csv files, we ran the following code snippet:
+The next step is to plot the calibration densities VS the marginal densities. We used our in-house R script [`Check_priors_margVScalib.R`](scripts/Check_priors_margVScalib.R) to generate these plots. If you are to run this script with other datasets, however, make sure that your "hard bounds" are not `0.000` in the `Calibnodes_*csv` files and, instead, they are `1e-300` (i.e., while 1e-300 is rounded to `0.000` in the `MCMCtre` output, which can be used to generate the csv files aforementioned, we need `1e-300` to plot distributions in R). To make sure this was not affecting our csv files, we ran the following code snippet:
 
 ```sh
 # Run from `07_MCMCtree_part_fossbraced/calib_files`
 sed -i 's/0\.0000/1e\-300/g' *csv
 ```
 
-Once this script has finished, you will see that a new directory `plots/effVSuser/LUCAdup_part_fosscb` will have been created. Inside this directory, you will find one directory for each individual dataset with individual plots for each node. In addition, all these plots have been merged into a unique document as well (note: some plots may be too small to see for each node, hence why we have generated individual plots).
+Once this script has finished, you will see that a new directory `plots/margVScalib/LUCAdup_part_fosscb` will have been created. Inside this directory, you will find one directory for each individual dataset with individual plots for each node. In addition, all these plots have been merged into a unique document as well (note: some plots may be too small to see for each node, hence why we have generated individual plots).
 
 Now, once the MCMC diagnostics have finished, you can extract the final data that you can use to write a manuscript as it follows:
 
@@ -290,7 +294,7 @@ mkdir sum_files_prior
 cp -R sum_analyses/00_prior/mcmc_files*CLK/*tree sum_files_prior/
 cp -R sum_analyses/00_prior/CLK/*CLK*/*all_mean*tsv sum_files_prior/
 cp -R plots/ESS_and_chains_convergence/*prior*pdf sum_files_prior/
-cp -R plots/effVSuser sum_files_prior/
+cp -R plots/margVScalib sum_files_prior/
 mkdir sum_files_prior/dupnodes
 cp -R plots/dupnodes*pdf sum_files_prior/dupnodes
 ```
@@ -299,7 +303,7 @@ cp -R plots/dupnodes*pdf sum_files_prior/dupnodes
 
 ### Submit jobs in an HPC (posterior)
 
-Now that we have verified that there are no issues between the user-specified prior and the effective prior, we can run `MCMCtree` when sampling from the posterior. We will do these analyses under the GBM and ILN relaxed-clock models using the code snippet below:
+Now that we have verified that there are no issues between the calibration densities and the marginal densities, we can run `MCMCtree` when sampling from the posterior. We will do these analyses under the GBM and ILN relaxed-clock models using the code snippet below:
 
 ```sh
 # Now, go to directory `LUCAdup_arcsin/pipeline_MCMCtree_part_fossbraced/GBM` dir on your HPC
@@ -371,13 +375,17 @@ cd ../sum_analyses/01_posterior
 ## arg3 --> "`seq 1 36`", "1 2 5", etc. | depends on whether some chains were filtered out or not
 ## arg4 --> clock model used: ILN, GBM, CLK
 ## arg5 --> number of samples specified to collect in the control file to run `MCMCtree`
+## arg6 --> 'Y' to generate a directory with files compatible with programs such as `Tracer` to visually
+##          inspect traceplots, convergence plots, etc. 'N' otherwise
+## arg7 --> if arg6 is 'Y', arg7 needs to have a name for the `mcmcf4traces_<name>` that will be
+##          generated. If `arg6` is equal to 'N', then please write `N` too.
 dirname_1=GBM
 dirname_2=ILN
-./Combine_MCMC.sh $dirname_1 mcmc_files_part_fosscb_GBM "`seq 1 16`" GBM 20000
-./Combine_MCMC.sh $dirname_2 mcmc_files_part_fosscb_ILN "`seq 1 16`" ILN 20000
+./Combine_MCMC.sh $dirname_1 mcmc_files_part_fosscb_GBM "`seq 1 16`" GBM 20000 Y part_fosscb_GBM
+./Combine_MCMC.sh $dirname_2 mcmc_files_part_fosscb_ILN "`seq 1 16`" ILN 20000 Y part_fosscb_ILN
 ```
 
-Once the scripts above have finished, a new directory called `mcmc_files_[GBM|ILN]` will be created inside `01_posterior/`, respectively. To map the mean time estimates with the filtered chains, we need to copy a control file, the calibrated Newick tree, and the dummy alignment we previously generated when analysing the results when sampling from the prior:
+Once the scripts above have finished, new directories called `mcmc_files_part_fosscb_[GBM|ILN]` and `mcmcf4traces_part_fosscb_[GBM|ILN]` will be created inside `01_posterior/`. To map the mean time estimates with the filtered chains, we need to copy a control file, the calibrated Newick tree, and the dummy alignment we previously generated when analysing the results when sampling from the prior:
 
 ```sh
 # Run from `sum_analyses_prot/01_posterior` directory.
