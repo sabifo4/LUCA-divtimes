@@ -1,4 +1,4 @@
-MCMCTREE (paml version 4.9h, March 2018) /mnt/c/Users/sandr/Sync/00_Collabs/Ed_LUCA_v2/01_PAML/07_MCMCtree_part_fossbraced/dummy_aln/dummy_aln.aln
+MCMCTREE (paml version 4.9h, March 2018) /mnt/c/Users/sandr/Sync/00_Collabs/LUCA-divtimes/LUCA-divtimes/01_PAML/07_MCMCtree_part_fossbraced/dummy_aln/dummy_aln.aln
 
 
 *** Locus 1 ***

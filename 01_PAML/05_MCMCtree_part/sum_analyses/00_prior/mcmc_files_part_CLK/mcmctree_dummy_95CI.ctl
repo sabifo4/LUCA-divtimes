@@ -1,5 +1,5 @@
           seed = -1
-       seqfile = /mnt/c/Users/sandr/Sync/00_Collabs/Ed_LUCA_v2/01_PAML/05_MCMCtree_part/dummy_aln/dummy_aln.aln
+       seqfile = /mnt/c/Users/sandr/Sync/00_Collabs/LUCA-divtimes/LUCA-divtimes/01_PAML/05_MCMCtree_part/dummy_aln/dummy_aln.aln
       treefile = LUCAdup_dummy_cal.tree
       mcmcfile = mcmc.txt
        outfile = out.txt
