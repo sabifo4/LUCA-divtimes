@@ -74,7 +74,7 @@ perc <- 0.975
 # would be set to `delcol = 2`. Please modify the values below according to your  
 # the `mcmc.txt` file generated when sampling from the prior (`delcol_prior`) 
 # dataset for and when sampling from the posterior (`delcol_posterior`).
-delcol_obj <- c( 5, 10, 10) # prior (5), posterior (10), posterior (10)
+delcol_obj <- c( 5, 10, 10 ) # prior (5), posterior (10), posterior (10)
 
 # Path to the directory where the concatenated `mcmc.txt` file has been 
 # generated. Note that, if you have run more than one chain in `MCMCtree` for
@@ -112,8 +112,6 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_part_CLK",
 # Laurasiatheria, etc.) as it will help you identify which plot belongs to which
 # calibration. The second column is the node used in MCMCtree. The third column
 # is the calibration used for that node in MCMCtree format.
-# More information on the Trello card here: 
-# https://trello.com/c/NR034c6u/7-user-specified-prior-vs-effective-prior
 # 
 # [[ NOTES ABOUT ALLOWED CALIBRATION FORMATS]]
 #
@@ -167,7 +165,7 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_part_CLK",
 # to FALSE.
 calib_nodes <- read_calib_f( main_dir = paste( home_dir, "calib_files/",
                                                sep = "" ),
-                             f_names = "Calibnodes_effVSuser.csv",
+                             f_names = "Calibnodes_margVScalib.csv",
                              dat = dat, head_avail = TRUE )
 
 #-----------#
@@ -230,7 +228,7 @@ for( i in 1:length(dup_dat) ){
   }else if( tot_nodes == 5 | tot_nodes == 6 ){
     par( mfrow = c(3,2) )
   }
-  # Get user-specified prior in correct formatting (4 nums)
+  # Get calibration density in correct formatting (4 nums)
   tn_ind   <- which( labs_in_csv %in% dup_dat[[ i ]] )
   tmp_allB <- as.numeric( stringr::str_split( string = gsub( pattern = "B\\(|\\)", 
                                                              replacement = "",
@@ -255,14 +253,14 @@ for( i in 1:length(dup_dat) ){
   # in the list
   tmp_ind_name_calib <- which( labs_in_csv %in% dup_dat[[ i ]][1] )
   tmp_name_calib     <- calib_nodes$LUCAdup_part[tmp_ind_name_calib,1]
-  # Start plotting user-sp prior, eff. prior, and posterior densities for
+  # Start plotting calib density, marginal density, and posterior densities for
   # each cross-braced node -- easy for comparisons!
   for( j in dup_dat[[ i ]] ){
     # Get temporary matching column in `mcmc_obj` to `j`
     tmp_tn         <- which( colnames(mcmc_obj$GBM$divt) %in% j )
     plot( density( mcmc_obj$GBM$divt[[ tmp_tn ]], adj = 1 ),
-          main = paste( "Post VS Effective Prior - ",
-                        tmp_tn, " | ", tmp_name_calib, sep = "" ),
+          main = paste( "Comparing densities (col",
+                        tmp_tn, ") | ", tmp_name_calib, sep = "" ),
           col = "blue", ylim = c(0,max_y), xlim = c(min_x, max_x) )
     lines( density( mcmc_obj$CLK$divt[[ tmp_tn ]], adj = 1 ), col = "brown" )
     lines( density( mcmc_obj$ILN$divt[[ tmp_tn ]], adj = 1 ),
@@ -271,9 +269,9 @@ for( i in 1:length(dup_dat) ){
                        pL = tmp_allB[3], pU = tmp_allB[4] ),
            from = tmp_allB[1]-0.5, to = tmp_allB[2]+0.5,
            n = 1e5, add = TRUE, col = "black" )
-    legend( "topleft", legend = c( "User-sp. prior","Effective prior",
+    legend( "topleft", legend = c( "Calibration density", "Marginal density",
                                    "Post-GBM", "Post-ILN"),
-            lwd = 1, bty = "n", cex = 1.8,
+            lwd = 1, bty = "n", cex = 1,
             col = c( "black", "brown", "blue", "darkolivegreen3" ) )
     cols_vec <- c( "blue", "red", "purple", "darkgreen", "brown" )
   }
