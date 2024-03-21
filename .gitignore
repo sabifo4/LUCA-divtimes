@@ -20,6 +20,7 @@ z_old
 01_PAML/*MCMCtree*/plots/margVScalib/*/ind/*tif
 01_PAML/figs_tables/out_RData
 ## Files too big to push for analyses with single-gene alignments
+03_additional_analyses/01_lou_analyses/src/fasta-phylip-partitions
 03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/out_RData/
 03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/00_prior/CLK/*/*/mcmc.txt
 03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/00_prior/mcmc_files_*/mcmc.txt
