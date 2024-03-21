@@ -1,4 +1,4 @@
-mean_t-conc_cb	2.75%CI-conc_cb	97.5%CI-conc_cb	mean_t-conc_notcb	2.75%CI-conc_notcb	97.5%CI-conc_notcb	mean_t-conc_fosscb	2.75%CI-conc_fosscb	97.5%CI-conc_fosscb	mean_t-part_cb	2.75%CI-part_cb	97.5%CI-part_cb	mean_t-part_notcb	2.75%CI-part_notcb	97.5%CI-part_notcb	mean_t-part_fosscb	2.75%CI-part_fosscb	97.5%CI-part_fosscb
+mean_t-conc_cb	2.5%q-conc_cb	97.5%q-conc_cb	mean_t-conc_notcb	2.5%q-conc_notcb	97.5%q-conc_notcb	mean_t-conc_fosscb	2.5%q-conc_fosscb	97.5%q-conc_fosscb	mean_t-part_cb	2.5%q-part_cb	97.5%q-part_cb	mean_t-part_notcb	2.5%q-part_notcb	97.5%q-part_notcb	mean_t-part_fosscb	2.5%q-part_fosscb	97.5%q-part_fosscb
 t_n247|ROOT	4491.033	4415.09	4519.26	4471.663	4347.99	4518.7	4496.407	4433.92	4519.39	4500.711	4449.71	4519.49	4494.278	4427.43	4519.28	4503.624	4460.55	4519.56
 t_n248|LUCA	4180.639	4026.54	4311.36	4342.815	3915.24	4499.92	4238.323	4102.1	4352.19	4213.607	4092.82	4318.06	4395.841	4145.54	4506.52	4245.769	4135.12	4339.93
 t_n368|LUCA-dup	4180.639	4026.54	4311.36	3828.888	3540.3	4340.23	4238.323	4102.1	4352.19	4213.607	4092.82	4318.06	3917.125	3683.13	4176.14	4245.769	4135.12	4339.93

@@ -33,7 +33,8 @@ source( "../../../src/Functions_plots.R" )
 # Load all output csv tables previously generated
 dir_names <- c( "conc_cb", "conc_notcb", "conc_fosscb",
                 "part_cb", "part_notcb", "part_fosscb" )
-all_divt  <- divt_csv( all_paths = all_wds, name_dirs = dir_names )
+all_divt  <- divt_csv( all_paths = all_wds, name_dirs = dir_names,
+                       pattern_csv = rep( "", length( dir_names ) ) )
 # Select nodes that are to be plotted:
 nodes_2plot <- paste( "t_n", c( 247,
                                 248, 368,
@@ -111,7 +112,7 @@ for( i in 1:length( dir_names ) ){
 }
 # Get colnames ready
 colnames( short_GBM ) <- colnames( short_ILN ) <- 
-  paste( rep( c( "mean_t", "2.75%CI", "97.5%CI" ), length( dir_names ) ),
+  paste( rep( c( "mean_t", "2.5%q", "97.5%q" ), length( dir_names ) ),
          conc_names, sep = "-" )
 # Start saving the output results in the empty vectors for which memory has
 # already been allocated in the corresponding cells
@@ -172,6 +173,8 @@ comparison_plots( sum_obj = all_divt,
                                    "blue", "black", "cyan",
                                    "purple", "black", "darkgrey" ),
                   sep_space = rep( c( 0.2, 0.1, 0.2, 0.1, 0.2, 0.1 ), 2 ),
-                  suffix = "" )
+                  suffix = "",
+                  pch_vals = rep( c( 8, 16, 8 ), 4 ),
+                  cex_vals = rep( c( 1.5, 1, 1.5 ), 4 ) )
 
 
