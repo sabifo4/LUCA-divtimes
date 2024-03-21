@@ -14,6 +14,8 @@ z_old
 01_PAML/*MCMCtree*/sum_analyses/01_posterior/*/*/mcmc.txt
 01_PAML/*MCMCtree*/sum_analyses/01_posterior/mcmc_files_*/mcmc.txt
 01_PAML/*MCMCtree*/sum_analyses/01_posterior/mcmcf4traces*
+01_PAML/*MCMCtree*/sum_files_prior/margVScalib/*/*tif
+01_PAML/*MCMCtree*/sum_files_prior/margVScalib/*/ind/*tif
 01_PAML/*MCMCtree*/plots/margVScalib/*/*tif
 01_PAML/*MCMCtree*/plots/margVScalib/*/ind/*tif
 01_PAML/figs_tables/out_RData
@@ -27,6 +29,8 @@ z_old
 03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_analyses/01_posterior/mcmcf4traces*
 03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/plots/margVScalib/*/*tif
 03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/plots/margVScalib/*/ind/*tif
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_files_prior/*/ind/*tif
+03_additional_analyses/00_indgenes_analyses/01_PAML/00_MCMCtree/sum_files_prior/*/*tif
 ## Files too big to push for "leave-one-out" analyses
 03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/out_RData
 03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_analyses/00_prior/mcmc_files_*/mcmc.txt
@@ -37,6 +41,8 @@ z_old
 03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_analyses/01_posterior/mcmcf4traces*
 03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/plots/margVScalib/*/*tif
 03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/plots/margVScalib/*/ind/*tif
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_files_prior/margVScalib/*/ind/*tif
+03_additional_analyses/01_lou_analyses/LUCA-divtimes_no*/01_PAML/01_MCMCtree/sum_files_prior/margVScalib/*/*tif
 ## Files too big to push for "leave-one-out" analyses
 03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/out_RData
 03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/sum_analyses/01_posterior/*/*/mcmc.txt
