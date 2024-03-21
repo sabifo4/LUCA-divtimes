@@ -36,7 +36,7 @@ source( file = "../../../src/Functions.R" )
 # 1. Label the file with calibrations. If you have tested different calibrations
 # and have more than one file with the corresponding calibrations, give as 
 # many labels as files you have.
-dat <- c( "LUCAdup_part" )
+dat <- c( "LUCAdup_part_notcb" )
 
 # 2. Number of divergence times that have been estimated. One trick to find
 # this out quickly is to subtract 1 to the number of species. In this case,
@@ -53,8 +53,8 @@ num_divt <- 245
 # 3. Number of samples that you specified in the `MCMCtree` control file to 
 # collect. NOTE: you may have not collect them all, but do not worry!
 # In this case, you are using the concatenated files. The number of
-# lines is 120006, and so you need to specify one less here:
-def_samples <- 120005
+# lines is 60003, and so you need to specify one less here:
+def_samples <- 60002
 
 # 4. Quantile percentage that you want to set By default, the variable below is 
 # set to 0.975 so the 97.5% and 2.5% quantiles. If you want to change this,
@@ -81,7 +81,8 @@ delcol_prior   <- 5 # There are five columns: mu[1-5]
 # `mcmc.txt` file with the bash script `Combine_MCMC_prior.sh` or any similar 
 # approaches.
 num_dirs    <- 1
-path_prior  <- paste( home_dir, "sum_analyses/00_prior/mcmc_files_part_CLK",
+path_prior  <- paste( home_dir,
+                      "sum_analyses/00_prior/mcmc_files_part_notcb_CLK",
                       sep = "" )
 
 # Load semicolon-separated file/s with info about calibrated nodes. Note that
@@ -104,8 +105,6 @@ path_prior  <- paste( home_dir, "sum_analyses/00_prior/mcmc_files_part_CLK",
 # Laurasiatheria, etc.) as it will help you identify which plot belongs to which
 # calibration. The second column is the node used in MCMCtree. The third column
 # is the calibration used for that node in MCMCtree format.
-# More information on the Trello card here: 
-# https://trello.com/c/NR034c6u/7-user-specified-prior-vs-effective-prior
 # 
 # [[ NOTES ABOUT ALLOWED CALIBRATION FORMATS]]
 #
@@ -159,7 +158,7 @@ path_prior  <- paste( home_dir, "sum_analyses/00_prior/mcmc_files_part_CLK",
 # to FALSE.
 calib_nodes <- read_calib_f( main_dir = paste( home_dir, "calib_files/",
                                                sep = "" ),
-                             f_names = "Calibnodes_effVSuser.csv",
+                             f_names = "Calibnodes.csv",
                              dat = dat, head_avail = TRUE )
 
 #-----------#
@@ -178,36 +177,52 @@ for( i in c( path_prior) ){
 }
 
 #------------------------------------------------#
-# PLOTS: effective prior VS user-specified prior #
+# PLOTS: calibration density VS marginal density #
 #------------------------------------------------#
-# Plot effective prior VS user-specified prior
+# Plot calibration density VS marginal density
 if( ! dir.exists( paste( home_dir, "plots", sep = "" ) ) ){
   dir.create( paste( home_dir, "plots", sep = "" ) )
 }
-if( ! dir.exists( paste( home_dir, "plots/effVSuser", sep = "" ) ) ){
-  dir.create( paste( home_dir, "plots/effVSuser", sep = "" ) )
+if( ! dir.exists( paste( home_dir, "plots/margVScalib", sep = "" ) ) ){
+  dir.create( paste( home_dir, "plots/margVScalib", sep = "" ) )
 }
 
 # Please write down how many rows and how many columns
 # the plot with the summary of all calibrated nodes should have.
-num_rows <- 4
+num_rows <- 12
 num_cols <- 4
-# Run function so the user-specified prior VS effective prior plots are 
+# Run function so the calibration density VS marginal density plots are 
 # generated for each dataset
 count <- 0
 for( i in 1:num_dirs ){
   count <- count+1
   cat( "\n[[ Generating plots for dataset ",
        names( mcmc_priors )[count], " ]]\n" )
+  cat( "\n[[ Output plots in PDF format]]\n" )
   plot_check_calibnodes( calibs = calib_nodes[[ 1 ]],
                          divt_list = mcmc_priors[[ i ]], 
                          dat = dat, out = names( mcmc_priors )[count],
                          clock = "CLK", main_wd = home_dir, ind = TRUE,
-                         n_row = num_rows, n_col = num_cols+1 )
+                         n_row = num_rows, n_col = num_cols+1,
+                         out_format = "pdf" )
+  cat( "\n[[ Output plots in JPG format]]\n" )
+  plot_check_calibnodes( calibs = calib_nodes[[ 1 ]],
+                         divt_list = mcmc_priors[[ i ]], 
+                         dat = dat, out = names( mcmc_priors )[count],
+                         clock = "CLK", main_wd = home_dir, ind = TRUE,
+                         n_row = num_rows, n_col = num_cols+1,
+                         out_format = "jpg" )
+  cat( "\n[[ Output plots in TIFF format]]\n" )
+  plot_check_calibnodes( calibs = calib_nodes[[ 1 ]],
+                         divt_list = mcmc_priors[[ i ]], 
+                         dat = dat, out = names( mcmc_priors )[count],
+                         clock = "CLK", main_wd = home_dir, ind = TRUE,
+                         n_row = num_rows, n_col = num_cols+1,
+                         out_format = "tiff" )
   
 }
 
-# Plot nodes which age is constrained by a cross-calibration
+# Plot nodes which age has the same fossil calibration but is not cross-braced
 dup_dat          <- vector( mode = "list", 13 )
 names( dup_dat ) <- c( "LUCA", "TG-EUKARYA-ARCH", "LECA", "FUNGI", "METAZOA",
                        "EUMETAZOA", "ARCHAEPLASTIDA", "EMBRYOPHYTA",
@@ -263,5 +278,5 @@ for( i in 1:length(dup_dat) ){
   dev.off()
 }
 
-#> NOTE: It seems that the everything is fine! :) Braced nodes have the same
-#> distributions!
+#> NOTE: It seems that the everything is fine! :) Nodes that have the same
+#> age constraint have the same distribution
