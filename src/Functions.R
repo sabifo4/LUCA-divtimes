@@ -744,7 +744,7 @@ read_calib_f <- function( main_dir, f_names, dat, head_avail = TRUE )
   
 }
 
-# Function to plot the user-specified prior VS the effective prior used by `MCMCtree`
+# Function to plot the calibration density VS the marginal density used by `MCMCtree`
 #
 # Parameters
 #
@@ -759,7 +759,8 @@ read_calib_f <- function( main_dir, f_names, dat, head_avail = TRUE )
 # out        Character, vector with the name of the dataset/s you are 
 #            evaluating.
 plot_check_calibnodes <- function( calibs, divt_list, dat, main_wd,
-                                   ind = TRUE, clock, n_col, n_row, out )
+                                   ind = TRUE, clock, n_col, n_row, out,
+                                   out_format = "jpg" )
   
 {
   
@@ -767,19 +768,24 @@ plot_check_calibnodes <- function( calibs, divt_list, dat, main_wd,
   if( ! dir.exists( paste( main_wd, "plots", sep = "" ) ) ){
     dir.create( paste( main_wd, "plots", sep = "" ) )
   }
-  if( ! dir.exists( paste( main_wd, "plots/effVSuser/", dat,  sep = "" ) ) ){
-    dir.create( paste( main_wd, "plots/effVSuser/", dat, sep = "" ) )
-  }
-  if( ! dir.exists( paste( main_wd, "plots/effVSuser/", dat, "/", out, sep = "" ) ) ){
-    dir.create( paste( main_wd, "plots/effVSuser/", dat, "/", out,  sep = "" ) )
+  if( ! dir.exists( paste( main_wd, "plots/margVScalib/", dat,  sep = "" ) ) ){
+    dir.create( paste( main_wd, "plots/margVScalib/", dat, sep = "" ) )
   }
   
-  # In case users have not passed a string of length 3, just get the first three
-  # letters
-  tmp_dat_dir <- substr( x = dat, start = 1, stop = 3 )
-  png( filename = paste( main_wd, "plots/effVSuser/", dat, "/", out, "_",
-                         tmp_dat_dir, "_", clock,".jpg", sep = "" ),
-         width = 1024, height = 768 )
+  # Name for output file with all plots
+  if( out_format == "jpg" ){
+    jpeg( filename = paste( main_wd, "plots/margVScalib/", dat, "/all_plots_", 
+                           clock,".jpg", sep = "" ),
+         width = 1024, height = 768, quality = 100 )
+  }else if( out_format == "pdf" ){
+    pdf( paste( main_wd, "plots/margVScalib/", dat, "/all_plots_", 
+                clock,".pdf", sep = "" ),
+         paper = "a4r" )
+  }else if( out_format == "tiff" ){
+    tiff( filename = paste( main_wd, "plots/margVScalib/", dat, "/all_plots_", 
+                            clock,".tif", sep = "" ),
+          width = 1024, height = 768, compression = "none" )
+  }
   
   par( mfrow = c(n_row,n_col), mai=c(0.1,0.1,0.1,0.1))
   for( i in 1:length( calibs[,2] ) ){
@@ -892,7 +898,7 @@ plot_check_calibnodes <- function( calibs, divt_list, dat, main_wd,
       tmp_y   <- upperbounds( t = tmp_x, tU = tmp_max, pU = tmp_pU )
       tmp_labcab <- substr( x = calibs[i,1], start = 1, stop = 12 )
     }
-    # 2. Plot user-specified prior VS effective prior used by MCMCtree
+    # 2. Plot calibration density VS marginal density used by MCMCtree
     
     # 2.1. Find limit axis
     max_x_chain <- round( max( density( divt_list[[ 1 ]][,tmp_node] )$x ) + 0.5 )
@@ -928,19 +934,27 @@ plot_check_calibnodes <- function( calibs, divt_list, dat, main_wd,
     title( main = colnames( divt_list[[ 1 ]] )[tmp_node], 
            line = -2.7, sub = tmp_labcab, cex.main = 1.3, cex.sub = 0.7, adj = 0.9 )
     if ( ind == TRUE ){
-      if( ! dir.exists( paste( main_wd, "plots/effVSuser/", dat, "/", out, "/ind", sep = "" ) ) ){
-        dir.create( paste( main_wd, "plots/effVSuser/", dat, "/", out, "/ind", sep = "" ) )
+      if( ! dir.exists( paste( main_wd, "plots/margVScalib/", dat, "/ind", sep = "" ) ) ){
+        dir.create( paste( main_wd, "plots/margVScalib/", dat, "/ind", sep = "" ) )
       }
-      if( ! dir.exists( paste( main_wd, "plots/effVSuser/", dat, "/", out, "/ind/", sep = "" ) ) ){
-        dir.create( paste( main_wd, "plots/effVSuser/", dat, "/", out, "/ind/", sep = "" ) )
+      # Check out format
+      if( out_format == "jpg" ){
+        jpeg( filename = paste( main_wd, "plots/margVScalib/",  dat,
+                               "/ind/CheckCalibMarg_tn", 
+                               calibs[i,2], "_", calibs[i,1], ".jpg", sep = "" ),
+             width = 1024, height = 768, quality = 100 )
+      }else if( out_format == "pdf" ){
+        pdf( paste( main_wd, "plots/margVScalib/",  dat,
+                    "/ind/CheckCalibMarg_tn", 
+                    calibs[i,2], "_", calibs[i,1], ".pdf", sep = "" ),
+             paper = "a4r" )
+      }else if( out_format == "tiff" ){
+        tiff( filename = paste( main_wd, "plots/margVScalib/",  dat,
+                                "/ind/CheckCalibMarg_tn", 
+                                calibs[i,2], "_", calibs[i,1], ".tif", sep = "" ),
+              width = 1024, height = 768, compression = "none" )
       }
-      if( ! dir.exists( paste( main_wd, "plots/effVSuser/", dat, "/", out, "/ind/", clock, sep = "" ) ) ){
-        dir.create( paste( main_wd, "plots/effVSuser/", dat, "/", out, "/ind/", clock, sep = "" ) )
-      }
-      png( filename = paste( main_wd, "plots/effVSuser/",  dat, "/", out, "/ind/", clock, "/CheckUSPvsEP_tn", 
-                             calibs[i,2], "_", clock, ".png", sep = "" ),
-           width = 1024, height = 768 )
-      
+      # Start plot
       plot( density( divt_list[[ 1 ]][,tmp_node], adj = 1 ),
             xlim = c( x_lim[1], x_lim[2] ), ylim = c( y_lim[1], y_lim[2] ),
             main=NULL, xlab = '', ylab = '', cex.axis = 0.7, mgp = c(2.5,0,0),
@@ -963,21 +977,26 @@ plot_check_calibnodes <- function( calibs, divt_list, dat, main_wd,
       }
       title( main = colnames( divt_list[[ 1 ]] )[tmp_node], 
              line = -20, sub = tmp_labcab, cex.main = 3, cex.sub = 2, adj = 0.9 )
-      info.legend <- c( "User-specified prior", "Effective prior" )
+      info.legend <- c( "Calibration density", "Marginal density" )
       col.legend  <- c( "blue", "black" )
-      legend( "topright", legend = info.legend, col = col.legend,
-              lty = 1, bty = 'n', cex = 2 )
+      if( out_format == "pdf" ){
+        legend( "topright", legend = info.legend, col = col.legend,
+                lty = 1, bty = 'n', cex = 1 )
+      }else{
+        legend( "topright", legend = info.legend, col = col.legend,
+                lty = 1, bty = 'n', cex = 2 )
+      }
       dev.off()
     }
   }
   
   plot( x = 1, y = 1, col = "white", xaxt = "n", yaxt = "n", xlab = '', ylab = '' )
-  info.legend <- c( "User-specified prior",
-                    "Effective prior" )
+  info.legend <- c( "Cal. density",
+                    "Marg. density" )
   col.legend  <- c( "blue", "black" )
   #coords.plot <- locator()
   legend( "top", legend = info.legend, col = col.legend,
-          lty = 1, bty = 'n', cex = 1.3 )
+          lty = 1, bty = 'n', cex = 0.8 )
   # Switch off main graphics device
   dev.off()
   

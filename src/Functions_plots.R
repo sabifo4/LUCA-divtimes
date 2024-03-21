@@ -76,9 +76,13 @@ create_plot_obj <- function( abs_path, name_entries, tree_pattern )
 #
 # Arguments
 # 
-# all_paths Character, length `n`. As many entries as datasets.
-# name_dirs Character, length `n`. As many entries as datasets. You can use
-#           abbreviations to identify each dataset. E.g., "GBM_notcb".
+# all_paths    Character, length `n`. As many entries as datasets.
+# name_dirs    Character, length `n`. As many entries as datasets. You can use
+#              abbreviations to identify each dataset. E.g., "GBM_notcb".
+# pattern_csv  Character, length `n`. As many entries aas datasets. Used to
+#              identify the name of individual gene alignments for the 
+#              additional sensitivity analyses (e.g., "ATP"). Use `""` if no
+#              additional pattern is required for a specific entry.
 divt_csv <- function( all_paths, name_dirs, pattern_csv )
 {
   # Create objects for each dataset that will be required for plotting
@@ -162,12 +166,15 @@ divt_csv <- function( all_paths, name_dirs, pattern_csv )
 #                dataset. It is suggested that, if cross-bracing used, you
 #                use different colours from black to identify them in the
 #                plots generated for each mirrored node.
-comparison_plots <- function( sum_obj, out_dir, plots_per_doc, all_nodes, lab_nodes,
+comparison_plots <- function( sum_obj, out_dir, plots_per_doc, all_nodes,
+                              lab_nodes,
                               data_perclock = 4, x_labs,
-                              points_col =  c( "red", "black", "pink", "black",
-                                               "blue", "black", "purple", "black" ),
+                              points_col =  c( "red", "black",
+                                               "pink", "black",
+                                               "blue", "black",
+                                               "purple", "black" ),
                               sep_space = rep( c( 0.2, 0.1, 0.2, 0.1 ), 2 ),
-                              suffix = "" )
+                              suffix = "", pch_vals, cex_vals )
 {
   # Plot mean age and CIs
   start <- end <- 0
@@ -267,7 +274,8 @@ comparison_plots <- function( sum_obj, out_dir, plots_per_doc, all_nodes, lab_no
       # Plot results for node "i" for all GBM analyses
       plot( x = x_vals, 
             y = c( y_meant_GBM, y_meant_ILN ),
-            pch = 16, ylim = c( min_y, max_y ),
+            pch = pch_vals, cex = cex_vals,
+            ylim = c( min_y, max_y ),
             xaxt = "n", xlab = "",
             ylab = "Estimated mean divergence times",
             col = points_col )
@@ -289,11 +297,13 @@ comparison_plots <- function( sum_obj, out_dir, plots_per_doc, all_nodes, lab_no
       lines( x = x_vals[c(data_perclock+1):length(x_vals)], y = y_CImin_ILN, lty = 2 )
       # For 97.5%CI, use triangle facing down
       points( x = x_vals, y = c( y_CImax_GBM, y_CImax_ILN ), pch = 25,
-              cex = 0.7,
+              #cex = 0.7,
+              cex = cex_vals,
               col = points_col )
       # For 2.75%CI, use triangle facing up
       points( x = x_vals, y = c( y_CImin_GBM, y_CImin_ILN ), pch = 2,
-              cex = 0.7,
+              #cex = 0.7,
+              cex = cex_vals,
               col = points_col )
     }
     # Close graphics
@@ -345,7 +355,7 @@ comparison_plots_add <- function( sum_obj, out_dir, plots_per_doc, all_nodes,
                                   points_col =  c( "red", "black", "pink", "black",
                                                    "blue", "black", "purple", "black" ),
                                   sep_space = rep( c( 0.2, 0.1, 0.2, 0.1 ), 2 ),
-                                  suffix = "" )
+                                  suffix = "", pch_vals, cex_vals )
 {
   # Plot mean age and CIs
   start <- end <- 0
@@ -447,7 +457,8 @@ comparison_plots_add <- function( sum_obj, out_dir, plots_per_doc, all_nodes,
       # Plot results for node "i" for all GBM analyses
       plot( x = x_vals, 
             y = c( y_meant_GBM, y_meant_ILN ),
-            pch = 16, ylim = c( min_y, max_y ),
+            pch = pch_vals, cex = cex_vals,
+            ylim = c( min_y, max_y ),
             xaxt = "n", xlab = "",
             ylab = "Estimated mean divergence times",
             col = points_col )
@@ -469,11 +480,13 @@ comparison_plots_add <- function( sum_obj, out_dir, plots_per_doc, all_nodes,
       lines( x = x_vals[c(data_perclock+1):length(x_vals)], y = y_CImin_ILN, lty = 2 )
       # For 97.5%CI, use triangle facing down
       points( x = x_vals, y = c( y_CImax_GBM, y_CImax_ILN ), pch = 25,
-              cex = 0.7,
+              #cex = 0.7,
+              cex = cex_vals,
               col = points_col )
       # For 2.75%CI, use triangle facing up
       points( x = x_vals, y = c( y_CImin_GBM, y_CImin_ILN ), pch = 2,
-              cex = 0.7,
+              #cex = 0.7,
+              cex = cex_vals,
               col = points_col )
     }
     # Close graphics
