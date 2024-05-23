@@ -49,3 +49,5 @@ z_old
 03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/sum_analyses/01_posterior/*/*/mcmc.txt
 03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/sum_analyses/01_posterior/mcmc_files*/mcmc.txt
 03_additional_analyses/02_blunc_analysis/02_PAML/MCMCtree/sum_analyses/01_posterior/mcmcf4traces*
+## Large compressed file with all the repo
+LUCAdivtimes.zip
