@@ -149,8 +149,6 @@ You can start by taking a look at how we formatted the raw dataset with which we
 
 Happy timetree inference! :)
 
-----
-
 ## Contact
 
 This repository and its content was created by **Dr Sandra Álvarez-Carretero** ([`@sabifo4`](https://github.com/sabifo4/)), who actively maintains this repository too. If you have any queries with regards to the analyses detailed in this repository, please do not hesitate to <a href="mailto:sandra.ac93@gmail.com">reach me via email</a>!
