@@ -150,8 +150,6 @@ You can start by taking a look at how we formatted the raw dataset with which we
 Happy timetree inference! :)
 
 ----
-----
-----
 
 ## Contact
 
