@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/745536810.svg)](https://zenodo.org/doi/10.5281/zenodo.11260522)
+
 # The nature of the Last Universal Common Ancestor and its impact on the early Earth system -- timetree inference analyses
 
 In this repository, you will find a very detailed tutorial with all the steps you need to follow to reproduce the results for the timetree inference analyses we carried out as part of our study: **The nature of the Last Universal Common Ancestor and its impact on the early Earth system**.
