@@ -2,7 +2,7 @@
 
 ## 1. Pick rate prior
 
-We will use the same vague gamma distribution that we used when analysing the concatenated alignment: `G(2,2.5)`. For more details on how the `beta` value was calculate, you can take a look at [the R in-house script we previously ran](../00_CODEML/scripts/calculate_rateprior.R) and at the section `Pick rate prior` in the corresponding [`00_CODEML/README.md` file](../06_CODEML/README.md#1-pick-rate-prior).
+We will use the same vague gamma distribution that we used when analysing the concatenated alignment: `G(2,2.5)`. For more details on how the `beta` value was calculate, you can take a look at [the R in-house script we previously ran](../00_CODEML/scripts/calculate_rateprior.R) and at [the section `Pick rate prior` in the corresponding `00_CODEML/README.md` file](../00_CODEML/README.md#1-pick-rate-prior).
 
 ## 2. Set up the file structure
 
@@ -58,7 +58,7 @@ cp ../../scripts/*sh scripts_part/
 rsync -avz --copy-links *part <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup_arcsin
 ```
 
-Now, we need to generate the input control files for `CODEML`. To do this in a reproducible manner, you can use our in-house bash scripts that you will in the [`scripts` directory](01_PAML/00_CODEML/scripts), which you should have just transferred to your HPC. Now, connect to your server and run the next code snippet:
+Now, we need to generate the input control files for `CODEML`. To do this in a reproducible manner, you can use our in-house bash scripts that you will find in the [`scripts` directory](scripts), which you should have just transferred to your HPC. Now, connect to your server and run the next code snippet:
 
 ```sh
 # Run from `LUCAdup_arcsin/scripts_part` in the HPC.
@@ -136,7 +136,13 @@ Counting frequencies..
   5000000 bytes for space
 ```
 
-As we did with the concatenated dataset, as you see the last line, you will see that the `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal where you have run such command. Once everything is done, you can check that the control files you will later need for each individual alignment have been created:
+As we did with the concatenated dataset, as you see the last line, you will see that the `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal where you have run such command.
+
+> [!NOTE]
+>
+> Remember that the PAML version used for this step does not really matter; we only want the `tmp*` input files by now, which any version can generate in the same way.
+
+Once everything is done, you can check that the control files you will later need for each individual alignment have been created:
 
 ```sh
 # Run from the `LUCAdup_arcsin/Hessian_part` dir on your local
@@ -161,11 +167,15 @@ grep 'ncatG' */*/tmp0001.ctl   # You should see `ncatG = 4`
 grep 'model' */*/tmp0001.ctl   # You should see `model = 3` (i.e., empirical+F model)
 ```
 
+> [!NOTE]
+>
+> For more details on the settings, please read the corresponding section in [the `README.md` file for the concatenated dataset](../00_CODEML/README.md#preparing-input-files).
+
 ### Executing `CODEML`
 
 We are now ready to run `CODEML`!
 
-We will run our in-house bash scripts to prepare the bash script that we will submit to our HPC running the following code snippet:
+We will run our in-house bash scripts to prepare the bash script that we will submit to our HPC by running the following code snippet:
 
 ```sh
 # Run from `LUCAdup_arcsin` dir on your HPC. Please change directories until
