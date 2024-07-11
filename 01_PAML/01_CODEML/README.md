@@ -48,13 +48,13 @@ for i in `seq 1 $num_aln`
 do
 cp ../../../../00_data_formatting/01_inp_data/ind_aln/*p$i".phy" alignments_part/$i
 done
-# Last, copy the in-house bash scripts with our pipeline
+# Copy now the in-house bash scripts with our pipeline
 cp ../../scripts/*sh scripts_part/
 # Once everything is ready, you can transfer these two directories to your cluster!
 # One way of doing this is by using `rsync`, but you may use other approaches.
 # Below, you will find an example of the `rsync` commands you should run once
 # you replace the tags with your own credentials.
-# First, move one dir back so you are inside `HPC`
+# Move one dir back so you are inside `HPC`, then use `rsync`
 rsync -avz --copy-links *part <uname>@<server>:<path_to_your_wd_in_HPC>/LUCAdup_arcsin
 ```
 
@@ -115,7 +115,7 @@ cd $base_dir/$i/prepare_codeml
 done
 ```
 
-First, you will see that `MCMCtree` starts parsing the first locus. Then, you will see something like the following printed on your screen (some sections may change depending on the PAML version you have installed on your PC!):
+Firstly, you will see that `MCMCtree` starts parsing the first locus. Then, you will see something like the following printed on your screen (some sections may change depending on the PAML version you have installed on your PC!):
 
 ```text
 *** Locus 1 ***

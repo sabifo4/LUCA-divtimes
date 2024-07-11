@@ -9,7 +9,7 @@ By setting a vague shape ($\alpha=2$) for the gamma distribution that we will us
 Now, we have all the information we need to calculate the $\beta$ parameter for the gamma distribution. We have written the [R script `calculate_rateprior.R`](scripts/calculate_rateprior.R) to carry out all the tasks mentioned above. You can open this file in RStudio to find out the value of $\beta$ and plot the final prior on the rates. A summary of what you will find in the script is described below:
 
 ```text
-First, we know that the molecular distance (tree height, distance from the root to present time) is equal to the mean evolutionary rate (in substitutions per site per time unit) times the age of the divergence time at the root (in time unit, which we can define later). If we have estimated our phylogeny, and therefore have estimated the value of the branch lengths, we will be able to calculate the tree height. The units of the tree height will be the following:
+Firstly, we know that the molecular distance (tree height, distance from the root to present time) is equal to the mean evolutionary rate (in substitutions per site per time unit) times the age of the divergence time at the root (in time unit, which we can define later). If we have estimated our phylogeny, and therefore have estimated the value of the branch lengths, we will be able to calculate the tree height. The units of the tree height will be the following:
 
 tree_height = rate * root_age --> units_tree_height = subst/site/time * time = subst/site
 
@@ -86,13 +86,13 @@ cp ../../../../00_data_formatting/01_inp_data/LUCAdup_246sp_fosscb_calib_MCMCtre
 cp ../../../../00_data_formatting/01_inp_data/LUCAdup_246sp_uncalib.tree trees/uncalibrated/
 # Next, copy control files
 cp ../../control_files/* control_files/
-# Last, copy the in-house bash scripts with our pipeline
+# Copy now the in-house bash scripts with our pipeline
 cp ../../scripts/*sh scripts/
 # Once everything is ready, you can transfer this directory to your cluster!
 # One way of doing this is by using `rsync`, but you may use other approaches.
 # Below, you will find an example of the `rsync` commands you should run once
 # you replace the tags with your own credentials.
-# First, move one dir back so you are inside `HPC`
+# Move one dir back so you are inside `HPC` and run `rsync`
 cd ../
 rsync -avz --copy-links LUCAdup_arcsin <uname>@<server>:<path_to_your_wd_in_HPC>
 ```
@@ -162,7 +162,7 @@ cd 1/prepare_codeml
 ../../../mcmctree4.10.7 prepcodeml.ctl
 ```
 
-First, you will see that `MCMCtree` starts parsing the first locus. Then, you will see something like the following printed on your screen (some sections may change depending on the PAML version you have installed on your cluster!):
+Firstly, you will see that `MCMCtree` starts parsing the first locus. Then, you will see something like the following printed on your screen (some sections may change depending on the PAML version you have installed on your cluster!):
 
 ```text
 *** Locus 1 ***
