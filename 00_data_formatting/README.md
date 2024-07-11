@@ -1,6 +1,10 @@
 # Data formatting
 
-Before proceeding with timetree inference, we need to make sure that:
+Eight paralogues were initially selected based on previous work showing a likely duplication event before LUCA: the amino- and carboxy-terminal regions from carbamoyl phosphate synthetase (`CPS`), aspartate and ornithine transcarbamoylases (`OTC`), histidine biosynthesis genes A and F (`HISAF`), catalytic and non-catalytic subunits from ATP synthase (`ATP`), elongation factor Tu and G (`EF`), signal recognition protein and signal recognition particle receptor (`SRP`), tyrosyl-tRNA and tryptophanyl-tRNA synthetases (`Tyr` or `Try_Trp`), and leucyl- and valyl-tRNA synthetases (`Leu`)  ([Zhaxybayeva et al., 2005](https://doi.org/10.1007/s00709-005-0135-1)).
+
+Gene families were identified using `BLAST` ([Altschul 1990](https://pubmed.ncbi.nlm.nih.gov/2231712/)). Sequences were downloaded from the NCBI ([Sayers et al., 2010](https://pubmed.ncbi.nlm.nih.gov/21097890/)), aligned with `MUSCLE` ([Edgar 2004](https://academic.oup.com/nar/article/32/5/1792/2380623)) and trimmed with `TrimAl` ([Capella-Gutiérrez 2009](https://academic.oup.com/bioinformatics/article/25/15/1972/213148)) (option `-strict`). You can find the corresponding sequence identifiers in the [original raw alignments provided in this GitHub repository in directory `raw_8pars_dat`](00_raw_data/alignment/raw_8pars_dat/). Individual gene trees were inferred under the LG+C20+F+G4 substitution model implemented in `IQ-TREE2` ([Minh et al. 2020](https://academic.oup.com/mbe/article/37/5/1530/5721363?login=false)). These trees were manually inspected and curated to remove non-homologous sequences, horizontal gene transfers, exceptionally short or long sequences and extremely long branches. Recent paralogues or taxa of inconsistent and/or uncertain placement inferred with `RogueNaRok` ([Aberer et al., 2013](https://doi.org/10.1093/sysbio/sys078)) were also removed. Independent verification of an archaeal or bacterial deep split was achieved using minimal ancestor deviation ([Tria et al., 2017](https://www.nature.com/articles/s41559-017-0193)). This filtering process resulted in the five pairs of paralogous gene families ([Zhaxybayeva et al., 2005](https://doi.org/10.1007/s00709-005-0135-1)) (ATP, EF, SRP, Tyr and Leu) with which we started timetree inference analyses.
+
+Nevertheless, before proceeding with timetree inference, we need to make sure that:
 
 1. The alignment file is in PHYLIP format and easy to read (i.e., ideally one sequence per line).
 2. The tree file is in Newick format.
@@ -9,9 +13,9 @@ Before proceeding with timetree inference, we need to make sure that:
 
 ### Concatenated
 
-If you open [the concatenated alignment file](00_raw_data/alignment/concat5.fa), you will see that each aligned sequence is not in a unique line, which makes it harder to parse the file to convert it into PHYLIP format.
+If you open [the concatenated alignment file](00_raw_data/alignment/concat5.fas), you will see that each aligned sequence is not in a unique line, which makes it harder to parse the file to convert it into PHYLIP format.
 
-We will first generate a one-line FASTA file with [our in-house bash script](scripts/one_line_fasta.pl). Then, we will use the output file as input to [our second in-house bash script](scripts/FASTAtoPHYL.pl) to obtain a protein alignment in PHYLIP format:
+We will first generate a one-line FASTA file with [our in-house bash script](../src/one_line_fasta.pl). Then, we will use the output file as input to [our second in-house bash script](../src/FASTAtoPHYL.pl) to obtain a protein alignment in PHYLIP format:
 
 ```sh
 # Run from `00_raw_data/alignment`
@@ -55,7 +59,7 @@ grep '>' concat5_one_line.fa | sed 's/>//g' > all_taxa.txt
 sed -i '/^Escherichia_coli_2$/d' all_taxa.txt
 ```
 
-Now, we can run [our in-house R script `Parse_partitioned_alignments.R`](scripts/Parse_partitioned_alignments.R) to generate our filtered alignments containing all the taxa present in the concatenated alignment. Note that, whenever a taxon is missing, the filtered individual FASTA alignment will include such taxon and a sequence of gaps as long as the rest of aligned sequences. The output alignments will be generated inside directory [`00_raw_data/alignment/partitioned`](00_raw_data/alignment/partitioned/). Nevertheless, they are still in FASTA format, and so we need to convert them into PHYLIP format:
+Now, we can run [our in-house R script `Parse_partitioned_alignments.R`](scripts/Parse_partititoned_alignments.R) to generate our filtered alignments containing all the taxa present in the concatenated alignment. Note that, whenever a taxon is missing, the filtered individual FASTA alignment will include such taxon and a sequence of gaps as long as the rest of aligned sequences. The output alignments will be generated inside directory [`00_raw_data/alignment/partitioned`](00_raw_data/alignment/partitioned/). Nevertheless, they are still in FASTA format, and so we need to convert them into PHYLIP format:
 
 ```sh
 # Run from `00_raw_data/alignment/partitioned`
@@ -95,7 +99,7 @@ fi
 done
 ```
 
-The final partitioned alignment, `LUCAdup_246sp_5parts_aln.phy`, will be saved inside directory [`01_inp_data`](01_inp_data), while the individual gene alignments in PHYLIP format will be saved inside `01_inp_data/ind`. You will also find five log files called `log_lenseq*.txt` inside [the `00_raw_data/alignment/partitioned` directory](00_raw_data/alignment/partitioned), one for each alignment that has been converted into PHYLIP format.
+The final partitioned alignment, `LUCAdup_246sp_5parts_aln.phy`, will be saved inside the newly created directory `01_inp_data`, while the individual gene alignments in PHYLIP format will be saved inside `01_inp_data/ind`. You will also find five log files called `log_lenseq*.txt` inside [the `00_raw_data/alignment/partitioned` directory](00_raw_data/alignment/partitioned), one for each alignment that has been converted into PHYLIP format.
 
 We have now both partitioned and concatenated alignments in the correct format, so we can start to parse the tree file!
 
@@ -105,7 +109,7 @@ We have now both partitioned and concatenated alignments in the correct format, 
 
 #### IQ-TREE 2 (round 1)
 
-We ran `IQ-TREE 2` with our [main alignment file in FASTA format](00_raw_data/alignment/concat5.fas), the topological constraints specified in a file called [`Minimal_constraint_pLUCA.tre`](00_raw_data/trees/01_round2/IQTREE/Minimal_constraint_pLUCA.tre), and under the LG+C20+F+G protein model. The command used was the following:
+We ran `IQ-TREE 2` with our [main alignment file in FASTA format](00_raw_data/alignment/concat5.fas), the topological constraints specified in a file called [`Minimal_constraint_pLUCA.tre`](00_raw_data/trees/00_IQTREE/round1/Minimal_constraint_pLUCA.tre), and under the LG+C20+F+G protein model. The command used was the following:
 
 ```sh
 # Note that this command was executed in an HPC server, and thus all the files were saved
@@ -159,19 +163,19 @@ sed -i "s/'//g" LUCAdup_allcb_calibnames.tree
 sed -i '1s/^/246 1\n/' LUCAdup_allcb_calibnames.tree
 ```
 
-We have created a [mapping file](scripts/Calib_converter_allcb.txt) in which the flags/labels included in the tree have been assigned the corresponding calibrations in `MCMCtree` format. If you run [our R in-house script `Include_calibrations_allcb.R`](scripts/Include_calibrations_allcb.R), you will generate a tree file inside `01_inp_data` called `LUCAdup_allcb_calib_MCMCtree.tree`, where now the node labels will have the corresponding fossil calibration in `MCMCtree` format. You will also generate a tree file that can be visualised with graphical viewers such as `FigTree` called `LUCAdup_allcb_outR_fordisplay_calib_MCMCtree.tree`. As soon as we obtained this last output file, we visualised it in `FigTree` and saved the project as `LUCAdup_allcb_calibs_visFigTree`. You can access [this `FigTree` project](00_raw_data/trees/02_round3/LUCAdup_allcb_calibs_visFigTree) in case you want to colour specific branches, modify the labels, generate other output files, etc. In particular, we used this project to output a PDF file with which we could easily visualise the calibrated nodes: `LUCAdup_allcb_calibs.pdf`.
+We have created a [mapping file](scripts/Calib_converter_allcb.txt) in which the flags/labels included in the tree have been assigned the corresponding calibrations in `MCMCtree` format. If you run [our R in-house script `Include_calibrations_allcb.R`](scripts/Include_calibrations_allcb.R), you will generate a tree file inside `01_inp_data` called `LUCAdup_allcb_calib_MCMCtree.tree`, where now the node labels will have the corresponding fossil calibration in `MCMCtree` format. You will also generate a tree file that can be visualised with graphical viewers such as `FigTree` called `LUCAdup_allcb_outR_fordisplay_calib_MCMCtree.tree`. As soon as we obtained this last output file, we visualised it in `FigTree` and saved the project as `LUCAdup_allcb_calibs_visFigTree`. You can access [this `FigTree` project](00_raw_data/trees/01_calibrations/LUCAdup_allcb_calibs_visFigTree) in case you want to colour specific branches, modify the labels, generate other output files, etc. In particular, we used this project to output a PDF file with which we could easily visualise the calibrated nodes: `LUCAdup_allcb_calibs.pdf`.
 
 #### Cross-bracing only those duplicated nodes that match the same speciation event and for which there is a fossil calibration
 
-Next, we generated a copy of the file `LUCAdup_allcb_calibnames.tree` (i.e., `cp LUCAdup_allcb_calibnames.tree LUCAdup_allnoncb_calibnames.tree`) and manually removed the flags/labels that identified those nodes that we had previously cross-braced for which there is no fossil constraints. The resulting file is [`LUCAdup_allnoncb_calibnames.tree`](00_raw_data/trees/02_round3/LUCAdup_allnoncb_calibnames.tree). In that way, we will only cross-brace those nodes for which fossil calibrations are used to constrain such node ages.
+Next, we generated a copy of the file `LUCAdup_allcb_calibnames.tree` (i.e., `cp LUCAdup_allcb_calibnames.tree LUCAdup_allnoncb_calibnames.tree`) and manually removed the flags/labels that identified those nodes that we had previously cross-braced for which there is no fossil constraints. The resulting file is [`LUCAdup_allnoncb_calibnames.tree`](00_raw_data/trees/01_calibrations/LUCAdup_allnoncb_calibnames.tree). In that way, we will only cross-brace those nodes for which fossil calibrations are used to constrain such node ages.
 
-The corresponding mapping file can be found in the [`scripts` directory](scripts/Calib_converted_fosscb.txt). We then ran [our R in-house script](scripts/Include_calibrations_fosscb.R) to generate the output calibrated file in the [`01_inp_data` directory](01_inp_data): `LUCAdup_246sp_fosscb_calib_MCMCtree`. Note that this output file can be visualised directly in `FigTree`. Due to the way that `FigTree` reads numbers (and being this the format to identify mirrored nodes), only one of the various mirrored nodes will have the fossil information in `MCMCtree` format. The rest of the mirrored nodes, will have a `javascript` tag instead, but it has nothing to do with what `MCMCtree` will be using -- just a formatting issue. For visual purposes, you can always refer back to the `LUCAdup_allcb_outR_fordisplay_calib_MCMCtree` file previously generated.
+The corresponding mapping file can be found in the [`scripts` directory](scripts/Calib_converter_fosscb.txt). We then ran [our R in-house script](scripts/Include_calibrations_fosscb.R) to generate the output calibrated file, which is saved in the `01_inp_data` directory: `LUCAdup_246sp_fosscb_calib_MCMCtree`. Note that this output file can be visualised directly in `FigTree`. Due to the way that `FigTree` reads numbers (and being this the format to identify mirrored nodes), only one of the various mirrored nodes will have the fossil information in `MCMCtree` format. The rest of the mirrored nodes, will have a `javascript` tag instead, but it has nothing to do with what `MCMCtree` will be using -- just a formatting issue. For visual purposes, you can always refer back to the `LUCAdup_allcb_outR_fordisplay_calib_MCMCtree` file previously generated.
 
 #### Without cross-bracing
 
 In addition, we used an updated mapping file in which the mirrored nodes for which fossil calibrations are available are not cross-braced. Instead, the traditional `MCMCtree` format is used to constrain them with the same fossil calibrations. You can find the [mapping file inside the `scripts` directory](scripts/Calib_converter_allnoncb.txt).
 
-We then ran [our R in-house script](scripts/Include_calibrations_allnoncb.R) to generate the output calibrated file in the [`01_inp_data` directory](01_inp_data): `LUCAdup_246sp_allnoncb_calib_MCMCtree`. Note that this output file can be visualised directly in `FigTree`.
+We then ran [our R in-house script](scripts/Include_calibrations_allnoncb.R) to generate the output calibrated file in the `01_inp_data` directory: `LUCAdup_246sp_allnoncb_calib_MCMCtree`. Note that this output file can be visualised directly in `FigTree`.
 
 #### Uncalibrated tree
 
