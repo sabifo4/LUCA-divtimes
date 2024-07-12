@@ -3,15 +3,11 @@
 #-------------------#
 rm( list = ls( ) )
 
-#---------------------------------------------------#
-# SET WORKING DIRECTORY AND LOAD IN-HOUSE FUNCTIONS #
-#---------------------------------------------------#
-# Load colour-friendly package
-# If you have not installed this package, you will need to install it. 
-# You can uncomment the following line to do this:
-#install.packages( "ColorBlindness" )
-library( colorBlindness )
-# This package lets you find automatically the path
+#-----------------------------------------------#
+# LOAD PACKAGES, FUNCTIONS, AND SET ENVIRONMENT #
+#-----------------------------------------------#
+# This package lets you find automatically the path to a specific location
+# in your file structure
 # If you have not installed this package, you will need to install it. 
 # You can uncomment the following line to do this:
 #install.packages( "rstudioapi" )
@@ -27,9 +23,9 @@ home_dir <- gsub( pattern = "scripts/", replacement = "", x = wd )
 # Load main script with all functions required below
 source( file = "../../../../../src/Functions.R" )
 
-#--------------------------------#
-# DEFINE USER'S GLOBAL VARIABLES #
-#--------------------------------#
+#-------------------------------------------------------------#
+# DEFINE GLOBAL VARIABLES -- modify according to your dataset #
+#-------------------------------------------------------------#
 # First, we will define global variables that we will keep using throughout this
 # script.
 
@@ -50,10 +46,17 @@ dat <- c( "ATP", "EF", "Leu", "SRP", "Tyr" )
 # dataset you are using. 
 num_divt <- 245
 
-# 3. Number of samples that you specified in the `MCMCtree` control file to 
-# collect. NOTE: you may have not collect them all, but do not worry!
-# In this case, you are using the concatenated files. The number of
-# lines is 120006, and so you need to specify one less here:
+# 3. Total number of samples that you collected after generating the
+# final `mcmc.txt` files with those from the chains that passed the filters
+# when sampling from the prior. 
+# You can check these numbers in script `MCMC_diagnostics_prior.R`.
+# E.g., `sum_prior_QC$<name_dataset>$total_samples`.
+# In this case, the number of lines is 120006, and so you need to specify
+# one less below.
+#
+# NOTE: If you had more than one dataset with different sample sizes,
+# you would add another number to the `def_samples` vector.
+# E.g. two datasts: c( 120005, 120005 )
 def_samples <- 120005
 
 # 4. Quantile percentage that you want to set By default, the variable below is 
@@ -65,17 +68,21 @@ perc <- 0.975
 # correspond to sample values for divergence times (i.e., the entries are not 
 # names following the format `t_nX`). To figure out this number quickly, you 
 # can open the `mcmc.txt` file, read the header, and count the number of `mu*`
-# and `sigma2*` elements. Do not count the `lnL` value when looking at 
+# elements. Do not count the `lnL` value when looking at 
 # `mcmc.txt` files generated when sampling from the posterior -- this is 
 # automatically accounted for in the in-house R functions that you will 
-# subsequently use. E.g., assuming an MCMC ran under a relaxed-clock model with  
-# no partitions, we would see `mu` and `sigma2` columns. Therefore, the variable  
-# would be set to `delcol = 2`. Please modify the values below according to your  
-# the `mcmc.txt` file generated when sampling from the prior (`delcol_prior`) 
-# dataset for and when sampling from the posterior (`delcol_posterior`).
+# subsequently use. E.g., you expect to see as many `mu[0-9]` as alignment
+# blocks you have in your sequence file! E.g., if you had two alignment blocks,
+# you would speciy `delcol_prior <- 2`. Please modify the value/s below 
+# (depending on having one or more datasets) according to the `mcmc.txt` file
+# generated when sampling from the prior (`delcol_prior`)
+##> NOTE: If you ran `MCMCtree` with `clock = 2` or `clock = 3` when
+##> sampling from the prior, you will also need to count the `sigma2*`
+##> columns! We ran `clock = 1` so that the analyses ran quicker, and thus
+##> we only have `mu*` columns.
 delcol_prior   <- 1 # There is one column: mu
 
-# Path to the directory where the concatenated `mcmc.txt` file has been 
+# 6. Path to the directory where the concatenated `mcmc.txt` file has been 
 # generated. Note that, if you have run more than one chain in `MCMCtree` for
 # each hypothesis tested, you are expected to have generated a concatenated 
 # `mcmc.txt` file with the bash script `Combine_MCMC_prior.sh` or any similar 
@@ -87,14 +94,17 @@ for( i in 1:length( dat ) ){
                            dat[i], "_CLK/", sep = "" )
 }
 
-# Load semicolon-separated file/s with info about calibrated nodes. Note that
-# each column needs to be separated with semicolons and an extra blank line
-# after the last row with calibration information needs to be added (i.e., files
-# need to have an extra blank line so R does not complain when reading them). 
+# 7. Load a semicolon-separated file with info about calibrated nodes. Note that
+# this file is output by script `Merge_node_labels.R`. A summary of its content
+# in case you are to generate your own input files:
+#
+# Each column needs to be separated with semicolons and an extra blank line
+# after the last row with calibration information needs to be added. If the
+# extra blank is not added, R will complain and will not load the file!
 # If you add a header, please make sure you name the column elements as 
-# `Calib;node;Prior`. If not, the R function below will deal with the header. 
-# An example of the format you need to follow to summarise the calibration info
-# for each node is the following:
+# `Calib;node;Prior`. If not, the R function below will deal with the header,
+# but make sure you set `head_avail = FALSE` when running `read_calib_f` 
+# function below. An example of the content of this file is given below:
 #
 # ```
 # Calib;node;Prior
@@ -103,10 +113,13 @@ for( i in 1:length( dat ) ){
 #
 # ```
 #
-# The first column should have the name of the calibration (e.g., Afrotheria, 
-# Laurasiatheria, etc.) as it will help you identify which plot belongs to which
-# calibration. The second column is the node used in MCMCtree. The third column
-# is the calibration used for that node in MCMCtree format.
+# The first column will have the name of the calibration/s that can help you
+# identify which node belongs to which calibration. The second column is the
+# number given to this node by`MCMCtree` (this information is automatically
+# found when you run the script `Merge_node_labels.R`, otherwise you will need
+# to keep checking the output file `node_trees.tree` to figure out which node
+# is which). The third column is the calibration used for that node in
+# `MCMCtree` format.
 # 
 # [[ NOTES ABOUT ALLOWED CALIBRATION FORMATS]]
 #
@@ -114,7 +127,7 @@ for( i in 1:length( dat ) ){
 #  E.g.1: A calibration with a minimum of 0.6 and a maximum of 0.8 would with  
 #         the default tail probabilities would have the following equivalent 
 #         formats:
-##        >> B(0.6,0.8) | B(0.6,0.8,0.025,0.025)
+#         >> B(0.6,0.8) | B(0.6,0.8,0.025,0.025)
 #  E.g.2: A calibration with a minimum of 0.6 and a maximum of 0.8 would with  
 #         the pL=0.001 and pU=0.025 would have the following format. Note that, 
 #         whenever you want to modify either pL or pU, you need to write down 
@@ -132,7 +145,7 @@ for( i in 1:length( dat ) ){
 #
 # Upper-bound calibrations: 
 #  E.g.1: A calibration with a maximum of 0.8 and the default parameters for
-##        pU = 0.025:
+#         pU = 0.025:
 #         >> U(0.8) | U(0.8,0.025)
 #  E.g.2: A calibration with a hard maximum at 0.8, and so pU = 1e-300. 
 #         Note that, if you want to modify pU, you need to write down the two
@@ -151,14 +164,11 @@ for( i in 1:length( dat ) ){
 #
 #
 # The next command executes the `read_calib_f` in-house function, which reads
-# your input files (semicolon-separated files). Please save all your calibration 
-# files (if more than one) in the same directory. The path to this directory is 
+# your input files (semicolon-separated files). The path to this directory is 
 # what the argument `main_dir` needs. The argument `f_names` requires the name 
 # of the file/s that you have used. Argument `dat` requires the same global 
-# object that you have created at the beginning of the script. If your input  
-# files have a header, please keep `head_avail = TRUE`. Otherwise, change this  
-# to FALSE.
-dat_ff <- list.files( path = "../calib_files/", pattern = "_effVSuser.csv",
+# object that you have created at the beginning of the script.
+dat_ff <- list.files( path = "../calib_files/", pattern = "_margVScalib.csv",
                       full.names = FALSE )
 calib_nodes <- read_calib_f( main_dir = paste( home_dir, "calib_files/",
                                                sep = "" ),
@@ -180,10 +190,10 @@ for( i in c( path_prior) ){
                                     def_samples = def_samples, prior = TRUE )
 }
 
-#------------------------------------------------#
-# PLOTS: calibration density VS marginal density #
-#------------------------------------------------#
-# Plot calibration density VS marginal density
+#----------------------------------------------------#
+# PLOTS: marginal densities VS calibration densities #
+#----------------------------------------------------#
+# Plot marginal densities VS calibration densities
 if( ! dir.exists( paste( home_dir, "plots", sep = "" ) ) ){
   dir.create( paste( home_dir, "plots", sep = "" ) )
 }
@@ -193,7 +203,7 @@ if( ! dir.exists( paste( home_dir, "plots/margVScalib", sep = "" ) ) ){
 
 # Please write down how many rows and how many columns
 # the plot with the summary of all calibrated nodes should have.
-num_rows <- 4
+num_rows <- 12
 num_cols <- 4
 # Run function so the calibration density VS marginal density plots are 
 # generated for each dataset
@@ -201,6 +211,8 @@ for( i in 1:num_dirs ){
   cat( "\n[[ Generating plots for dataset ",
        names( mcmc_priors )[i], " ]]\n" )
   cat( "\n[[ Output plots in PDF format]]\n" )
+  ## If you do not want to output a specific format, just coment the whole
+  ## block for such format!
   plot_check_calibnodes( calibs = calib_nodes[[ 1 ]], # same calibs for all!
                          divt_list = mcmc_priors[[ i ]], 
                          dat = dat[i], out = names( mcmc_priors )[i],
@@ -244,7 +256,7 @@ dup_dat[[10]] <- paste( "t_n", c(292,413,480), sep = "" )
 dup_dat[[11]] <- paste( "t_n", c(308,422), sep = "" )
 dup_dat[[12]] <- paste( "t_n", c(309,423), sep = "" )
 dup_dat[[13]] <-  paste( "t_n", c(329,391), sep = "" )
-name_labs <- colnames( mcmc_priors[[ k ]]$divt ) # same name labs for all datasets
+name_labs <- colnames( mcmc_priors[[ 1 ]]$divt ) # same name labs for all datasets, k=1
 count <- 0
 for( k in 1:length(dat) ){
   for( i in 1:length(dup_dat) ){
@@ -272,7 +284,7 @@ for( k in 1:length(dat) ){
     count <- 0 
     for( j in 2:tot_nodes ){
       count <- count + 1
-      plot( density( mcmc_priors[[ k ]]$divt[[ nod_ind[1] ]], adj = 1 ),
+      plot( density( mcmc_priors[[ k ]]$divt[[ nod_ind[j] ]], adj = 1 ),
             xlim = c(min_x,max_x),
             main = paste( "Compare ages for ", names(dup_dat)[i], " - ",
                           dup_dat[[ i ]][j],
@@ -282,6 +294,4 @@ for( k in 1:length(dat) ){
   }
 }
 
-#> NOTE: It seems that the everything is fine! :) Braced nodes have the same
-#> distributions!
 
