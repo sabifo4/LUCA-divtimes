@@ -1,6 +1,6 @@
           seed = -1
-       seqfile = /mnt/c/Users/sandr/Sync/00_Collabs/Ed_LUCA_v2/01_PAML/06_MCMCtree_part_nonbraced/dummy_aln/dummy_aln.aln
-      treefile = /mnt/c/Users/sandr/Sync/00_Collabs/Ed_LUCA_v2/00_data_formatting/01_inp_data/LUCAdup_246sp_allnoncb_calib_MCMCtree.tree
+       seqfile = /mnt/c/Users/sandr/Sync/00_Collabs/LUCA-divtimes/LUCA-divtimes/01_PAML/06_MCMCtree_part_nonbraced/dummy_aln/dummy_aln.aln
+      treefile = /mnt/c/Users/sandr/Sync/00_Collabs/LUCA-divtimes/LUCA-divtimes/00_data_formatting/01_inp_data/LUCAdup_246sp_allnoncb_calib_MCMCtree.tree
       mcmcfile = mcmc.txt
        outfile = out.txt
 
