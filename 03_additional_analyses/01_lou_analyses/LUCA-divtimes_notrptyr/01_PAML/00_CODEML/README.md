@@ -2,14 +2,14 @@
 
 ## 1. Pick rate prior
 
-We will use a vague gamma distribution centered on a mean evolutionary rate estimated by considering the tree height (molecular distance in substitutions per site) and the mean age for the root of our phylogeny (time unit = 100 Mya). As the [rooted phylogeny that we inferred with `IQ-TREE 2`](../../00_data_formatting/00_raw_data/trees/00_IQTREE/LUCAdup_topo_bl_rooted.tree) has information about the branch lengths, we can USE [our R in-house script](scripts/calculate_rateprior.R) to calculate the tree height. We also have a calibration to constrain the root age, which we will use as a rough estimation of the age of the root of our phylogeny based on a geological event: the moon forming impact. Specfically, this calibration is an upper bound that constrains the maximum age of the root to be 4,520 Ma (i.e., 4.520 (time unit = 1 Ga = 100 Mya)), which we will use as an approximate age for the root of our phylogeny to estimate the mean evolutionary rate.
+We will use a vague gamma distribution centered on a mean evolutionary rate estimated by considering the tree height (molecular distance in substitutions per site) and the mean age for the root of our phylogeny (time unit = 100 Mya). As the [rooted phylogeny that we inferred with `IQ-TREE 2`](../../00_data_formatting/00_raw_data/trees/00_IQTREE/LUCAdup_topo_bl_rooted.tree) has information about the branch lengths, we can USE [our R in-house script](scripts/calculate_rateprior.R) to calculate the tree height. We also have a calibration to constrain the root age, which we will use as a rough estimation of the age of the root of our phylogeny based on a geological event: the moon forming impact. Specfically, this calibration is an upper bound that constrains the maximum age of the root to be 4,520 Ma (i.e., 4.520 when time unit = 1 Ga = 100 Mya), which we will use as an approximated root age to then estimate the mean evolutionary rate.
 
 By setting a vague shape ($\alpha=2$) for the gamma distribution that we will use as a rate prior, we can account for the uncertainty surrounding our mean rate estimate. If we had more knowledge on the mean rate, however, we should use a narrower prior with a larger $\alpha$ that better represents our prior information.
 
 Now, we have all the information we need to calculate the $\beta$ parameter for the gamma distribution. We have written the [R script `calculate_rateprior.R`](scripts/calculate_rateprior.R) to carry out all the tasks mentioned above. You can open this file in RStudio to find out the value of $\beta$ and plot the final prior on the rates. A summary of what you will find in the script is described below:
 
 ```text
-First, we know that the molecular distance (tree height, distance from the root to present time) is equal to the mean evolutionary rate (in substitutions per site per time unit) times the age of the divergence time at the root (in time unit, which we can define later). If we have estimated our phylogeny, and therefore have estimated the value of the branch lengths, we will be able to calculate the tree height. The units of the tree height will be the following:
+Firstly, we know that the molecular distance (tree height, distance from the root to present time) is equal to the mean evolutionary rate (in substitutions per site per time unit) times the age of the divergence time at the root (in time unit, which we can define later). If we have estimated our phylogeny, and therefore have estimated the value of the branch lengths, we will be able to calculate the tree height. The units of the tree height will be the following:
 
 tree_height = rate * root_age --> units_tree_height = subst/site/time * time = subst/site
 
@@ -57,7 +57,7 @@ LUCAdup_notrptyr/
       |- uncalibrated # Directory with the uncalibrated tree for `CODEML`
 ```
 
-To create the `LUCAdup_notrptyr` file structure, we run the following commands from the PC before transferring to the HPC:
+To create the `LUCAdup_notrptyr` file structure, we run the following commands from the PC before transferring them to the HPC:
 
 ```sh
 # Run the following commands from 
@@ -73,7 +73,7 @@ mkdir -p trees/{uncalibrated,calibrated}
 mkdir scripts
 ```
 
-Once the file structure is created, we can now populate it with the input files we have generated some minutes ago: alignment file, tree files, and control file. We will also add the `lg.dat` file, which has the matrix to enable `CODEML` to use the LG substitution model. You can transfer the files to the HPC as you prefer (below, we show an example of how to do this with `rsync`, a system that we will keep as an example throughout the tutorial):
+Once the file structure is created, we can now populate it with the input files we have generated some minutes ago: alignment file, tree files, and control file. We will also add the `lg.dat` file, which has the matrix to enable `CODEML` to use the LG substitution matrix. You can transfer the files to the HPC as you prefer (below, we show an example of how to do this with `rsync`, a system that we will keep using throughout the tutorial):
 
 ```sh
 # Run from `HPC/LUCAdup_notrptyr`
@@ -97,19 +97,22 @@ rsync -avz --copy-links LUCAdup_notrptyr <uname>@<server>:<path_to_your_wd_in_HP
 
 ----
 
-**IMPORTANT INFORMATION REGARDING THE PAML VERSION INSTALLED ON OUR HPC SERVER**
-We have compiled the PAML programs available for the latest version of this software in our HPC server. We have saved the executable files to launch `MCMCtree` and `CODEML` inside our `LUCAdup_notrptyr` working directory so that they are launched using relative paths to the following executable files: `mcmctree4.10.7` and `codeml4.10.7`.
-
-These are the programs that we will use during all the steps of timetree inference given that the latest PAML version (v4.10.7) has implemented cross-bracing. All inference analyses are therefore run by calling these programs via relative paths. We have decided to work with this system given that we wanted a specific version of PAML not yet available through `conda` and because we use other PAML versions in the HPC server we used.
-
-Alternatively, you can do one of the following:
-
-1. Set up a `conda` environment, install the latest PAML version when available through `conda`, use this `conda` environment to run the subsequent inference analyses. The commands to run `MCMCtree` and `CODEML` are `mcmctree` and `codeml`, respectively.
-2. If you do not have other versions of PAML and/or do not want to use `conda`, you can also install the latest PAML version in the HPC server under your user account, export it to your PATH. The commands to run `MCMCtree` and `CODEML` are `mcmctree` and `codeml`, respectively.
+> [!IMPORTANT]
+>
+> **IMPORTANT INFORMATION REGARDING THE PAML VERSION INSTALLED ON OUR HPC SERVER**
+>
+> We have compiled the PAML programs available for the latest version of this software in our HPC server. We have saved the executable files to launch `MCMCtree` and `CODEML` inside our `LUCAdup_notrptyr` working directory so that they are launched using relative paths to the following executable files: `mcmctree4.10.7` and `codeml4.10.7`.
+>
+>These are the programs that we will use during all the steps of timetree inference given that the latest PAML version (v4.10.7) has implemented cross-bracing. All inference analyses are therefore run by calling these programs via relative paths. We have decided to work with this system given that we wanted a specific version of PAML not yet available through `conda` and because we use other PAML versions in the HPC server we used.
+>
+>Alternatively, you can do one of the following:
+>
+> 1. Set up a `conda` environment, install the latest PAML version when available through `conda`, use this `conda` environment to run the subsequent inference analyses. The commands to run `MCMCtree` and `CODEML` are `mcmctree` and `codeml`, respectively, unless you decide to change them or create aliases.
+> 2. If you do not have other versions of PAML and/or do not want to use `conda`, you can also install the latest PAML version in the HPC server under your user account, then export it to your PATH. The commands to run `MCMCtree` and `CODEML` are `mcmctree` and `codeml`, respectively, unless you decide to change them or create aliases.
 
 ----
 
-Now, we need to generate other input files to estimate the Hessian and the gradient: the input control files for `CODEML`. To do this in a reproducible manner, you can use the [script `generate_prepcodeml.sh`](scripts/generate_prepcodeml.sh), which you can find in the [`01_PAML/00_CODEML/scripts`](01_PAML/00_CODEML/scripts) and which you should have just transferred to your HPC. Now, connect to your server and run the next code snippet, where you will execute this script. Specifically, the [`generate_prepcodeml.sh` script](scripts/generate_prepcodeml.sh) needs one argument: the amount of alignment files to be analysed. As we only have one alignment file, we will use `1` as the argument:
+Now, we need to generate other input files to estimate the branch lengths, the Hessian, and the gradient: the input control files for `CODEML`. To do this in a reproducible manner, you can use the [script `generate_prepcodeml.sh`](scripts/generate_prepcodeml.sh), which you can find in the [`01_PAML/00_CODEML/scripts`](scripts) and which you should have just transferred to your HPC. Now, connect to your server and run the next code snippet, where you will execute this script. Specifically, the [`generate_prepcodeml.sh` script](scripts/generate_prepcodeml.sh) needs one argument: the amount of alignment files to be analysed. As we only have one alignment file, we will use `1` as the argument:
 
 ```sh
 # Run from `LUCAdup_notrptyr/scripts` in the HPC.
@@ -140,7 +143,7 @@ grep 'aaRatefile' */prepare_codeml/*ctl
 
 ### Preparing input files
 
-Now that we have the input files (alignment and tree files) and the instructions to run `CODEML` (control file) in our HPC server, we will be manually running `MCMCtree` inside each `prepare_codeml` directory (see file structure above) in a special mode that launches `CODEML` for the sole purpose want: to infer the vectors and matrix required to approximate the likelihood calculation.
+Now that we have the input files (alignment and tree files) and the instructions to run `CODEML` (control file) in our HPC server, we will be manually running `MCMCtree` inside each `prepare_codeml` directory (see file structure above) in a special mode that launches `CODEML` for the sole purpose we want: to infer the vectors and matrix required to approximate the likelihood calculation.
 
 ```sh
 # Run `MCMCtree` from
@@ -157,7 +160,7 @@ cd 1/prepare_codeml
 ../../../mcmctree4.10.7 prepcodeml.ctl
 ```
 
-First, you will see that `MCMCtree` starts parsing the first locus. Then, you will see something like the following printed on your screen (some sections may change depending on the PAML version you have installed on your cluster!):
+Firstly, you will see that `MCMCtree` starts parsing the first locus. Then, you will see something like the following printed on your screen (some sections may change depending on the PAML version you have installed on your cluster!):
 
 ```text
 *** Locus 1 ***
@@ -178,7 +181,13 @@ Counting frequencies..
   5000000 bytes for space
 ```
 
-As soon as you see the last line, you will see that various `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal tjat you have used to run such command. Once you have done this, you can check that the control file you will later need has been created:
+As soon as you see the last line, you will see that various `tmp000X*` files will have been created, and hence you can stop this run by typing `ctrl+C` on the terminal that you have used to run such command.
+
+> [!NOTE]
+>
+> Remember that the PAML version used for this step does not really matter; we only want the `tmp*` input files by now, which any version can generate in the same way.
+
+Once you have done this, you can check that the control file you will later need has been created:
 
 ```sh
 # Run from the `LUCAdup_notrptyr/Hessian` dir on your local
@@ -191,16 +200,15 @@ grep 'seqfile' */*/tmp0001.ctl | wc -l # You should get as many datasets as you 
 Note that, when we ran the commands above, we were not interested in running `CODEML` or `MCMCtree`. We just wanted to execute `MCMCtree` with option `usedata = 3` so that it generates the `tmp000*` files that `CODEML` will later need to estimate the branch lengths, the gradient, and the Hessian. We do this analysis in two steps given that there are restrictions in the HPC we are using that do not allow us to run `CODEML` + `MCMCtree` in one unique job within a reasonable amount of time. In addition, we want to modify some settings in the control file that is automatically generated when enabling `usedata = 3` so that they match what we want to do for our inference. In a nutshell, this is what you will be doing:
 
 1. Run `MCMCtree` to generate the `tmp000*` files.
-2. Modify the `tmp0001.ctl` file according to the settings we want to enable to analyse our dataset with `CODEML`.
+2. Modify the `tmp000*.ctl` file according to the settings we want to enable to analyse our dataset with `CODEML`.
 3. Run `CODEML` using the `tmp000*` files so that it estimates the branch lengths, the gradient, and the Hessian and saves them in a file called `rst2`.
-4. Generate the final `in.BV` file for our dataset, which will be later used by `MCMCtree`.
+4. Generate the final `in.BV` file for our dataset (file with the branch lenghts, the gradient, and the Hessian, which is essentially what is written in output file `rst2`), which will be later used by `MCMCtree` to approximate the likelihood calculation.
 
 Once all `tmp000*` files are generated for all alignments, we need to make sure that the following options have been enabled:
 
 1. The (absolute or relative) path to the `lg.dat` file with the protein substitution model should be the argument of option `aaRatefile` in the `tmp000*.ctl`.
-2. Following the `Tutorial 4: Approximate likleihood with protein data`, one of the sections in the [`MCMCtree Tutorials` document](http://abacus.gene.ucl.ac.uk/software/MCMCtree.Tutorials.pdf), we set the template control file to use gamma rates among sites instead of the default model, which uses no gamma rates. As we had already defined these options in the template control file, these are already enabled in the `tmp000*.ctl` file generated after running `MCMCtree` (i.e., the control file should already have (i) `fix_alpha = 0` and `alpha = 0.5` to enable the estimation of alpha for the gamma distribution for variable substitution rates across sites by starting the search of the value of $\alpha$ at 0.5 and (ii) `ncatG = 4` with the number of categories for this distribution equal to 4). We can double check to make sure that everything is fine.
-3. According to the settings above, we will be using the "LG+F+G4" empirical model for amino acid data, which is enabled by setting `model = 3`, `ncatG = 4`, `aaRatefile = <path_to_lg_matrix>/lg.dat`.
-4. In addition, you need to make sure that option `method = 1` is enabled, which will speed up the computation of the Hessian and the gradient.
+2. Following the `Tutorial 4: Approximate likleihood with protein data`, one of the sections in the [`MCMCtree Tutorials` document](https://github.com/abacus-gene/paml/blob/master/doc/MCMCtree.Tutorials.pdf), we specified the following options: (i) `fix_alpha = 0` and `alpha = 0.5` to enable the estimation of alpha for the gamma distribution that accounts for rate heterogeneity across sites by starting the search of the value of $\alpha$ at 0.5, (ii) `ncatG = 4` with the number of categories for this distribution equal to 4, and (iii) `model = 3` and `aaRatefile = <path_to_lg_matrix>/lg.dat` to specify the "LG+F+G4" empirical model for amino acid data. As we had already defined these options in the template control file, these are already enabled in the `tmp000*.ctl` file generated after running `MCMCtree`. Nevertheless, we can check these options to make sure that everything is fine (e.g., `grep`).
+3. In addition, you need to make sure that option `method = 1` is enabled, which will speed up the computation of the branch lengths, the Hessian, and the gradient. As explained in the [PAML documentation](https://github.com/abacus-gene/paml/blob/master/doc/pamlDOC.pdf) (at the time of writing, page 56), the iteration algorithm enabled when setting `method = 1` is much more efficient with large datasets than the algorithm enabled when setting `method = 0`. Given that our dataset is a large dataset, we decided to use `method = 1`.
 
 We can run the next code snippet to very that the four requirements aforementioned are met:
 
@@ -221,7 +229,7 @@ grep 'model' */*/tmp0001.ctl   # You should see `model = 3` (i.e., empirical+F m
 
 We can now run `CODEML` given that we have the control file ready as well as all the required input files!
 
-We have created a template bash script with flags (i.e., see script `pipeline_Hessian_CODEML_template.sh` in the [`scripts` directory](01_PAML/00_Hessian/scripts/pipeline_Hessian_CODEML_template.sh)), which will be replaced with the appropriate values by another bash script (`generate_job_CODEML.sh`, also saved in the [`scripts` directory](01_PAML/00_Hessian/scripts/generate_job_CODEML.sh)). Please note that the second bash script will edit the template bash script according to the data alignment/s that will be analysed. We had already transferred these scripts to the HPC server when setting up our file structure. Therefore, we just need to execute the following code snippet there:
+We have created a template bash script with flags (i.e., see script `pipeline_Hessian_CODEML_template.sh` in the [`scripts` directory](scripts/pipeline_Hessian_CODEML_template.sh)), which will be replaced with the appropriate values by another bash script (`generate_job_CODEML.sh`, also saved in the [`scripts` directory](scripts/generate_job_CODEML.sh)). Please note that the second bash script will edit the template bash script according to the data alignment/s that will be analysed. We had already transferred these scripts to the HPC server when setting up our file structure. Therefore, we just need to execute the following code snippet there:
 
 ```sh
 # Run from `LUCAdup_notrptyr` dir on your HPC. Please change directories until
