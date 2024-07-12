@@ -52,7 +52,7 @@ rsync -avz --copy-links LUCAdup_bsinBV <uname>@<logdetails>:<path_to_dir_where_t
 
 Given that we already have the calibrated tree, the individual gene alignment file, and the corresponding `in.BV` file in the HPC... We have everything we need to run `MCMCtree`!
 
-First, we will create the file structure required for timetree inference analyses using the following code snippet:
+Firstly, we will create the file structure required for the timetree inference analyses using the following code snippet:
 
 ```sh
 # Run from `LUCAdup_bsinBV` dir on your HPC.
@@ -70,7 +70,7 @@ done
 # directory!
 ```
 
-The `LUCAdup_bsinBV` directory  will now have these two extra directories with the corresponding subdirectories:
+The `LUCAdup_bsinBV` directory  will now have these two additional directories with the corresponding subdirectories:
 
 ```text
 LUCAdup_bsinBV
@@ -117,9 +117,9 @@ grep 'ctl_dir' */*sh
 
 Given that there are no changes to the tree topology that we used in our previous analyses, there is no need to run the analyses when sampling from the prior (i.e., data are not used, and hence we would be sampling from the same target distribution from which we have already collected samples from).
 
-## 2. Analyses with `MCMCtree` when sampling from the posterior
+### 2. Analyses with `MCMCtree` when sampling from the posterior
 
-### Submit jobs in an HPC (posterior)
+#### Submit jobs in an HPC (posterior)
 
 We already verified that there are no issues between the calibration densities and marginal densities, so we can run `MCMCtree` when sampling from the posterior. We will do these analyses under the GBM and ILN relaxed-clock models using the code snippet below:
 
@@ -137,7 +137,7 @@ chmod 775 *sh
 qsub pipeline_ILN.sh
 ```
 
-### Setting the file structure to analyse `MCMCtree` output - posterior
+#### Setting the file structure to analyse `MCMCtree` output - posterior
 
 We will now create a directory inside the `sum_analyses` directory to analyse the `MCMCtree` output. Nevertheless, we first need to transfer the data from the cluster to the corresponding directory on our local PC for further analyses:
 
@@ -178,11 +178,17 @@ rsync -avz --copy-links <uname>@<logdetails>:<path>/LUCAdup_bsinBV/pipelines_MCM
 rm pipelines_MCMCtree/*/*sh.o*
 ```
 
-### MCMC diagnostics - posterior
+#### MCMC diagnostics - posterior
 
 Now that we have the output files from the different MCMC runs in an organised file structure, we are ready to check the chains for convergence!
 
-We are going to run the R script [`MCMC_diagnostics_posterior.R`](scripts/MCMC_diagnostics_posterior.R) and follow the detailed step-by-step instructions detailed in the script, which are essentially the same ones used when analysing the chains when sampling from the prior. Given that no problems have been found with any of the chains we ran, we are ready to concatenate the parameter values sampled across the 16 independent chains we ran:
+We are going to run the R script [`MCMC_diagnostics_posterior.R`](scripts/MCMC_diagnostics_posterior.R) and follow the detailed step-by-step instructions detailed in the script, which are essentially the same ones used when analysing the chains when sampling from the prior.
+
+> [!NOTE]
+>
+> Please note that you will only have the `mcmc.txt` files if (i) you have run the analyses following our guidelines or (ii) you have downloaded [the archive we stored at the University of Bristol data repository (~71Gb)](https://data.bris.ac.uk/datasets/405xnm7ei36d2cj65nrirg3ip/LUCAdivtimes.zip). If the latter, please make sure you follow the instructions in the [main `README.md` file of this repository with regards to how to store them following our file structure](../../README.md#paml-analyses). Once you have the `mcmc.txt` files, you will be able to run the R script aforementioned!
+
+Given that no problems have been found with any of the chains we ran, we are ready to concatenate the parameter values sampled across the 16 independent chains we ran:
 
 ```sh
 # Run from `01_MCMCtree/scripts`
@@ -205,7 +211,13 @@ dirname_2=ILN
 ./Combine_MCMC.sh $dirname_2 mcmc_files_ILN "`seq 1 16`" ILN 20000 Y bsinBV_ILN
 ```
 
-Once the scripts above have finished, new directories called `mcmc_files_part_[GBM|ILN]` and `mcmcf4traces_bsinBV_[GBM|ILN]` will be created inside `01_posterior/`. To map the mean time estimates with the filtered chains, we need to copy a control file, the calibrated Newick tree, and the dummy alignment we previously generated when analysing the results when sampling from the prior:
+Once the scripts above have finished, new directories called `mcmc_files_[GBM|ILN]` and `mcmcf4traces_bsinBV_[GBM|ILN]` will be created inside `01_posterior/`.
+
+> [!NOTE]
+>
+> Please note that we have not been able to upload to this GitHub repository the `mcmcf4traces_bsinBV_[GBM|ILN]` directory nor the large concatenated `mcmc.txt` inside `mcmc_files_[GBM|ILN]`. If you have not generated them by following our guidelines and/or want to check out results, please download [the archive we stored at the University of Bristol data repository (~71Gb)](https://data.bris.ac.uk/datasets/405xnm7ei36d2cj65nrirg3ip/LUCAdivtimes.zip), which follows the same file structure as in this repository.
+
+To map the mean time estimates with the filtered chains, we need to use a control file with `print = -1` that reads the calibrated Newick tree, the dummy alignment we previously generated when analysing the results when sampling from the prior, and the concatenated `mcmc.txt` file with the samples from all chains that passed the filters:
 
 ```sh
 # Run from `sum_analyses_prot/01_posterior` directory.
@@ -270,7 +282,7 @@ cd $base_dir
 
 Now, once the MCMC diagnostics have finished, we can run our [in-house R script](scripts/Check_priors_VS_posteriors.R) to plot the posterior distributions against the prior distributions, which can help to better assess how informative the data are and whether there are any serious contradictions between the prior and the posterior distributions.
 
-Last, you can extract the final data that we used to write our manuscript as it follows:
+Lastly, you can extract the final data that we used to write our manuscript as it follows:
 
 ```sh
 # Run from `MCMCtree`

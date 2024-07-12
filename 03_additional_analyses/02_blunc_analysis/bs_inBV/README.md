@@ -1,6 +1,6 @@
 # NOTES ON OUR MODIFIED VERSION OF [`bs_inBV`](https://github.com/evolbeginner/bs_inBV)
 
->> **DISCLAIMER**: The property of this code belongs to Sishuo Wang ([`@evolbeginner`](https://github.com/evolbeginner/bs_inBV)). We cloned the original repository (i.e., [`bs_inBV`](https://github.com/evolbeginner/bs_inBV)) and modified the code so that we could run it in a different environment than the one pre-defined by the developer and maintainer of the code. What you can find in this directory is the cloned repository with our changes.
+>> **DISCLAIMER**: The property of this code belongs to Sishuo Wang ([`@evolbeginner`](https://github.com/evolbeginner/bs_inBV)). We cloned the repository [`bs_inBV`](https://github.com/evolbeginner/bs_inBV) in February 2024 and modified the code so that we could run it in a different environment than the one pre-defined by the developer and maintainer of the code back then. What you can find in this directory is the cloned repository with our changes as of 24/02/25. We raised [an issue on March 2024](https://github.com/evolbeginner/bs_inBV/issues/1) to suggest the changes you shall read below, which were then added onto a [pull request on April 2024](https://github.com/evolbeginner/bs_inBV/pull/2). Our changes were accepted and merged with `main`, and so both the issue and the pull request are closed.
 
 ## Code changes
 
