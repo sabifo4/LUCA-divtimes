@@ -6,8 +6,11 @@ rm( list = ls( ) )
 #-----------------------------------------------#
 # LOAD PACKAGES, FUNCTIONS, AND SET ENVIRONMENT #
 #-----------------------------------------------#
-# Load package needed to automatically find the path to the "scripts"
-# directory
+# This package lets you find automatically the path to a specific location
+# in your file structure
+# If you have not installed this package, you will need to install it. 
+# You can uncomment the following line to do this:
+#install.packages( "rstudioapi" )
 library( rstudioapi )
 scripts_dir   <- gsub( pattern = "scripts..*", replacement = "scripts/",
                        x = getActiveDocumentContext()$path )
@@ -16,7 +19,7 @@ setwd( scripts_dir )
 source( file = "../../../../../../src/Functions.R" )
 # Run in-house function to set home directory and output directory for ESS
 # and convergence tests
-# NOTE: It will create a directory called `plots` and another called
+# NOTE: This function will create a directory called `plots` and another called
 # `ESS_and_chains_convergence` inside the `analyses` directory if you have
 # not created them yet
 home_dir      <- set_homedir()$home
@@ -25,9 +28,9 @@ outchecks_dir <- set_homedir()$ESS
 setwd( home_dir )
 
 
-#--------------------------------#
-# DEFINE USER'S GLOBAL VARIABLES #
-#--------------------------------#
+#-------------------------------------------------------------#
+# DEFINE GLOBAL VARIABLES -- modify according to your dataset #
+#-------------------------------------------------------------#
 # First, we will define the global variables that match the settings in our 
 # analysis.
 
@@ -52,18 +55,21 @@ num_divt <- 243
 def_samples <- 20000
 
 # 4. Quantile percentage that you want to set By default, the variable below is 
-# set to 0.975 so the 97.5% and 2.5% quantiles. If you want to change this,
-# however, just modify the value.
+# set to 0.975 so the 97.5% and 2.5% quantiles (i.e., 95%CI). If you want to
+# change this, however, just modify the value.
 perc <- 0.975
 
 # 5. Load a semicolon-separated file with info about calibrated nodes. Note that
-# each column needs to be separated with semicolons and an extra blank line
-# after the last row with calibration information needs to be added (i.e., files
-# need to have an extra blank line so R does not complain when reading them). 
+# this file is output by script `Merge_node_labels.R`. A summary of its content
+# in case you are to generate your own input files:
+#
+# Each column needs to be separated with semicolons and an extra blank line
+# after the last row with calibration information needs to be added. If the
+# extra blank is not added, R will complain and will not load the file!
 # If you add a header, please make sure you name the column elements as 
-# `Calib;node;Prior`. If not, the R function below will deal with the header. 
-# An example of the format you need to follow to summarise the calibration info
-# for each node is the following:
+# `Calib;node;Prior`. If not, the R function below will deal with the header,
+# but make sure you set `head_avail = FALSE` when running `read_calib_f` 
+# function below. An example of the content of this file is given below:
 #
 # ```
 # Calib;node;Prior
@@ -72,10 +78,13 @@ perc <- 0.975
 #
 # ```
 #
-# The first column should have the name of the calibration (e.g., Afrotheria, 
-# Laurasiatheria, etc.) as it will help you identify which plot belongs to which
-# calibration. The second column is the node used in MCMCtree. The third column
-# is the calibration used for that node in MCMCtree format.
+# The first column will have the name of the calibration/s that can help you
+# identify which node belongs to which calibration. The second column is the
+# number given to this node by`MCMCtree` (this information is automatically
+# found when you run the script `Merge_node_labels.R`, otherwise you will need
+# to keep checking the output file `node_trees.tree` to figure out which node
+# is which). The third column is the calibration used for that node in
+# `MCMCtree` format.
 # 
 # [[ NOTES ABOUT ALLOWED CALIBRATION FORMATS]]
 #
@@ -83,7 +92,7 @@ perc <- 0.975
 #  E.g.1: A calibration with a minimum of 0.6 and a maximum of 0.8 would with  
 #         the default tail probabilities would have the following equivalent 
 #         formats:
-##        >> B(0.6,0.8) | B(0.6,0.8,0.025,0.025)
+#         >> B(0.6,0.8) | B(0.6,0.8,0.025,0.025)
 #  E.g.2: A calibration with a minimum of 0.6 and a maximum of 0.8 would with  
 #         the pL=0.001 and pU=0.025 would have the following format. Note that, 
 #         whenever you want to modify either pL or pU, you need to write down 
@@ -101,7 +110,7 @@ perc <- 0.975
 #
 # Upper-bound calibrations: 
 #  E.g.1: A calibration with a maximum of 0.8 and the default parameters for
-##        pU = 0.025:
+#         pU = 0.025:
 #         >> U(0.8) | U(0.8,0.025)
 #  E.g.2: A calibration with a hard maximum at 0.8, and so pU = 1e-300. 
 #         Note that, if you want to modify pU, you need to write down the two
@@ -120,13 +129,10 @@ perc <- 0.975
 #
 #
 # The next command executes the `read_calib_f` in-house function, which reads
-# your input files (semicolon-separated files). Please save all your calibration 
-# files (if more than one) in the same directory. The path to this directory is 
+# your input files (semicolon-separated files). The path to this directory is 
 # what the argument `main_dir` needs. The argument `f_names` requires the name 
 # of the file/s that you have used. Argument `dat` requires the same global 
-# object that you have created at the beginning of the script. If your input  
-# files have a header, please keep `head_avail = TRUE`. Otherwise, change this  
-# to FALSE.
+# object that you have created at the beginning of the script.
 dat <- "LUCAdup_notyr"
 calib_nodes <- read_calib_f( main_dir = paste( home_dir, "calib_files/", 
                                                sep = "" ),
@@ -142,25 +148,22 @@ calib_nodes <- read_calib_f( main_dir = paste( home_dir, "calib_files/",
 # automatically accounted for in the in-house R functions that you will 
 # subsequently use. E.g., assuming an MCMC ran under a relaxed-clock model with  
 # no partitions, we would see `mu` and `sigma2` columns. Therefore, the variable  
-# would be set to `delcol = 2`. Please modify the values below according to your  
-# the `mcmc.txt` file generated when sampling from the prior (`delcol_prior`) 
-# dataset for and when sampling from the posterior (`delcol_posterior`).
+# would be set to `delcol_post <- 2`. Please modify the value/s below 
+# (depending on having one or more datasets) according to the `mcmc.txt` file
+# generated when sampling from the posterior (`delcol_posterior`).
 delcol_post <- 2 # There are two column: mu, sigma2
 
-# Path to the directory of each data alignment.
-# In this case, we will have the path to the directory where
-# the analyses when sampling from the prior took place (i.e., this is the path
-# to the `CLK` directory that contains the subdirectories from `1` to `5` as
-# we ran 5 chains in this example).
-## POSTERIOR ##
+# 7. Path to the directory where the subdirectories where each chain ran for 
+# each dataset are saved In this case, we will have the path to the directory 
+# where the analyses when sampling from the prior took place (i.e., directory
+# that contains the subdirectories from `1` to `n`, where `n` is the number
+# of chains we ran).
 all_paths   <- c( paste( home_dir, "sum_analyses/01_posterior/GBM/", sep = "" ),
                   paste( home_dir, "sum_analyses/01_posterior/ILN/",
                          sep = "" ) )
 #--------------#
 # ANALYSE DATA #
 #--------------#
-
-## [[ POSTERIOR DATASET ]]
 # Define object names
 num_dirs      <- num_chains
 delcol        <- c( rep( delcol_post, 2 ) )

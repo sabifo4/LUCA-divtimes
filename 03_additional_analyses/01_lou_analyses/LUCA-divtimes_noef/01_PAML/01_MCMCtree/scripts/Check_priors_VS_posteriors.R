@@ -3,15 +3,11 @@
 #-------------------#
 rm( list = ls( ) )
 
-#---------------------------------------------------#
-# SET WORKING DIRECTORY AND LOAD IN-HOUSE FUNCTIONS #
-#---------------------------------------------------#
-# Load colour-friendly package
-# If you have not installed this package, you will need to install it. 
-# You can uncomment the following line to do this:
-#install.packages( "ColorBlindness" )
-library( colorBlindness )
-# This package lets you find automatically the path
+#-----------------------------------------------#
+# LOAD PACKAGES, FUNCTIONS, AND SET ENVIRONMENT #
+#-----------------------------------------------#
+# This package lets you find automatically the path to a specific location
+# in your file structure
 # If you have not installed this package, you will need to install it. 
 # You can uncomment the following line to do this:
 #install.packages( "rstudioapi" )
@@ -27,9 +23,9 @@ home_dir <- gsub( pattern = "scripts/", replacement = "", x = wd )
 # Load main script with all functions required below
 source( file = "../../../../../../src/Functions.R" )
 
-#--------------------------------#
-# DEFINE USER'S GLOBAL VARIABLES #
-#--------------------------------#
+#-------------------------------------------------------------#
+# DEFINE GLOBAL VARIABLES -- modify according to your dataset #
+#-------------------------------------------------------------#
 # First, we will define global variables that we will keep using throughout this
 # script.
 
@@ -50,16 +46,24 @@ dat <- c( "LUCAdup_noef" )
 # dataset you are using. 
 num_divt <- 235
 
-# 3. Number of samples that you specified in the `MCMCtree` control file to 
-# collect. NOTE: you may have not collect them all, but do not worry!
+# 3. Total number of samples that you collected after generating the
+# final `mcmc.txt` files with those from the chains that passed the filters. 
+# You can check these numbers in scripts `MCMC_diagnostics_posterior.R` and
+# `MCMC_diagnostics_prior.R`. E.g., `sum_post_QC$<name_dataset>$total_samples`
+# or `sum_prior_QC$<name_dataset>$total_samples`
+#
 # CLK: The number of lines is 120006, and so you need to specify one less
 # GBM: The number of lines is 309662, and so you need to specify one less
 # ILN: The number of lines is 311388, and so you need to specify one less
+#
+# NOTE: If you had more than one dataset, you would add another vector of three
+# values with the samples for CLK, GBM, and ILN to create `def_samples`
+# E.g. two datasts: c( c( 120005, 120005, 120005), c( 120005, 120005, 120005) )
 def_samples <- c( 120005, 309661, 311387 )
 
 # 4. Quantile percentage that you want to set By default, the variable below is 
-# set to 0.975 so the 97.5% and 2.5% quantiles. If you want to change this,
-# however, just modify the value.
+# set to 0.975 so the 97.5% and 2.5% quantiles (i.e., 95%CI). If you want to
+# change this, however, just modify the value.
 perc <- 0.975
 
 # 5. Number of columns in the `mcmc.txt` that are to be deleted as they do not 
@@ -71,12 +75,19 @@ perc <- 0.975
 # automatically accounted for in the in-house R functions that you will 
 # subsequently use. E.g., assuming an MCMC ran under a relaxed-clock model with  
 # no partitions, we would see `mu` and `sigma2` columns. Therefore, the variable  
-# would be set to `delcol = 2`. Please modify the values below according to your  
-# the `mcmc.txt` file generated when sampling from the prior (`delcol_prior`) 
-# dataset for and when sampling from the posterior (`delcol_posterior`).
+# would be set to `delcol_post <- 2`. Please modify the value/s below 
+# (depending on having one or more datasets) according to the `mcmc.txt` file
+# generated when sampling from the posterior (`delcol_obj`). When running
+# from the prior and `clock = 1`, you will only see `mu*` columns but, if you
+# ran it with options `clock = 2` or `clock = 3`, you shall also see `sigma2*`
+# columns.
+##> NOTE: If you ran `MCMCtree` with `clock = 2` or `clock = 3` when
+##> sampling from the prior, you will also need to count the `sigma2*`
+##> columns! We ran `clock = 1` so that the analyses ran quicker, and thus
+##> we only have `mu*` columns.
 delcol_obj <- c( 1, 2, 2 ) # prior (1), posterior (2), posterior (2)
 
-# Path to the directory where the concatenated `mcmc.txt` file has been 
+# 6. Path to the directory where the concatenated `mcmc.txt` file has been 
 # generated. Note that, if you have run more than one chain in `MCMCtree` for
 # each hypothesis tested, you are expected to have generated a concatenated 
 # `mcmc.txt` file with the bash script `Combine_MCMC_prior.sh` or any similar 
@@ -90,14 +101,17 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_CLK",
                           sep = "" )
 )
 
-# Load semicolon-separated file/s with info about calibrated nodes. Note that
-# each column needs to be separated with semicolons and an extra blank line
-# after the last row with calibration information needs to be added (i.e., files
-# need to have an extra blank line so R does not complain when reading them). 
+# 7. Load a semicolon-separated file with info about calibrated nodes. Note that
+# this file is output by script `Merge_node_labels.R`. A summary of its content
+# in case you are to generate your own input files:
+#
+# Each column needs to be separated with semicolons and an extra blank line
+# after the last row with calibration information needs to be added. If the
+# extra blank is not added, R will complain and will not load the file!
 # If you add a header, please make sure you name the column elements as 
-# `Calib;node;Prior`. If not, the R function below will deal with the header. 
-# An example of the format you need to follow to summarise the calibration info
-# for each node is the following:
+# `Calib;node;Prior`. If not, the R function below will deal with the header,
+# but make sure you set `head_avail = FALSE` when running `read_calib_f` 
+# function below. An example of the content of this file is given below:
 #
 # ```
 # Calib;node;Prior
@@ -106,10 +120,13 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_CLK",
 #
 # ```
 #
-# The first column should have the name of the calibration (e.g., Afrotheria, 
-# Laurasiatheria, etc.) as it will help you identify which plot belongs to which
-# calibration. The second column is the node used in MCMCtree. The third column
-# is the calibration used for that node in MCMCtree format.
+# The first column will have the name of the calibration/s that can help you
+# identify which node belongs to which calibration. The second column is the
+# number given to this node by`MCMCtree` (this information is automatically
+# found when you run the script `Merge_node_labels.R`, otherwise you will need
+# to keep checking the output file `node_trees.tree` to figure out which node
+# is which). The third column is the calibration used for that node in
+# `MCMCtree` format.
 # 
 # [[ NOTES ABOUT ALLOWED CALIBRATION FORMATS]]
 #
@@ -117,7 +134,7 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_CLK",
 #  E.g.1: A calibration with a minimum of 0.6 and a maximum of 0.8 would with  
 #         the default tail probabilities would have the following equivalent 
 #         formats:
-##        >> B(0.6,0.8) | B(0.6,0.8,0.025,0.025)
+#         >> B(0.6,0.8) | B(0.6,0.8,0.025,0.025)
 #  E.g.2: A calibration with a minimum of 0.6 and a maximum of 0.8 would with  
 #         the pL=0.001 and pU=0.025 would have the following format. Note that, 
 #         whenever you want to modify either pL or pU, you need to write down 
@@ -135,7 +152,7 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_CLK",
 #
 # Upper-bound calibrations: 
 #  E.g.1: A calibration with a maximum of 0.8 and the default parameters for
-##        pU = 0.025:
+#         pU = 0.025:
 #         >> U(0.8) | U(0.8,0.025)
 #  E.g.2: A calibration with a hard maximum at 0.8, and so pU = 1e-300. 
 #         Note that, if you want to modify pU, you need to write down the two
@@ -154,13 +171,10 @@ paths_dat    <- c( paste( home_dir, "sum_analyses/00_prior/mcmc_files_CLK",
 #
 #
 # The next command executes the `read_calib_f` in-house function, which reads
-# your input files (semicolon-separated files). Please save all your calibration 
-# files (if more than one) in the same directory. The path to this directory is 
+# your input files (semicolon-separated files). The path to this directory is 
 # what the argument `main_dir` needs. The argument `f_names` requires the name 
 # of the file/s that you have used. Argument `dat` requires the same global 
-# object that you have created at the beginning of the script. If your input  
-# files have a header, please keep `head_avail = TRUE`. Otherwise, change this  
-# to FALSE.
+# object that you have created at the beginning of the script.
 calib_nodes <- read_calib_f( main_dir = paste( home_dir, "calib_files/",
                                                sep = "" ),
                              f_names = "Calibnodes_margVScalib.csv",
